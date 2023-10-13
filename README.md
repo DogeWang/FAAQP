@@ -1,3 +1,4 @@
+<meta name="robots" content="noindex">
 # SPN++
 
 SPN++ is a data-driven learned database component achieving state-of-the-art-performance in cardinality estimation and 
