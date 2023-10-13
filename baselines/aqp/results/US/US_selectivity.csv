@@ -1,0 +1,2001 @@
+approach,query_no,latency,average_relative_error,bin_completeness,total_bins,query,sample_percentage
+US,0,0.009841881692409515,21.951219512195124,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DCA' and arr_delay > 96.00 and arr_delay <= 329.00;
+",100
+US,1,0.009824909269809723,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ADK' and arr_delay >= 145.00 and arr_delay <= 298.00;
+",100
+US,2,0.008037753403186798,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BIS' and arr_delay >= 647.00 and arr_delay <= 747.00;
+",100
+US,3,0.008764438331127167,1011.1111111111111,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROA' and arr_delay > 227.00 and arr_delay < 467.00;
+",100
+US,4,0.008080586791038513,566.6666666666667,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PDX' and arr_delay > 381.00 and arr_delay < 665.00;
+",100
+US,5,0.010965809226036072,8.088235294117647,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DRO' and arr_delay > -16.00 and arr_delay <= 203.00;
+",100
+US,6,0.008185550570487976,65.51724137931035,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JFK' and arr_delay > 251.00 and arr_delay < 681.00;
+",100
+US,7,0.007528133690357208,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'KOA' and arr_delay >= 174.00 and arr_delay <= 711.00;
+",100
+US,8,0.010303907096385956,28.57142857142857,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DRO' and arr_delay >= -24.00 and arr_delay < 25.00;
+",100
+US,9,0.010313443839550018,3.6882284152574663,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BWI' and arr_delay >= -64.00 and arr_delay <= 337.00;
+",100
+US,10,0.007504679262638092,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EWN' and arr_delay >= 113.00 and arr_delay < 785.00;
+",100
+US,11,0.010145217180252075,10.31390134529148,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAW' and arr_delay >= -22.00 and arr_delay < 655.00;
+",100
+US,12,0.007413677871227264,669.2307692307693,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DFW' and arr_delay >= 689.00 and arr_delay < 842.00;
+",100
+US,13,0.010584421455860138,41.7910447761194,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EGE' and arr_delay >= -48.00 and arr_delay <= 355.00;
+",100
+US,14,0.011087380349636078,66.66666666666666,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BGM' and arr_delay >= -25.00 and arr_delay <= 4.00;
+",100
+US,15,0.011415563523769379,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DIK' and arr_delay >= -25.00 and arr_delay <= 1130.00;
+",100
+US,16,0.008268170058727264,92.3076923076923,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MBS' and arr_delay >= 95.00 and arr_delay <= 229.00;
+",100
+US,17,0.007994130253791809,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CID' and arr_delay >= 305.00 and arr_delay < 312.00;
+",100
+US,18,0.008395485579967499,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RAP' and arr_delay >= 314.00 and arr_delay < 1312.00;
+",100
+US,19,0.008107572793960571,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SBP' and arr_delay > 299.00 and arr_delay < 489.00;
+",100
+US,20,0.009855158627033234,21.057661675692895,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AMA' and arr_delay > -5.00 and arr_delay <= 899.00;
+",100
+US,21,0.011105835437774658,0.4811774695726012,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MCO' and arr_delay >= -88.00 and arr_delay < 351.00;
+",100
+US,22,0.00806773453950882,354.54545454545456,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FSD' and arr_delay >= 203.00 and arr_delay < 511.00;
+",100
+US,23,0.007648169994354248,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MGM' and arr_delay >= 47.00 and arr_delay <= 58.00;
+",100
+US,24,0.008623071014881134,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LSE' and arr_delay > 514.00 and arr_delay < 1263.00;
+",100
+US,25,0.007414467632770538,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GUC' and arr_delay >= 184.00 and arr_delay <= 615.00;
+",100
+US,26,0.007506765425205231,3.896103896103896,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MDW' and arr_delay >= 186.00 and arr_delay < 468.00;
+",100
+US,27,0.007651716470718384,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DBQ' and arr_delay >= 588.00 and arr_delay <= 1067.00;
+",100
+US,28,0.007424831390380859,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EGE' and arr_delay >= 391.00 and arr_delay <= 545.00;
+",100
+US,29,0.010241210460662842,0.025131942699170642,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAX' and arr_delay >= -20.00 and arr_delay < 685.00;
+",100
+US,30,0.007652252912521362,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SUN' and arr_delay >= 298.00 and arr_delay <= 510.00;
+",100
+US,31,0.010292842984199524,0.8489544755284598,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BUF' and arr_delay >= -106.00 and arr_delay < 984.00;
+",100
+US,32,0.007634080946445465,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ITO' and arr_delay >= 154.00 and arr_delay <= 654.00;
+",100
+US,33,0.008662529289722443,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SJU' and arr_delay > 402.00 and arr_delay <= 779.00;
+",100
+US,34,0.009511783719062805,31.23359580052493,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GNV' and arr_delay > -4.00 and arr_delay <= 191.00;
+",100
+US,35,0.007938183844089508,3.0927835051546393,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSY' and arr_delay > 38.00 and arr_delay < 100.00;
+",100
+US,36,0.008522465825080872,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MLU' and arr_delay >= 148.00 and arr_delay < 466.00;
+",100
+US,37,0.008066840469837189,48.698884758364315,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAX' and arr_delay >= 250.00 and arr_delay < 1260.00;
+",100
+US,38,0.008106805384159088,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OMA' and arr_delay > 261.00 and arr_delay <= 434.00;
+",100
+US,39,0.007747679948806763,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LBB' and arr_delay >= 368.00 and arr_delay < 800.00;
+",100
+US,40,0.007627569139003754,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAC' and arr_delay > 476.00 and arr_delay < 819.00;
+",100
+US,41,0.008603692054748535,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CSG' and arr_delay > 153.00 and arr_delay < 693.00;
+",100
+US,42,0.011202536523342133,51.21951219512195,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BRW' and arr_delay >= -47.00 and arr_delay <= 181.00;
+",100
+US,43,0.007689312100410461,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BRD' and arr_delay > 167.00 and arr_delay <= 646.00;
+",100
+US,44,0.0074186548590660095,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SUX' and arr_delay >= 258.00 and arr_delay <= 472.00;
+",100
+US,45,0.007796786725521088,35.69131832797427,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JFK' and arr_delay > 235.00 and arr_delay <= 376.00;
+",100
+US,46,0.007531508803367615,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SRQ' and arr_delay >= 388.00 and arr_delay <= 661.00;
+",100
+US,47,0.007691144943237305,21.298573536645353,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CLE' and arr_delay >= 40.00 and arr_delay < 1273.00;
+",100
+US,48,0.007675796747207642,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PSC' and arr_delay > 337.00 and arr_delay < 649.00;
+",100
+US,49,0.008144035935401917,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EYW' and arr_delay > 398.00 and arr_delay < 615.00;
+",100
+US,50,0.0111418217420578,20.634920634920633,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GRI' and arr_delay > -69.00 and arr_delay < 595.00;
+",100
+US,51,0.00772799551486969,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ECP' and arr_delay >= 354.00 and arr_delay <= 578.00;
+",100
+US,52,0.008106648921966553,50.81967213114754,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GSP' and arr_delay >= 39.00 and arr_delay < 200.00;
+",100
+US,53,0.010390520095825195,2.0418459296214806,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DFW' and arr_delay >= -69.00 and arr_delay < 81.00;
+",100
+US,54,0.008333146572113037,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GUC' and arr_delay >= 1247.00 and arr_delay <= 1554.00;
+",100
+US,55,0.008733481168746948,32.88590604026846,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LRD' and arr_delay >= 22.00 and arr_delay < 292.00;
+",100
+US,56,0.010386750102043152,3.7037037037037033,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CMI' and arr_delay > -63.00 and arr_delay < 174.00;
+",100
+US,57,0.007662959396839142,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LIT' and arr_delay > 229.00 and arr_delay < 411.00;
+",100
+US,58,0.012074463069438934,7.2631595287251045,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAN' and arr_delay > -62.00 and arr_delay <= 316.00;
+",100
+US,59,0.008248008787631989,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RIC' and arr_delay > 668.00 and arr_delay < 883.00;
+",100
+US,60,0.008521601557731628,10.70110701107011,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HPN' and arr_delay >= 71.00 and arr_delay <= 147.00;
+",100
+US,61,0.007465794682502747,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SJC' and arr_delay >= 351.00 and arr_delay < 822.00;
+",100
+US,62,0.0076621100306510925,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HOU' and arr_delay > 326.00 and arr_delay <= 578.00;
+",100
+US,63,0.00776991993188858,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'UST' and arr_delay > 119.00 and arr_delay <= 435.00;
+",100
+US,64,0.00783172994852066,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAR' and arr_delay > 385.00 and arr_delay <= 1240.00;
+",100
+US,65,0.008011981844902039,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CLL' and arr_delay > 38.00 and arr_delay < 275.00;
+",100
+US,66,0.010790213942527771,4.140008268204816,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IAD' and arr_delay >= -20.00 and arr_delay < 493.00;
+",100
+US,67,0.007805541157722473,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ESC' and arr_delay >= 223.00 and arr_delay <= 1095.00;
+",100
+US,68,0.011307619512081146,7.216494845360824,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSO' and arr_delay > -59.00 and arr_delay <= 436.00;
+",100
+US,69,0.007910966873168945,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAV' and arr_delay > 489.00 and arr_delay <= 1150.00;
+",100
+US,70,0.0075396522879600525,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HOB' and arr_delay >= 88.00 and arr_delay < 364.00;
+",100
+US,71,0.010848954319953918,12.575655682582381,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CAE' and arr_delay >= -34.00 and arr_delay < 1312.00;
+",100
+US,72,0.008813247084617615,4.166666666666666,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ONT' and arr_delay >= 86.00 and arr_delay < 884.00;
+",100
+US,73,0.012286782264709473,1.459304949601324,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BWI' and arr_delay > -64.00 and arr_delay < 27.00;
+",100
+US,74,0.010188601911067963,69.49152542372882,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GCK' and arr_delay >= -32.00 and arr_delay <= 479.00;
+",100
+US,75,0.008442185819149017,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BKG' and arr_delay > 47.00 and arr_delay <= 1234.00;
+",100
+US,76,0.011920876801013947,3.5560611306197143,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MEM' and arr_delay >= -53.00 and arr_delay <= 512.00;
+",100
+US,77,0.007706038653850555,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GRB' and arr_delay > 468.00 and arr_delay < 716.00;
+",100
+US,78,0.007547520101070404,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BTR' and arr_delay > 431.00 and arr_delay <= 534.00;
+",100
+US,79,0.010424107313156128,391.8032786885246,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DVL' and arr_delay >= -70.00 and arr_delay < 560.00;
+",100
+US,80,0.00740746408700943,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FSM' and arr_delay >= 427.00 and arr_delay <= 918.00;
+",100
+US,81,0.00837080180644989,26.05042016806723,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PVD' and arr_delay >= 88.00 and arr_delay < 331.00;
+",100
+US,82,0.007670901715755463,5.465004793863854,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CMH' and arr_delay >= 85.00 and arr_delay <= 840.00;
+",100
+US,83,0.007927700877189636,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IND' and arr_delay > 333.00 and arr_delay <= 353.00;
+",100
+US,84,0.010395683348178864,94.1747572815534,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HOB' and arr_delay > -86.00 and arr_delay < 715.00;
+",100
+US,85,0.00808928906917572,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ORD' and arr_delay > 565.00 and arr_delay < 790.00;
+",100
+US,86,0.008953273296356201,3.1617281906969046,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAN' and arr_delay >= 14.00 and arr_delay <= 662.00;
+",100
+US,87,0.0077032893896102905,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SJT' and arr_delay > 314.00 and arr_delay < 730.00;
+",100
+US,88,0.00873807817697525,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSO' and arr_delay > 846.00 and arr_delay < 1311.00;
+",100
+US,89,0.012400209903717041,9.010011123470523,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SRQ' and arr_delay >= -53.00 and arr_delay <= 860.00;
+",100
+US,90,0.00886254757642746,43.18181818181818,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LGB' and arr_delay >= 28.00 and arr_delay < 103.00;
+",100
+US,91,0.00772317498922348,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GEG' and arr_delay > 139.00 and arr_delay < 859.00;
+",100
+US,92,0.008284799754619598,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SLC' and arr_delay >= 480.00 and arr_delay < 1147.00;
+",100
+US,93,0.009277284145355225,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SWF' and arr_delay > 91.00 and arr_delay < 800.00;
+",100
+US,94,0.008305869996547699,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ISN' and arr_delay >= 339.00 and arr_delay < 416.00;
+",100
+US,95,0.007578432559967041,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DBQ' and arr_delay >= 280.00 and arr_delay < 923.00;
+",100
+US,96,0.010190784931182861,19.047619047619047,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OTZ' and arr_delay > -27.00 and arr_delay < 551.00;
+",100
+US,97,0.011559970676898956,5.616623138076514,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSY' and arr_delay >= -22.00 and arr_delay <= 238.00;
+",100
+US,98,0.01052025705575943,3.756136545267725,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSP' and arr_delay > -18.00 and arr_delay < 39.00;
+",100
+US,99,0.007757551968097687,30.069930069930066,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOS' and arr_delay > 209.00 and arr_delay < 236.00;
+",100
+US,100,0.00797823816537857,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DLG' and arr_delay >= 137.00 and arr_delay < 581.00;
+",100
+US,101,0.008350923657417297,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BGR' and arr_delay >= 395.00 and arr_delay < 931.00;
+",100
+US,102,0.008217275142669678,20.212765957446805,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LGB' and arr_delay > 50.00 and arr_delay <= 635.00;
+",100
+US,103,0.011088944971561432,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LNY' and arr_delay > -91.00 and arr_delay <= 740.00;
+",100
+US,104,0.010635539889335632,2.759276879162702,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LEX' and arr_delay > -55.00 and arr_delay <= 800.00;
+",100
+US,105,0.008332379162311554,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MAF' and arr_delay >= 290.00 and arr_delay < 887.00;
+",100
+US,106,0.008598186075687408,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'XNA' and arr_delay > 325.00 and arr_delay < 774.00;
+",100
+US,107,0.008169591426849365,24.81203007518797,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RSW' and arr_delay >= 160.00 and arr_delay < 268.00;
+",100
+US,108,0.007742300629615784,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HVN' and arr_delay >= 137.00 and arr_delay < 454.00;
+",100
+US,109,0.008460447192192078,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SIT' and arr_delay >= 357.00 and arr_delay < 436.00;
+",100
+US,110,0.00932668149471283,9.177215189873419,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BUF' and arr_delay >= 3.00 and arr_delay <= 340.00;
+",100
+US,111,0.01150590181350708,31.004366812227076,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AKN' and arr_delay > -91.00 and arr_delay <= 452.00;
+",100
+US,112,0.01138535887002945,8.170914542728635,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CID' and arr_delay > -65.00 and arr_delay <= 224.00;
+",100
+US,113,0.007689349353313446,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'YAK' and arr_delay > 134.00 and arr_delay < 994.00;
+",100
+US,114,0.007615625858306885,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FLG' and arr_delay > 325.00 and arr_delay < 610.00;
+",100
+US,115,0.00762629508972168,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BTV' and arr_delay > 712.00 and arr_delay < 894.00;
+",100
+US,116,0.007746249437332153,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LFT' and arr_delay >= 235.00 and arr_delay <= 701.00;
+",100
+US,117,0.008120320737361908,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SBN' and arr_delay > 61.00 and arr_delay < 652.00;
+",100
+US,118,0.007667228579521179,3233.3333333333335,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JLN' and arr_delay >= 127.00 and arr_delay < 328.00;
+",100
+US,119,0.01038440316915512,0.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'STX' and arr_delay > -45.00 and arr_delay < 809.00;
+",100
+US,120,0.008535079658031464,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIH' and arr_delay > 58.00 and arr_delay < 1129.00;
+",100
+US,121,0.007620975375175476,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAC' and arr_delay > 537.00 and arr_delay < 1112.00;
+",100
+US,122,0.0078534334897995,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DBQ' and arr_delay > 579.00 and arr_delay <= 900.00;
+",100
+US,123,0.011363163590431213,9.89010989010989,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GTR' and arr_delay > -31.00 and arr_delay <= 1034.00;
+",100
+US,124,0.008671261370182037,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SWF' and arr_delay > 405.00 and arr_delay < 931.00;
+",100
+US,125,0.008638426661491394,57.89473684210527,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GRR' and arr_delay > 13.00 and arr_delay <= 884.00;
+",100
+US,126,0.008401058614253998,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'UST' and arr_delay >= 212.00 and arr_delay <= 1149.00;
+",100
+US,127,0.00803915411233902,25.78616352201258,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LEX' and arr_delay >= 96.00 and arr_delay <= 707.00;
+",100
+US,128,0.00916307419538498,0.7936507936507936,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CAE' and arr_delay > 11.00 and arr_delay <= 303.00;
+",100
+US,129,0.007736891508102417,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROW' and arr_delay >= 313.00 and arr_delay <= 489.00;
+",100
+US,130,0.007383622229099274,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GPT' and arr_delay >= 625.00 and arr_delay < 735.00;
+",100
+US,131,0.010308995842933655,11.317254174397032,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GTR' and arr_delay > -65.00 and arr_delay < 164.00;
+",100
+US,132,0.010053858160972595,26.26728110599078,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RDM' and arr_delay > -11.00 and arr_delay < 639.00;
+",100
+US,133,0.007580839097499847,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GTF' and arr_delay > 254.00 and arr_delay <= 530.00;
+",100
+US,134,0.007806360721588135,566.6666666666667,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CPR' and arr_delay >= 103.00 and arr_delay < 1073.00;
+",100
+US,135,0.007709920406341553,9.502262443438914,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LGA' and arr_delay > 195.00 and arr_delay <= 299.00;
+",100
+US,136,0.007951855659484863,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROC' and arr_delay > 564.00 and arr_delay <= 1576.00;
+",100
+US,137,0.007852070033550262,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GSO' and arr_delay > 308.00 and arr_delay <= 1188.00;
+",100
+US,138,0.008281044661998749,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CAE' and arr_delay > 438.00 and arr_delay < 1316.00;
+",100
+US,139,0.007566675543785095,49.494949494949495,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BWI' and arr_delay > 194.00 and arr_delay <= 507.00;
+",100
+US,140,0.009259946644306183,39.93993993993994,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'KOA' and arr_delay > 26.00 and arr_delay < 497.00;
+",100
+US,141,0.008744344115257263,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GTR' and arr_delay > 124.00 and arr_delay < 894.00;
+",100
+US,142,0.008855044841766357,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GEG' and arr_delay > 414.00 and arr_delay <= 677.00;
+",100
+US,143,0.01026521623134613,15.924344112263574,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AVP' and arr_delay >= -52.00 and arr_delay < 618.00;
+",100
+US,144,0.00885242223739624,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EGE' and arr_delay >= 126.00 and arr_delay <= 368.00;
+",100
+US,145,0.008861660957336426,111.86440677966101,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIA' and arr_delay > 48.00 and arr_delay < 830.00;
+",100
+US,146,0.0077598243951797485,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GNV' and arr_delay >= 170.00 and arr_delay <= 181.00;
+",100
+US,147,0.00982462614774704,12.359550561797752,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'APF' and arr_delay >= -9.00 and arr_delay < 504.00;
+",100
+US,148,0.007441297173500061,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ACY' and arr_delay >= 167.00 and arr_delay < 263.00;
+",100
+US,149,0.0075885578989982605,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ELP' and arr_delay > 537.00 and arr_delay <= 1243.00;
+",100
+US,150,0.007581889629364014,525.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GJT' and arr_delay >= 102.00 and arr_delay < 161.00;
+",100
+US,151,0.009463027119636536,32.856412876852325,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TLH' and arr_delay >= -6.00 and arr_delay <= 1073.00;
+",100
+US,152,0.008417397737503052,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BET' and arr_delay >= 25.00 and arr_delay <= 932.00;
+",100
+US,153,0.007664278149604797,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RDM' and arr_delay >= 278.00 and arr_delay <= 894.00;
+",100
+US,154,0.008255995810031891,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIT' and arr_delay >= 438.00 and arr_delay < 953.00;
+",100
+US,155,0.010958947241306305,4.013961605584642,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CRW' and arr_delay > -68.00 and arr_delay <= 1234.00;
+",100
+US,156,0.007615096867084503,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HPN' and arr_delay > 537.00 and arr_delay < 842.00;
+",100
+US,157,0.00755610316991806,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GEG' and arr_delay >= 333.00 and arr_delay <= 387.00;
+",100
+US,158,0.008692115545272827,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ORF' and arr_delay >= 493.00 and arr_delay <= 608.00;
+",100
+US,159,0.008262097835540771,669.2307692307693,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PDX' and arr_delay > 342.00 and arr_delay <= 408.00;
+",100
+US,160,0.010397881269454956,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PBG' and arr_delay > -70.00 and arr_delay <= -6.00;
+",100
+US,161,0.008434116840362549,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAN' and arr_delay > 490.00 and arr_delay <= 608.00;
+",100
+US,162,0.008857809007167816,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ACY' and arr_delay >= 445.00 and arr_delay <= 1048.00;
+",100
+US,163,0.008357509970664978,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LFT' and arr_delay >= 270.00 and arr_delay < 762.00;
+",100
+US,164,0.007580772042274475,2400.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SIT' and arr_delay >= 293.00 and arr_delay <= 834.00;
+",100
+US,165,0.007821135222911835,5.435288640595903,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ORD' and arr_delay >= 39.00 and arr_delay < 942.00;
+",100
+US,166,0.007706202566623688,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BIS' and arr_delay > 211.00 and arr_delay < 417.00;
+",100
+US,167,0.007574215531349182,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MLI' and arr_delay > 190.00 and arr_delay < 253.00;
+",100
+US,168,0.007714301347732544,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JLN' and arr_delay > 431.00 and arr_delay <= 1051.00;
+",100
+US,169,0.007767505943775177,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSO' and arr_delay > 330.00 and arr_delay < 730.00;
+",100
+US,170,0.008343920111656189,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GST' and arr_delay > 72.00 and arr_delay <= 181.00;
+",100
+US,171,0.010921135544776917,10.834750982577578,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PVD' and arr_delay > -103.00 and arr_delay <= 375.00;
+",100
+US,172,0.008070655167102814,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BZN' and arr_delay > 62.00 and arr_delay <= 169.00;
+",100
+US,173,0.010358817875385284,8.627497500381299,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAN' and arr_delay > -26.00 and arr_delay < 43.00;
+",100
+US,174,0.007617346942424774,17.94871794871795,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IND' and arr_delay >= 77.00 and arr_delay <= 434.00;
+",100
+US,175,0.007848873734474182,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MQT' and arr_delay >= 146.00 and arr_delay < 631.00;
+",100
+US,176,0.00829867273569107,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DLG' and arr_delay >= 210.00 and arr_delay <= 1004.00;
+",100
+US,177,0.008570387959480286,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'STT' and arr_delay > 246.00 and arr_delay <= 633.00;
+",100
+US,178,0.00906304270029068,23.456790123456788,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BQK' and arr_delay > 29.00 and arr_delay < 169.00;
+",100
+US,179,0.008433744311332703,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GSO' and arr_delay >= 514.00 and arr_delay < 654.00;
+",100
+US,180,0.0108700692653656,46.34146341463415,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SIT' and arr_delay > -12.00 and arr_delay < 396.00;
+",100
+US,181,0.011843226850032806,14.84832357637041,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'KTN' and arr_delay > -79.00 and arr_delay < 43.00;
+",100
+US,182,0.0074836015701293945,88.06682577565633,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CLE' and arr_delay >= 124.00 and arr_delay <= 638.00;
+",100
+US,183,0.0077632516622543335,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MDT' and arr_delay > 331.00 and arr_delay < 443.00;
+",100
+US,184,0.007886931300163269,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'UTM' and arr_delay >= 30.00 and arr_delay < 587.00;
+",100
+US,185,0.007506825029850006,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'COS' and arr_delay >= 512.00 and arr_delay <= 591.00;
+",100
+US,186,0.00783403217792511,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAR' and arr_delay >= 344.00 and arr_delay < 1576.00;
+",100
+US,187,0.007480941712856293,41.52046783625731,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SYR' and arr_delay >= 117.00 and arr_delay <= 507.00;
+",100
+US,188,0.008096732199192047,32.432432432432435,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ALB' and arr_delay >= 55.00 and arr_delay <= 582.00;
+",100
+US,189,0.008192874491214752,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RAP' and arr_delay > 356.00 and arr_delay <= 483.00;
+",100
+US,190,0.011081963777542114,1.7115132091429082,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MCI' and arr_delay >= -87.00 and arr_delay < 614.00;
+",100
+US,191,0.007448069751262665,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RSW' and arr_delay >= 654.00 and arr_delay < 1070.00;
+",100
+US,192,0.008330963551998138,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSY' and arr_delay >= 352.00 and arr_delay <= 375.00;
+",100
+US,193,0.008403636515140533,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JNU' and arr_delay > 307.00 and arr_delay < 653.00;
+",100
+US,194,0.010213188827037811,11.37370753323486,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LNK' and arr_delay >= -81.00 and arr_delay < 569.00;
+",100
+US,195,0.011024370789527893,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JMS' and arr_delay > -63.00 and arr_delay < 462.00;
+",100
+US,196,0.008565165102481842,11.602209944751381,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JFK' and arr_delay >= 170.00 and arr_delay <= 476.00;
+",100
+US,197,0.007633596658706665,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DLH' and arr_delay >= 267.00 and arr_delay <= 1326.00;
+",100
+US,198,0.010934002697467804,11.504424778761061,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HPN' and arr_delay > -68.00 and arr_delay < 19.00;
+",100
+US,199,0.01193246990442276,11.11111111111111,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GUM' and arr_delay >= -40.00 and arr_delay < 663.00;
+",100
+US,200,0.01042773574590683,11.816578483245149,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MRY' and arr_delay > -103.00 and arr_delay < 781.00;
+",100
+US,201,0.007748693227767944,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RST' and arr_delay > 497.00 and arr_delay < 1130.00;
+",100
+US,202,0.007918797433376312,44.08201304753029,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MIA' and arr_delay >= 124.00 and arr_delay <= 834.00;
+",100
+US,203,0.007815606892108917,2.0408163265306123,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MOB' and arr_delay > 53.00 and arr_delay < 1002.00;
+",100
+US,204,0.008022986352443695,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OTZ' and arr_delay > 212.00 and arr_delay < 487.00;
+",100
+US,205,0.0075900256633758545,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FLG' and arr_delay >= 97.00 and arr_delay < 605.00;
+",100
+US,206,0.010212622582912445,17.88321167883212,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FNT' and arr_delay >= -43.00 and arr_delay <= 960.00;
+",100
+US,207,0.008250899612903595,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAN' and arr_delay > 616.00 and arr_delay < 757.00;
+",100
+US,208,0.008238807320594788,23.796423658872076,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DCA' and arr_delay > 143.00 and arr_delay < 1091.00;
+",100
+US,209,0.008488856256008148,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAX' and arr_delay > 302.00 and arr_delay <= 1011.00;
+",100
+US,210,0.00787760317325592,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ART' and arr_delay > 74.00 and arr_delay <= 148.00;
+",100
+US,211,0.008633643388748169,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RSW' and arr_delay > 377.00 and arr_delay < 488.00;
+",100
+US,212,0.00889657437801361,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RST' and arr_delay > 169.00 and arr_delay <= 315.00;
+",100
+US,213,0.007984139025211334,0.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ORF' and arr_delay > 31.00 and arr_delay <= 386.00;
+",100
+US,214,0.008210964500904083,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EKO' and arr_delay > 113.00 and arr_delay < 487.00;
+",100
+US,215,0.008547626435756683,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PAH' and arr_delay > 74.00 and arr_delay < 577.00;
+",100
+US,216,0.00797048956155777,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TYS' and arr_delay >= 560.00 and arr_delay <= 960.00;
+",100
+US,217,0.008485794067382812,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROA' and arr_delay > 310.00 and arr_delay < 682.00;
+",100
+US,218,0.007787436246871948,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROC' and arr_delay > 423.00 and arr_delay < 539.00;
+",100
+US,219,0.00941169261932373,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AGS' and arr_delay > -64.00 and arr_delay < -25.00;
+",100
+US,220,0.007678262889385223,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SNA' and arr_delay > 424.00 and arr_delay < 526.00;
+",100
+US,221,0.009495534002780914,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FWA' and arr_delay > -57.00 and arr_delay <= -42.00;
+",100
+US,222,0.007594481110572815,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MIA' and arr_delay > 434.00 and arr_delay <= 568.00;
+",100
+US,223,0.007423713803291321,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SNA' and arr_delay >= 212.00 and arr_delay <= 580.00;
+",100
+US,224,0.007505625486373901,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OGG' and arr_delay >= 377.00 and arr_delay <= 1403.00;
+",100
+US,225,0.007584422826766968,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MHK' and arr_delay >= 116.00 and arr_delay <= 277.00;
+",100
+US,226,0.007660321891307831,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BGR' and arr_delay > 311.00 and arr_delay < 1271.00;
+",100
+US,227,0.008012048900127411,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PLN' and arr_delay >= 194.00 and arr_delay < 977.00;
+",100
+US,228,0.00795687735080719,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GPT' and arr_delay >= 183.00 and arr_delay <= 699.00;
+",100
+US,229,0.008007459342479706,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HPN' and arr_delay >= 356.00 and arr_delay <= 994.00;
+",100
+US,230,0.008468925952911377,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HVN' and arr_delay >= 38.00 and arr_delay <= 654.00;
+",100
+US,231,0.008412212133407593,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FOE' and arr_delay > 102.00 and arr_delay < 934.00;
+",100
+US,232,0.008427567780017853,170.27027027027026,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SUN' and arr_delay >= 52.00 and arr_delay < 1011.00;
+",100
+US,233,0.010108031332492828,455.55555555555554,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HYS' and arr_delay > -16.00 and arr_delay <= 79.00;
+",100
+US,234,0.008781984448432922,3.225806451612903,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PNS' and arr_delay > 59.00 and arr_delay < 507.00;
+",100
+US,235,0.008559055626392365,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IDA' and arr_delay > 375.00 and arr_delay <= 714.00;
+",100
+US,236,0.007500208914279938,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BIS' and arr_delay >= 224.00 and arr_delay <= 792.00;
+",100
+US,237,0.007587522268295288,25.925925925925924,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SJC' and arr_delay > 174.00 and arr_delay < 509.00;
+",100
+US,238,0.007672697305679321,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CAE' and arr_delay > 319.00 and arr_delay < 688.00;
+",100
+US,239,0.010379455983638763,4.772991850989523,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ELM' and arr_delay >= -76.00 and arr_delay <= 1093.00;
+",100
+US,240,0.010224685072898865,6.472128694350916,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RAP' and arr_delay >= -52.00 and arr_delay < 373.00;
+",100
+US,241,0.01016324758529663,17.724002616088946,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GNV' and arr_delay >= -72.00 and arr_delay < 276.00;
+",100
+US,242,0.007864028215408325,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CAK' and arr_delay > 293.00 and arr_delay < 651.00;
+",100
+US,243,0.008151531219482422,59.01639344262295,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PBI' and arr_delay > 143.00 and arr_delay < 1316.00;
+",100
+US,244,0.008150950074195862,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SUN' and arr_delay >= 181.00 and arr_delay < 421.00;
+",100
+US,245,0.008095793426036835,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ERI' and arr_delay >= 84.00 and arr_delay <= 289.00;
+",100
+US,246,0.008965156972408295,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LBB' and arr_delay > 520.00 and arr_delay < 1260.00;
+",100
+US,247,0.011358372867107391,16.59769529509136,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ANC' and arr_delay > -92.00 and arr_delay <= 359.00;
+",100
+US,248,0.011203870177268982,4.805077062556664,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DAB' and arr_delay >= -80.00 and arr_delay < 577.00;
+",100
+US,249,0.007836557924747467,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BQN' and arr_delay >= 43.00 and arr_delay < 846.00;
+",100
+US,250,0.008432261645793915,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GGG' and arr_delay > 309.00 and arr_delay <= 680.00;
+",100
+US,251,0.008797280490398407,25.78616352201258,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIA' and arr_delay > 51.00 and arr_delay < 130.00;
+",100
+US,252,0.008091524243354797,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BGM' and arr_delay >= 479.00 and arr_delay < 815.00;
+",100
+US,253,0.0088270902633667,263.6363636363636,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CWA' and arr_delay >= 59.00 and arr_delay < 517.00;
+",100
+US,254,0.007395200431346893,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'KOA' and arr_delay >= 415.00 and arr_delay <= 680.00;
+",100
+US,255,0.007987014949321747,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'INL' and arr_delay > 26.00 and arr_delay < 849.00;
+",100
+US,256,0.007656127214431763,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BUF' and arr_delay > 327.00 and arr_delay < 395.00;
+",100
+US,257,0.007759407162666321,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CYS' and arr_delay > 62.00 and arr_delay < 888.00;
+",100
+US,258,0.007557392120361328,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROW' and arr_delay >= 115.00 and arr_delay < 726.00;
+",100
+US,259,0.010196484625339508,22.080679405520172,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ATW' and arr_delay >= -60.00 and arr_delay < 500.00;
+",100
+US,260,0.007426135241985321,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BHM' and arr_delay >= 358.00 and arr_delay < 989.00;
+",100
+US,261,0.00836227834224701,9900.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CPR' and arr_delay > 231.00 and arr_delay <= 397.00;
+",100
+US,262,0.0081372931599617,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MVY' and arr_delay >= 64.00 and arr_delay < 605.00;
+",100
+US,263,0.0077660903334617615,55.947136563876654,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RNO' and arr_delay >= 123.00 and arr_delay <= 822.00;
+",100
+US,264,0.007757306098937988,33.92857142857143,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DFW' and arr_delay >= 219.00 and arr_delay < 570.00;
+",100
+US,265,0.008482478559017181,16.086235489220563,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IAD' and arr_delay > 49.00 and arr_delay <= 273.00;
+",100
+US,266,0.008227407932281494,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PNS' and arr_delay >= 436.00 and arr_delay < 706.00;
+",100
+US,267,0.010889999568462372,33.33333333333333,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DUT' and arr_delay > -65.00 and arr_delay <= 96.00;
+",100
+US,268,0.007778063416481018,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EUG' and arr_delay >= 367.00 and arr_delay < 1212.00;
+",100
+US,269,0.011835552752017975,6.5420560747663545,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AEX' and arr_delay >= -53.00 and arr_delay < 564.00;
+",100
+US,270,0.00812799483537674,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BTV' and arr_delay > 553.00 and arr_delay <= 1095.00;
+",100
+US,271,0.008694104850292206,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ORH' and arr_delay > 23.00 and arr_delay < 947.00;
+",100
+US,272,0.00777590274810791,300.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MIA' and arr_delay > 529.00 and arr_delay < 1311.00;
+",100
+US,273,0.01022493839263916,22.699386503067483,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OTZ' and arr_delay >= -55.00 and arr_delay < 28.00;
+",100
+US,274,0.007769428193569183,20.318725099601593,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'STL' and arr_delay > 94.00 and arr_delay < 805.00;
+",100
+US,275,0.0075259581208229065,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAC' and arr_delay >= 715.00 and arr_delay <= 1095.00;
+",100
+US,276,0.0077588558197021484,18.69918699186992,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAN' and arr_delay >= 56.00 and arr_delay <= 232.00;
+",100
+US,277,0.010157570242881775,9.99496475327291,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TUL' and arr_delay >= -21.00 and arr_delay <= 322.00;
+",100
+US,278,0.009933538734912872,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DRT' and arr_delay > -1.00 and arr_delay < 756.00;
+",100
+US,279,0.00800102949142456,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SDF' and arr_delay >= 383.00 and arr_delay < 499.00;
+",100
+US,280,0.011112533509731293,10.991513144276547,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ALB' and arr_delay > -23.00 and arr_delay <= 192.00;
+",100
+US,281,0.008141815662384033,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAN' and arr_delay > 350.00 and arr_delay < 504.00;
+",100
+US,282,0.00984150916337967,1.814619185551201,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOS' and arr_delay >= -3.00 and arr_delay < 665.00;
+",100
+US,283,0.008257992565631866,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAI' and arr_delay >= 494.00 and arr_delay <= 854.00;
+",100
+US,284,0.008124016225337982,400.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CMX' and arr_delay > 67.00 and arr_delay < 280.00;
+",100
+US,285,0.0077828168869018555,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SYR' and arr_delay > 439.00 and arr_delay < 803.00;
+",100
+US,286,0.008607663214206696,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RDM' and arr_delay > 56.00 and arr_delay <= 200.00;
+",100
+US,287,0.008340470492839813,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RFD' and arr_delay > 40.00 and arr_delay < 219.00;
+",100
+US,288,0.007477909326553345,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PFN' and arr_delay >= 177.00 and arr_delay < 671.00;
+",100
+US,289,0.007645271718502045,257.14285714285717,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TUL' and arr_delay > 259.00 and arr_delay < 771.00;
+",100
+US,290,0.01026175171136856,41.44271570014144,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DHN' and arr_delay >= -92.00 and arr_delay <= 42.00;
+",100
+US,291,0.010390490293502808,7.149489322191272,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MOT' and arr_delay >= -82.00 and arr_delay < 416.00;
+",100
+US,292,0.007857076823711395,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GUM' and arr_delay > 75.00 and arr_delay <= 1195.00;
+",100
+US,293,0.008256472647190094,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EYW' and arr_delay > 92.00 and arr_delay < 373.00;
+",100
+US,294,0.007869258522987366,2400.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SFO' and arr_delay >= 686.00 and arr_delay <= 902.00;
+",100
+US,295,0.007523484528064728,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIH' and arr_delay >= 589.00 and arr_delay < 794.00;
+",100
+US,296,0.007661737501621246,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SUN' and arr_delay > 219.00 and arr_delay < 435.00;
+",100
+US,297,0.008123219013214111,104.08163265306123,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOS' and arr_delay >= 370.00 and arr_delay < 1105.00;
+",100
+US,298,0.011625528335571289,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PUB' and arr_delay >= -31.00 and arr_delay <= 296.00;
+",100
+US,299,0.009223699569702148,5.9037790256488085,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOS' and arr_delay > 14.00 and arr_delay <= 559.00;
+",100
+US,300,0.008222565054893494,2.0408163265306123,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOS' and arr_delay > 141.00 and arr_delay < 1243.00;
+",100
+US,301,0.00802081823348999,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SPI' and arr_delay > 162.00 and arr_delay < 1050.00;
+",100
+US,302,0.008253753185272217,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DBQ' and arr_delay > 312.00 and arr_delay < 613.00;
+",100
+US,303,0.008167855441570282,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ANC' and arr_delay > 587.00 and arr_delay <= 958.00;
+",100
+US,304,0.008227795362472534,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MEI' and arr_delay > 206.00 and arr_delay <= 598.00;
+",100
+US,305,0.00821453332901001,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BRO' and arr_delay >= 118.00 and arr_delay < 297.00;
+",100
+US,306,0.007698766887187958,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PFN' and arr_delay >= 78.00 and arr_delay <= 262.00;
+",100
+US,307,0.01057577133178711,5.062082139446036,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ISP' and arr_delay >= -77.00 and arr_delay < 181.00;
+",100
+US,308,0.007716834545135498,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ACY' and arr_delay > 63.00 and arr_delay < 189.00;
+",100
+US,309,0.010197684168815613,10.797635100093352,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CLE' and arr_delay > -26.00 and arr_delay < 1073.00;
+",100
+US,310,0.008200585842132568,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OGG' and arr_delay >= 255.00 and arr_delay <= 303.00;
+",100
+US,311,0.0076783522963523865,40.828402366863905,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CAE' and arr_delay > 113.00 and arr_delay < 607.00;
+",100
+US,312,0.007711417973041534,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AVP' and arr_delay >= 406.00 and arr_delay < 797.00;
+",100
+US,313,0.00770048052072525,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HPN' and arr_delay > 273.00 and arr_delay < 321.00;
+",100
+US,314,0.008259132504463196,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GSO' and arr_delay > 232.00 and arr_delay <= 556.00;
+",100
+US,315,0.008231595158576965,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MLU' and arr_delay > 179.00 and arr_delay < 654.00;
+",100
+US,316,0.007935017347335815,108.33333333333333,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PSC' and arr_delay >= 49.00 and arr_delay <= 95.00;
+",100
+US,317,0.008026927709579468,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ALO' and arr_delay > 119.00 and arr_delay < 776.00;
+",100
+US,318,0.009387850761413574,4.963963049436606,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PHX' and arr_delay >= 6.00 and arr_delay < 942.00;
+",100
+US,319,0.008650436997413635,9.365558912386707,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PBI' and arr_delay > 126.00 and arr_delay <= 462.00;
+",100
+US,320,0.007935114204883575,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CAE' and arr_delay > 685.00 and arr_delay < 1243.00;
+",100
+US,321,0.008093275129795074,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'STT' and arr_delay > 329.00 and arr_delay < 800.00;
+",100
+US,322,0.012106843292713165,4.995904995904995,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SJC' and arr_delay > -55.00 and arr_delay <= 952.00;
+",100
+US,323,0.007980488240718842,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BQK' and arr_delay >= 380.00 and arr_delay <= 833.00;
+",100
+US,324,0.008364446461200714,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EWR' and arr_delay > 514.00 and arr_delay <= 718.00;
+",100
+US,325,0.007810324430465698,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BFL' and arr_delay > 112.00 and arr_delay <= 666.00;
+",100
+US,326,0.008846864104270935,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SPI' and arr_delay >= 7.00 and arr_delay < 1052.00;
+",100
+US,327,0.009408555924892426,2.88340537287301,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOS' and arr_delay > 1.00 and arr_delay < 444.00;
+",100
+US,328,0.007450319826602936,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CID' and arr_delay >= 317.00 and arr_delay <= 449.00;
+",100
+US,329,0.007759809494018555,28.22966507177033,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BNA' and arr_delay > 69.00 and arr_delay < 728.00;
+",100
+US,330,0.007713653147220612,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAR' and arr_delay > 215.00 and arr_delay < 507.00;
+",100
+US,331,0.007742777466773987,59.67741935483871,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MKE' and arr_delay >= 157.00 and arr_delay <= 612.00;
+",100
+US,332,0.011338554322719574,0.8913769491362534,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SEA' and arr_delay >= -23.00 and arr_delay <= 864.00;
+",100
+US,333,0.010644577443599701,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'VIS' and arr_delay > -25.00 and arr_delay < 47.00;
+",100
+US,334,0.011738613247871399,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'UTM' and arr_delay > -92.00 and arr_delay < 739.00;
+",100
+US,335,0.008304387331008911,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GFK' and arr_delay >= 159.00 and arr_delay <= 470.00;
+",100
+US,336,0.008081354200839996,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MFE' and arr_delay > 328.00 and arr_delay < 654.00;
+",100
+US,337,0.009047500789165497,36.30573248407643,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CPR' and arr_delay > 5.00 and arr_delay <= 428.00;
+",100
+US,338,0.010356225073337555,18.12227074235808,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GTF' and arr_delay >= -55.00 and arr_delay < 33.00;
+",100
+US,339,0.008842460811138153,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIE' and arr_delay > 398.00 and arr_delay <= 764.00;
+",100
+US,340,0.011666752398014069,2.1549213744903906,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SYR' and arr_delay > -64.00 and arr_delay <= 774.00;
+",100
+US,341,0.007616125047206879,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAW' and arr_delay > 257.00 and arr_delay <= 261.00;
+",100
+US,342,0.00814131647348404,53.84615384615385,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PVD' and arr_delay >= 148.00 and arr_delay < 1073.00;
+",100
+US,343,0.007492527365684509,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FLG' and arr_delay >= 278.00 and arr_delay < 490.00;
+",100
+US,344,0.00785597413778305,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'YUM' and arr_delay > 54.00 and arr_delay < 736.00;
+",100
+US,345,0.00776372104883194,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SRQ' and arr_delay > 184.00 and arr_delay <= 306.00;
+",100
+US,346,0.007504761219024658,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAN' and arr_delay >= 184.00 and arr_delay < 507.00;
+",100
+US,347,0.007474489510059357,18.0327868852459,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HNL' and arr_delay >= 198.00 and arr_delay < 718.00;
+",100
+US,348,0.010826952755451202,24.458874458874458,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HRL' and arr_delay >= -62.00 and arr_delay < 56.00;
+",100
+US,349,0.011473238468170166,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CYS' and arr_delay > -84.00 and arr_delay <= 161.00;
+",100
+US,350,0.007676661014556885,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HLN' and arr_delay >= 320.00 and arr_delay <= 995.00;
+",100
+US,351,0.007824882864952087,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'WRG' and arr_delay >= 114.00 and arr_delay < 1101.00;
+",100
+US,352,0.008602648973464966,5.263157894736842,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OKC' and arr_delay > 186.00 and arr_delay <= 987.00;
+",100
+US,353,0.008364669978618622,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ERI' and arr_delay > 212.00 and arr_delay < 870.00;
+",100
+US,354,0.007932864129543304,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SWF' and arr_delay >= 504.00 and arr_delay <= 762.00;
+",100
+US,355,0.007838375866413116,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SBN' and arr_delay > 469.00 and arr_delay < 581.00;
+",100
+US,356,0.008801102638244629,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HOU' and arr_delay > 216.00 and arr_delay <= 613.00;
+",100
+US,357,0.011423096060752869,0.6533124561308784,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RNO' and arr_delay > -103.00 and arr_delay < 70.00;
+",100
+US,358,0.008853986859321594,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SMF' and arr_delay > 552.00 and arr_delay <= 1085.00;
+",100
+US,359,0.008170418441295624,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SWF' and arr_delay >= 316.00 and arr_delay <= 732.00;
+",100
+US,360,0.007560409605503082,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GEG' and arr_delay > 553.00 and arr_delay < 834.00;
+",100
+US,361,0.0077386274933815,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ISP' and arr_delay > 227.00 and arr_delay <= 631.00;
+",100
+US,362,0.010510683059692383,10.081112398609502,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAT' and arr_delay > -66.00 and arr_delay < 575.00;
+",100
+US,363,0.0075605884194374084,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GUC' and arr_delay >= 236.00 and arr_delay <= 633.00;
+",100
+US,364,0.01065942645072937,6.1005137896415285,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OMA' and arr_delay > -49.00 and arr_delay <= 797.00;
+",100
+US,365,0.007735259830951691,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JFK' and arr_delay >= 526.00 and arr_delay <= 818.00;
+",100
+US,366,0.007800348103046417,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EAU' and arr_delay >= 90.00 and arr_delay < 617.00;
+",100
+US,367,0.008545510470867157,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ILE' and arr_delay >= 14.00 and arr_delay < 694.00;
+",100
+US,368,0.007431700825691223,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FSM' and arr_delay >= 439.00 and arr_delay <= 1080.00;
+",100
+US,369,0.010972045361995697,12.280701754385964,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CRW' and arr_delay >= -7.00 and arr_delay <= 602.00;
+",100
+US,370,0.008172526955604553,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GSO' and arr_delay >= 417.00 and arr_delay < 639.00;
+",100
+US,371,0.008197963237762451,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAT' and arr_delay > 504.00 and arr_delay < 1041.00;
+",100
+US,372,0.007825538516044617,57.72870662460568,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GRR' and arr_delay >= 95.00 and arr_delay < 986.00;
+",100
+US,373,0.007705383002758026,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CDC' and arr_delay > 180.00 and arr_delay <= 267.00;
+",100
+US,374,0.007827356457710266,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BKG' and arr_delay >= 155.00 and arr_delay < 395.00;
+",100
+US,375,0.008371219038963318,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OGG' and arr_delay >= 776.00 and arr_delay <= 937.00;
+",100
+US,376,0.01100640743970871,3.688218605345677,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MEM' and arr_delay >= -60.00 and arr_delay <= 175.00;
+",100
+US,377,0.010881580412387848,35.5531686358754,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GFK' and arr_delay >= -64.00 and arr_delay < 708.00;
+",100
+US,378,0.007683292031288147,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ISN' and arr_delay >= 73.00 and arr_delay <= 193.00;
+",100
+US,379,0.007715985178947449,78.57142857142857,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TPA' and arr_delay >= 311.00 and arr_delay <= 562.00;
+",100
+US,380,0.010316163301467896,80.72289156626506,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PAH' and arr_delay > -71.00 and arr_delay < 948.00;
+",100
+US,381,0.0075034573674201965,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ISP' and arr_delay >= 162.00 and arr_delay <= 341.00;
+",100
+US,382,0.007901154458522797,6.5420560747663545,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSP' and arr_delay > 88.00 and arr_delay <= 1312.00;
+",100
+US,383,0.007599465548992157,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PSG' and arr_delay >= 225.00 and arr_delay < 627.00;
+",100
+US,384,0.007904693484306335,81.81818181818183,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ASE' and arr_delay >= 85.00 and arr_delay <= 380.00;
+",100
+US,385,0.0080346018075943,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PSG' and arr_delay > 150.00 and arr_delay <= 862.00;
+",100
+US,386,0.009441211819648743,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HIB' and arr_delay > 3.00 and arr_delay <= 192.00;
+",100
+US,387,0.008653387427330017,1566.6666666666665,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JLN' and arr_delay >= 55.00 and arr_delay <= 422.00;
+",100
+US,388,0.008436240255832672,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ABR' and arr_delay >= 43.00 and arr_delay <= 1036.00;
+",100
+US,389,0.00897938758134842,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'APF' and arr_delay > 20.00 and arr_delay <= 470.00;
+",100
+US,390,0.007792413234710693,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PWM' and arr_delay > 361.00 and arr_delay < 473.00;
+",100
+US,391,0.007747985422611237,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LGA' and arr_delay >= 269.00 and arr_delay <= 377.00;
+",100
+US,392,0.008205287158489227,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ECP' and arr_delay > 172.00 and arr_delay < 923.00;
+",100
+US,393,0.007898449897766113,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CRW' and arr_delay > 273.00 and arr_delay < 411.00;
+",100
+US,394,0.008264303207397461,9.881914232442512,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LGA' and arr_delay >= 87.00 and arr_delay < 234.00;
+",100
+US,395,0.008054614067077637,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GRR' and arr_delay >= 314.00 and arr_delay < 807.00;
+",100
+US,396,0.01050598919391632,37.651541392448905,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SBP' and arr_delay > -66.00 and arr_delay <= 748.00;
+",100
+US,397,0.007852666079998016,138.0952380952381,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HLN' and arr_delay >= 45.00 and arr_delay <= 1207.00;
+",100
+US,398,0.010343596339225769,16.449086161879894,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAI' and arr_delay > -72.00 and arr_delay <= 291.00;
+",100
+US,399,0.0075256675481796265,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ANC' and arr_delay >= 423.00 and arr_delay < 735.00;
+",100
+US,400,0.008117131888866425,26.73992673992674,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SLC' and arr_delay > 184.00 and arr_delay < 554.00;
+",100
+US,401,0.008469544351100922,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SLE' and arr_delay >= 8.00 and arr_delay < 617.00;
+",100
+US,402,0.007464900612831116,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GTR' and arr_delay >= 429.00 and arr_delay <= 864.00;
+",100
+US,403,0.011159271001815796,41.843971631205676,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ALO' and arr_delay >= -47.00 and arr_delay <= 370.00;
+",100
+US,404,0.011751100420951843,1.3148506778106206,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TPA' and arr_delay >= -83.00 and arr_delay <= 31.00;
+",100
+US,405,0.008414089679718018,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PSC' and arr_delay >= 130.00 and arr_delay <= 247.00;
+",100
+US,406,0.008398838341236115,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OMA' and arr_delay >= 605.00 and arr_delay < 1094.00;
+",100
+US,407,0.007596105337142944,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TWF' and arr_delay >= 129.00 and arr_delay <= 435.00;
+",100
+US,408,0.008500538766384125,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ART' and arr_delay > 153.00 and arr_delay <= 354.00;
+",100
+US,409,0.010654568672180176,32.88590604026846,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RDD' and arr_delay >= -10.00 and arr_delay <= 128.00;
+",100
+US,410,0.008623100817203522,1150.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HYS' and arr_delay >= 4.00 and arr_delay < 173.00;
+",100
+US,411,0.008385591208934784,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LFT' and arr_delay >= 313.00 and arr_delay < 447.00;
+",100
+US,412,0.008936852216720581,852.3809523809524,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BUF' and arr_delay >= 315.00 and arr_delay <= 1403.00;
+",100
+US,413,0.00811721384525299,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOI' and arr_delay > 281.00 and arr_delay <= 515.00;
+",100
+US,414,0.00749613344669342,1900.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DRO' and arr_delay >= 179.00 and arr_delay < 859.00;
+",100
+US,415,0.007603809237480164,138.0952380952381,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOS' and arr_delay > 378.00 and arr_delay < 879.00;
+",100
+US,416,0.010518163442611694,1.424858858320638,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BUR' and arr_delay >= -91.00 and arr_delay <= 273.00;
+",100
+US,417,0.007691480219364166,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HYA' and arr_delay >= 188.00 and arr_delay < 708.00;
+",100
+US,418,0.010508440434932709,115.05376344086022,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EFD' and arr_delay > -58.00 and arr_delay < 1116.00;
+",100
+US,419,0.007592730224132538,1.477832512315271,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOS' and arr_delay >= 217.00 and arr_delay < 1073.00;
+",100
+US,420,0.008335702121257782,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'COS' and arr_delay >= 498.00 and arr_delay < 770.00;
+",100
+US,421,0.009544648230075836,16.839916839916842,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BMI' and arr_delay >= 9.00 and arr_delay <= 675.00;
+",100
+US,422,0.010751016438007355,27.15920915712799,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PFN' and arr_delay >= -83.00 and arr_delay < 447.00;
+",100
+US,423,0.008427329361438751,408.47457627118644,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TYS' and arr_delay > 196.00 and arr_delay <= 799.00;
+",100
+US,424,0.008283071219921112,41.17647058823529,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LSE' and arr_delay > 23.00 and arr_delay <= 838.00;
+",100
+US,425,0.008148930966854095,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAC' and arr_delay >= 570.00 and arr_delay < 995.00;
+",100
+US,426,0.007626816630363464,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GEG' and arr_delay >= 126.00 and arr_delay < 404.00;
+",100
+US,427,0.007838308811187744,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LNK' and arr_delay >= 175.00 and arr_delay <= 939.00;
+",100
+US,428,0.007952824234962463,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HLN' and arr_delay > 495.00 and arr_delay <= 791.00;
+",100
+US,429,0.011762835085391998,5.253058287359079,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OMA' and arr_delay > -29.00 and arr_delay <= 223.00;
+",100
+US,430,0.008445456624031067,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DBQ' and arr_delay >= 344.00 and arr_delay < 481.00;
+",100
+US,431,0.00751834362745285,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DAB' and arr_delay >= 569.00 and arr_delay <= 1052.00;
+",100
+US,432,0.008072450757026672,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROW' and arr_delay > 376.00 and arr_delay < 840.00;
+",100
+US,433,0.010131016373634338,0.398406374501992,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PSG' and arr_delay >= -39.00 and arr_delay < 115.00;
+",100
+US,434,0.00751834362745285,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JNU' and arr_delay >= 193.00 and arr_delay <= 650.00;
+",100
+US,435,0.007816903293132782,22.48062015503876,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SLC' and arr_delay > 240.00 and arr_delay < 1263.00;
+",100
+US,436,0.007661215960979462,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BRW' and arr_delay > 148.00 and arr_delay < 348.00;
+",100
+US,437,0.008213028311729431,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'VLD' and arr_delay > 132.00 and arr_delay <= 168.00;
+",100
+US,438,0.008068956434726715,22.950819672131146,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ACV' and arr_delay > 43.00 and arr_delay <= 582.00;
+",100
+US,439,0.00869588553905487,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AVL' and arr_delay >= 43.00 and arr_delay < 884.00;
+",100
+US,440,0.00823412835597992,104.08163265306123,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SLC' and arr_delay > 297.00 and arr_delay < 598.00;
+",100
+US,441,0.009218379855155945,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JMS' and arr_delay > 11.00 and arr_delay <= 204.00;
+",100
+US,442,0.008314698934555054,50.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HNL' and arr_delay >= 149.00 and arr_delay < 709.00;
+",100
+US,443,0.011201083660125732,3.0945864411818715,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DTW' and arr_delay > -68.00 and arr_delay <= 824.00;
+",100
+US,444,0.007906824350357056,443.47826086956525,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIA' and arr_delay > 105.00 and arr_delay <= 937.00;
+",100
+US,445,0.007528252899646759,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GFK' and arr_delay >= 351.00 and arr_delay <= 871.00;
+",100
+US,446,0.008950978517532349,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CLL' and arr_delay >= 49.00 and arr_delay <= 63.00;
+",100
+US,447,0.010607637465000153,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MTH' and arr_delay >= -76.00 and arr_delay <= 47.00;
+",100
+US,448,0.008013375103473663,32.432432432432435,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OKC' and arr_delay > 157.00 and arr_delay < 503.00;
+",100
+US,449,0.007566109299659729,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MOT' and arr_delay > 591.00 and arr_delay < 977.00;
+",100
+US,450,0.00833534449338913,30.79584775086505,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BTR' and arr_delay > 21.00 and arr_delay <= 173.00;
+",100
+US,451,0.007612362504005432,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RDD' and arr_delay >= 117.00 and arr_delay < 947.00;
+",100
+US,452,0.010398656129837036,19.35483870967742,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GRI' and arr_delay > -84.00 and arr_delay <= 109.00;
+",100
+US,453,0.007700406014919281,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'KOA' and arr_delay > 192.00 and arr_delay < 419.00;
+",100
+US,454,0.007458128035068512,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TVC' and arr_delay >= 158.00 and arr_delay <= 621.00;
+",100
+US,455,0.010606981813907623,29.078014184397162,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ABR' and arr_delay > -81.00 and arr_delay < 360.00;
+",100
+US,456,0.007748179137706757,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ALO' and arr_delay >= 419.00 and arr_delay <= 851.00;
+",100
+US,457,0.008417554199695587,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MQT' and arr_delay > 110.00 and arr_delay <= 703.00;
+",100
+US,458,0.00841490924358368,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LRD' and arr_delay >= 199.00 and arr_delay <= 779.00;
+",100
+US,459,0.008467160165309906,29.14083259521701,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BNA' and arr_delay > 78.00 and arr_delay < 175.00;
+",100
+US,460,0.008048593997955322,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIA' and arr_delay >= 501.00 and arr_delay <= 1234.00;
+",100
+US,461,0.007978998124599457,117.3913043478261,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROC' and arr_delay >= 230.00 and arr_delay <= 826.00;
+",100
+US,462,0.007946036756038666,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BIS' and arr_delay >= 610.00 and arr_delay < 984.00;
+",100
+US,463,0.0085369274020195,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'VCT' and arr_delay >= 35.00 and arr_delay < 309.00;
+",100
+US,464,0.008077487349510193,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ANC' and arr_delay > 284.00 and arr_delay < 394.00;
+",100
+US,465,0.00820857286453247,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AMA' and arr_delay >= 214.00 and arr_delay <= 521.00;
+",100
+US,466,0.00757213681936264,23.456790123456788,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAC' and arr_delay >= 70.00 and arr_delay <= 158.00;
+",100
+US,467,0.007514454424381256,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROC' and arr_delay >= 304.00 and arr_delay < 862.00;
+",100
+US,468,0.0076761990785598755,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MDW' and arr_delay > 325.00 and arr_delay < 446.00;
+",100
+US,469,0.007683776319026947,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HYA' and arr_delay > 121.00 and arr_delay <= 506.00;
+",100
+US,470,0.008799448609352112,1.1754915218974304,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CVG' and arr_delay >= 1.00 and arr_delay < 467.00;
+",100
+US,471,0.00753176212310791,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FNT' and arr_delay >= 327.00 and arr_delay <= 774.00;
+",100
+US,472,0.010842464864253998,5.328049317481286,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SGF' and arr_delay > -52.00 and arr_delay < 924.00;
+",100
+US,473,0.01059415191411972,0.5964214711729622,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ACY' and arr_delay >= -27.00 and arr_delay < 541.00;
+",100
+US,474,0.008308202028274536,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EWN' and arr_delay >= 151.00 and arr_delay < 557.00;
+",100
+US,475,0.008343681693077087,117.3913043478261,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAS' and arr_delay >= 362.00 and arr_delay <= 835.00;
+",100
+US,476,0.00846865028142929,257.14285714285717,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ATW' and arr_delay > 88.00 and arr_delay <= 320.00;
+",100
+US,477,0.008009620010852814,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAI' and arr_delay >= 151.00 and arr_delay <= 398.00;
+",100
+US,478,0.00793825089931488,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SEA' and arr_delay >= 464.00 and arr_delay <= 521.00;
+",100
+US,479,0.009559735655784607,0.21248492505599265,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CVG' and arr_delay >= -2.00 and arr_delay <= 320.00;
+",100
+US,480,0.007933788001537323,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PWM' and arr_delay >= 217.00 and arr_delay <= 666.00;
+",100
+US,481,0.00797012448310852,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MOB' and arr_delay > 236.00 and arr_delay <= 927.00;
+",100
+US,482,0.009819254279136658,7.709750566893423,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GPT' and arr_delay >= -5.00 and arr_delay < 265.00;
+",100
+US,483,0.008495569229125977,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RKS' and arr_delay > 52.00 and arr_delay <= 335.00;
+",100
+US,484,0.00815477967262268,177.77777777777777,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GJT' and arr_delay >= 98.00 and arr_delay <= 704.00;
+",100
+US,485,0.007531516253948212,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TUL' and arr_delay >= 152.00 and arr_delay <= 245.00;
+",100
+US,486,0.01030665636062622,2.8491210158568103,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CVG' and arr_delay >= -54.00 and arr_delay <= 159.00;
+",100
+US,487,0.007500931620597839,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CID' and arr_delay >= 571.00 and arr_delay <= 948.00;
+",100
+US,488,0.010172292590141296,8.72210953346856,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RIC' and arr_delay >= -19.00 and arr_delay < 718.00;
+",100
+US,489,0.007647588849067688,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IDA' and arr_delay > 316.00 and arr_delay <= 418.00;
+",100
+US,490,0.010366514325141907,3.1620784382488747,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AUS' and arr_delay > -25.00 and arr_delay < 340.00;
+",100
+US,491,0.007986180484294891,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SJT' and arr_delay >= 225.00 and arr_delay < 397.00;
+",100
+US,492,0.008091740310192108,25.37313432835821,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SBA' and arr_delay >= 107.00 and arr_delay <= 523.00;
+",100
+US,493,0.008444353938102722,94.1747572815534,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MRY' and arr_delay > 101.00 and arr_delay <= 785.00;
+",100
+US,494,0.008156813681125641,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JFK' and arr_delay >= 645.00 and arr_delay <= 731.00;
+",100
+US,495,0.00856248289346695,2.564102564102564,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CLL' and arr_delay >= 11.00 and arr_delay < 586.00;
+",100
+US,496,0.010476119816303253,8.7893864013267,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MBS' and arr_delay >= -65.00 and arr_delay < 908.00;
+",100
+US,497,0.010333843529224396,5.332790555668635,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SJU' and arr_delay >= -79.00 and arr_delay < 694.00;
+",100
+US,498,0.008230909705162048,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MDW' and arr_delay >= 232.00 and arr_delay <= 862.00;
+",100
+US,499,0.008196763694286346,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PSG' and arr_delay >= 219.00 and arr_delay <= 330.00;
+",100
+US,500,0.008608728647232056,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BET' and arr_delay > 31.00 and arr_delay <= 822.00;
+",100
+US,501,0.008367985486984253,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DLG' and arr_delay > 121.00 and arr_delay < 175.00;
+",100
+US,502,0.010343439877033234,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MIB' and arr_delay >= -87.00 and arr_delay < 651.00;
+",100
+US,503,0.009938560426235199,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HIB' and arr_delay >= -13.00 and arr_delay <= 227.00;
+",100
+US,504,0.010511845350265503,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PUB' and arr_delay >= -18.00 and arr_delay < 958.00;
+",100
+US,505,0.007603190839290619,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TUL' and arr_delay > 325.00 and arr_delay < 485.00;
+",100
+US,506,0.009728588163852692,36.986301369863014,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MYR' and arr_delay >= 5.00 and arr_delay < 485.00;
+",100
+US,507,0.009893149137496948,26.51646447140381,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OMA' and arr_delay > -40.00 and arr_delay <= -8.00;
+",100
+US,508,0.013283111155033112,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FCA' and arr_delay >= 324.00 and arr_delay < 688.00;
+",100
+US,509,0.00788155198097229,29.577464788732392,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IND' and arr_delay > 151.00 and arr_delay <= 1169.00;
+",100
+US,510,0.00861145555973053,78.57142857142857,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MBS' and arr_delay > 109.00 and arr_delay < 495.00;
+",100
+US,511,0.007878340780735016,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RNO' and arr_delay > 539.00 and arr_delay <= 944.00;
+",100
+US,512,0.008133001625537872,112.7659574468085,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PHF' and arr_delay >= 142.00 and arr_delay < 725.00;
+",100
+US,513,0.010461807250976562,1.0101010101010102,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MAF' and arr_delay >= -40.00 and arr_delay <= 974.00;
+",100
+US,514,0.00862351804971695,44.4043321299639,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TOL' and arr_delay >= 17.00 and arr_delay < 851.00;
+",100
+US,515,0.008351877331733704,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LIH' and arr_delay >= 75.00 and arr_delay < 927.00;
+",100
+US,516,0.007834456861019135,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EVV' and arr_delay >= 353.00 and arr_delay < 389.00;
+",100
+US,517,0.011101648211479187,76.99115044247787,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LMT' and arr_delay > -25.00 and arr_delay <= 583.00;
+",100
+US,518,0.011237286031246185,2.2250127536004394,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EWR' and arr_delay > -61.00 and arr_delay < 887.00;
+",100
+US,519,0.0076714083552360535,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BIS' and arr_delay > 668.00 and arr_delay <= 1002.00;
+",100
+US,520,0.007594265043735504,62.41299303944315,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ONT' and arr_delay >= 59.00 and arr_delay < 755.00;
+",100
+US,521,0.010063126683235168,59.83935742971887,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BKG' and arr_delay >= -75.00 and arr_delay < 90.00;
+",100
+US,522,0.008207984268665314,18.69918699186992,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RSW' and arr_delay >= 83.00 and arr_delay <= 881.00;
+",100
+US,523,0.00820910930633545,66.5551839464883,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'KTN' and arr_delay >= 22.00 and arr_delay <= 808.00;
+",100
+US,524,0.010252892971038818,1.9607843137254901,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BTM' and arr_delay >= -34.00 and arr_delay < 412.00;
+",100
+US,525,0.008564814925193787,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CPR' and arr_delay >= 147.00 and arr_delay < 177.00;
+",100
+US,526,0.008368760347366333,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HSV' and arr_delay > 395.00 and arr_delay <= 490.00;
+",100
+US,527,0.00864170491695404,10.913140311804009,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LFT' and arr_delay > 16.00 and arr_delay <= 213.00;
+",100
+US,528,0.007974416017532349,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DHN' and arr_delay >= 276.00 and arr_delay <= 619.00;
+",100
+US,529,0.007686033844947815,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PNS' and arr_delay >= 312.00 and arr_delay < 349.00;
+",100
+US,530,0.008540049195289612,56.043956043956044,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ACV' and arr_delay >= 11.00 and arr_delay <= 166.00;
+",100
+US,531,0.008565209805965424,75.43859649122807,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MYR' and arr_delay > 123.00 and arr_delay < 454.00;
+",100
+US,532,0.008103594183921814,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TUS' and arr_delay >= 438.00 and arr_delay <= 1037.00;
+",100
+US,533,0.00812479853630066,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAX' and arr_delay > 757.00 and arr_delay <= 937.00;
+",100
+US,534,0.011096321046352386,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AZA' and arr_delay > -59.00 and arr_delay <= 476.00;
+",100
+US,535,0.007875360548496246,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSY' and arr_delay > 241.00 and arr_delay < 1132.00;
+",100
+US,536,0.007667459547519684,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TLH' and arr_delay > 542.00 and arr_delay < 1106.00;
+",100
+US,537,0.010131917893886566,11.893907998342312,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MFR' and arr_delay > -76.00 and arr_delay < 82.00;
+",100
+US,538,0.008134044706821442,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JMS' and arr_delay > 89.00 and arr_delay < 288.00;
+",100
+US,539,0.010418243706226349,1328.5714285714287,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'KSM' and arr_delay >= -83.00 and arr_delay <= 496.00;
+",100
+US,540,0.007482782006263733,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RSW' and arr_delay >= 269.00 and arr_delay < 537.00;
+",100
+US,541,0.007957428693771362,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ACV' and arr_delay > 99.00 and arr_delay <= 146.00;
+",100
+US,542,0.008153438568115234,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DUT' and arr_delay > 53.00 and arr_delay <= 1110.00;
+",100
+US,543,0.010931737720966339,152.10084033613444,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JLN' and arr_delay >= -23.00 and arr_delay <= 141.00;
+",100
+US,544,0.007551573216915131,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GRK' and arr_delay > 301.00 and arr_delay <= 1091.00;
+",100
+US,545,0.007878907024860382,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OAJ' and arr_delay >= 111.00 and arr_delay <= 293.00;
+",100
+US,546,0.00805538147687912,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GRK' and arr_delay >= 201.00 and arr_delay < 307.00;
+",100
+US,547,0.008589625358581543,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PSE' and arr_delay > 172.00 and arr_delay <= 745.00;
+",100
+US,548,0.008059792220592499,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HDN' and arr_delay > 128.00 and arr_delay < 1169.00;
+",100
+US,549,0.008122511208057404,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PVD' and arr_delay > 288.00 and arr_delay < 294.00;
+",100
+US,550,0.008597008883953094,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TLH' and arr_delay > 163.00 and arr_delay < 166.00;
+",100
+US,551,0.008231118321418762,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BRD' and arr_delay > 37.00 and arr_delay < 462.00;
+",100
+US,552,0.008531764149665833,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IPL' and arr_delay >= 117.00 and arr_delay < 790.00;
+",100
+US,553,0.007910244166851044,614.2857142857143,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CPR' and arr_delay >= 107.00 and arr_delay <= 848.00;
+",100
+US,554,0.008799560368061066,12.151998944451774,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TPA' and arr_delay > 17.00 and arr_delay < 152.00;
+",100
+US,555,0.008244059979915619,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GSP' and arr_delay > 270.00 and arr_delay <= 794.00;
+",100
+US,556,0.010278783738613129,15.519839276745353,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LBB' and arr_delay > -20.00 and arr_delay <= 879.00;
+",100
+US,557,0.007601894438266754,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BRD' and arr_delay > 219.00 and arr_delay < 861.00;
+",100
+US,558,0.011152714490890503,1.0603048376408217,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MAF' and arr_delay >= -82.00 and arr_delay <= 334.00;
+",100
+US,559,0.010872229933738708,13.725490196078432,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MFR' and arr_delay > -62.00 and arr_delay < 534.00;
+",100
+US,560,0.007790662348270416,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ACT' and arr_delay > 149.00 and arr_delay <= 985.00;
+",100
+US,561,0.00827646255493164,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AVL' and arr_delay >= 180.00 and arr_delay <= 685.00;
+",100
+US,562,0.009320028126239777,1.2424338961452692,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MCI' and arr_delay > 5.00 and arr_delay <= 175.00;
+",100
+US,563,0.0076898932456970215,20.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAX' and arr_delay >= 154.00 and arr_delay < 250.00;
+",100
+US,564,0.01114162802696228,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SPN' and arr_delay >= -91.00 and arr_delay <= 576.00;
+",100
+US,565,0.007717534899711609,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'KTN' and arr_delay > 224.00 and arr_delay <= 1110.00;
+",100
+US,566,0.007550261914730072,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'UST' and arr_delay > 321.00 and arr_delay <= 826.00;
+",100
+US,567,0.011446051299571991,20.898100172711572,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'VLD' and arr_delay > -37.00 and arr_delay < 482.00;
+",100
+US,568,0.008422605693340302,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MLI' and arr_delay > 187.00 and arr_delay < 859.00;
+",100
+US,569,0.01118539273738861,12.5,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TWF' and arr_delay >= -38.00 and arr_delay < 1434.00;
+",100
+US,570,0.0074027180671691895,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAV' and arr_delay >= 325.00 and arr_delay < 406.00;
+",100
+US,571,0.008862994611263275,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AVP' and arr_delay > 82.00 and arr_delay < 321.00;
+",100
+US,572,0.007761634886264801,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TRI' and arr_delay > 168.00 and arr_delay < 1112.00;
+",100
+US,573,0.0077520012855529785,24.242424242424242,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CLE' and arr_delay >= 44.00 and arr_delay <= 252.00;
+",100
+US,574,0.009995490312576294,22.118380062305295,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HDN' and arr_delay >= -12.00 and arr_delay <= 521.00;
+",100
+US,575,0.00784408301115036,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DAB' and arr_delay > 108.00 and arr_delay < 151.00;
+",100
+US,576,0.010844938457012177,26.221498371335507,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ILM' and arr_delay > -65.00 and arr_delay <= 1425.00;
+",100
+US,577,0.008128359913825989,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RST' and arr_delay > 419.00 and arr_delay < 501.00;
+",100
+US,578,0.00768066942691803,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SLC' and arr_delay > 421.00 and arr_delay < 504.00;
+",100
+US,579,0.007626928389072418,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BTV' and arr_delay >= 414.00 and arr_delay <= 896.00;
+",100
+US,580,0.008191779255867004,2.975420439844761,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSP' and arr_delay >= 118.00 and arr_delay < 281.00;
+",100
+US,581,0.00833052396774292,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LNK' and arr_delay > 120.00 and arr_delay < 415.00;
+",100
+US,582,0.007993817329406738,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SBA' and arr_delay >= 212.00 and arr_delay < 309.00;
+",100
+US,583,0.007743731141090393,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TOL' and arr_delay > 331.00 and arr_delay <= 682.00;
+",100
+US,584,0.007727213203907013,28.57142857142857,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BWI' and arr_delay > 191.00 and arr_delay < 458.00;
+",100
+US,585,0.011453084647655487,18.774229278198266,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GSO' and arr_delay > -45.00 and arr_delay < 920.00;
+",100
+US,586,0.011407718062400818,14.285714285714285,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIE' and arr_delay > -20.00 and arr_delay < 295.00;
+",100
+US,587,0.010753154754638672,6.308557151780138,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AEX' and arr_delay >= -55.00 and arr_delay < 364.00;
+",100
+US,588,0.00853736698627472,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EGE' and arr_delay > 473.00 and arr_delay <= 1311.00;
+",100
+US,589,0.008050724864006042,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MMH' and arr_delay > 172.00 and arr_delay <= 345.00;
+",100
+US,590,0.008004680275917053,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ONT' and arr_delay > 563.00 and arr_delay < 948.00;
+",100
+US,591,0.008366242051124573,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DLG' and arr_delay > 187.00 and arr_delay <= 427.00;
+",100
+US,592,0.007888421416282654,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SRQ' and arr_delay >= 214.00 and arr_delay < 567.00;
+",100
+US,593,0.007585182785987854,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MLI' and arr_delay >= 617.00 and arr_delay < 1382.00;
+",100
+US,594,0.008454598486423492,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'COS' and arr_delay > 201.00 and arr_delay <= 599.00;
+",100
+US,595,0.007599480450153351,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LYH' and arr_delay > 131.00 and arr_delay <= 180.00;
+",100
+US,596,0.008751176297664642,14.772727272727273,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GTF' and arr_delay >= 8.00 and arr_delay <= 638.00;
+",100
+US,597,0.011012353003025055,2.4390243902439024,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BTM' and arr_delay >= -68.00 and arr_delay <= 791.00;
+",100
+US,598,0.010945461690425873,0.9189829170660201,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ELP' and arr_delay > -56.00 and arr_delay <= 221.00;
+",100
+US,599,0.008412554860115051,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MCN' and arr_delay >= 381.00 and arr_delay <= 645.00;
+",100
+US,600,0.011563368141651154,8.6477756570254,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAT' and arr_delay > -59.00 and arr_delay < 143.00;
+",100
+US,601,0.008637718856334686,26.74271229404309,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SBA' and arr_delay >= 22.00 and arr_delay <= 861.00;
+",100
+US,602,0.007899686694145203,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROC' and arr_delay >= 335.00 and arr_delay <= 766.00;
+",100
+US,603,0.008693121373653412,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GFK' and arr_delay > 540.00 and arr_delay <= 1195.00;
+",100
+US,604,0.007970541715621948,28.824476650563607,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CMH' and arr_delay >= 116.00 and arr_delay <= 1274.00;
+",100
+US,605,0.01048075407743454,94.1747572815534,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HOB' and arr_delay >= -42.00 and arr_delay < 571.00;
+",100
+US,606,0.007916048169136047,26.31578947368421,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAS' and arr_delay >= 84.00 and arr_delay <= 755.00;
+",100
+US,607,0.0074945613741874695,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DSM' and arr_delay >= 212.00 and arr_delay <= 1094.00;
+",100
+US,608,0.007572002708911896,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OTZ' and arr_delay > 295.00 and arr_delay < 609.00;
+",100
+US,609,0.007747553288936615,40.845070422535215,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JNU' and arr_delay >= 76.00 and arr_delay < 859.00;
+",100
+US,610,0.007943473756313324,52.28426395939086,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DAY' and arr_delay > 78.00 and arr_delay < 1093.00;
+",100
+US,611,0.007705628871917725,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAX' and arr_delay > 235.00 and arr_delay <= 870.00;
+",100
+US,612,0.008964166045188904,19.760479041916167,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TOL' and arr_delay >= 13.00 and arr_delay <= 862.00;
+",100
+US,613,0.011071525514125824,4.1052838342172455,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HOU' and arr_delay > -70.00 and arr_delay <= 428.00;
+",100
+US,614,0.008141733705997467,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OKC' and arr_delay >= 492.00 and arr_delay < 852.00;
+",100
+US,615,0.011035174131393433,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ART' and arr_delay >= -95.00 and arr_delay < 200.00;
+",100
+US,616,0.008374817669391632,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSN' and arr_delay > 181.00 and arr_delay <= 900.00;
+",100
+US,617,0.008399933576583862,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GST' and arr_delay > 85.00 and arr_delay <= 445.00;
+",100
+US,618,0.008207254111766815,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ALO' and arr_delay >= 364.00 and arr_delay <= 707.00;
+",100
+US,619,0.0083942711353302,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ABI' and arr_delay > 169.00 and arr_delay < 962.00;
+",100
+US,620,0.009032577276229858,47.05882352941176,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PSC' and arr_delay > 24.00 and arr_delay <= 438.00;
+",100
+US,621,0.008252948522567749,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TVC' and arr_delay > 243.00 and arr_delay < 257.00;
+",100
+US,622,0.011337891221046448,25.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BLI' and arr_delay > -83.00 and arr_delay < 455.00;
+",100
+US,623,0.008246175944805145,0.9081735620585267,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MDW' and arr_delay > 84.00 and arr_delay < 663.00;
+",100
+US,624,0.007664032280445099,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ELM' and arr_delay > 127.00 and arr_delay <= 225.00;
+",100
+US,625,0.007464945316314697,25.37313432835821,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SJC' and arr_delay >= 177.00 and arr_delay < 670.00;
+",100
+US,626,0.007608406245708466,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'VPS' and arr_delay > 189.00 and arr_delay < 280.00;
+",100
+US,627,0.007817305624485016,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JMS' and arr_delay > 135.00 and arr_delay < 1434.00;
+",100
+US,628,0.00797022134065628,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OTH' and arr_delay >= 128.00 and arr_delay <= 547.00;
+",100
+US,629,0.010374195873737335,28.79746835443038,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CLL' and arr_delay > -45.00 and arr_delay <= 197.00;
+",100
+US,630,0.00868978351354599,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAV' and arr_delay >= 413.00 and arr_delay < 559.00;
+",100
+US,631,0.010665930807590485,8.932461873638346,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CEC' and arr_delay > -95.00 and arr_delay <= 139.00;
+",100
+US,632,0.008112020790576935,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DAY' and arr_delay > 461.00 and arr_delay < 701.00;
+",100
+US,633,0.0075540244579315186,156.4102564102564,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ELP' and arr_delay >= 178.00 and arr_delay <= 685.00;
+",100
+US,634,0.008292429149150848,1.0101010101010102,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PDX' and arr_delay >= 172.00 and arr_delay < 535.00;
+",100
+US,635,0.011044241487979889,1.9734296401393008,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BHM' and arr_delay >= -45.00 and arr_delay < 1167.00;
+",100
+US,636,0.008581601083278656,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OME' and arr_delay >= 140.00 and arr_delay < 855.00;
+",100
+US,637,0.008195966482162476,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HPN' and arr_delay >= 232.00 and arr_delay <= 828.00;
+",100
+US,638,0.00864805281162262,49.74874371859296,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IAH' and arr_delay > 256.00 and arr_delay <= 1130.00;
+",100
+US,639,0.0081358402967453,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FSD' and arr_delay > 531.00 and arr_delay <= 1122.00;
+",100
+US,640,0.007981456816196442,187.76978417266187,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OAK' and arr_delay >= 158.00 and arr_delay <= 468.00;
+",100
+US,641,0.007915161550045013,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RKS' and arr_delay > 142.00 and arr_delay < 984.00;
+",100
+US,642,0.010143518447875977,0.7342406876790831,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CMH' and arr_delay > -13.00 and arr_delay <= 177.00;
+",100
+US,643,0.007485799491405487,577.9661016949152,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GNV' and arr_delay >= 100.00 and arr_delay < 645.00;
+",100
+US,644,0.010226815938949585,4.013961605584642,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CRW' and arr_delay >= -73.00 and arr_delay <= 554.00;
+",100
+US,645,0.007719293236732483,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GTF' and arr_delay >= 230.00 and arr_delay < 606.00;
+",100
+US,646,0.007826365530490875,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OAJ' and arr_delay > 508.00 and arr_delay < 903.00;
+",100
+US,647,0.008520983159542084,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BQN' and arr_delay >= 235.00 and arr_delay < 690.00;
+",100
+US,648,0.008338116109371185,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FWA' and arr_delay >= 629.00 and arr_delay <= 849.00;
+",100
+US,649,0.01070818305015564,19.64937910883857,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LFT' and arr_delay >= -25.00 and arr_delay < 1260.00;
+",100
+US,650,0.007847204804420471,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FCA' and arr_delay > 148.00 and arr_delay < 818.00;
+",100
+US,651,0.008960962295532227,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'KOA' and arr_delay > 818.00 and arr_delay < 1326.00;
+",100
+US,652,0.00818217545747757,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ACY' and arr_delay > 584.00 and arr_delay < 1419.00;
+",100
+US,653,0.00831717997789383,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BUR' and arr_delay > 544.00 and arr_delay <= 1130.00;
+",100
+US,654,0.011195860803127289,6.890130353817504,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OKC' and arr_delay > -38.00 and arr_delay <= 1232.00;
+",100
+US,655,0.011358492076396942,8.235620620273364,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SJU' and arr_delay >= -11.00 and arr_delay <= 901.00;
+",100
+US,656,0.008441932499408722,0.5025125628140703,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FNT' and arr_delay >= 45.00 and arr_delay < 161.00;
+",100
+US,657,0.00811806321144104,934.4827586206897,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GNV' and arr_delay > 138.00 and arr_delay <= 411.00;
+",100
+US,658,0.008108623325824738,11.30820399113082,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PHL' and arr_delay > 208.00 and arr_delay <= 1271.00;
+",100
+US,659,0.010421738028526306,13.5126729902037,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PNS' and arr_delay >= -45.00 and arr_delay < 649.00;
+",100
+US,660,0.0077628642320632935,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAX' and arr_delay > 223.00 and arr_delay < 1238.00;
+",100
+US,661,0.007630877196788788,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PVD' and arr_delay >= 469.00 and arr_delay <= 728.00;
+",100
+US,662,0.007621496915817261,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RIC' and arr_delay > 254.00 and arr_delay < 494.00;
+",100
+US,663,0.011126898229122162,16.467780429594274,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RDD' and arr_delay >= -48.00 and arr_delay < 1051.00;
+",100
+US,664,0.008334986865520477,40.119760479041915,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CAE' and arr_delay > 112.00 and arr_delay < 394.00;
+",100
+US,665,0.008092179894447327,10.192837465564738,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ORD' and arr_delay >= 184.00 and arr_delay < 1218.00;
+",100
+US,666,0.010592274367809296,4.030710172744722,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GGG' and arr_delay >= -66.00 and arr_delay < 939.00;
+",100
+US,667,0.011444270610809326,0.1719949642711492,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SFO' and arr_delay >= -32.00 and arr_delay < 229.00;
+",100
+US,668,0.008607491850852966,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ABQ' and arr_delay > 551.00 and arr_delay <= 796.00;
+",100
+US,669,0.01116941124200821,15.606936416184972,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAR' and arr_delay > -106.00 and arr_delay <= 396.00;
+",100
+US,670,0.010861292481422424,180.37383177570095,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JLN' and arr_delay > -27.00 and arr_delay < 16.00;
+",100
+US,671,0.008486844599246979,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MFE' and arr_delay >= 496.00 and arr_delay <= 933.00;
+",100
+US,672,0.008617214858531952,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MGM' and arr_delay > 364.00 and arr_delay <= 920.00;
+",100
+US,673,0.010297834873199463,1.4659937515020427,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'COS' and arr_delay >= -16.00 and arr_delay <= 26.00;
+",100
+US,674,0.008245408535003662,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CEC' and arr_delay >= 72.00 and arr_delay < 1010.00;
+",100
+US,675,0.007406964898109436,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HOU' and arr_delay >= 601.00 and arr_delay <= 952.00;
+",100
+US,676,0.007790260016918182,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PWM' and arr_delay > 133.00 and arr_delay < 825.00;
+",100
+US,677,0.010285891592502594,21.57923201730665,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAV' and arr_delay > -79.00 and arr_delay < 578.00;
+",100
+US,678,0.0074875205755233765,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOS' and arr_delay >= 399.00 and arr_delay < 903.00;
+",100
+US,679,0.00846312940120697,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DLH' and arr_delay > 531.00 and arr_delay <= 1425.00;
+",100
+US,680,0.010926082730293274,4.50548758735022,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OAK' and arr_delay > -76.00 and arr_delay <= 792.00;
+",100
+US,681,0.008200868964195251,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SBP' and arr_delay >= 282.00 and arr_delay <= 553.00;
+",100
+US,682,0.007684767246246338,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIH' and arr_delay >= 127.00 and arr_delay <= 526.00;
+",100
+US,683,0.010160952806472778,12.625600698995196,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CID' and arr_delay > -16.00 and arr_delay <= 915.00;
+",100
+US,684,0.010593205690383911,14.213197969543149,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GJT' and arr_delay >= -9.00 and arr_delay < 1234.00;
+",100
+US,685,0.010423481464385986,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PGD' and arr_delay >= -45.00 and arr_delay < 1097.00;
+",100
+US,686,0.008413314819335938,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SWF' and arr_delay > 86.00 and arr_delay <= 495.00;
+",100
+US,687,0.008047647774219513,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BFL' and arr_delay > 281.00 and arr_delay < 1169.00;
+",100
+US,688,0.008709639310836792,24.29831595829992,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ABQ' and arr_delay >= 7.00 and arr_delay < 164.00;
+",100
+US,689,0.0118398517370224,2.097129226263389,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSP' and arr_delay >= -83.00 and arr_delay <= 398.00;
+",100
+US,690,0.007731243968009949,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EYW' and arr_delay > 556.00 and arr_delay <= 989.00;
+",100
+US,691,0.007486492395401001,31.33208255159475,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RDU' and arr_delay >= 137.00 and arr_delay < 841.00;
+",100
+US,692,0.007679268717765808,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RST' and arr_delay > 572.00 and arr_delay <= 984.00;
+",100
+US,693,0.007647790014743805,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FNT' and arr_delay > 195.00 and arr_delay < 1364.00;
+",100
+US,694,0.007839009165763855,45.05494505494506,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'XNA' and arr_delay > 121.00 and arr_delay <= 293.00;
+",100
+US,695,0.007774181663990021,64.70588235294117,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DAY' and arr_delay > 73.00 and arr_delay < 351.00;
+",100
+US,696,0.008144162595272064,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MLI' and arr_delay > 370.00 and arr_delay <= 1080.00;
+",100
+US,697,0.007729344069957733,129.00763358778627,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BNA' and arr_delay > 223.00 and arr_delay <= 1133.00;
+",100
+US,698,0.00855214148759842,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ITH' and arr_delay >= 116.00 and arr_delay <= 1169.00;
+",100
+US,699,0.007647231221199036,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BIL' and arr_delay > 225.00 and arr_delay < 553.00;
+",100
+US,700,0.008753679692745209,0.13774104683195593,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MCI' and arr_delay >= 43.00 and arr_delay <= 262.00;
+",100
+US,701,0.007938772439956665,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ACY' and arr_delay > 536.00 and arr_delay <= 873.00;
+",100
+US,702,0.010449901223182678,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HHH' and arr_delay >= -13.00 and arr_delay <= 1150.00;
+",100
+US,703,0.00845441222190857,1566.6666666666665,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CMX' and arr_delay >= 168.00 and arr_delay <= 771.00;
+",100
+US,704,0.008638188242912292,54.95495495495496,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BET' and arr_delay > 10.00 and arr_delay <= 299.00;
+",100
+US,705,0.0076653361320495605,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ITO' and arr_delay > 223.00 and arr_delay < 984.00;
+",100
+US,706,0.007642291486263275,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MKG' and arr_delay >= 220.00 and arr_delay <= 613.00;
+",100
+US,707,0.007857322692871094,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GTF' and arr_delay >= 155.00 and arr_delay <= 786.00;
+",100
+US,708,0.008663259446620941,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ISN' and arr_delay > 81.00 and arr_delay < 405.00;
+",100
+US,709,0.007631659507751465,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ADQ' and arr_delay >= 171.00 and arr_delay <= 614.00;
+",100
+US,710,0.0077234357595443726,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAR' and arr_delay > 269.00 and arr_delay <= 848.00;
+",100
+US,711,0.00748017430305481,63.934426229508205,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SHV' and arr_delay >= 147.00 and arr_delay < 931.00;
+",100
+US,712,0.00810781866312027,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PGD' and arr_delay > 36.00 and arr_delay < 72.00;
+",100
+US,713,0.007591597735881805,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BTV' and arr_delay > 553.00 and arr_delay <= 726.00;
+",100
+US,714,0.0077758654952049255,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ALO' and arr_delay >= 55.00 and arr_delay <= 62.00;
+",100
+US,715,0.008823364973068237,4.905794525417703,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSP' and arr_delay > 20.00 and arr_delay < 51.00;
+",100
+US,716,0.008260853588581085,11.11111111111111,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EWR' and arr_delay > 260.00 and arr_delay <= 371.00;
+",100
+US,717,0.0075133368372917175,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HPN' and arr_delay >= 310.00 and arr_delay < 610.00;
+",100
+US,718,0.007593609392642975,552.1739130434783,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ECP' and arr_delay >= 83.00 and arr_delay < 453.00;
+",100
+US,719,0.010530143976211548,27.31829573934837,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MOB' and arr_delay > -50.00 and arr_delay <= 138.00;
+",100
+US,720,0.008145816624164581,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SPN' and arr_delay > 206.00 and arr_delay < 506.00;
+",100
+US,721,0.01017991453409195,0.9635974304068522,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LGB' and arr_delay > -5.00 and arr_delay <= 400.00;
+",100
+US,722,0.011400878429412842,108.33333333333333,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ADK' and arr_delay > -73.00 and arr_delay <= 502.00;
+",100
+US,723,0.007709003984928131,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ACY' and arr_delay > 130.00 and arr_delay < 286.00;
+",100
+US,724,0.011729508638381958,3.7609772635308785,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SLC' and arr_delay > -56.00 and arr_delay < 766.00;
+",100
+US,725,0.011502481997013092,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIB' and arr_delay >= -53.00 and arr_delay < 474.00;
+",100
+US,726,0.00861009955406189,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAF' and arr_delay >= 132.00 and arr_delay < 944.00;
+",100
+US,727,0.00856008380651474,14.712153518123666,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LFT' and arr_delay > 16.00 and arr_delay <= 996.00;
+",100
+US,728,0.007499858736991882,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CRP' and arr_delay >= 365.00 and arr_delay < 761.00;
+",100
+US,729,0.007487095892429352,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GGG' and arr_delay >= 288.00 and arr_delay <= 509.00;
+",100
+US,730,0.007683791220188141,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIE' and arr_delay > 466.00 and arr_delay < 555.00;
+",100
+US,731,0.007939279079437256,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PPG' and arr_delay > 102.00 and arr_delay <= 136.00;
+",100
+US,732,0.00854412466287613,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DAY' and arr_delay > 407.00 and arr_delay <= 736.00;
+",100
+US,733,0.008060552179813385,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CWA' and arr_delay > 359.00 and arr_delay < 540.00;
+",100
+US,734,0.007512055337429047,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TYR' and arr_delay >= 245.00 and arr_delay < 448.00;
+",100
+US,735,0.008060730993747711,48.51485148514851,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HSV' and arr_delay > 87.00 and arr_delay <= 248.00;
+",100
+US,736,0.007790893316268921,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MRY' and arr_delay >= 528.00 and arr_delay <= 1002.00;
+",100
+US,737,0.010288558900356293,1.5281523249162376,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IAH' and arr_delay > -17.00 and arr_delay <= 626.00;
+",100
+US,738,0.010430656373500824,8.430799220272904,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TUS' and arr_delay >= -87.00 and arr_delay < 905.00;
+",100
+US,739,0.00827835500240326,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HPN' and arr_delay > 218.00 and arr_delay <= 325.00;
+",100
+US,740,0.007911168038845062,77.35334242837654,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JAN' and arr_delay > 33.00 and arr_delay < 651.00;
+",100
+US,741,0.008302196860313416,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OMA' and arr_delay > 535.00 and arr_delay < 670.00;
+",100
+US,742,0.01076209545135498,3.1407922621311744,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SLC' and arr_delay >= -11.00 and arr_delay < 1053.00;
+",100
+US,743,0.00748075544834137,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MTJ' and arr_delay >= 408.00 and arr_delay < 1260.00;
+",100
+US,744,0.010338358581066132,1.0941960038058993,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RIC' and arr_delay >= -6.00 and arr_delay < 239.00;
+",100
+US,745,0.008437581360340118,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SPN' and arr_delay >= 70.00 and arr_delay <= 497.00;
+",100
+US,746,0.007961191236972809,24.610591900311526,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FNT' and arr_delay > 29.00 and arr_delay <= 185.00;
+",100
+US,747,0.007761038839817047,8.256880733944955,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OMA' and arr_delay >= 48.00 and arr_delay <= 766.00;
+",100
+US,748,0.009334780275821686,0.7748352029605643,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CLT' and arr_delay >= 2.00 and arr_delay < 682.00;
+",100
+US,749,0.007640816271305084,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SYR' and arr_delay >= 316.00 and arr_delay <= 383.00;
+",100
+US,750,0.007992081344127655,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SPI' and arr_delay > 178.00 and arr_delay <= 953.00;
+",100
+US,751,0.00853119045495987,72.41379310344827,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MYR' and arr_delay >= 113.00 and arr_delay < 251.00;
+",100
+US,752,0.008006013929843903,18.3691363437089,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ONT' and arr_delay > 26.00 and arr_delay <= 616.00;
+",100
+US,753,0.010429896414279938,3.0927835051546393,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GUC' and arr_delay > -82.00 and arr_delay <= 126.00;
+",100
+US,754,0.00757347047328949,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GUM' and arr_delay > 416.00 and arr_delay < 860.00;
+",100
+US,755,0.0111113041639328,13.636363636363635,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OAJ' and arr_delay > -83.00 and arr_delay <= 852.00;
+",100
+US,756,0.007948152720928192,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MDT' and arr_delay >= 457.00 and arr_delay <= 1004.00;
+",100
+US,757,0.007920660078525543,300.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OAK' and arr_delay >= 187.00 and arr_delay <= 670.00;
+",100
+US,758,0.007662862539291382,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CMH' and arr_delay > 425.00 and arr_delay < 675.00;
+",100
+US,759,0.00850699096918106,244.82758620689654,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAR' and arr_delay > 66.00 and arr_delay <= 182.00;
+",100
+US,760,0.008753031492233276,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HPN' and arr_delay > 627.00 and arr_delay < 864.00;
+",100
+US,761,0.008387811481952667,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GCC' and arr_delay > 14.00 and arr_delay < 89.00;
+",100
+US,762,0.00843154639005661,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DEN' and arr_delay >= 793.00 and arr_delay <= 833.00;
+",100
+US,763,0.007957540452480316,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BNA' and arr_delay >= 437.00 and arr_delay <= 605.00;
+",100
+US,764,0.007822223007678986,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AVL' and arr_delay >= 70.00 and arr_delay <= 851.00;
+",100
+US,765,0.008587941527366638,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IYK' and arr_delay > 5.00 and arr_delay < 289.00;
+",100
+US,766,0.007422208786010742,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GRK' and arr_delay >= 610.00 and arr_delay <= 875.00;
+",100
+US,767,0.008383646607398987,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BQN' and arr_delay > 96.00 and arr_delay <= 263.00;
+",100
+US,768,0.007678046822547913,233.33333333333334,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MDT' and arr_delay >= 235.00 and arr_delay <= 893.00;
+",100
+US,769,0.010382957756519318,5.044510385756676,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ITO' and arr_delay >= -43.00 and arr_delay <= 198.00;
+",100
+US,770,0.008210130035877228,222.5806451612903,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROA' and arr_delay > 167.00 and arr_delay <= 426.00;
+",100
+US,771,0.008440494537353516,15.71395510298542,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ELP' and arr_delay >= 7.00 and arr_delay < 211.00;
+",100
+US,772,0.007988020777702332,1.1279657720731233,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MDW' and arr_delay >= 30.00 and arr_delay <= 378.00;
+",100
+US,773,0.008212007582187653,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LMT' and arr_delay > 161.00 and arr_delay < 1106.00;
+",100
+US,774,0.0076560452580451965,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MIA' and arr_delay > 514.00 and arr_delay <= 534.00;
+",100
+US,775,0.0085282102227211,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SLE' and arr_delay > 118.00 and arr_delay < 209.00;
+",100
+US,776,0.010792769491672516,4.534606205250596,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ITO' and arr_delay > -27.00 and arr_delay <= 205.00;
+",100
+US,777,0.008032962679862976,10.112359550561797,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MDW' and arr_delay >= 133.00 and arr_delay <= 472.00;
+",100
+US,778,0.008511587977409363,48.717948717948715,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MKE' and arr_delay > 169.00 and arr_delay < 573.00;
+",100
+US,779,0.012109726667404175,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CIU' and arr_delay >= -26.00 and arr_delay <= 177.00;
+",100
+US,780,0.007834859192371368,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OTZ' and arr_delay >= 179.00 and arr_delay < 443.00;
+",100
+US,781,0.008527703583240509,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ILG' and arr_delay > 76.00 and arr_delay < 186.00;
+",100
+US,782,0.007611662149429321,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AKN' and arr_delay > 113.00 and arr_delay < 470.00;
+",100
+US,783,0.010187461972236633,63.74269005847953,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SPS' and arr_delay >= -18.00 and arr_delay <= 569.00;
+",100
+US,784,0.0077170878648757935,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CLD' and arr_delay > 126.00 and arr_delay <= 348.00;
+",100
+US,785,0.007922172546386719,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MOB' and arr_delay > 188.00 and arr_delay < 1097.00;
+",100
+US,786,0.007747344672679901,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ORF' and arr_delay > 396.00 and arr_delay <= 590.00;
+",100
+US,787,0.007778674364089966,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FWA' and arr_delay > 212.00 and arr_delay <= 329.00;
+",100
+US,788,0.007540807127952576,6.5420560747663545,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DCA' and arr_delay >= 287.00 and arr_delay < 512.00;
+",100
+US,789,0.008099749684333801,55.15695067264574,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AZO' and arr_delay >= 27.00 and arr_delay < 833.00;
+",100
+US,790,0.01038922369480133,15.131578947368421,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LBB' and arr_delay >= -51.00 and arr_delay <= 531.00;
+",100
+US,791,0.011103026568889618,19.852034525277436,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FNT' and arr_delay >= -29.00 and arr_delay <= 462.00;
+",100
+US,792,0.008367970585823059,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'KTN' and arr_delay >= 50.00 and arr_delay <= 924.00;
+",100
+US,793,0.010897018015384674,2.219626168224299,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MYR' and arr_delay > -84.00 and arr_delay <= 294.00;
+",100
+US,794,0.00784805417060852,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SPS' and arr_delay >= 57.00 and arr_delay < 766.00;
+",100
+US,795,0.008828207850456238,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BIS' and arr_delay > 100.00 and arr_delay < 771.00;
+",100
+US,796,0.011423297226428986,4.234860080850897,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ONT' and arr_delay >= -32.00 and arr_delay < 475.00;
+",100
+US,797,0.010587744414806366,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LNY' and arr_delay >= -29.00 and arr_delay < 116.00;
+",100
+US,798,0.0077271535992622375,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RDD' and arr_delay > 214.00 and arr_delay <= 329.00;
+",100
+US,799,0.007389254868030548,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JFK' and arr_delay >= 376.00 and arr_delay < 773.00;
+",100
+US,800,0.0075921788811683655,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FWA' and arr_delay >= 719.00 and arr_delay <= 985.00;
+",100
+US,801,0.007602103054523468,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAF' and arr_delay > 290.00 and arr_delay < 1187.00;
+",100
+US,802,0.00793803483247757,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ALB' and arr_delay >= 438.00 and arr_delay <= 1099.00;
+",100
+US,803,0.008434750139713287,1328.5714285714287,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BNA' and arr_delay > 417.00 and arr_delay < 442.00;
+",100
+US,804,0.008410617709159851,43.54066985645933,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SRQ' and arr_delay >= 34.00 and arr_delay <= 822.00;
+",100
+US,805,0.008185066282749176,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MVY' and arr_delay >= 67.00 and arr_delay < 462.00;
+",100
+US,806,0.00813167542219162,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GGG' and arr_delay > 50.00 and arr_delay < 989.00;
+",100
+US,807,0.00751340389251709,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BQN' and arr_delay >= 222.00 and arr_delay < 334.00;
+",100
+US,808,0.008507199585437775,6.382978723404255,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CRW' and arr_delay >= 58.00 and arr_delay < 107.00;
+",100
+US,809,0.007945708930492401,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TYR' and arr_delay >= 160.00 and arr_delay < 1156.00;
+",100
+US,810,0.010465651750564575,3.6312767242845663,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAX' and arr_delay > -35.00 and arr_delay <= 490.00;
+",100
+US,811,0.0079483762383461,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BRW' and arr_delay > 111.00 and arr_delay <= 1218.00;
+",100
+US,812,0.008318640291690826,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAY' and arr_delay >= 238.00 and arr_delay <= 772.00;
+",100
+US,813,0.008333355188369751,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BTR' and arr_delay >= 533.00 and arr_delay < 714.00;
+",100
+US,814,0.008505471050739288,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ICT' and arr_delay > 296.00 and arr_delay < 866.00;
+",100
+US,815,0.007962748408317566,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAV' and arr_delay > 240.00 and arr_delay < 603.00;
+",100
+US,816,0.01072733849287033,4.503294581776976,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OAK' and arr_delay > -65.00 and arr_delay <= 1210.00;
+",100
+US,817,0.010096006095409393,26.369075011504833,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PHF' and arr_delay >= -23.00 and arr_delay < 104.00;
+",100
+US,818,0.007452577352523804,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PWM' and arr_delay >= 515.00 and arr_delay < 1212.00;
+",100
+US,819,0.010611340403556824,5.624764061910155,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'STT' and arr_delay > -61.00 and arr_delay <= 675.00;
+",100
+US,820,0.007532685995101929,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JFK' and arr_delay >= 590.00 and arr_delay <= 955.00;
+",100
+US,821,0.00770171731710434,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSY' and arr_delay >= 295.00 and arr_delay <= 902.00;
+",100
+US,822,0.007819928228855133,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ILG' and arr_delay > 280.00 and arr_delay < 1286.00;
+",100
+US,823,0.010462410748004913,45.05494505494506,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HDN' and arr_delay > -51.00 and arr_delay <= 464.00;
+",100
+US,824,0.007375314831733704,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SIT' and arr_delay >= 210.00 and arr_delay < 475.00;
+",100
+US,825,0.007936149835586548,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAF' and arr_delay >= 179.00 and arr_delay <= 488.00;
+",100
+US,826,0.008410759270191193,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSP' and arr_delay > 772.00 and arr_delay <= 923.00;
+",100
+US,827,0.00785333663225174,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MTJ' and arr_delay > 128.00 and arr_delay <= 321.00;
+",100
+US,828,0.007602624595165253,18.69918699186992,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SFO' and arr_delay >= 159.00 and arr_delay <= 259.00;
+",100
+US,829,0.008308030664920807,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CAK' and arr_delay >= 426.00 and arr_delay <= 1049.00;
+",100
+US,830,0.008306019008159637,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CMH' and arr_delay >= 356.00 and arr_delay <= 382.00;
+",100
+US,831,0.008243680000305176,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HRL' and arr_delay >= 132.00 and arr_delay <= 399.00;
+",100
+US,832,0.007995031774044037,19.571045576407506,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TPA' and arr_delay >= 177.00 and arr_delay < 987.00;
+",100
+US,833,0.008207887411117554,614.2857142857143,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ILG' and arr_delay >= 39.00 and arr_delay < 1444.00;
+",100
+US,834,0.011143587529659271,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PUB' and arr_delay > -25.00 and arr_delay < 576.00;
+",100
+US,835,0.007621489465236664,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'EYW' and arr_delay >= 180.00 and arr_delay < 449.00;
+",100
+US,836,0.00750548392534256,181.69014084507043,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PHX' and arr_delay >= 238.00 and arr_delay < 375.00;
+",100
+US,837,0.011185482144355774,8.932461873638346,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MGM' and arr_delay > -41.00 and arr_delay < 294.00;
+",100
+US,838,0.007858425378799438,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OKC' and arr_delay > 670.00 and arr_delay < 869.00;
+",100
+US,839,0.010746054351329803,29.16907653749759,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AMA' and arr_delay > -37.00 and arr_delay <= 493.00;
+",100
+US,840,0.008087359368801117,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PSG' and arr_delay > 135.00 and arr_delay <= 904.00;
+",100
+US,841,0.007704444229602814,167.85714285714286,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ATW' and arr_delay >= 68.00 and arr_delay < 936.00;
+",100
+US,842,0.011553928256034851,3.1224572823433685,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAS' and arr_delay >= -106.00 and arr_delay <= 151.00;
+",100
+US,843,0.008140139281749725,9.090909090909092,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DAY' and arr_delay >= 153.00 and arr_delay < 283.00;
+",100
+US,844,0.008137539029121399,36.90851735015773,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FWA' and arr_delay >= 28.00 and arr_delay < 94.00;
+",100
+US,845,0.008234910666942596,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CIU' and arr_delay > 186.00 and arr_delay <= 973.00;
+",100
+US,846,0.007655732333660126,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BGM' and arr_delay > 104.00 and arr_delay < 687.00;
+",100
+US,847,0.008257083594799042,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ABY' and arr_delay >= 51.00 and arr_delay <= 1105.00;
+",100
+US,848,0.0089658722281456,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BRD' and arr_delay >= 21.00 and arr_delay < 406.00;
+",100
+US,849,0.00827779620885849,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JNU' and arr_delay > 424.00 and arr_delay < 678.00;
+",100
+US,850,0.008030012249946594,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TLH' and arr_delay > 694.00 and arr_delay < 749.00;
+",100
+US,851,0.008187949657440186,669.2307692307693,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DFW' and arr_delay >= 720.00 and arr_delay <= 973.00;
+",100
+US,852,0.007607623934745789,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CLL' and arr_delay >= 116.00 and arr_delay < 920.00;
+",100
+US,853,0.008124060928821564,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAF' and arr_delay > 24.00 and arr_delay < 776.00;
+",100
+US,854,0.00890427827835083,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BRD' and arr_delay >= -2.00 and arr_delay < 962.00;
+",100
+US,855,0.00792732834815979,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AVL' and arr_delay > 261.00 and arr_delay < 453.00;
+",100
+US,856,0.011147305369377136,3.6570489681097365,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DAL' and arr_delay > -50.00 and arr_delay <= 414.00;
+",100
+US,857,0.008091695606708527,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MTJ' and arr_delay > 282.00 and arr_delay <= 615.00;
+",100
+US,858,0.008191488683223724,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OAJ' and arr_delay > 497.00 and arr_delay < 1014.00;
+",100
+US,859,0.010176792740821838,3.9554666980281468,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ONT' and arr_delay >= -37.00 and arr_delay < 1110.00;
+",100
+US,860,0.011404268443584442,15.849149617944294,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FSD' and arr_delay >= -43.00 and arr_delay <= 834.00;
+",100
+US,861,0.009028345346450806,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HIB' and arr_delay > 165.00 and arr_delay <= 615.00;
+",100
+US,862,0.008161075413227081,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SUX' and arr_delay >= 45.00 and arr_delay < 593.00;
+",100
+US,863,0.007724389433860779,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BKG' and arr_delay > 170.00 and arr_delay < 474.00;
+",100
+US,864,0.011892005801200867,37.675403759597565,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ABE' and arr_delay >= -59.00 and arr_delay <= 93.00;
+",100
+US,865,0.011116035282611847,51.61290322580645,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BRW' and arr_delay > -87.00 and arr_delay <= 297.00;
+",100
+US,866,0.008093021810054779,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSP' and arr_delay > 625.00 and arr_delay < 739.00;
+",100
+US,867,0.008101575076580048,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AZO' and arr_delay > 82.00 and arr_delay < 985.00;
+",100
+US,868,0.007823370397090912,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PAH' and arr_delay >= 131.00 and arr_delay < 391.00;
+",100
+US,869,0.00775214284658432,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'INL' and arr_delay > 77.00 and arr_delay < 1053.00;
+",100
+US,870,0.007506765425205231,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'COU' and arr_delay >= 384.00 and arr_delay <= 1218.00;
+",100
+US,871,0.008786126971244812,28.825622775800714,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CMI' and arr_delay > 14.00 and arr_delay < 372.00;
+",100
+US,872,0.0078046247363090515,13.793103448275861,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DTW' and arr_delay > 307.00 and arr_delay <= 1088.00;
+",100
+US,873,0.00804874300956726,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DSM' and arr_delay > 249.00 and arr_delay < 294.00;
+",100
+US,874,0.007893301546573639,51.515151515151516,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DSM' and arr_delay >= 114.00 and arr_delay < 780.00;
+",100
+US,875,0.008182704448699951,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CMX' and arr_delay >= 233.00 and arr_delay < 858.00;
+",100
+US,876,0.010157652199268341,16.033755274261605,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SJT' and arr_delay >= -84.00 and arr_delay < 367.00;
+",100
+US,877,0.008382894098758698,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROW' and arr_delay >= 550.00 and arr_delay <= 754.00;
+",100
+US,878,0.008160367608070374,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'STC' and arr_delay >= 98.00 and arr_delay <= 283.00;
+",100
+US,879,0.00853341817855835,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DAB' and arr_delay > 276.00 and arr_delay < 709.00;
+",100
+US,880,0.007582642138004303,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TLH' and arr_delay >= 842.00 and arr_delay <= 1094.00;
+",100
+US,881,0.00790368765592575,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TYS' and arr_delay >= 285.00 and arr_delay <= 517.00;
+",100
+US,882,0.012047305703163147,2.912621359223301,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LWB' and arr_delay > -37.00 and arr_delay < 1051.00;
+",100
+US,883,0.01200094074010849,4.030710172744722,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GGG' and arr_delay > -37.00 and arr_delay <= 515.00;
+",100
+US,884,0.008326701819896698,2.912621359223301,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PSC' and arr_delay > 34.00 and arr_delay <= 428.00;
+",100
+US,885,0.008951559662818909,3.3816425120772946,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TLH' and arr_delay >= 8.00 and arr_delay < 303.00;
+",100
+US,886,0.01156463474035263,52.038369304556355,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'YAK' and arr_delay >= -14.00 and arr_delay <= 101.00;
+",100
+US,887,0.007807187736034393,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROC' and arr_delay > 470.00 and arr_delay <= 772.00;
+",100
+US,888,0.007722906768321991,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SMF' and arr_delay > 328.00 and arr_delay < 1051.00;
+",100
+US,889,0.008247219026088715,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BIS' and arr_delay > 194.00 and arr_delay <= 989.00;
+",100
+US,890,0.008099950850009918,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MOD' and arr_delay >= 393.00 and arr_delay <= 1240.00;
+",100
+US,891,0.008569218218326569,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LCH' and arr_delay >= 111.00 and arr_delay <= 899.00;
+",100
+US,892,0.008589059114456177,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GRK' and arr_delay > 539.00 and arr_delay <= 888.00;
+",100
+US,893,0.00809873640537262,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PWM' and arr_delay >= 448.00 and arr_delay < 548.00;
+",100
+US,894,0.008387982845306396,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GJT' and arr_delay > 432.00 and arr_delay < 534.00;
+",100
+US,895,0.007719181478023529,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CHA' and arr_delay > 475.00 and arr_delay < 541.00;
+",100
+US,896,0.00829567015171051,1328.5714285714287,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BUF' and arr_delay >= 373.00 and arr_delay < 609.00;
+",100
+US,897,0.008368387818336487,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OME' and arr_delay >= 154.00 and arr_delay <= 649.00;
+",100
+US,898,0.0076738446950912476,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MOB' and arr_delay >= 426.00 and arr_delay <= 530.00;
+",100
+US,899,0.007837742567062378,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TPA' and arr_delay > 692.00 and arr_delay <= 1011.00;
+",100
+US,900,0.008713796734809875,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MFR' and arr_delay > 381.00 and arr_delay <= 757.00;
+",100
+US,901,0.007907025516033173,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SNA' and arr_delay >= 325.00 and arr_delay < 902.00;
+",100
+US,902,0.008469536900520325,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MQT' and arr_delay > 299.00 and arr_delay < 305.00;
+",100
+US,903,0.00853576511144638,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOI' and arr_delay > 541.00 and arr_delay <= 1535.00;
+",100
+US,904,0.007878817617893219,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MLI' and arr_delay >= 236.00 and arr_delay < 815.00;
+",100
+US,905,0.011364266276359558,5.778648383937316,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LEX' and arr_delay > -25.00 and arr_delay < 660.00;
+",100
+US,906,0.010468214750289917,23.809523809523807,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CIC' and arr_delay >= -103.00 and arr_delay < 819.00;
+",100
+US,907,0.011238902807235718,45.98540145985402,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'WYS' and arr_delay >= -24.00 and arr_delay < 33.00;
+",100
+US,908,0.008123837411403656,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CAK' and arr_delay > 152.00 and arr_delay < 899.00;
+",100
+US,909,0.009468726813793182,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'STC' and arr_delay > 28.00 and arr_delay <= 574.00;
+",100
+US,910,0.012037135660648346,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAR' and arr_delay > -58.00 and arr_delay < 527.00;
+",100
+US,911,0.008069798350334167,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TLH' and arr_delay > 876.00 and arr_delay <= 1273.00;
+",100
+US,912,0.008289732038974762,0.8539463185236745,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ATL' and arr_delay >= 17.00 and arr_delay <= 746.00;
+",100
+US,913,0.008227810263633728,18.901189011890118,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAS' and arr_delay >= 98.00 and arr_delay <= 514.00;
+",100
+US,914,0.008244886994361877,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SEA' and arr_delay > 695.00 and arr_delay <= 1088.00;
+",100
+US,915,0.008394531905651093,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MBS' and arr_delay >= 274.00 and arr_delay <= 950.00;
+",100
+US,916,0.008821055293083191,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SMF' and arr_delay >= 474.00 and arr_delay < 822.00;
+",100
+US,917,0.010863229632377625,9.262759924385634,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CID' and arr_delay > -37.00 and arr_delay <= 168.00;
+",100
+US,918,0.008748114109039307,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SWF' and arr_delay > 334.00 and arr_delay < 524.00;
+",100
+US,919,0.008181676268577576,42.028985507246375,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AVL' and arr_delay >= 28.00 and arr_delay < 736.00;
+",100
+US,920,0.008749328553676605,150.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAT' and arr_delay >= 152.00 and arr_delay < 977.00;
+",100
+US,921,0.009382173418998718,37.02042850024913,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MEM' and arr_delay > 30.00 and arr_delay <= 459.00;
+",100
+US,922,0.008114844560623169,27.00729927007299,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MCO' and arr_delay >= 199.00 and arr_delay < 550.00;
+",100
+US,923,0.008803725242614746,57.26495726495726,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MSN' and arr_delay > 92.00 and arr_delay <= 434.00;
+",100
+US,924,0.01051340252161026,2.49390586911682,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MHT' and arr_delay >= -79.00 and arr_delay < 503.00;
+",100
+US,925,0.0088883638381958,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ART' and arr_delay >= 15.00 and arr_delay < 342.00;
+",100
+US,926,0.011272057890892029,17.022574740695546,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TYS' and arr_delay >= -88.00 and arr_delay <= 510.00;
+",100
+US,927,0.012078464031219482,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MAZ' and arr_delay >= -79.00 and arr_delay <= 460.00;
+",100
+US,928,0.008587278425693512,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CAK' and arr_delay >= 278.00 and arr_delay <= 528.00;
+",100
+US,929,0.00792016088962555,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PWM' and arr_delay >= 151.00 and arr_delay < 1425.00;
+",100
+US,930,0.010505348443984985,70.2127659574468,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LMT' and arr_delay > -81.00 and arr_delay < 809.00;
+",100
+US,931,0.009522080421447754,49.622166246851386,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AVL' and arr_delay >= 6.00 and arr_delay <= 528.00;
+",100
+US,932,0.008442185819149017,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'RNO' and arr_delay > 820.00 and arr_delay <= 1412.00;
+",100
+US,933,0.01226283609867096,15.730337078651685,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FLG' and arr_delay >= -62.00 and arr_delay <= 442.00;
+",100
+US,934,0.008719824254512787,8.986792278562852,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IAD' and arr_delay > 18.00 and arr_delay <= 475.00;
+",100
+US,935,0.008191272616386414,25.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OMA' and arr_delay > 205.00 and arr_delay < 490.00;
+",100
+US,936,0.008734166622161865,37.74104683195592,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PVD' and arr_delay >= 83.00 and arr_delay < 156.00;
+",100
+US,937,0.011511750519275665,16.55011655011655,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MDT' and arr_delay > -32.00 and arr_delay < 55.00;
+",100
+US,938,0.007832653820514679,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DSM' and arr_delay >= 485.00 and arr_delay < 1273.00;
+",100
+US,939,0.008493639528751373,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BJI' and arr_delay >= 71.00 and arr_delay < 906.00;
+",100
+US,940,0.008716613054275513,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SHV' and arr_delay > 29.00 and arr_delay < 951.00;
+",100
+US,941,0.008012570440769196,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OGG' and arr_delay >= 565.00 and arr_delay <= 1041.00;
+",100
+US,942,0.007696971297264099,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ELM' and arr_delay >= 329.00 and arr_delay <= 995.00;
+",100
+US,943,0.009334258735179901,45.94594594594595,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IDA' and arr_delay > 17.00 and arr_delay <= 225.00;
+",100
+US,944,0.008630335330963135,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CDV' and arr_delay >= 191.00 and arr_delay < 849.00;
+",100
+US,945,0.007919013500213623,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FAY' and arr_delay > 149.00 and arr_delay < 499.00;
+",100
+US,946,0.008109726011753082,257.14285714285717,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MHT' and arr_delay > 149.00 and arr_delay <= 162.00;
+",100
+US,947,0.007791288197040558,132.5581395348837,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OAK' and arr_delay >= 162.00 and arr_delay <= 757.00;
+",100
+US,948,0.007783658802509308,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PWM' and arr_delay >= 196.00 and arr_delay < 1130.00;
+",100
+US,949,0.008644536137580872,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DHN' and arr_delay > 265.00 and arr_delay <= 477.00;
+",100
+US,950,0.009761624038219452,6.5821969290239455,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'IAD' and arr_delay > 0.00 and arr_delay < 51.00;
+",100
+US,951,0.008159644901752472,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ILE' and arr_delay > 190.00 and arr_delay < 451.00;
+",100
+US,952,0.011534690856933594,24.242424242424242,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BJI' and arr_delay > -106.00 and arr_delay <= 443.00;
+",100
+US,953,0.01113467663526535,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LWS' and arr_delay >= -80.00 and arr_delay < 864.00;
+",100
+US,954,0.008558407425880432,17.041133771171793,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SLC' and arr_delay > 64.00 and arr_delay < 377.00;
+",100
+US,955,0.008506745100021362,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DAB' and arr_delay > 387.00 and arr_delay < 928.00;
+",100
+US,956,0.008023634552955627,23.076923076923077,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ONT' and arr_delay > 112.00 and arr_delay < 1130.00;
+",100
+US,957,0.00802534818649292,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SRQ' and arr_delay >= 214.00 and arr_delay < 579.00;
+",100
+US,958,0.008632823824882507,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SPI' and arr_delay > 131.00 and arr_delay <= 149.00;
+",100
+US,959,0.011535942554473877,14.163090128755366,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'FLO' and arr_delay > -47.00 and arr_delay < 519.00;
+",100
+US,960,0.007951006293296814,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'DFW' and arr_delay >= 665.00 and arr_delay <= 773.00;
+",100
+US,961,0.010544247925281525,13.5126729902037,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PNS' and arr_delay > -48.00 and arr_delay < 626.00;
+",100
+US,962,0.007966838777065277,8.256880733944955,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PHL' and arr_delay >= 295.00 and arr_delay < 690.00;
+",100
+US,963,0.008374050259590149,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AVP' and arr_delay > 245.00 and arr_delay < 753.00;
+",100
+US,964,0.007732510566711426,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ELM' and arr_delay > 79.00 and arr_delay <= 708.00;
+",100
+US,965,0.010761760175228119,76.56500802568218,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BGM' and arr_delay >= -49.00 and arr_delay <= 1067.00;
+",100
+US,966,0.011124789714813232,51.1002444987775,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MQT' and arr_delay >= -28.00 and arr_delay < 1011.00;
+",100
+US,967,0.011809110641479492,4.3382756727073035,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ROC' and arr_delay > -37.00 and arr_delay <= 799.00;
+",100
+US,968,0.00884663313627243,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'JFK' and arr_delay > 311.00 and arr_delay <= 683.00;
+",100
+US,969,0.009278722107410431,17.012448132780083,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AEX' and arr_delay >= -2.00 and arr_delay <= 359.00;
+",100
+US,970,0.009333930909633636,12.88805268109125,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SAT' and arr_delay > 65.00 and arr_delay <= 486.00;
+",100
+US,971,0.008554577827453613,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MCN' and arr_delay > 491.00 and arr_delay <= 705.00;
+",100
+US,972,0.011320427060127258,94.1747572815534,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'HOB' and arr_delay >= -71.00 and arr_delay <= 548.00;
+",100
+US,973,0.009686775505542755,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BJI' and arr_delay > 7.00 and arr_delay <= 654.00;
+",100
+US,974,0.008884601294994354,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LBB' and arr_delay > 234.00 and arr_delay <= 785.00;
+",100
+US,975,0.010908126831054688,44.54664914586071,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LCH' and arr_delay > -81.00 and arr_delay < 453.00;
+",100
+US,976,0.00809834897518158,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ISP' and arr_delay > 331.00 and arr_delay <= 425.00;
+",100
+US,977,0.008028082549571991,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'CID' and arr_delay >= 740.00 and arr_delay <= 1130.00;
+",100
+US,978,0.008706346154212952,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'STX' and arr_delay > 171.00 and arr_delay < 484.00;
+",100
+US,979,0.00868416577577591,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'AVL' and arr_delay > 340.00 and arr_delay < 1214.00;
+",100
+US,980,0.011760249733924866,117.3913043478261,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ADK' and arr_delay > -46.00 and arr_delay < 307.00;
+",100
+US,981,0.0076577067375183105,244.82758620689654,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'MIA' and arr_delay >= 498.00 and arr_delay < 1174.00;
+",100
+US,982,0.007669612765312195,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LMT' and arr_delay >= 60.00 and arr_delay <= 157.00;
+",100
+US,983,0.008181236684322357,900.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SIT' and arr_delay >= 157.00 and arr_delay < 660.00;
+",100
+US,984,0.011657550930976868,2.2098044196088393,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ICT' and arr_delay > -78.00 and arr_delay < 849.00;
+",100
+US,985,0.011626027524471283,3.9855782419563424,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'ONT' and arr_delay > -59.00 and arr_delay < 921.00;
+",100
+US,986,0.0077482908964157104,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BTR' and arr_delay >= 601.00 and arr_delay < 655.00;
+",100
+US,987,0.009360924363136292,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'GCC' and arr_delay > 105.00 and arr_delay < 612.00;
+",100
+US,988,0.01182737946510315,34.2969776609724,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'OME' and arr_delay > -67.00 and arr_delay < 1576.00;
+",100
+US,989,0.010370977222919464,6.550907655880031,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BTV' and arr_delay > -9.00 and arr_delay < 1187.00;
+",100
+US,990,0.009364061057567596,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BFL' and arr_delay >= 558.00 and arr_delay < 1026.00;
+",100
+US,991,0.008430562913417816,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TVC' and arr_delay > 173.00 and arr_delay <= 531.00;
+",100
+US,992,0.008766092360019684,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BQN' and arr_delay >= 82.00 and arr_delay <= 92.00;
+",100
+US,993,0.008387118577957153,203.03030303030303,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SUN' and arr_delay > 56.00 and arr_delay <= 415.00;
+",100
+US,994,0.008527576923370361,3.807615230460922,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'LAS' and arr_delay >= 40.00 and arr_delay <= 461.00;
+",100
+US,995,0.008052855730056763,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PIE' and arr_delay >= 31.00 and arr_delay <= 255.00;
+",100
+US,996,0.008920051157474518,42.857142857142854,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'BOS' and arr_delay > 342.00 and arr_delay <= 1364.00;
+",100
+US,997,0.008205711841583252,45.53014553014553,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'PWM' and arr_delay > 47.00 and arr_delay < 526.00;
+",100
+US,998,0.010646358132362366,37.651541392448905,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'SBP' and arr_delay >= -106.00 and arr_delay <= 568.00;
+",100
+US,999,0.007917582988739014,100.0,0,0,"SELECT COUNT(*) FROM flights_sample_1p WHERE origin = 'TLH' and arr_delay > 98.00 and arr_delay <= 439.00;
+",100

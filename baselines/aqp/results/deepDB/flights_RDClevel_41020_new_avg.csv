@@ -1,0 +1,1001 @@
+approach,query_no,latency,average_relative_error,bin_completeness,total_bins,query,sample_percentage
+ApproachType.MODEL_BASED,0,0.08278212696313858,373.6530310375569,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'TYR' and arr_delay >= 41.00 and arr_delay < 712.00;,100
+ApproachType.MODEL_BASED,1,0.050817519426345825,20.91247683348866,100,1,SELECT AVG(distance) FROM flights WHERE air_time > 244.00 and air_time <= 417.00 and taxi_out >= 317.00 and taxi_out <= 472.00;,100
+ApproachType.MODEL_BASED,2,0.18471835553646088,1.4114010378869393,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2005 and air_time > -678.00 and air_time < 706.00;,100
+ApproachType.MODEL_BASED,3,0.12337397783994675,16.03256815232307,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'PIH' and air_time >= -522.00 and air_time < 572.00;,100
+ApproachType.MODEL_BASED,4,0.0506184920668602,17.24294753018982,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'MLI' and dep_delay >= 156.00 and dep_delay < 274.00;,100
+ApproachType.MODEL_BASED,5,0.23738396912813187,8.596590885946686,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance > 257.00 and distance <= 680.00 and arr_delay >= -92.00 and arr_delay < 1104.00;,100
+ApproachType.MODEL_BASED,6,0.04595620930194855,71.69338870273859,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay >= 420.00 and dep_delay < 586.00 and air_time >= 311.00 and air_time <= 446.00;,100
+ApproachType.MODEL_BASED,7,0.023468077182769775,3.9195114555601243,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'SFO';,100
+ApproachType.MODEL_BASED,8,0.061286263167858124,6.156976776338069,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= 282.00 and dep_delay < 362.00 and arr_delay > 224.00 and arr_delay < 898.00;,100
+ApproachType.MODEL_BASED,9,0.033979736268520355,6.044905954285866,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay > 173.00 and dep_delay < 449.00;,100
+ApproachType.MODEL_BASED,10,0.04154209792613983,0.3771708078537729,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'BOS' and year_date = 2003;,100
+ApproachType.MODEL_BASED,11,0.22953717410564423,3.0964632892535504,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance >= 1076.00 and distance < 1910.00 and dep_delay >= 108.00 and dep_delay <= 788.00 and air_time > -664.00 and air_time < 322.00;,100
+ApproachType.MODEL_BASED,12,0.017156735062599182,23.59566924896539,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'SCC';,100
+ApproachType.MODEL_BASED,13,0.043496228754520416,1.6441750438607499,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'BJI' and taxi_out >= 40.00 and taxi_out < 95.00;,100
+ApproachType.MODEL_BASED,14,0.08873376250267029,41.753143083197116,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in > 14.00 and taxi_in < 153.00 and distance > 1265.00 and distance <= 1795.00;,100
+ApproachType.MODEL_BASED,15,0.1471606120467186,34.07678743862157,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= 0.0 and dep_delay < 178.0 and air_time >= 588.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,16,0.03190218657255173,3.4219274550769727,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out >= 135.00 and taxi_out <= 195.00;,100
+ApproachType.MODEL_BASED,17,0.21294792741537094,1.9384236930856742,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 1995 and air_time >= 15.00 and air_time <= 593.00;,100
+ApproachType.MODEL_BASED,18,0.031955040991306305,37.430270911826,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in >= 15.0 and taxi_in < 20.0 and distance >= 3546.0 and distance < 3743.0;,100
+ApproachType.MODEL_BASED,19,0.016042664647102356,38.31347311726826,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'BTR';,100
+ApproachType.MODEL_BASED,20,0.03734123706817627,17.624672369457247,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'ILG' and dep_delay > 440.00 and dep_delay <= 872.00;,100
+ApproachType.MODEL_BASED,21,0.03764508664608002,0.9823767140741075,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'SEA';,100
+ApproachType.MODEL_BASED,22,0.2307721972465515,5.406223324939863,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'CID' and dep_delay >= -29.00 and dep_delay <= 796.00 and arr_delay >= 171.00 and arr_delay < 396.00;,100
+ApproachType.MODEL_BASED,23,0.01530107855796814,16.51664672042548,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'OAJ';,100
+ApproachType.MODEL_BASED,24,0.02131073921918869,12.949137728916323,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 1997;,100
+ApproachType.MODEL_BASED,25,0.048625387251377106,9.99641759420155,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in >= 123.00 and taxi_in < 217.00 and arr_delay >= 305.00 and arr_delay < 952.00;,100
+ApproachType.MODEL_BASED,26,0.029496997594833374,13.818814902091924,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'KTN' and year_date = 2015;,100
+ApproachType.MODEL_BASED,27,0.023821324110031128,3.9037964447455034,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'MIA';,100
+ApproachType.MODEL_BASED,28,0.18636884540319443,7.040380709396047,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay > -12.00 and dep_delay < 711.00 and taxi_in > 142.00 and taxi_in < 171.00;,100
+ApproachType.MODEL_BASED,29,0.20255086570978165,25.178725041910788,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= 17.00 and air_time < 326.00 and taxi_in >= 155.00 and taxi_in < 937.00 and dep_delay >= 237.00 and dep_delay < 790.00;,100
+ApproachType.MODEL_BASED,30,0.22492967545986176,5.092525318126017,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time >= 212.00 and air_time < 489.00 and arr_delay > -106.00 and arr_delay <= 251.00;,100
+ApproachType.MODEL_BASED,31,0.05389595776796341,8.111203285296574,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay >= 204.00 and dep_delay < 292.00 and air_time >= 264.00 and air_time <= 598.00;,100
+ApproachType.MODEL_BASED,32,0.04051676392555237,57.89054625252172,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2003 and taxi_out > 166.00 and taxi_out < 198.00;,100
+ApproachType.MODEL_BASED,33,0.04712046682834625,36.58383696675987,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_out >= 28.0 and taxi_out < 35.0 and dep_delay >= 600.0 and dep_delay < 800.0;,100
+ApproachType.MODEL_BASED,34,0.08801303058862686,25.58752326348589,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2012 and taxi_in > 122.00 and taxi_in <= 721.00 and arr_delay > 42.00 and arr_delay < 680.00;,100
+ApproachType.MODEL_BASED,35,0.02173684537410736,16.038386696985558,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay > 498.00 and dep_delay <= 780.00;,100
+ApproachType.MODEL_BASED,36,0.04121644049882889,5.747183391452968,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'SJC' and taxi_out >= 113.00 and taxi_out < 325.00;,100
+ApproachType.MODEL_BASED,37,0.07830560952425003,21.476315824598633,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > 126.00 and arr_delay < 768.00 and taxi_in > 17.00 and taxi_in <= 85.00;,100
+ApproachType.MODEL_BASED,38,0.023070931434631348,8.33181745978059,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay > 513.00 and dep_delay < 958.00;,100
+ApproachType.MODEL_BASED,39,0.01578599214553833,2.0465858121782805,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'ECP';,100
+ApproachType.MODEL_BASED,40,0.03579586744308472,102.77557073242996,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'FAT' and arr_delay >= 329.00 and arr_delay < 882.00;,100
+ApproachType.MODEL_BASED,41,0.015537142753601074,5.255804116157556,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'HNL';,100
+ApproachType.MODEL_BASED,42,0.023236989974975586,15.983558042865607,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out >= 112.00 and taxi_out < 206.00;,100
+ApproachType.MODEL_BASED,43,0.04885174334049225,34.01309590358212,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_in >= 27.00 and taxi_in <= 548.00;,100
+ApproachType.MODEL_BASED,44,0.017528966069221497,1.092091982547121,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'JAX';,100
+ApproachType.MODEL_BASED,45,0.014837853610515594,3.293655847864075,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'MBS';,100
+ApproachType.MODEL_BASED,46,0.06979970633983612,18.94837780146278,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2013 and dep_delay >= 200.00 and dep_delay <= 495.00 and arr_delay > 141.00 and arr_delay < 429.00;,100
+ApproachType.MODEL_BASED,47,0.3198358863592148,11.195475672333888,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay > -118.00 and dep_delay <= 536.00 and air_time >= 36.00 and air_time < 546.00;,100
+ApproachType.MODEL_BASED,48,0.020730555057525635,2.504716787008014,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'STT';,100
+ApproachType.MODEL_BASED,49,0.04419843107461929,31.323345447272388,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay > 168.00 and dep_delay <= 298.00 and distance > 481.00 and distance < 605.00;,100
+ApproachType.MODEL_BASED,50,0.01511487364768982,1.8233584623432733,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'ORH';,100
+ApproachType.MODEL_BASED,51,0.030015915632247925,4.818001994245482,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'SJC';,100
+ApproachType.MODEL_BASED,52,0.036950647830963135,8.112571457164947,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2003 and air_time > 304.00 and air_time <= 608.00;,100
+ApproachType.MODEL_BASED,53,0.05418754369020462,5.790048621663088,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance > 1693.00 and distance < 2053.00 and taxi_out >= 41.00 and taxi_out < 82.00;,100
+ApproachType.MODEL_BASED,54,0.018090270459651947,17.825154538418957,100,1,SELECT AVG(air_time) FROM flights WHERE arr_delay >= 425.00 and arr_delay < 444.00;,100
+ApproachType.MODEL_BASED,55,0.0295533686876297,108.09457508685591,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'ADQ' and year_date = 2015;,100
+ApproachType.MODEL_BASED,56,0.21781186014413834,0.6536800895354804,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'LFT' and distance > 116.00 and distance < 860.00 and air_time >= -439.00 and air_time < 541.00;,100
+ApproachType.MODEL_BASED,57,0.05383593589067459,3.1474946679266993,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= 177.00 and air_time <= 583.00;,100
+ApproachType.MODEL_BASED,58,0.01817670464515686,22.136081320181685,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'LNK';,100
+ApproachType.MODEL_BASED,59,0.033643484115600586,146.9682741563004,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2003 and origin = 'PBI';,100
+ApproachType.MODEL_BASED,60,0.21847791224718094,5.336268270771102,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time > 232.00 and air_time <= 502.00 and dep_delay >= -1150.00 and dep_delay < 479.00;,100
+ApproachType.MODEL_BASED,61,0.0327683761715889,7.848064716403348,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2009 and dest = 'DAL';,100
+ApproachType.MODEL_BASED,62,0.04057084023952484,0.06719344940713053,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'STL';,100
+ApproachType.MODEL_BASED,63,0.020174965262413025,1.270479475318238,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'HNL';,100
+ApproachType.MODEL_BASED,64,0.09043537080287933,2.4200068400263395,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time >= 161.00 and air_time <= 651.00 and distance > 1745.00 and distance <= 4213.00;,100
+ApproachType.MODEL_BASED,65,0.01964285969734192,9.536999620764266,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in >= 198.00 and taxi_in < 217.00;,100
+ApproachType.MODEL_BASED,66,0.09497818350791931,1.7152201956309545,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 1995 and dep_delay >= 41.00 and dep_delay <= 460.00;,100
+ApproachType.MODEL_BASED,67,0.01834280788898468,57.52599615329967,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'GJT';,100
+ApproachType.MODEL_BASED,68,0.013550758361816406,8.484024990893502,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time > 453.00 and air_time <= 551.00;,100
+ApproachType.MODEL_BASED,69,0.017666935920715332,86.8380315929463,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'ESC';,100
+ApproachType.MODEL_BASED,70,0.025864847004413605,10.748381742290235,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'BGR';,100
+ApproachType.MODEL_BASED,71,0.07061900198459625,5.6563316243780495,100,1,SELECT AVG(distance) FROM flights WHERE air_time > 163.00 and air_time <= 315.00;,100
+ApproachType.MODEL_BASED,72,0.02508281171321869,2.0783329423949546,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2012;,100
+ApproachType.MODEL_BASED,73,0.02153947204351425,4.48124860233291,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'GCK';,100
+ApproachType.MODEL_BASED,74,0.08986960351467133,5.453124846939009,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'SEA' and arr_delay >= 127.00 and arr_delay < 259.00 and taxi_out >= 113.00 and taxi_out < 145.00;,100
+ApproachType.MODEL_BASED,75,0.018980272114276886,114.32689979962349,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'GTR';,100
+ApproachType.MODEL_BASED,76,0.07581228017807007,45.86606903871922,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 22.00 and dep_delay <= 345.00 and air_time >= 378.00 and air_time < 591.00;,100
+ApproachType.MODEL_BASED,77,0.046704038977622986,2.194896256724383,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2001 and arr_delay > 346.00 and arr_delay < 833.00;,100
+ApproachType.MODEL_BASED,78,0.01696048676967621,28.41513325734139,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'OTH';,100
+ApproachType.MODEL_BASED,79,0.031543247401714325,84.52045862401431,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'TYS' and year_date = 1998;,100
+ApproachType.MODEL_BASED,80,0.03892098367214203,7.8694414117479266,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > 402.00 and arr_delay <= 862.00;,100
+ApproachType.MODEL_BASED,81,0.14051198214292526,30.3100378151571,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in >= 59.00 and taxi_in < 879.00 and air_time >= 137.00 and air_time < 517.00 and arr_delay >= 357.00 and arr_delay <= 979.00;,100
+ApproachType.MODEL_BASED,82,0.02129688858985901,2.2087044967077984,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'DBQ';,100
+ApproachType.MODEL_BASED,83,0.06801770627498627,17.89889594658458,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay >= 80.0 and arr_delay < 160.0 and air_time >= 504.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,84,0.024280287325382233,17.21006148836167,100,1,SELECT AVG(distance) FROM flights WHERE arr_delay >= 456.00 and arr_delay < 553.00;,100
+ApproachType.MODEL_BASED,85,0.2699146270751953,25.140270098191415,100,1,SELECT AVG(distance) FROM flights WHERE taxi_in >= 31.00 and taxi_in <= 48.00 and air_time >= 32.00 and air_time <= 500.00;,100
+ApproachType.MODEL_BASED,86,0.04853574186563492,27.99926366553276,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 614.00 and arr_delay < 793.00;,100
+ApproachType.MODEL_BASED,87,0.15543799847364426,85.72734576601637,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in > 3.00 and taxi_in <= 64.00 and taxi_out >= 22.00 and taxi_out <= 63.00;,100
+ApproachType.MODEL_BASED,88,0.15112264454364777,2.9782947239047024,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay > -16.00 and dep_delay <= 1259.00;,100
+ApproachType.MODEL_BASED,89,0.03631266951560974,30.00659713193301,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out >= 27.0 and taxi_out < 30.0 and distance >= 3950.0 and distance < 4650.0;,100
+ApproachType.MODEL_BASED,90,0.03889927268028259,5.046970233962831,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'MDW';,100
+ApproachType.MODEL_BASED,91,0.021072253584861755,4.303134687814805,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'MVY';,100
+ApproachType.MODEL_BASED,92,0.06402847170829773,277.5938735177865,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance >= 1143.00 and distance <= 1261.00 and air_time > 314.00 and air_time < 439.00;,100
+ApproachType.MODEL_BASED,93,0.2907251939177513,2.3227422651449956,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2013 and arr_delay >= -47.00 and arr_delay < 638.00;,100
+ApproachType.MODEL_BASED,94,0.04853636026382446,16.66755054151244,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'CMH' and dep_delay > 263.00 and dep_delay < 949.00;,100
+ApproachType.MODEL_BASED,95,0.055263370275497437,8.763154957550157,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'CEC' and year_date = 2008 and arr_delay > 286.00 and arr_delay < 904.00;,100
+ApproachType.MODEL_BASED,96,0.03404970467090607,309.0871975160449,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2015 and dest = 'GGG';,100
+ApproachType.MODEL_BASED,97,0.023065850138664246,80.14520604707265,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in > 162.00 and taxi_in <= 196.00;,100
+ApproachType.MODEL_BASED,98,0.13291367888450623,71.05518386180914,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'BTV' and taxi_out > 2.00 and taxi_out < 217.00;,100
+ApproachType.MODEL_BASED,99,0.10595562309026718,33.66680743688633,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_out >= 102.00 and taxi_out <= 1327.00 and air_time > 112.00 and air_time < 308.00;,100
+ApproachType.MODEL_BASED,100,0.016854487359523773,11.102499683618154,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'AZA';,100
+ApproachType.MODEL_BASED,101,0.2556108832359314,35.25396583599975,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out > 13.00 and taxi_out <= 324.00 and dep_delay > -46.00 and dep_delay < 150.00;,100
+ApproachType.MODEL_BASED,102,0.1644735187292099,12.71162431430089,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_out > 118.00 and taxi_out < 335.00 and distance > 17.00 and distance <= 1736.00 and arr_delay >= 145.00 and arr_delay < 541.00;,100
+ApproachType.MODEL_BASED,103,0.015392355620861053,180.82191780821918,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'ADK';,100
+ApproachType.MODEL_BASED,104,0.15891391783952713,51.6484200893405,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay >= 80.0 and arr_delay < 160.0 and dep_delay >= 0.0 and dep_delay < 178.0 and air_time >= 588.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,105,0.015046186745166779,143.40957317484836,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'CDC';,100
+ApproachType.MODEL_BASED,106,0.04241431504487991,11.62174800221483,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance > 1788.00 and distance < 3972.00 and taxi_in >= 128.00 and taxi_in < 198.00;,100
+ApproachType.MODEL_BASED,107,0.15283502638339996,22.624224742356148,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'MQT' and distance > 143.00 and distance <= 1900.00 and taxi_out >= 130.00 and taxi_out <= 299.00;,100
+ApproachType.MODEL_BASED,108,0.03727796673774719,7.1216424612588565,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out >= 36.0 and taxi_out < 45.0 and distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,109,0.04879365861415863,23.810570340278574,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2004 and dep_delay >= 171.00 and dep_delay < 518.00;,100
+ApproachType.MODEL_BASED,110,0.04413999617099762,12.73295944826883,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'ECP' and dep_delay >= 184.00 and dep_delay < 676.00;,100
+ApproachType.MODEL_BASED,111,0.09803453832864761,21.74962123898884,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_out > 192.00 and taxi_out < 299.00 and arr_delay > 141.00 and arr_delay < 604.00 and dep_delay > 185.00 and dep_delay <= 860.00;,100
+ApproachType.MODEL_BASED,112,0.07436647266149521,13.30365368326272,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance >= 1475.00 and distance < 2421.00 and taxi_in > 39.00 and taxi_in < 689.00;,100
+ApproachType.MODEL_BASED,113,0.12292151153087616,131.64349959116925,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'BTM' and arr_delay >= -55.00 and arr_delay <= 12.00;,100
+ApproachType.MODEL_BASED,114,0.18816076964139938,13.289734326122499,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out > 158.00 and taxi_out < 375.00 and dep_delay >= -10.00 and dep_delay <= 170.00;,100
+ApproachType.MODEL_BASED,115,0.016941189765930176,6.068510738910863,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'DRO';,100
+ApproachType.MODEL_BASED,116,0.04550323635339737,93.5064935064935,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_in >= 30 and taxi_in < 72.0 and distance >= 4209.0 and distance < 4392.0;,100
+ApproachType.MODEL_BASED,117,0.05525917559862137,66.64458160101017,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 450.0 and dep_delay < 460.0 and taxi_out >= 8.0 and taxi_out < 10.0;,100
+ApproachType.MODEL_BASED,118,0.05655277520418167,28.921903033386027,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay > 143.00 and dep_delay <= 943.00 and taxi_in > 107.00 and taxi_in < 186.00;,100
+ApproachType.MODEL_BASED,119,0.014271862804889679,18.74235962361937,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'BIS';,100
+ApproachType.MODEL_BASED,120,0.04451189935207367,12.236701342398026,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'EWR' and arr_delay >= 281.00 and arr_delay < 622.00;,100
+ApproachType.MODEL_BASED,121,0.01567155122756958,30.31286173683572,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'YUM';,100
+ApproachType.MODEL_BASED,122,0.12374526262283325,3.939227780702057,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'GUC' and air_time >= -35.00 and air_time < 420.00;,100
+ApproachType.MODEL_BASED,123,0.05077223479747772,9.788430906947443,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1999 and distance > 293.00 and distance <= 521.00;,100
+ApproachType.MODEL_BASED,124,0.019452005624771118,51.5384723235609,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'DAL';,100
+ApproachType.MODEL_BASED,125,0.05905140936374664,31.703246799104008,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time >= 242.00 and air_time < 448.00 and taxi_out > 131.00 and taxi_out < 234.00;,100
+ApproachType.MODEL_BASED,126,0.02718164026737213,6.583481430125358,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'OKC' and origin = 'MSP';,100
+ApproachType.MODEL_BASED,127,0.04942768067121506,29.100119186400313,100,1,SELECT AVG(air_time) FROM flights WHERE distance > 256.00 and distance <= 404.00 and dep_delay >= 201.00 and dep_delay <= 288.00;,100
+ApproachType.MODEL_BASED,128,0.02120213210582733,6.418837187948939,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 51.0 and taxi_in < 54.0;,100
+ApproachType.MODEL_BASED,129,0.202651247382164,0.008675395552279893,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'PSE' and dep_delay > -1197.00 and dep_delay < 496.00;,100
+ApproachType.MODEL_BASED,130,0.07781224697828293,75.89723761164426,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time > 119.00 and air_time <= 312.00 and taxi_in > 1387.00 and taxi_in < 1423.00;,100
+ApproachType.MODEL_BASED,131,0.058857157826423645,13.015449590808108,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time > 105.00 and air_time <= 376.00;,100
+ApproachType.MODEL_BASED,132,0.0210464745759964,0.4082426930294091,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2013;,100
+ApproachType.MODEL_BASED,133,0.03933662176132202,17.56651422597064,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time >= 310.00 and air_time < 600.00 and taxi_in > 113.00 and taxi_in < 1146.00;,100
+ApproachType.MODEL_BASED,134,0.04105675220489502,19.336764498370982,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2008 and arr_delay > 418.00 and arr_delay < 441.00;,100
+ApproachType.MODEL_BASED,135,0.01559128612279892,4.244492529068829,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'CRP';,100
+ApproachType.MODEL_BASED,136,0.05523524433374405,53.33420367392042,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in >= 15.00 and taxi_in <= 98.00;,100
+ApproachType.MODEL_BASED,137,0.19528396427631378,0.3345675238275135,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay > -35.00 and dep_delay <= 1003.00 and distance > 2053.00 and distance <= 4502.00;,100
+ApproachType.MODEL_BASED,138,0.04177365452051163,3.453484198598707,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2011 and arr_delay >= 220.00 and arr_delay < 338.00;,100
+ApproachType.MODEL_BASED,139,0.03460269421339035,37.59054664797697,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time > 24.00 and air_time < 59.00 and arr_delay > 222.00 and arr_delay <= 414.00;,100
+ApproachType.MODEL_BASED,140,0.04547989368438721,8.799516212993312,100,1,SELECT AVG(air_time) FROM flights WHERE distance >= 274.00 and distance < 650.00;,100
+ApproachType.MODEL_BASED,141,0.24294178932905197,51.7704810152812,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay > -30.00 and dep_delay <= 1085.00 and taxi_out > 229.00 and taxi_out <= 250.00;,100
+ApproachType.MODEL_BASED,142,0.052962981164455414,74.07374871351584,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out >= 5.0 and taxi_out < 10.0 and taxi_out < 30.0 and dep_delay >= 525.0 and dep_delay < 750.0;,100
+ApproachType.MODEL_BASED,143,0.04074949026107788,8.09724993302781,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2010 and taxi_out >= 120.00 and taxi_out < 131.00;,100
+ApproachType.MODEL_BASED,144,0.03162197768688202,94.99232406286873,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2016 and dest = 'BPT';,100
+ApproachType.MODEL_BASED,145,0.019908003509044647,0.8386225118687949,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1998;,100
+ApproachType.MODEL_BASED,146,0.015983425080776215,0.6886130666669716,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'BJI';,100
+ApproachType.MODEL_BASED,147,0.09923728555440903,20.36815284824963,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out >= 162.00 and taxi_out < 256.00 and air_time >= 120.00 and air_time <= 343.00;,100
+ApproachType.MODEL_BASED,148,0.014840781688690186,26.806210897733695,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'OXR';,100
+ApproachType.MODEL_BASED,149,0.03378854691982269,46.82566218843157,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2001 and origin = 'FAI';,100
+ApproachType.MODEL_BASED,150,0.23041312396526337,17.91296791959382,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'GUC' and dep_delay >= -1150.00 and dep_delay <= 923.00 and distance >= 667.00 and distance <= 954.00;,100
+ApproachType.MODEL_BASED,151,0.10379674285650253,18.247489183566184,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time > 13.00 and air_time <= 25.00 and taxi_out > 29.00 and taxi_out < 653.00 and distance > 375.00 and distance < 875.00;,100
+ApproachType.MODEL_BASED,152,0.051015034317970276,12.815186735482342,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'MCI' and distance > 277.00 and distance < 805.00;,100
+ApproachType.MODEL_BASED,153,0.05979349464178085,1,-2,-2,SELECT AVG(dep_delay) FROM flights WHERE taxi_out > 29.00 and taxi_out < 36.00 and taxi_in >= 54.00 and taxi_in < 996.00 and air_time > -702.00 and air_time <= 11.00;,100
+ApproachType.MODEL_BASED,154,0.030392684042453766,2.665770554340329,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'LGA';,100
+ApproachType.MODEL_BASED,155,0.018955916166305542,1.6963677229202982,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance > 167.00 and distance <= 350.00;,100
+ApproachType.MODEL_BASED,156,0.060779012739658356,12.49151828750695,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in > 29.00 and taxi_in <= 79.00 and arr_delay > 132.00 and arr_delay < 504.00;,100
+ApproachType.MODEL_BASED,157,0.020882457494735718,6.0608152719223645,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2004;,100
+ApproachType.MODEL_BASED,158,0.033220142126083374,2.3446705871446856,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 1996 and origin = 'STT';,100
+ApproachType.MODEL_BASED,159,0.12378448992967606,14.030071606864972,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time > 28.00 and air_time <= 297.00 and dep_delay >= 466.00 and dep_delay <= 852.00;,100
+ApproachType.MODEL_BASED,160,0.022097721695899963,1.2373831290213733,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'MDT';,100
+ApproachType.MODEL_BASED,161,0.18320341408252716,50.408039278443304,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'BTM' and air_time > 32.00 and air_time < 580.00;,100
+ApproachType.MODEL_BASED,162,0.025114692747592926,0.42048658258356864,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'SYR';,100
+ApproachType.MODEL_BASED,163,0.012249715626239777,18.40553704178416,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance >= 4650.0 and distance < 4836.0;,100
+ApproachType.MODEL_BASED,164,0.019892483949661255,13.336729323126006,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance >= 501.00 and distance <= 766.00;,100
+ApproachType.MODEL_BASED,165,0.013957969844341278,0.10446285445378765,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance >= 1986.00 and distance <= 2089.00;,100
+ApproachType.MODEL_BASED,166,0.06860151141881943,80.13600583932806,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in >= 146.00 and taxi_in <= 219.00 and taxi_out >= 35.00 and taxi_out <= 81.00;,100
+ApproachType.MODEL_BASED,167,0.0353718027472496,0.20058658794720508,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out >= 120.00 and taxi_out <= 216.00;,100
+ApproachType.MODEL_BASED,168,0.03369276970624924,93.50907772069505,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'TUL' and air_time >= 187.00 and air_time < 190.00;,100
+ApproachType.MODEL_BASED,169,0.033376745879650116,104.13500072650643,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'RST' and year_date = 1999;,100
+ApproachType.MODEL_BASED,170,0.04188133031129837,7.556221967654279,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2014 and taxi_in >= 122.00 and taxi_in <= 973.00;,100
+ApproachType.MODEL_BASED,171,0.024043209850788116,23.308817596457867,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_in >= 14.00 and taxi_in < 16.00;,100
+ApproachType.MODEL_BASED,172,0.10316456109285355,5.807644126886719,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2008 and dep_delay >= 21.00 and dep_delay < 973.00;,100
+ApproachType.MODEL_BASED,173,0.01001003384590149,54.981014711615906,100,1,SELECT AVG(air_time) FROM flights WHERE distance >= 2745.0 and distance < 2928.0;,100
+ApproachType.MODEL_BASED,174,0.1847558692097664,263.99128616154024,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'CDC' and year_date = 2013 and taxi_out > 0.00 and taxi_out <= 106.00;,100
+ApproachType.MODEL_BASED,175,0.09117625653743744,153.22488160130925,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2014 and air_time > 136.00 and air_time < 246.00 and taxi_out > 115.00 and taxi_out <= 144.00;,100
+ApproachType.MODEL_BASED,176,0.03900393843650818,8.158301734836597,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'CLT' and year_date = 2005;,100
+ApproachType.MODEL_BASED,177,0.013139277696609497,48.364375027538195,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance >= 296.00 and distance <= 341.00;,100
+ApproachType.MODEL_BASED,178,0.054597534239292145,20.89047844102499,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay > 526.00 and dep_delay < 740.00 and arr_delay > 682.00 and arr_delay <= 896.00;,100
+ApproachType.MODEL_BASED,179,0.07175248116254807,4.097274695392217,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2008 and taxi_in >= 2.00 and taxi_in < 818.00;,100
+ApproachType.MODEL_BASED,180,0.05987653136253357,12.164548196413824,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 158.00 and arr_delay <= 535.00 and taxi_in > 73.00 and taxi_in <= 91.00;,100
+ApproachType.MODEL_BASED,181,0.2569701820611954,45.526678482524446,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in >= 116.00 and taxi_in < 1315.00 and air_time >= 447.00 and air_time < 460.00 and dep_delay >= -60.00 and dep_delay <= 1115.00;,100
+ApproachType.MODEL_BASED,182,0.10754376649856567,0.20452302196131775,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time >= -29.00 and air_time <= 340.00;,100
+ApproachType.MODEL_BASED,183,0.12091818451881409,20.51868388419705,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time >= 30.00 and air_time < 609.00 and arr_delay > 678.00 and arr_delay < 721.00;,100
+ApproachType.MODEL_BASED,184,0.01628550887107849,37.04922905862557,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'LMT';,100
+ApproachType.MODEL_BASED,185,0.015443012118339539,1184.0957926091355,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'GST';,100
+ApproachType.MODEL_BASED,186,0.22745071351528168,0.4675351112021342,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2013 and arr_delay > 117.00 and arr_delay <= 581.00 and dep_delay >= -14.00 and dep_delay <= 655.00;,100
+ApproachType.MODEL_BASED,187,0.02314010262489319,8.357981086239478,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time >= 14.00 and air_time <= 79.00;,100
+ApproachType.MODEL_BASED,188,0.019846655428409576,83.02661398789787,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance >= 3720.0 and distance < 4023.0 and air_time >= 484.0 and air_time < 506.0;,100
+ApproachType.MODEL_BASED,189,0.02304154634475708,6.2556481616415365,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 359.00 and dep_delay < 854.00;,100
+ApproachType.MODEL_BASED,190,0.029058240354061127,37.37040024029826,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2015 and origin = 'BUR';,100
+ApproachType.MODEL_BASED,191,0.03379940986633301,9.479126019435014,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out > 104.00 and taxi_out <= 168.00;,100
+ApproachType.MODEL_BASED,192,0.045484066009521484,15.186115360119496,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance > 262.00 and distance < 634.00 and dep_delay >= 273.00 and dep_delay < 337.00;,100
+ApproachType.MODEL_BASED,193,0.0471760630607605,8.483656267074583,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= 62.00 and dep_delay <= 971.00;,100
+ApproachType.MODEL_BASED,194,0.018263764679431915,5.731763190448392,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'CMH';,100
+ApproachType.MODEL_BASED,195,0.0790051594376564,37.74730001638755,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay > 21.00 and dep_delay <= 260.00 and air_time >= 265.00 and air_time <= 277.00;,100
+ApproachType.MODEL_BASED,196,0.016748376190662384,44.59148507766842,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'AMA';,100
+ApproachType.MODEL_BASED,197,0.04485580325126648,70.96504565059972,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out > 121.00 and taxi_out <= 188.00 and dep_delay > 213.00 and dep_delay < 248.00;,100
+ApproachType.MODEL_BASED,198,0.011006347835063934,1.8913734652476735,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance >= 843.00 and distance <= 865.00;,100
+ApproachType.MODEL_BASED,199,0.2149958834052086,0.20744552300843133,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'AEX' and arr_delay >= -87.00 and arr_delay < 678.00;,100
+ApproachType.MODEL_BASED,200,0.04518774151802063,8.25118162964735,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay >= 70.0 and arr_delay < 140.0 and air_time >= 504.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,201,0.04736162722110748,24.405180065689983,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance >= 1263.00 and distance <= 1929.00 and arr_delay > 444.00 and arr_delay < 867.00;,100
+ApproachType.MODEL_BASED,202,0.03601893037557602,1.9344291380514644,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2006 and taxi_out > 138.00 and taxi_out < 219.00;,100
+ApproachType.MODEL_BASED,203,0.017911799252033234,0.5390262886230256,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'PSP';,100
+ApproachType.MODEL_BASED,204,0.031056419014930725,15.877316194975094,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2006 and dest = 'MRY';,100
+ApproachType.MODEL_BASED,205,0.1688552275300026,1.2499150859419903,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2001 and dep_delay > -11.00 and dep_delay <= 966.00;,100
+ApproachType.MODEL_BASED,206,0.030954256653785706,22.560407190805062,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'BPT' and distance > 424.00 and distance < 764.00;,100
+ApproachType.MODEL_BASED,207,0.020001187920570374,23.376509059447645,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'MIA';,100
+ApproachType.MODEL_BASED,208,0.032867394387722015,156.25216382062968,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'SCC' and year_date = 2016;,100
+ApproachType.MODEL_BASED,209,0.05200287699699402,94.17418932310298,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > 110.00 and arr_delay < 836.00 and air_time >= 381.00 and air_time < 384.00;,100
+ApproachType.MODEL_BASED,210,0.0414961576461792,0.08301199218317795,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'ABE' and dep_delay > 188.00 and dep_delay <= 696.00;,100
+ApproachType.MODEL_BASED,211,0.03152894973754883,13.381545242280342,100,1,SELECT AVG(air_time) FROM flights WHERE distance >= 571.00 and distance <= 868.00;,100
+ApproachType.MODEL_BASED,212,0.06664913892745972,6.02575693562791,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= 102.00 and dep_delay <= 297.00 and arr_delay > 175.00 and arr_delay <= 568.00;,100
+ApproachType.MODEL_BASED,213,0.01718859374523163,10.602740552763098,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance >= 186.00 and distance < 376.00;,100
+ApproachType.MODEL_BASED,214,0.057640835642814636,3.470322657721106,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'GSP' and distance >= 436.00 and distance < 861.00;,100
+ApproachType.MODEL_BASED,215,0.031851254403591156,652.6430058154957,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'CAK' and year_date = 2002;,100
+ApproachType.MODEL_BASED,216,0.19776757806539536,2.9510617565767014,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time > -545.00 and air_time < 642.00 and distance > 1184.00 and distance < 1749.00;,100
+ApproachType.MODEL_BASED,217,0.0595114529132843,84.88238962315025,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time >= 427.00 and air_time < 568.00 and distance > 289.00 and distance < 831.00;,100
+ApproachType.MODEL_BASED,218,0.03250990808010101,42.26974405161776,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance > 828.00 and distance < 865.00 and arr_delay > 647.00 and arr_delay < 855.00;,100
+ApproachType.MODEL_BASED,219,0.028446868062019348,21.86190311060088,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_out >= 105.00 and taxi_out <= 284.00;,100
+ApproachType.MODEL_BASED,220,0.09729205816984177,79.3360680921483,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_in > 0.00 and taxi_in <= 134.00 and air_time >= 38.00 and air_time < 44.00;,100
+ApproachType.MODEL_BASED,221,0.06660164147615433,25.11768216291609,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 383.00 and arr_delay < 676.00 and distance > 1061.00 and distance <= 1838.00;,100
+ApproachType.MODEL_BASED,222,0.011238135397434235,30.77463241134032,100,1,SELECT AVG(air_time) FROM flights WHERE distance > 918.00 and distance <= 972.00;,100
+ApproachType.MODEL_BASED,223,0.016160540282726288,124.99821493488325,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'INL';,100
+ApproachType.MODEL_BASED,224,0.05417599529027939,81.26220641170015,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'GCC' and taxi_in > 1.00 and taxi_in < 868.00;,100
+ApproachType.MODEL_BASED,225,0.029098860919475555,25.720374817871626,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1996 and origin = 'FCA';,100
+ApproachType.MODEL_BASED,226,0.014197811484336853,0.7471407884729437,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'DHN';,100
+ApproachType.MODEL_BASED,227,0.20078083127737045,15.20711954812606,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay > -15.00 and arr_delay <= 836.00 and air_time > 159.00 and air_time < 630.00;,100
+ApproachType.MODEL_BASED,228,0.19286756962537766,5.235124388861139,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= -456.00 and air_time <= 365.00 and dep_delay > 115.00 and dep_delay <= 375.00;,100
+ApproachType.MODEL_BASED,229,0.10146670788526535,22.136449051423398,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_out > 2.00 and taxi_out < 227.00;,100
+ApproachType.MODEL_BASED,230,0.015271522104740143,4.3279290830007024,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'BKG';,100
+ApproachType.MODEL_BASED,231,0.0744536966085434,7.604480996766251,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 1995 and arr_delay >= 53.00 and arr_delay < 906.00;,100
+ApproachType.MODEL_BASED,232,0.014592655003070831,189.98348600053382,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'CLD';,100
+ApproachType.MODEL_BASED,233,0.18658452481031418,0.5196100196996474,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance >= 1739.00 and distance < 3414.00 and air_time > -197.00 and air_time <= 510.00;,100
+ApproachType.MODEL_BASED,234,0.03589215874671936,17.05659289272066,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in > 55.00 and taxi_in < 827.00 and air_time >= 414.00 and air_time <= 549.00;,100
+ApproachType.MODEL_BASED,235,0.022165246307849884,20.141858442129266,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 119.00 and taxi_in < 171.00;,100
+ApproachType.MODEL_BASED,236,0.03619085252285004,7.993673335029254,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 1998 and taxi_in >= 135.00 and taxi_in < 179.00;,100
+ApproachType.MODEL_BASED,237,0.023701496422290802,39.146240248698625,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time >= 288.0 and air_time < 324.0;,100
+ApproachType.MODEL_BASED,238,0.08427760004997253,31.930635142194006,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= 155.00 and air_time <= 272.00 and arr_delay >= 406.00 and arr_delay < 664.00 and taxi_in > 105.00 and taxi_in < 692.00;,100
+ApproachType.MODEL_BASED,239,0.1548803150653839,2.7926834175784636,100,1,SELECT AVG(distance) FROM flights WHERE air_time > 35.00 and air_time < 600.00;,100
+ApproachType.MODEL_BASED,240,0.03630167990922928,3.6424015986463005,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2010 and air_time > 231.00 and air_time <= 247.00;,100
+ApproachType.MODEL_BASED,241,0.1020808145403862,18.291154179640134,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_out >= 13.00 and taxi_out <= 370.00 and dep_delay >= 118.00 and dep_delay < 243.00;,100
+ApproachType.MODEL_BASED,242,0.03367314487695694,37.639416137462625,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out > 197.00 and taxi_out <= 492.00 and air_time >= 273.00 and air_time < 298.00;,100
+ApproachType.MODEL_BASED,243,0.031759075820446014,44.801998507828856,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time >= 34.00 and air_time < 91.00 and taxi_in >= 165.00 and taxi_in < 171.00;,100
+ApproachType.MODEL_BASED,244,0.028014548122882843,2.207568242733862,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance > 1535.00 and distance < 2253.00;,100
+ApproachType.MODEL_BASED,245,0.05449224263429642,14.842297710116076,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance > 1263.00 and distance <= 2390.00 and arr_delay >= 359.00 and arr_delay < 468.00;,100
+ApproachType.MODEL_BASED,246,0.05786481499671936,20.851597998709455,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in > 17.00 and taxi_in < 870.00 and taxi_out >= 110.00 and taxi_out < 304.00;,100
+ApproachType.MODEL_BASED,247,0.044848471879959106,30.578166233700692,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay > 694.00 and dep_delay <= 862.00 and arr_delay > 607.00 and arr_delay < 918.00;,100
+ApproachType.MODEL_BASED,248,0.03357657790184021,12.953898646020814,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 1998 and dest = 'HDN';,100
+ApproachType.MODEL_BASED,249,0.06378398090600967,13.918873400635363,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2014 and dep_delay > 157.00 and dep_delay < 886.00 and taxi_in >= 61.00 and taxi_in < 827.00;,100
+ApproachType.MODEL_BASED,250,0.053303249180316925,5.476615241653329,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2002 and arr_delay >= 366.00 and arr_delay <= 527.00 and taxi_out >= 239.00 and taxi_out <= 375.00;,100
+ApproachType.MODEL_BASED,251,0.1551784947514534,3.2260205482779245,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= 245.00 and dep_delay <= 545.00 and arr_delay >= -2.00 and arr_delay <= 472.00;,100
+ApproachType.MODEL_BASED,252,0.060222283005714417,4.7329546812072225,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2012 and arr_delay >= 118.00 and arr_delay < 344.00;,100
+ApproachType.MODEL_BASED,253,0.050326064229011536,1.3018340516422413,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'BGR' and arr_delay >= 143.00 and arr_delay < 348.00;,100
+ApproachType.MODEL_BASED,254,0.010457083582878113,16.192727340548718,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= 416.00 and air_time < 454.00;,100
+ApproachType.MODEL_BASED,255,0.05249109864234924,94.0,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'MBS' and taxi_in >= 14.00 and taxi_in <= 548.00;,100
+ApproachType.MODEL_BASED,256,0.017654024064540863,63.39948101522317,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'MTH';,100
+ApproachType.MODEL_BASED,257,0.017678596079349518,40.154942056669476,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'AMA';,100
+ApproachType.MODEL_BASED,258,0.0389164462685585,55.891461245407,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'AEX' and year_date = 2004;,100
+ApproachType.MODEL_BASED,259,0.14391247183084488,13.807691818349321,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay > 18.00 and dep_delay < 99.00 and air_time > 1.00 and air_time <= 200.00;,100
+ApproachType.MODEL_BASED,260,0.0711069107055664,23.073034929460164,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out > 104.00 and taxi_out < 151.00 and arr_delay >= 434.00 and arr_delay <= 530.00 and dep_delay > 365.00 and dep_delay <= 631.00;,100
+ApproachType.MODEL_BASED,261,0.05922229588031769,3.2645142451639533,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2011 and distance > 173.00 and distance <= 968.00;,100
+ApproachType.MODEL_BASED,262,0.016052260994911194,43.61404724920233,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'HHH';,100
+ApproachType.MODEL_BASED,263,0.18142056465148926,11.905055676518215,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2002 and air_time >= -3.00 and air_time <= 353.00 and distance >= 135.00 and distance <= 332.00;,100
+ApproachType.MODEL_BASED,264,0.10630770027637482,72.99054583882032,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_out >= 16.00 and taxi_out <= 204.00 and taxi_in > 147.00 and taxi_in <= 188.00;,100
+ApproachType.MODEL_BASED,265,0.07906819134950638,46.76019801636599,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay >= 46.00 and arr_delay <= 931.00 and taxi_in > 148.00 and taxi_in <= 154.00;,100
+ApproachType.MODEL_BASED,266,0.026629410684108734,22.471638485065988,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay > 680.00 and dep_delay < 984.00;,100
+ApproachType.MODEL_BASED,267,0.026342123746871948,8.88693886710819,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay > 498.00 and dep_delay <= 706.00;,100
+ApproachType.MODEL_BASED,268,0.2471255585551262,3.9164603171890895,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 1998 and dep_delay >= -44.00 and dep_delay <= 697.00;,100
+ApproachType.MODEL_BASED,269,0.030559934675693512,4.528955368049047,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay > 180.00 and arr_delay <= 401.00;,100
+ApproachType.MODEL_BASED,270,0.05768018215894699,31.282897416271773,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance > 260.00 and distance < 959.00 and dep_delay > 771.00 and dep_delay < 795.00;,100
+ApproachType.MODEL_BASED,271,0.02358807623386383,3.1846797152837447,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance > 189.00 and distance <= 413.00;,100
+ApproachType.MODEL_BASED,272,0.04154159128665924,15.943787440249313,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in >= 187.00 and taxi_in <= 870.00 and arr_delay > 605.00 and arr_delay <= 685.00;,100
+ApproachType.MODEL_BASED,273,0.03512109816074371,3.879669373341372,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2016 and dest = 'BWI';,100
+ApproachType.MODEL_BASED,274,0.04510384798049927,12.889473678053506,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2005 and distance >= 397.00 and distance < 995.00;,100
+ApproachType.MODEL_BASED,275,0.5353026837110519,1.3895409021443887,100,1,SELECT AVG(air_time) FROM flights WHERE distance > 233.00 and distance < 957.00 and arr_delay > -62.00 and arr_delay < 355.00;,100
+ApproachType.MODEL_BASED,276,0.034500956535339355,5.561147471570709,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2015 and air_time > 314.00 and air_time <= 561.00;,100
+ApproachType.MODEL_BASED,277,0.03332924842834473,36.89762644141039,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'BGM' and year_date = 2003;,100
+ApproachType.MODEL_BASED,278,0.020357288420200348,25.872582757734147,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'MCO';,100
+ApproachType.MODEL_BASED,279,0.018708176910877228,4.541093903616164,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'VPS';,100
+ApproachType.MODEL_BASED,280,0.03307557851076126,9.220587215515836,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= 298.00 and dep_delay <= 713.00 and distance > 603.00 and distance < 628.00;,100
+ApproachType.MODEL_BASED,281,0.015875093638896942,577.6742342810684,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'PSG';,100
+ApproachType.MODEL_BASED,282,0.10379987955093384,61.03399046962104,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay >= 0.0 and dep_delay < 40.0 and air_time >= 630.0 and air_time < 672.0;,100
+ApproachType.MODEL_BASED,283,0.015625081956386566,1.4155708818122281,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'LRD';,100
+ApproachType.MODEL_BASED,284,0.014016695320606232,1120.7349567275567,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'GRI';,100
+ApproachType.MODEL_BASED,285,0.03996683657169342,0.2523673415067869,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2004 and distance >= 1506.00 and distance <= 2404.00;,100
+ApproachType.MODEL_BASED,286,0.14095554500818253,30.4133578814367,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'SMF' and air_time >= 337.00 and air_time < 585.00 and distance > 134.00 and distance < 2611.00;,100
+ApproachType.MODEL_BASED,287,0.03524646908044815,4.467145367423531,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2003;,100
+ApproachType.MODEL_BASED,288,0.03687601536512375,1.026604345001784,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'LGA' and dest = 'PHL';,100
+ApproachType.MODEL_BASED,289,0.2526906058192253,15.998042291885556,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out >= 179.00 and taxi_out < 232.00 and dep_delay > -845.00 and dep_delay <= 587.00;,100
+ApproachType.MODEL_BASED,290,0.07543936371803284,23.24619871306638,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'PDX' and arr_delay >= 123.00 and arr_delay < 665.00 and air_time >= 269.00 and air_time <= 540.00;,100
+ApproachType.MODEL_BASED,291,0.03211849927902222,5.799015968674056,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in >= 15.0 and taxi_in < 20.0 and distance >= 2955.0 and distance < 3152.0;,100
+ApproachType.MODEL_BASED,292,0.09189112484455109,53.530126266036824,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'MIA' and year_date = 2004 and air_time >= 135.00 and air_time <= 470.00;,100
+ApproachType.MODEL_BASED,293,0.20527619868516922,45.309365560730605,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= -178.0 and dep_delay < 712.0 and air_time >= 630.0 and air_time < 672.0;,100
+ApproachType.MODEL_BASED,294,0.033078670501708984,29.344866417804898,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'SNA' and year_date = 2002;,100
+ApproachType.MODEL_BASED,295,0.0379883274435997,59.09965544092826,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in > 187.00 and taxi_in <= 879.00 and arr_delay > 591.00 and arr_delay < 796.00;,100
+ApproachType.MODEL_BASED,296,0.06233806908130646,4.546365367723502,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2006 and arr_delay >= 376.00 and arr_delay <= 924.00 and dep_delay > 367.00 and dep_delay <= 834.00;,100
+ApproachType.MODEL_BASED,297,0.18247603625059128,35.8848254658639,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay >= -32.00 and dep_delay < 42.00 and taxi_in > 23.00 and taxi_in < 82.00;,100
+ApproachType.MODEL_BASED,298,0.04035945236682892,6.828751083097563,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > 334.00 and arr_delay <= 506.00;,100
+ApproachType.MODEL_BASED,299,0.07172465324401855,2.182371384715927,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'STL' and air_time > 211.00 and air_time <= 533.00;,100
+ApproachType.MODEL_BASED,300,0.12022391706705093,82.38227113757947,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance >= 112.00 and distance < 3043.00 and air_time >= 587.00 and air_time < 663.00;,100
+ApproachType.MODEL_BASED,301,0.054621465504169464,31.934723999639047,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time >= 134.00 and air_time <= 245.00;,100
+ApproachType.MODEL_BASED,302,0.037628546357154846,14.664891712434555,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'MBS' and arr_delay > 293.00 and arr_delay <= 876.00;,100
+ApproachType.MODEL_BASED,303,0.02128618210554123,4.186228866436308,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'LGB';,100
+ApproachType.MODEL_BASED,304,0.03367002308368683,11.664210471354597,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2005 and dest = 'ABI';,100
+ApproachType.MODEL_BASED,305,0.03355701267719269,77.6777119901233,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2016 and origin = 'MFE';,100
+ApproachType.MODEL_BASED,306,0.0158253014087677,43.31586328022514,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'ISN';,100
+ApproachType.MODEL_BASED,307,0.04952771216630936,35.073847240369666,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance >= 1514.00 and distance < 1781.00 and taxi_in >= 32.00 and taxi_in <= 95.00;,100
+ApproachType.MODEL_BASED,308,0.2152610719203949,21.925629064637945,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2008 and arr_delay >= 613.00 and arr_delay <= 905.00 and dep_delay > -1150.00 and dep_delay <= 633.00;,100
+ApproachType.MODEL_BASED,309,0.1147254928946495,83.3433073511687,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out >= 241.00 and taxi_out <= 304.00 and arr_delay >= 4.00 and arr_delay <= 950.00;,100
+ApproachType.MODEL_BASED,310,0.03363851457834244,19.13555836968188,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2003 and origin = 'LNK';,100
+ApproachType.MODEL_BASED,311,0.176895372569561,8.260329172256377,100,1,SELECT AVG(distance) FROM flights WHERE arr_delay >= 286.00 and arr_delay <= 879.00 and air_time > -12.00 and air_time <= 419.00;,100
+ApproachType.MODEL_BASED,312,0.04904891550540924,2.02294340656581,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out > 239.00 and taxi_out < 367.00 and air_time >= 236.00 and air_time < 396.00;,100
+ApproachType.MODEL_BASED,313,0.05092676728963852,29.249596430414158,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'DAL' and taxi_in > 32.00 and taxi_in < 968.00;,100
+ApproachType.MODEL_BASED,314,0.0568656399846077,36.18560685127751,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time > 165.00 and air_time < 263.00 and arr_delay > 708.00 and arr_delay < 924.00;,100
+ApproachType.MODEL_BASED,315,0.016993805766105652,1.9680481171272861,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'LRD';,100
+ApproachType.MODEL_BASED,316,0.02165721356868744,15.558161692208255,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 625.0 and dep_delay < 800.0;,100
+ApproachType.MODEL_BASED,317,0.17775030434131622,1.112287323783655,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance >= 305.00 and distance <= 606.00 and air_time > -702.00 and air_time <= 591.00;,100
+ApproachType.MODEL_BASED,318,0.18917794525623322,4.863403317980761,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= -845.00 and dep_delay < 120.00 and air_time > 272.00 and air_time <= 422.00;,100
+ApproachType.MODEL_BASED,319,0.13098390400409698,19.394553651505728,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out >= 159.00 and taxi_out < 219.00 and air_time >= 19.00 and air_time <= 644.00;,100
+ApproachType.MODEL_BASED,320,0.04303298145532608,2.118844037071472,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'STT' and taxi_out >= 190.00 and taxi_out < 297.00;,100
+ApproachType.MODEL_BASED,321,0.018906578421592712,10.12210462147197,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'KOA';,100
+ApproachType.MODEL_BASED,322,0.01984304189682007,40.3167778349482,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'WYS';,100
+ApproachType.MODEL_BASED,323,0.06175656616687775,2.51882630117912,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance >= 1164.00 and distance <= 2239.00;,100
+ApproachType.MODEL_BASED,324,0.04803697019815445,20.972618205382748,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2013 and dep_delay >= 311.00 and dep_delay < 788.00;,100
+ApproachType.MODEL_BASED,325,0.04895850270986557,3.3983845089885842,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'COS' and arr_delay >= 148.00 and arr_delay < 920.00;,100
+ApproachType.MODEL_BASED,326,0.06075933575630188,25.470442610289645,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 152.00 and taxi_in <= 917.00 and arr_delay > 137.00 and arr_delay < 951.00;,100
+ApproachType.MODEL_BASED,327,0.05468069761991501,70.73788591841044,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_out > 135.00 and taxi_out < 259.00 and taxi_in >= 32.00 and taxi_in <= 92.00;,100
+ApproachType.MODEL_BASED,328,0.03644988685846329,583.7393181425266,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'MRY' and year_date = 1995;,100
+ApproachType.MODEL_BASED,329,0.05180210620164871,47.46642568448783,100,1,SELECT AVG(distance) FROM flights WHERE taxi_in > 7.00 and taxi_in < 86.00;,100
+ApproachType.MODEL_BASED,330,0.16338524967432022,0.06404220269249888,100,1,SELECT AVG(distance) FROM flights WHERE air_time > 4.00 and air_time < 523.00;,100
+ApproachType.MODEL_BASED,331,0.053899750113487244,6.206597357179606,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'PIA' and taxi_out >= 19.00 and taxi_out <= 41.00;,100
+ApproachType.MODEL_BASED,332,0.034116633236408234,74.11170742502334,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2002 and origin = 'HRL';,100
+ApproachType.MODEL_BASED,333,0.016064807772636414,4.201505548935904,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time >= 385.00 and air_time <= 606.00;,100
+ApproachType.MODEL_BASED,334,0.3728024885058403,3.042565078905329,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay >= -55.00 and arr_delay < 1240.00 and air_time > -566.00 and air_time < 420.00 and dep_delay > 293.00 and dep_delay < 393.00;,100
+ApproachType.MODEL_BASED,335,0.23424839228391647,22.997356192576856,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= -57.00 and dep_delay <= 1091.00 and distance >= 346.00 and distance <= 453.00;,100
+ApproachType.MODEL_BASED,336,0.09486126899719238,83.19719176925946,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'PHX' and taxi_in >= 7.00 and taxi_in < 879.00 and arr_delay > 642.00 and arr_delay < 928.00;,100
+ApproachType.MODEL_BASED,337,0.2745354473590851,18.119318936767733,100,1,SELECT AVG(distance) FROM flights WHERE taxi_in >= 1.00 and taxi_in < 160.00 and arr_delay >= -43.00 and arr_delay < 1093.00;,100
+ApproachType.MODEL_BASED,338,0.11931750923395157,10.486303265865415,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time > 237.00 and air_time < 407.00 and dep_delay >= 15.00 and dep_delay <= 437.00;,100
+ApproachType.MODEL_BASED,339,0.03363540768623352,42.7176517283857,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'HNL' and year_date = 1999;,100
+ApproachType.MODEL_BASED,340,0.01780586689710617,21.12850267335478,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time >= 360.0 and air_time < 405.0;,100
+ApproachType.MODEL_BASED,341,0.014737695455551147,39.222883337447726,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'SPS';,100
+ApproachType.MODEL_BASED,342,0.04606609791517258,9.973359863218901,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'BQK' and arr_delay >= 137.00 and arr_delay <= 792.00;,100
+ApproachType.MODEL_BASED,343,0.02682415395975113,3.09801416853852,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out >= 20.0 and taxi_out < 30.0;,100
+ApproachType.MODEL_BASED,344,0.04088210314512253,13.536040103536418,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2007 and distance > 103.00 and distance < 332.00;,100
+ApproachType.MODEL_BASED,345,0.10075215995311737,77.56341667568834,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_in > 4.00 and taxi_in < 43.00 and dep_delay >= 113.00 and dep_delay <= 1170.00;,100
+ApproachType.MODEL_BASED,346,0.045707181096076965,3.8658923771899056,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2006 and taxi_out > 112.00 and taxi_out < 274.00;,100
+ApproachType.MODEL_BASED,347,0.03693442791700363,2.5080345944948634,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time > 251.00 and air_time <= 434.00;,100
+ApproachType.MODEL_BASED,348,0.06819913536310196,26.70957373692427,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay > 569.00 and dep_delay <= 824.00 and air_time > 185.00 and air_time <= 336.00;,100
+ApproachType.MODEL_BASED,349,0.09538715332746506,0.10277470674762933,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time >= -566.00 and air_time <= 221.00;,100
+ApproachType.MODEL_BASED,350,0.06954417377710342,86.36363636363636,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 194.0 and dep_delay < 291.0 and arr_delay >= 70.0 and arr_delay < 140.0;,100
+ApproachType.MODEL_BASED,351,0.05560028553009033,0.9655563587366571,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 208.00 and arr_delay <= 884.00 and taxi_out >= 143.00 and taxi_out <= 223.00;,100
+ApproachType.MODEL_BASED,352,0.03535792976617813,26.511032736087724,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1996 and arr_delay >= 361.00 and arr_delay < 362.00;,100
+ApproachType.MODEL_BASED,353,0.024413280189037323,2.8316203298692786,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay > 275.00 and dep_delay <= 518.00;,100
+ApproachType.MODEL_BASED,354,0.06963812559843063,1.5414523916337968,100,1,SELECT AVG(distance) FROM flights WHERE air_time > 173.00 and air_time < 369.00 and taxi_in > 154.00 and taxi_in <= 200.00;,100
+ApproachType.MODEL_BASED,355,0.05076734721660614,15.984798650737797,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'OTZ' and air_time >= -7.00 and air_time <= 65.00;,100
+ApproachType.MODEL_BASED,356,0.029024429619312286,87.18851578521712,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 1995 and air_time >= 532.00 and air_time <= 653.00;,100
+ApproachType.MODEL_BASED,357,0.05796664208173752,24.81263108062412,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'PIA' and taxi_in > 6.00 and taxi_in < 89.00;,100
+ApproachType.MODEL_BASED,358,0.04553838074207306,3.275838890383352,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out > 132.00 and taxi_out < 187.00 and arr_delay >= 596.00 and arr_delay < 798.00;,100
+ApproachType.MODEL_BASED,359,0.0492619127035141,1.802592641332509,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay > 335.00 and arr_delay <= 592.00 and dep_delay >= 197.00 and dep_delay <= 427.00;,100
+ApproachType.MODEL_BASED,360,0.1178232729434967,55.2198196154956,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out >= 28.0 and taxi_out < 35.0 and dep_delay >= 0.0 and dep_delay < 40.0;,100
+ApproachType.MODEL_BASED,361,0.02012837678194046,4.584200050858583,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2007;,100
+ApproachType.MODEL_BASED,362,0.04735032469034195,16.654256931688654,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in > 152.00 and taxi_in <= 187.00 and air_time >= 236.00 and air_time < 544.00;,100
+ApproachType.MODEL_BASED,363,0.04227186739444733,23.43350370935139,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 1999 and arr_delay > 201.00 and arr_delay < 570.00;,100
+ApproachType.MODEL_BASED,364,0.14112860709428787,53.06406689953599,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2002 and arr_delay > 340.00 and arr_delay < 620.00 and air_time > -483.00 and air_time < 542.00;,100
+ApproachType.MODEL_BASED,365,0.016610004007816315,19.77254812151927,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time >= 294.0 and air_time < 308.0;,100
+ApproachType.MODEL_BASED,366,0.029339849948883057,13.704214851717184,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'LRD' and year_date = 2004;,100
+ApproachType.MODEL_BASED,367,0.01779991388320923,53.1487461385553,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_in > 175.00 and taxi_in < 882.00;,100
+ApproachType.MODEL_BASED,368,0.20001249760389328,6.038338372871176,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 39.00 and taxi_in <= 40.00 and arr_delay >= -57.00 and arr_delay < 456.00;,100
+ApproachType.MODEL_BASED,369,0.12267212569713593,6.783189624815991,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'LGB' and air_time > -394.00 and air_time <= 415.00;,100
+ApproachType.MODEL_BASED,370,0.019508585333824158,2.331666468956719,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2014;,100
+ApproachType.MODEL_BASED,371,0.02497534453868866,34.24559943880895,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time >= 273.00 and air_time < 306.00;,100
+ApproachType.MODEL_BASED,372,0.02322395145893097,11.334126722146044,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in >= 35.0 and taxi_in < 42.0;,100
+ApproachType.MODEL_BASED,373,0.0200510174036026,17.503415890622758,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in > 122.00 and taxi_in < 217.00;,100
+ApproachType.MODEL_BASED,374,0.04032115638256073,22.477986430038747,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'FAR' and taxi_out > 46.00 and taxi_out <= 65.00;,100
+ApproachType.MODEL_BASED,375,0.030124254524707794,0.2722008397741109,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'MDW';,100
+ApproachType.MODEL_BASED,376,0.047992341220378876,37.47824367259526,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_out >= 35.0 and taxi_out < 42.0 and dep_delay >= 600.0 and dep_delay < 800.0;,100
+ApproachType.MODEL_BASED,377,0.05229853838682175,38.36177934059412,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out > 182.00 and taxi_out < 212.00 and taxi_in >= 12.00 and taxi_in <= 1357.00;,100
+ApproachType.MODEL_BASED,378,0.18107418715953827,17.791155450544213,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= 26.00 and air_time <= 557.00 and taxi_out > 101.00 and taxi_out <= 1385.00;,100
+ApproachType.MODEL_BASED,379,0.030136533081531525,39.92709120036857,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1996 and origin = 'BET';,100
+ApproachType.MODEL_BASED,380,0.02016042172908783,17.16797466061003,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay >= 451.00 and arr_delay <= 604.00;,100
+ApproachType.MODEL_BASED,381,0.04567001014947891,15.904728351111041,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'BTV' and arr_delay > 166.00 and arr_delay <= 540.00;,100
+ApproachType.MODEL_BASED,382,0.04731076955795288,42.56074256860877,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'BDL' and taxi_out >= 28.00 and taxi_out <= 39.00;,100
+ApproachType.MODEL_BASED,383,0.24234870076179504,4.905140500982803,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out >= 10.00 and taxi_out < 100.00 and air_time >= -545.00 and air_time < 271.00;,100
+ApproachType.MODEL_BASED,384,0.2636525332927704,0.5053118901601535,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'PSP' and air_time >= -2.00 and air_time <= 498.00 and arr_delay >= 3.00 and arr_delay < 325.00;,100
+ApproachType.MODEL_BASED,385,0.20083525031805038,4.136708447884028,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2006 and arr_delay >= -32.00 and arr_delay <= 494.00;,100
+ApproachType.MODEL_BASED,386,0.10487864166498184,26.96768440101683,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time > 57.00 and air_time < 655.00 and taxi_out >= 119.00 and taxi_out <= 129.00;,100
+ApproachType.MODEL_BASED,387,0.07611188292503357,70.96930142897257,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2006 and arr_delay > 269.00 and arr_delay < 510.00 and air_time >= 204.00 and air_time < 390.00;,100
+ApproachType.MODEL_BASED,388,0.3326094299554825,10521.223804655781,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out >= 166.00 and taxi_out < 208.00 and arr_delay >= -87.00 and arr_delay <= 144.00 and air_time > 21.00 and air_time <= 299.00;,100
+ApproachType.MODEL_BASED,389,0.02427738904953003,9.975035216078796,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance >= 494.00 and distance <= 829.00;,100
+ApproachType.MODEL_BASED,390,0.06364665925502777,2.5902857514810558,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance > 1494.00 and distance <= 1995.00 and arr_delay > 111.00 and arr_delay <= 704.00;,100
+ApproachType.MODEL_BASED,391,0.02148844301700592,4.717712411326711,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2010;,100
+ApproachType.MODEL_BASED,392,0.022457249462604523,8.446688659393136,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance >= 370.00 and distance < 720.00;,100
+ApproachType.MODEL_BASED,393,0.04286450147628784,4.989645213293506,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2002 and dep_delay >= 228.00 and dep_delay < 861.00;,100
+ApproachType.MODEL_BASED,394,0.016181863844394684,121.2097793990527,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'BQK';,100
+ApproachType.MODEL_BASED,395,0.12840567529201508,21.977012423873262,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time > 101.00 and air_time < 641.00 and arr_delay >= 209.00 and arr_delay < 654.00 and taxi_in > 54.00 and taxi_in <= 60.00;,100
+ApproachType.MODEL_BASED,396,0.1279633864760399,56.4006413657715,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 1997 and origin = 'BOI' and arr_delay > 10.00 and arr_delay <= 915.00;,100
+ApproachType.MODEL_BASED,397,0.1023077741265297,2.0691786087229413,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2009 and air_time > 176.00 and air_time <= 641.00 and distance >= 1841.00 and distance < 2496.00;,100
+ApproachType.MODEL_BASED,398,0.05297424644231796,23.10887558296448,100,1,SELECT AVG(distance) FROM flights WHERE arr_delay >= 53.00 and arr_delay < 881.00 and air_time > 599.00 and air_time < 625.00;,100
+ApproachType.MODEL_BASED,399,0.017215266823768616,11.627741415036136,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'ABE';,100
+ApproachType.MODEL_BASED,400,0.018910139799118042,1.3142437803033975,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'HPN';,100
+ApproachType.MODEL_BASED,401,0.037381917238235474,2.6365223193018332,100,1,SELECT AVG(distance) FROM flights WHERE air_time > 216.00 and air_time <= 382.00;,100
+ApproachType.MODEL_BASED,402,0.009889073669910431,4.792113735279313,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= 384.00 and air_time < 510.00;,100
+ApproachType.MODEL_BASED,403,0.03652649372816086,54.430591997619196,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in > 142.00 and taxi_in <= 153.00 and air_time > 279.00 and air_time < 378.00;,100
+ApproachType.MODEL_BASED,404,0.0174521803855896,14.966943901713615,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'BIS';,100
+ApproachType.MODEL_BASED,405,0.1459524855017662,2.999087690409472,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= 391.00 and air_time < 472.00 and dep_delay > -32.00 and dep_delay < 850.00;,100
+ApproachType.MODEL_BASED,406,0.032073087990283966,14.760169036797585,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'MKE' and year_date = 2005;,100
+ApproachType.MODEL_BASED,407,0.047391727566719055,319.60311390866104,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'SLE' and taxi_in >= 11.00 and taxi_in < 88.00;,100
+ApproachType.MODEL_BASED,408,0.034255869686603546,38.36213683185076,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2009 and taxi_in >= 121.00 and taxi_in <= 228.00;,100
+ApproachType.MODEL_BASED,409,0.061686158180236816,12.046293211431927,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'TEX' and taxi_out > 23.00 and taxi_out <= 59.00;,100
+ApproachType.MODEL_BASED,410,0.02806205302476883,2.6491075936960056,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance >= 130.00 and distance < 515.00;,100
+ApproachType.MODEL_BASED,411,0.05411992222070694,0.08466255799876501,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1998 and distance > 697.00 and distance < 997.00;,100
+ApproachType.MODEL_BASED,412,0.22627753019332886,22.8564055773616,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2009 and dep_delay >= 598.00 and dep_delay <= 828.00 and air_time >= -685.00 and air_time <= 424.00;,100
+ApproachType.MODEL_BASED,413,0.03900298476219177,50.82684267982209,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2013 and taxi_in >= 146.00 and taxi_in < 526.00;,100
+ApproachType.MODEL_BASED,414,0.032328009605407715,410.0161841395432,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_out >= 15.0 and taxi_out < 18.0 and distance >= 4160.0 and distance < 4368.0;,100
+ApproachType.MODEL_BASED,415,0.01479513943195343,4.021672986887814,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'EUG';,100
+ApproachType.MODEL_BASED,416,0.045968152582645416,11.478929222244162,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay >= 135.00 and dep_delay < 202.00 and air_time > 262.00 and air_time < 329.00;,100
+ApproachType.MODEL_BASED,417,0.05037789046764374,69.89363873929216,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 525.0 and dep_delay < 700.0 and taxi_out >= 5.0 and taxi_out < 10.0;,100
+ApproachType.MODEL_BASED,418,0.20656924694776535,16.11378447482632,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1995 and taxi_out >= 128.00 and taxi_out < 176.00 and arr_delay > -14.00 and arr_delay <= 986.00;,100
+ApproachType.MODEL_BASED,419,0.012627772986888885,5.4514188072921845,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance >= 3152.0 and distance < 3349.0;,100
+ApproachType.MODEL_BASED,420,0.3368223085999489,12.30690004005148,100,1,SELECT AVG(air_time) FROM flights WHERE distance >= 175.00 and distance <= 1807.00 and dep_delay >= -25.00 and dep_delay < 1080.00 and taxi_in > 49.00 and taxi_in < 63.00;,100
+ApproachType.MODEL_BASED,421,0.0978517010807991,98.13551590747036,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2005 and origin = 'ACT' and dep_delay >= 22.00 and dep_delay <= 888.00;,100
+ApproachType.MODEL_BASED,422,0.046794138848781586,62.86105334309363,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2010 and taxi_in >= 21.00 and taxi_in < 280.00;,100
+ApproachType.MODEL_BASED,423,0.015583381056785583,118.7357898093387,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'MGM';,100
+ApproachType.MODEL_BASED,424,0.037216849625110626,73.24497738022608,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2015 and dest = 'AEX';,100
+ApproachType.MODEL_BASED,425,0.053649768233299255,8.054015292533643,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2013 and distance > 189.00 and distance <= 737.00;,100
+ApproachType.MODEL_BASED,426,0.23907509446144104,2.730970778344065,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'ATL' and arr_delay >= -37.00 and arr_delay <= 906.00;,100
+ApproachType.MODEL_BASED,427,0.09712386131286621,1747.364968991371,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'ATW' and arr_delay >= 65.00 and arr_delay <= 927.00 and taxi_out >= 103.00 and taxi_out <= 415.00;,100
+ApproachType.MODEL_BASED,428,0.2374803125858307,28.137263242594692,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in >= 109.00 and taxi_in <= 224.00 and dep_delay > -37.00 and dep_delay < 154.00;,100
+ApproachType.MODEL_BASED,429,0.0265449658036232,3.4744740141251116,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance > 1236.00 and distance < 1488.00;,100
+ApproachType.MODEL_BASED,430,0.03312172740697861,12.306333806839103,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > 432.00 and arr_delay <= 638.00;,100
+ApproachType.MODEL_BASED,431,0.03201396018266678,83.18558939460495,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2012 and origin = 'EGE';,100
+ApproachType.MODEL_BASED,432,0.058130644261837006,58.37067303053437,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2002 and taxi_out >= 30.00 and taxi_out < 79.00 and distance >= 752.00 and distance < 801.00;,100
+ApproachType.MODEL_BASED,433,0.01646953821182251,170.6075657084926,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'LAR';,100
+ApproachType.MODEL_BASED,434,0.09451594203710556,8.302747645999967,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out > 116.00 and taxi_out <= 1394.00 and distance > 378.00 and distance <= 799.00 and air_time >= 187.00 and air_time < 309.00;,100
+ApproachType.MODEL_BASED,435,0.018271006643772125,6.244460534852137,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'AZO';,100
+ApproachType.MODEL_BASED,436,0.06536506861448288,29.63953203107322,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in > 110.00 and taxi_in < 185.00 and arr_delay > 110.00 and arr_delay < 972.00;,100
+ApproachType.MODEL_BASED,437,0.035378165543079376,38.309344451577076,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'STX' and year_date = 2007;,100
+ApproachType.MODEL_BASED,438,0.030487194657325745,56.66774205378975,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'HNL' and distance >= 3320.0 and distance < 3528.0;,100
+ApproachType.MODEL_BASED,439,0.1917044296860695,1.0506370442251742,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2007 and air_time >= -709.00 and air_time <= 635.00;,100
+ApproachType.MODEL_BASED,440,0.03786436468362808,0.7496070139382429,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2009 and air_time > 220.00 and air_time < 276.00;,100
+ApproachType.MODEL_BASED,441,0.020684659481048584,0.2498818968884194,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'KOA';,100
+ApproachType.MODEL_BASED,442,0.04324718564748764,70.5450986949436,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_in > 54.00 and taxi_in <= 93.00 and distance > 1968.00 and distance <= 2874.00;,100
+ApproachType.MODEL_BASED,443,0.12707963585853577,0.062167500193468825,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay >= -50.00 and dep_delay < 1080.00;,100
+ApproachType.MODEL_BASED,444,0.01192069798707962,35.11953094256529,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time >= 588.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,445,0.0361352413892746,0.3520784940651814,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'SLC';,100
+ApproachType.MODEL_BASED,446,0.06261514127254486,5.077496812246647,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > 115.00 and arr_delay <= 866.00 and taxi_out >= 127.00 and taxi_out < 177.00;,100
+ApproachType.MODEL_BASED,447,0.2267058715224266,2.460760148928559,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'RSW' and dep_delay >= -62.00 and dep_delay <= 442.00;,100
+ApproachType.MODEL_BASED,448,0.056241475045681,15.44186138384413,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2008 and arr_delay >= 304.00 and arr_delay < 381.00 and dep_delay > 372.00 and dep_delay <= 409.00;,100
+ApproachType.MODEL_BASED,449,0.026166893541812897,2.3317681402386734,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 28.0 and taxi_in < 32.0 and distance >= 2745.0 and distance < 2928.0;,100
+ApproachType.MODEL_BASED,450,0.05227401852607727,20.84524606652239,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance >= 84.00 and distance <= 865.00 and arr_delay > 798.00 and arr_delay < 820.00;,100
+ApproachType.MODEL_BASED,451,0.0674295499920845,131.92919602191432,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'TRI' and taxi_out > 52.00 and taxi_out <= 55.00 and taxi_in > 1.00 and taxi_in < 879.00;,100
+ApproachType.MODEL_BASED,452,0.020659878849983215,23.80925799664905,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay > 609.00 and arr_delay < 815.00;,100
+ApproachType.MODEL_BASED,453,0.02674795687198639,8.10629441325424,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= 270.00 and dep_delay < 488.00;,100
+ApproachType.MODEL_BASED,454,0.06286028027534485,39.09992181778081,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_out >= 58.00 and taxi_out <= 64.00 and dep_delay >= 174.00 and dep_delay < 971.00;,100
+ApproachType.MODEL_BASED,455,0.05834245681762695,0.6713344446343887,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance > 1214.00 and distance < 2554.00;,100
+ApproachType.MODEL_BASED,456,0.039288245141506195,3.651780744336904,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 1995 and origin = 'SEA';,100
+ApproachType.MODEL_BASED,457,0.06369828432798386,11.462322899184473,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'OTH' and arr_delay >= 74.00 and arr_delay <= 854.00;,100
+ApproachType.MODEL_BASED,458,0.08146708458662033,0.5176722821297316,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay > 293.00 and dep_delay < 994.00 and arr_delay >= 339.00 and arr_delay < 778.00 and distance > 1129.00 and distance <= 1640.00;,100
+ApproachType.MODEL_BASED,459,0.04873745143413544,10.067298073149013,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 194.00 and dep_delay < 747.00 and air_time > 295.00 and air_time <= 527.00;,100
+ApproachType.MODEL_BASED,460,0.2352413684129715,31.31379028121896,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay >= 0.0 and arr_delay < 80.0 and dep_delay >= 0.0 and dep_delay < 178.0 and air_time >= 504.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,461,0.038095325231552124,2.806480096837673,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= 100.00 and dep_delay <= 990.00;,100
+ApproachType.MODEL_BASED,462,0.19907736778259277,1.6311757483277713,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2011 and dep_delay >= -35.00 and dep_delay <= 567.00;,100
+ApproachType.MODEL_BASED,463,0.040498606860637665,38.59787040038234,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2011 and taxi_in > 163.00 and taxi_in < 457.00;,100
+ApproachType.MODEL_BASED,464,0.2075422927737236,64.36921401934018,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out >= 350.00 and taxi_out < 870.00 and dep_delay >= -62.00 and dep_delay < 204.00;,100
+ApproachType.MODEL_BASED,465,0.09646593779325485,71.97949280617676,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 1053.00 and taxi_in <= 1381.00 and taxi_out >= 11.00 and taxi_out < 189.00;,100
+ApproachType.MODEL_BASED,466,0.040771663188934326,0.6212435264095539,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'PVD' and taxi_out > 177.00 and taxi_out < 415.00;,100
+ApproachType.MODEL_BASED,467,0.02735450118780136,9.360335523940718,100,1,SELECT AVG(air_time) FROM flights WHERE arr_delay > 308.00 and arr_delay < 636.00;,100
+ApproachType.MODEL_BASED,468,0.05133578181266785,40.22309725078366,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2008 and origin = 'SCE' and distance >= 553.00 and distance < 824.00;,100
+ApproachType.MODEL_BASED,469,0.014377988874912262,22.349658175784686,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time >= 594.00 and air_time <= 607.00;,100
+ApproachType.MODEL_BASED,470,0.24766231328248978,8.761009689060053,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay >= -45.00 and dep_delay < 477.00 and taxi_out >= 213.00 and taxi_out < 297.00;,100
+ApproachType.MODEL_BASED,471,0.017642386257648468,26.794594980187963,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'TTN';,100
+ApproachType.MODEL_BASED,472,0.25713202357292175,8.441055244297962,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= -66.00 and dep_delay <= 312.00 and air_time > 150.00 and air_time <= 627.00;,100
+ApproachType.MODEL_BASED,473,0.03519774228334427,13.229404769269381,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 448.00 and arr_delay < 801.00;,100
+ApproachType.MODEL_BASED,474,0.03666771203279495,20.4178292342256,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2007 and dest = 'ACT';,100
+ApproachType.MODEL_BASED,475,0.01683126389980316,818.8385765068357,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'WRG';,100
+ApproachType.MODEL_BASED,476,0.09412094950675964,97.98919881614418,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 907.00 and arr_delay <= 931.00 and taxi_out >= 20.00 and taxi_out < 47.00 and distance > 1155.00 and distance <= 1404.00;,100
+ApproachType.MODEL_BASED,477,0.04588796943426132,31.734877915269234,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_out >= 169.00 and taxi_out < 244.00 and distance > 548.00 and distance < 868.00;,100
+ApproachType.MODEL_BASED,478,0.0865030363202095,12.254807595432608,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out > 30.00 and taxi_out < 325.00 and air_time >= 343.00 and air_time <= 670.00;,100
+ApproachType.MODEL_BASED,479,0.12235820293426514,0.7791472435062878,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'TWF' and air_time > 43.00 and air_time <= 642.00;,100
+ApproachType.MODEL_BASED,480,0.045526742935180664,405.50481511190145,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2008 and taxi_out > 220.00 and taxi_out < 277.00;,100
+ApproachType.MODEL_BASED,481,0.037016361951828,65.4242425126939,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2007 and origin = 'BQK';,100
+ApproachType.MODEL_BASED,482,0.04508161544799805,9.621769451718624,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'DAY' and dep_delay >= 210.00 and dep_delay < 506.00;,100
+ApproachType.MODEL_BASED,483,0.03690627962350845,0.5825422432358934,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2001 and air_time >= 213.00 and air_time < 253.00;,100
+ApproachType.MODEL_BASED,484,0.03418430685997009,5.823532427228905,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2016 and origin = 'OKC';,100
+ApproachType.MODEL_BASED,485,0.02949700504541397,0.03088015364373085,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'SAT';,100
+ApproachType.MODEL_BASED,486,0.04395865648984909,2.5038379685656555,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'APF' and arr_delay > 136.00 and arr_delay <= 710.00;,100
+ApproachType.MODEL_BASED,487,0.1844780296087265,0.32902467745138714,100,1,SELECT AVG(distance) FROM flights WHERE air_time > 21.00 and air_time < 514.00;,100
+ApproachType.MODEL_BASED,488,0.25304923206567764,125.0,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > -87.00 and arr_delay <= 584.00 and taxi_in >= 49.00 and taxi_in <= 54.00 and taxi_out >= 150.00 and taxi_out < 284.00;,100
+ApproachType.MODEL_BASED,489,0.039994075894355774,2.866911291163769,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 164.0 and arr_delay < 328.0;,100
+ApproachType.MODEL_BASED,490,0.024447694420814514,43.01847504656416,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in >= 30.0 and taxi_in < 36.0;,100
+ApproachType.MODEL_BASED,491,0.1741965338587761,2.5039848083418677,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time > 20.00 and air_time <= 593.00 and distance >= 2300.00 and distance < 4433.00;,100
+ApproachType.MODEL_BASED,492,0.06545818597078323,18.878839242135133,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out >= 12.00 and taxi_out < 1437.00 and air_time >= 367.00 and air_time < 649.00;,100
+ApproachType.MODEL_BASED,493,0.04952721297740936,97.22222222222221,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in > 137.00 and taxi_in <= 1388.00 and dep_delay >= 321.00 and dep_delay <= 350.00;,100
+ApproachType.MODEL_BASED,494,0.09559762477874756,0.5896661030173836,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2008 and dep_delay > 108.00 and dep_delay < 334.00 and air_time >= 204.00 and air_time < 372.00;,100
+ApproachType.MODEL_BASED,495,0.027861572802066803,11.563069538092575,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2015 and air_time >= 496.00 and air_time <= 583.00;,100
+ApproachType.MODEL_BASED,496,0.043081991374492645,46.05338450664676,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time > 258.00 and air_time < 706.00 and taxi_in > 140.00 and taxi_in < 968.00;,100
+ApproachType.MODEL_BASED,497,0.016776323318481445,351.3600642728989,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'MKG';,100
+ApproachType.MODEL_BASED,498,0.017439022660255432,2.0448927697151937,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'GGG';,100
+ApproachType.MODEL_BASED,499,0.10397997498512268,83.02190872447761,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay >= 0.0 and arr_delay < 80.0 and air_time >= 588.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,500,0.20265400409698486,0.6216895776472404,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'OTH' and dep_delay >= -56.00 and dep_delay <= 140.00;,100
+ApproachType.MODEL_BASED,501,0.08059772849082947,27.229122608931867,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 32.0 and arr_delay < 130.0 and distance >= 4784.0 and distance < 4992.0;,100
+ApproachType.MODEL_BASED,502,0.06175883859395981,20.63153642435484,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'LBB' and year_date = 2007 and distance >= 338.00 and distance < 903.00;,100
+ApproachType.MODEL_BASED,503,0.17230810970067978,11.490480034822895,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2004 and dest = 'GEG' and dep_delay >= -3.00 and dep_delay < 918.00;,100
+ApproachType.MODEL_BASED,504,0.04054375737905502,46.3375815775997,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'SYR' and year_date = 2008;,100
+ApproachType.MODEL_BASED,505,0.04890113323926926,30.52548956013372,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > 339.00 and arr_delay < 361.00 and taxi_out > 114.00 and taxi_out <= 134.00;,100
+ApproachType.MODEL_BASED,506,0.017221063375473022,26.557511612201722,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'FSD';,100
+ApproachType.MODEL_BASED,507,0.03623048961162567,0.22663336755004063,100,1,SELECT AVG(air_time) FROM flights WHERE distance >= 1641.00 and distance <= 4184.00;,100
+ApproachType.MODEL_BASED,508,0.15896717458963394,7.500751368557385,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'IAD' and taxi_out >= 5.00 and taxi_out < 574.00;,100
+ApproachType.MODEL_BASED,509,0.017343714833259583,30.888764333696866,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'LIT';,100
+ApproachType.MODEL_BASED,510,0.020048007369041443,7.185668283019853,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2008;,100
+ApproachType.MODEL_BASED,511,0.03123379498720169,4.206757262041308,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 341.00 and arr_delay < 694.00;,100
+ApproachType.MODEL_BASED,512,0.25913263857364655,77.29697542090715,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'APN' and arr_delay >= 28.00 and arr_delay <= 457.00 and dep_delay >= -58.00 and dep_delay <= 1188.00;,100
+ApproachType.MODEL_BASED,513,0.03722508251667023,35.47481556886815,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'BNA' and arr_delay > 386.00 and arr_delay <= 555.00;,100
+ApproachType.MODEL_BASED,514,0.027055591344833374,0.47238356317576663,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'ONT';,100
+ApproachType.MODEL_BASED,515,0.09074225276708603,21.30298535962668,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2011 and taxi_out > 17.00 and taxi_out < 92.00 and dep_delay >= 365.00 and dep_delay < 524.00;,100
+ApproachType.MODEL_BASED,516,0.014795951545238495,13.636869658653634,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'MEI';,100
+ApproachType.MODEL_BASED,517,0.014858543872833252,104.79338533845734,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'SIT';,100
+ApproachType.MODEL_BASED,518,0.03156685829162598,17.14968030787433,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > 425.00 and arr_delay <= 559.00 and air_time > 549.00 and air_time < 612.00;,100
+ApproachType.MODEL_BASED,519,0.04080890864133835,7.124896199883255,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2004 and taxi_in >= 37.00 and taxi_in < 80.00;,100
+ApproachType.MODEL_BASED,520,0.033438391983509064,88.93658220447412,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 1996 and origin = 'CRW';,100
+ApproachType.MODEL_BASED,521,0.09063372761011124,17.520042298265277,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'JAN' and year_date = 2003 and arr_delay > 36.00 and arr_delay < 463.00;,100
+ApproachType.MODEL_BASED,522,0.10056556761264801,35.596410807268256,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time >= 131.00 and air_time < 434.00 and arr_delay >= 310.00 and arr_delay < 341.00;,100
+ApproachType.MODEL_BASED,523,0.21224841475486755,0.8798052356141987,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2008 and arr_delay >= -34.00 and arr_delay <= 996.00;,100
+ApproachType.MODEL_BASED,524,0.03961622714996338,14.484304311696455,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay >= 254.00 and arr_delay <= 605.00 and air_time >= 333.00 and air_time <= 420.00;,100
+ApproachType.MODEL_BASED,525,0.22482715547084808,25.66206535171346,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'SAV' and air_time >= -552.00 and air_time < 68.00 and arr_delay > -60.00 and arr_delay < 254.00;,100
+ApproachType.MODEL_BASED,526,0.04360676556825638,87.5494813626799,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time >= 233.00 and air_time <= 460.00 and distance > 1236.00 and distance <= 1338.00;,100
+ApproachType.MODEL_BASED,527,0.15214719623327255,83.91738430915761,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time >= 288.0 and air_time < 306.0 and taxi_out >= 28.0 and taxi_out < 35.0 and dep_delay >= 0.0 and dep_delay < 40.0;,100
+ApproachType.MODEL_BASED,528,0.08861852437257767,3.938823920681722,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2006 and arr_delay >= -39.00 and arr_delay <= 7.00;,100
+ApproachType.MODEL_BASED,529,0.05865361541509628,0.898925688785934,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time >= 268.00 and air_time < 619.00 and distance >= 1120.00 and distance < 1721.00;,100
+ApproachType.MODEL_BASED,530,0.01947837322950363,71.31342762353763,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_in > 973.00 and taxi_in <= 990.00;,100
+ApproachType.MODEL_BASED,531,0.015892229974269867,0.23413465465240835,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'MFE';,100
+ApproachType.MODEL_BASED,532,0.030538715422153473,207.88261694137162,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'DHN' and year_date = 2007;,100
+ApproachType.MODEL_BASED,533,0.1272408366203308,53.95181892258238,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance >= 179.00 and distance <= 1960.00 and air_time > 138.00 and air_time <= 156.00 and taxi_out > 260.00 and taxi_out <= 574.00;,100
+ApproachType.MODEL_BASED,534,0.05910900980234146,11.950309519993588,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay > 238.00 and dep_delay <= 852.00 and air_time >= 265.00 and air_time <= 670.00;,100
+ApproachType.MODEL_BASED,535,0.03993593156337738,2.153263454494334,100,1,SELECT AVG(air_time) FROM flights WHERE distance >= 427.00 and distance < 813.00;,100
+ApproachType.MODEL_BASED,536,0.08309720456600189,24.52290563397506,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time > 350.00 and air_time <= 443.00 and taxi_out >= 21.00 and taxi_out <= 69.00;,100
+ApproachType.MODEL_BASED,537,0.042502813041210175,23.675659210426584,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 19.00 and taxi_in <= 937.00;,100
+ApproachType.MODEL_BASED,538,0.12049578130245209,7.984243183582274,100,1,SELECT AVG(distance) FROM flights WHERE arr_delay > -20.00 and arr_delay < 934.00;,100
+ApproachType.MODEL_BASED,539,0.21724588423967361,79.32594158889121,100,1,SELECT AVG(air_time) FROM flights WHERE distance >= 572.00 and distance <= 670.00 and dep_delay >= -12.00 and dep_delay < 646.00 and taxi_in > 1030.00 and taxi_in <= 1366.00;,100
+ApproachType.MODEL_BASED,540,0.01651129126548767,1.280397692965297,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'KTN';,100
+ApproachType.MODEL_BASED,541,0.01825237274169922,0.18785371637040268,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,542,0.10550180077552795,8.324492232895167,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'IAG' and arr_delay > 10.00 and arr_delay <= 392.00;,100
+ApproachType.MODEL_BASED,543,0.036735184490680695,7.87865081013445,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out >= 15.0 and taxi_out < 18.0 and distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,544,0.20560863614082336,0.0055450777761435035,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay >= -16.00 and arr_delay <= 940.00 and taxi_in >= 170.00 and taxi_in < 973.00;,100
+ApproachType.MODEL_BASED,545,0.04818668216466904,23.84548591801275,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in >= 27.00 and taxi_in <= 725.00;,100
+ApproachType.MODEL_BASED,546,0.015760384500026703,0.19253799345399572,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time > 110.00 and air_time < 133.00;,100
+ApproachType.MODEL_BASED,547,0.20682409405708313,513.1584338166948,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 0.0 and arr_delay < 98.0 and taxi_in >= 0.0 and taxi_in < 5.0 and taxi_out >= 99.0 and taxi_out < 108.0 and distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,548,0.03365664184093475,4.638905828844788,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'FAR';,100
+ApproachType.MODEL_BASED,549,0.06192883104085922,27.831325301204828,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out >= 72.0 and taxi_out < 81.0 and distance >= 4160.0 and distance < 4368.0;,100
+ApproachType.MODEL_BASED,550,0.05215243250131607,4.057530952107556,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay > 185.00 and dep_delay < 903.00;,100
+ApproachType.MODEL_BASED,551,0.042527079582214355,20.031116677930548,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'SJC' and year_date = 2011;,100
+ApproachType.MODEL_BASED,552,0.06562982499599457,11.887383746756122,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay >= 293.00 and arr_delay < 973.00 and air_time >= 248.00 and air_time <= 468.00;,100
+ApproachType.MODEL_BASED,553,0.13110898435115814,28.165884208331672,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time > 59.00 and air_time < 639.00 and arr_delay > 434.00 and arr_delay < 479.00;,100
+ApproachType.MODEL_BASED,554,0.14724507182836533,57.50391008968057,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay > 19.00 and arr_delay <= 609.00 and taxi_out >= 15.00 and taxi_out <= 31.00;,100
+ApproachType.MODEL_BASED,555,0.2668262645602226,3.5886680003069222,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2004 and air_time > 31.00 and air_time <= 328.00 and taxi_out >= 11.00 and taxi_out < 242.00;,100
+ApproachType.MODEL_BASED,556,0.0863816887140274,16.636667073087384,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 1999 and taxi_out > 61.00 and taxi_out < 92.00;,100
+ApproachType.MODEL_BASED,557,0.10292481631040573,35.53073625884125,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out >= 14.0 and taxi_out < 21.0 and dep_delay >= 600.0 and dep_delay < 800.0;,100
+ApproachType.MODEL_BASED,558,0.10483324527740479,28.68162065330925,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay >= 496.00 and dep_delay <= 658.00 and air_time > 273.00 and air_time < 553.00 and arr_delay >= 116.00 and arr_delay < 478.00;,100
+ApproachType.MODEL_BASED,559,0.040402092039585114,44.96634575854067,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'CAE' and taxi_out > 127.00 and taxi_out < 140.00;,100
+ApproachType.MODEL_BASED,560,0.30196433514356613,34.42187023705526,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay >= -43.00 and dep_delay <= 337.00 and taxi_out >= 28.00 and taxi_out < 40.00;,100
+ApproachType.MODEL_BASED,561,0.025801882147789,577.2118204990879,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance >= 816.00 and distance <= 896.00 and taxi_in > 525.00 and taxi_in <= 580.00;,100
+ApproachType.MODEL_BASED,562,0.022570110857486725,12.105492776723882,100,1,SELECT AVG(air_time) FROM flights WHERE arr_delay > 398.00 and arr_delay < 736.00;,100
+ApproachType.MODEL_BASED,563,0.028559044003486633,34.11116144765631,100,1,SELECT AVG(distance) FROM flights WHERE taxi_in > 40.00 and taxi_in < 86.00;,100
+ApproachType.MODEL_BASED,564,0.19206241518259048,34.40788624370632,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out > 21.00 and taxi_out <= 57.00 and dep_delay > -6.00 and dep_delay < 486.00;,100
+ApproachType.MODEL_BASED,565,0.057136304676532745,2.653745619812663,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'EWR' and arr_delay >= 103.00 and arr_delay < 921.00;,100
+ApproachType.MODEL_BASED,566,0.024380557239055634,18.04271254303822,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay > 596.00 and dep_delay <= 958.00;,100
+ApproachType.MODEL_BASED,567,0.0702473446726799,4.542011742728608,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'CLL' and taxi_out >= 17.00 and taxi_out < 252.00;,100
+ApproachType.MODEL_BASED,568,0.14532718807458878,0.3273325016232645,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay >= -40.00 and arr_delay <= 1508.00;,100
+ApproachType.MODEL_BASED,569,0.032870545983314514,35.88182192339035,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2015 and dest = 'MQT';,100
+ApproachType.MODEL_BASED,570,0.015521734952926636,5.836016132528685,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'BTR';,100
+ApproachType.MODEL_BASED,571,0.03677505999803543,41.90985662145387,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'HSV' and arr_delay >= 337.00 and arr_delay < 720.00;,100
+ApproachType.MODEL_BASED,572,0.03763275593519211,61.758861087548354,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2001 and arr_delay > 424.00 and arr_delay < 740.00;,100
+ApproachType.MODEL_BASED,573,0.12558095902204514,73.49175394892048,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out >= 16.0 and taxi_out < 23.0 and air_time >= 630.0 and air_time < 672.0 and dep_delay >= 0.0 and dep_delay < 40.0;,100
+ApproachType.MODEL_BASED,574,0.017786569893360138,12.999419807157064,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'EYW';,100
+ApproachType.MODEL_BASED,575,0.08842063695192337,19.19315805861289,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay >= 23.00 and dep_delay <= 61.00 and taxi_out > 121.00 and taxi_out <= 225.00;,100
+ApproachType.MODEL_BASED,576,0.06386947631835938,45.61941771469969,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2011 and dest = 'ANC' and taxi_out > 31.00 and taxi_out < 367.00;,100
+ApproachType.MODEL_BASED,577,0.014668218791484833,18.47943635649093,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'FSM';,100
+ApproachType.MODEL_BASED,578,0.03774089366197586,15.244391614275607,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2016 and taxi_out >= 119.00 and taxi_out <= 239.00;,100
+ApproachType.MODEL_BASED,579,0.034153811633586884,2.4084113004687233,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'BWI' and year_date = 1997;,100
+ApproachType.MODEL_BASED,580,0.11623125523328781,0.9653669805230716,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'PVD' and air_time >= -197.00 and air_time <= 276.00;,100
+ApproachType.MODEL_BASED,581,0.05251307785511017,1.6875570565683087,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'ABI' and arr_delay >= 153.00 and arr_delay < 448.00;,100
+ApproachType.MODEL_BASED,582,0.024168573319911957,19.307762556210506,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= 663.00 and dep_delay <= 890.00;,100
+ApproachType.MODEL_BASED,583,0.23662789911031723,2.981194250815734,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay > 22.00 and dep_delay <= 242.00 and distance >= 775.00 and distance < 979.00 and air_time > -197.00 and air_time < 535.00;,100
+ApproachType.MODEL_BASED,584,0.16933123767375946,14.71691767184056,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time > 37.00 and air_time <= 394.00 and taxi_in >= 10.00 and taxi_in <= 171.00;,100
+ApproachType.MODEL_BASED,585,0.010439276695251465,1.0305892941851353,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance >= 2955.0 and distance < 3152.0;,100
+ApproachType.MODEL_BASED,586,0.2776167020201683,18.188959013898874,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= -83.00 and arr_delay < 438.00 and air_time > 128.00 and air_time < 322.00;,100
+ApproachType.MODEL_BASED,587,0.03397104889154434,37.21201637341004,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2002 and dest = 'BRW';,100
+ApproachType.MODEL_BASED,588,0.035070985555648804,23.440363818183453,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'HNL' and dep_delay > 850.00 and dep_delay <= 886.00;,100
+ApproachType.MODEL_BASED,589,0.027878537774086,13.540931891422408,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2002 and distance > 434.00 and distance <= 454.00;,100
+ApproachType.MODEL_BASED,590,0.04935838282108307,30.45651955562362,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2001 and air_time > 222.00 and air_time < 409.00;,100
+ApproachType.MODEL_BASED,591,0.03860001266002655,0.63846567973725,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'EWR';,100
+ApproachType.MODEL_BASED,592,0.04903952032327652,516.3871074895007,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 1997 and arr_delay > 449.00 and arr_delay < 506.00 and taxi_out > 213.00 and taxi_out < 254.00;,100
+ApproachType.MODEL_BASED,593,0.01750236749649048,0.08425375963014034,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'IND';,100
+ApproachType.MODEL_BASED,594,0.04847218096256256,3.8157333355115233,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= 181.00 and air_time <= 504.00;,100
+ApproachType.MODEL_BASED,595,0.19116020947694778,31.860548478517448,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2013 and dep_delay >= -36.00 and dep_delay < 161.00;,100
+ApproachType.MODEL_BASED,596,0.110066257417202,2.0440781852615317,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time >= -13.00 and air_time < 236.00 and taxi_out >= 143.00 and taxi_out < 230.00;,100
+ApproachType.MODEL_BASED,597,0.12917599081993103,0.6055423337140572,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= -26.00 and dep_delay <= 422.00;,100
+ApproachType.MODEL_BASED,598,0.0300091952085495,236.72877522538118,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'LIH' and year_date = 2011;,100
+ApproachType.MODEL_BASED,599,0.049007438123226166,7.184668374828232,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay >= 283.00 and arr_delay < 403.00 and distance > 432.00 and distance <= 974.00;,100
+ApproachType.MODEL_BASED,600,0.15475325286388397,10.012366305057645,100,1,SELECT AVG(air_time) FROM flights WHERE distance > 139.00 and distance <= 1548.00 and arr_delay > 303.00 and arr_delay <= 642.00 and dep_delay >= 539.00 and dep_delay < 779.00;,100
+ApproachType.MODEL_BASED,601,0.03473536670207977,90.15671312311034,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1997 and dest = 'ADQ';,100
+ApproachType.MODEL_BASED,602,0.01772923767566681,112.00945948210573,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'TVC';,100
+ApproachType.MODEL_BASED,603,0.021003156900405884,21.86320207074102,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'TPA';,100
+ApproachType.MODEL_BASED,604,0.052823424339294434,40.53549449967465,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_out >= 65.00 and taxi_out <= 78.00 and dep_delay > 665.00 and dep_delay < 978.00;,100
+ApproachType.MODEL_BASED,605,0.15658315271139145,0.012570685528509196,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay > -80.00 and arr_delay <= 942.00;,100
+ApproachType.MODEL_BASED,606,0.02950982004404068,7.43278670687682,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'MEM';,100
+ApproachType.MODEL_BASED,607,0.027131006121635437,1.2434764029573713,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'SAT';,100
+ApproachType.MODEL_BASED,608,0.09194037318229675,23.318571019714433,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay > 22.00 and dep_delay < 754.00 and taxi_out >= 176.00 and taxi_out <= 235.00;,100
+ApproachType.MODEL_BASED,609,0.17790210247039795,9.652388739298592,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out > 183.00 and taxi_out < 306.00 and distance > 1101.00 and distance <= 1189.00 and air_time > -515.00 and air_time <= 479.00;,100
+ApproachType.MODEL_BASED,610,0.02930552512407303,21.7651872976015,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'BUF' and distance >= 404.00 and distance < 580.00;,100
+ApproachType.MODEL_BASED,611,0.14198168367147446,7.6519141860684385,100,1,SELECT AVG(air_time) FROM flights WHERE arr_delay > 269.00 and arr_delay <= 681.00 and taxi_out > 0.00 and taxi_out < 66.00;,100
+ApproachType.MODEL_BASED,612,0.04420265555381775,6.499739160145933,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2007 and taxi_out >= 27.00 and taxi_out < 53.00;,100
+ApproachType.MODEL_BASED,613,0.033660031855106354,11.321237035672988,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 1999 and origin = 'ORF';,100
+ApproachType.MODEL_BASED,614,0.11376576125621796,75.79942149367498,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance > 207.00 and distance <= 2139.00 and air_time > 290.00 and air_time <= 298.00;,100
+ApproachType.MODEL_BASED,615,0.0655459463596344,6.260910519619236,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2005 and origin = 'LGA' and taxi_in > 1.00 and taxi_in < 634.00;,100
+ApproachType.MODEL_BASED,616,0.030663609504699707,711.5664639439993,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 1999 and origin = 'CAK';,100
+ApproachType.MODEL_BASED,617,0.31683066487312317,1.9170740452644903,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'BFL' and air_time >= -664.00 and air_time <= 480.00 and arr_delay > -972.00 and arr_delay < 287.00;,100
+ApproachType.MODEL_BASED,618,0.20352592319250107,50.20615967872691,100,1,SELECT AVG(air_time) FROM flights WHERE arr_delay > 589.00 and arr_delay <= 861.00 and dep_delay >= -1197.00 and dep_delay < 468.00;,100
+ApproachType.MODEL_BASED,619,0.023484043776988983,114.70588235294117,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'LIH' and distance >= 3320.0 and distance < 3528.0;,100
+ApproachType.MODEL_BASED,620,0.020563028752803802,63.01708967334703,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out > 183.00 and taxi_out < 211.00;,100
+ApproachType.MODEL_BASED,621,0.030204616487026215,59.875925956937905,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time >= 464.00 and air_time < 615.00 and arr_delay > 401.00 and arr_delay <= 701.00;,100
+ApproachType.MODEL_BASED,622,0.06539914011955261,46.665718656657255,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance >= 1174.00 and distance < 2704.00 and dep_delay > 1051.00 and dep_delay <= 1250.00;,100
+ApproachType.MODEL_BASED,623,0.042898841202259064,3.8780414405160375,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= 715.00 and dep_delay <= 904.00 and arr_delay >= 405.00 and arr_delay < 691.00;,100
+ApproachType.MODEL_BASED,624,0.09733504056930542,30.79301687581073,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 336.00 and dep_delay < 531.00 and distance > 11.00 and distance <= 602.00 and air_time >= 168.00 and air_time < 232.00;,100
+ApproachType.MODEL_BASED,625,0.01803402602672577,0.563491320526924,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'ICT';,100
+ApproachType.MODEL_BASED,626,0.04694581776857376,0.36188075776222034,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'MTJ' and distance >= 1318.00 and distance <= 2237.00;,100
+ApproachType.MODEL_BASED,627,0.07266078889369965,2.871728893859681,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2011 and dest = 'BNA' and arr_delay >= 110.00 and arr_delay < 770.00;,100
+ApproachType.MODEL_BASED,628,0.03162345290184021,13.06949594114737,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > 531.00 and arr_delay < 947.00;,100
+ApproachType.MODEL_BASED,629,0.016252949833869934,124.20213200098893,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'TUP';,100
+ApproachType.MODEL_BASED,630,0.031147807836532593,145.84611475955464,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2004 and air_time > 541.00 and air_time < 576.00;,100
+ApproachType.MODEL_BASED,631,0.06803669780492783,23.678583370059176,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'PIT' and taxi_out >= 106.00 and taxi_out <= 188.00 and arr_delay > 159.00 and arr_delay <= 720.00;,100
+ApproachType.MODEL_BASED,632,0.014531366527080536,63.599388589179185,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'DLG';,100
+ApproachType.MODEL_BASED,633,0.03506112098693848,18.10055626897015,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out >= 166.00 and taxi_out <= 267.00 and air_time >= 330.00 and air_time <= 362.00;,100
+ApproachType.MODEL_BASED,634,0.056296221911907196,12.199121384818254,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out > 107.00 and taxi_out < 295.00 and distance > 121.00 and distance <= 925.00;,100
+ApproachType.MODEL_BASED,635,0.028666473925113678,73.03857041325126,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'ILM' and distance > 406.00 and distance <= 631.00;,100
+ApproachType.MODEL_BASED,636,0.03474590927362442,17.343500313838394,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'GSO' and air_time > -7.00 and air_time <= 43.00;,100
+ApproachType.MODEL_BASED,637,0.007326640188694,6.006167594408374,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= 583.00 and air_time <= 603.00;,100
+ApproachType.MODEL_BASED,638,0.028002001345157623,20.00749050057983,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay >= 525.0 and dep_delay < 700.0;,100
+ApproachType.MODEL_BASED,639,0.04294995963573456,9.22392364190608,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2014 and arr_delay > 287.00 and arr_delay <= 690.00;,100
+ApproachType.MODEL_BASED,640,0.06821643561124802,83.01314756393813,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out > 186.00 and taxi_out < 203.00 and arr_delay >= 87.00 and arr_delay < 907.00;,100
+ApproachType.MODEL_BASED,641,0.024023979902267456,6.050739760368724,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= 345.00 and dep_delay <= 395.00;,100
+ApproachType.MODEL_BASED,642,0.1962982565164566,3.665400750289764,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2003 and arr_delay > -23.00 and arr_delay <= 748.00;,100
+ApproachType.MODEL_BASED,643,0.017067573964595795,3.3323473950790996,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'ABI';,100
+ApproachType.MODEL_BASED,644,0.014777317643165588,40.64190363524783,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'MLU';,100
+ApproachType.MODEL_BASED,645,0.01653977483510971,0.0772362862092521,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'AVP';,100
+ApproachType.MODEL_BASED,646,0.12498850375413895,18.86867285449326,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out > 5.00 and taxi_out < 93.00 and dep_delay >= 305.00 and dep_delay <= 669.00;,100
+ApproachType.MODEL_BASED,647,0.018930137157440186,6.591525679672126,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'XNA';,100
+ApproachType.MODEL_BASED,648,0.1302749142050743,7.7244544553665095,100,1,SELECT AVG(air_time) FROM flights WHERE arr_delay >= 0.0 and arr_delay < 98.0 and taxi_in >= 0.0 and taxi_in < 5.0 and taxi_out >= 9.0 and taxi_out < 18.0 and distance >= 4160.0 and distance < 4368.0;,100
+ApproachType.MODEL_BASED,649,0.017230801284313202,18.99505853285492,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'ISO';,100
+ApproachType.MODEL_BASED,650,0.022739969193935394,5.553691256952733,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'SJU';,100
+ApproachType.MODEL_BASED,651,0.1680949628353119,13.769581400253776,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'CLT' and distance >= 104.00 and distance < 2151.00 and air_time >= 110.00 and air_time <= 171.00;,100
+ApproachType.MODEL_BASED,652,0.2410859540104866,6.288305210201702,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay > -58.00 and dep_delay < 490.00 and distance > 1145.00 and distance < 1892.00 and taxi_in >= 142.00 and taxi_in < 229.00;,100
+ApproachType.MODEL_BASED,653,0.059693217277526855,14.92164380253361,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'DFW' and year_date = 1997 and air_time >= 249.00 and air_time < 609.00;,100
+ApproachType.MODEL_BASED,654,0.3156677186489105,5.422691665699554,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time > 21.00 and air_time < 438.00 and arr_delay > -31.00 and arr_delay <= 678.00;,100
+ApproachType.MODEL_BASED,655,0.032065100967884064,61.957837680820084,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'BQN' and year_date = 2001;,100
+ApproachType.MODEL_BASED,656,0.1764640286564827,79.09918196175376,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= -178.0 and dep_delay < 712.0 and air_time >= 588.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,657,0.012480683624744415,26.176198481079066,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time >= 483.00 and air_time <= 559.00;,100
+ApproachType.MODEL_BASED,658,0.030444219708442688,9.465768988704507,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 1998 and dest = 'STX';,100
+ApproachType.MODEL_BASED,659,0.03770945966243744,13.760712635328515,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2015 and taxi_out > 74.00 and taxi_out < 86.00;,100
+ApproachType.MODEL_BASED,660,0.17941784858703613,7.897676550313883,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'DSM' and dep_delay >= -51.00 and dep_delay <= 112.00;,100
+ApproachType.MODEL_BASED,661,0.02992192655801773,16.45874242017282,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'BUF' and year_date = 2007;,100
+ApproachType.MODEL_BASED,662,0.20747600495815277,529.8911537169823,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in >= 232.00 and taxi_in <= 720.00 and arr_delay > -61.00 and arr_delay <= 327.00;,100
+ApproachType.MODEL_BASED,663,0.021190665662288666,13.916191391964016,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out > 158.00 and taxi_out < 310.00;,100
+ApproachType.MODEL_BASED,664,0.03518272936344147,4.997653994233104,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time > 303.00 and air_time <= 438.00 and taxi_in > 111.00 and taxi_in < 1428.00;,100
+ApproachType.MODEL_BASED,665,0.04045882076025009,2.597638774838358,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance > 1805.00 and distance < 2576.00 and arr_delay >= 391.00 and arr_delay < 404.00;,100
+ApproachType.MODEL_BASED,666,0.051739394664764404,40.06186902901624,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out > 24.00 and taxi_out < 80.00;,100
+ApproachType.MODEL_BASED,667,0.10897600650787354,51.70751140590768,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance > 1369.00 and distance < 1588.00 and dep_delay > 343.00 and dep_delay <= 490.00 and air_time > 131.00 and air_time <= 381.00;,100
+ApproachType.MODEL_BASED,668,0.13444030284881592,5.274988750944754,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time > 20.00 and air_time <= 637.00 and arr_delay >= 170.00 and arr_delay < 801.00;,100
+ApproachType.MODEL_BASED,669,0.0863577201962471,21.999578153480076,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time >= 136.00 and air_time < 479.00 and arr_delay > 226.00 and arr_delay <= 530.00;,100
+ApproachType.MODEL_BASED,670,0.019050590693950653,5.8585599184906405,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'PIT';,100
+ApproachType.MODEL_BASED,671,0.014870882034301758,4.639342626207653,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'MHK';,100
+ApproachType.MODEL_BASED,672,0.03007408231496811,0.16650441648545874,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'LAX' and year_date = 2000;,100
+ApproachType.MODEL_BASED,673,0.22950246930122375,14.749714663223298,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > -38.00 and arr_delay < 96.00 and air_time >= 107.00 and air_time <= 195.00;,100
+ApproachType.MODEL_BASED,674,0.03176546096801758,10.297355521344139,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance > 707.00 and distance <= 818.00 and taxi_in >= 112.00 and taxi_in < 1434.00;,100
+ApproachType.MODEL_BASED,675,0.0909947082400322,23.845378585026385,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'DCA' and year_date = 2008 and air_time >= 109.00 and air_time < 259.00;,100
+ApproachType.MODEL_BASED,676,0.2928273603320122,12.460744137260292,100,1,SELECT AVG(distance) FROM flights WHERE arr_delay > -62.00 and arr_delay < 149.00 and taxi_out > 10.00 and taxi_out < 1362.00;,100
+ApproachType.MODEL_BASED,677,0.22248557209968567,53.536849691910625,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_out > 202.00 and taxi_out < 244.00 and dep_delay > -48.00 and dep_delay <= 543.00;,100
+ApproachType.MODEL_BASED,678,0.08526066690683365,2.1277212548750977,100,1,SELECT AVG(air_time) FROM flights WHERE arr_delay >= 32.0 and arr_delay < 130.0 and taxi_in >= 5.0 and taxi_in < 10.0  and taxi_out >= 72.0 and taxi_out < 81.0 and distance >= 2596.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,679,0.01522042602300644,5.889664310780179,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'PFN';,100
+ApproachType.MODEL_BASED,680,0.08034960925579071,95.2188281625,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in > 131.00 and taxi_in < 825.00 and distance > 1143.00 and distance < 2086.00 and dep_delay >= 202.00 and dep_delay < 250.00;,100
+ApproachType.MODEL_BASED,681,0.029914267361164093,4.584544631338281,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'COS' and year_date = 1996;,100
+ApproachType.MODEL_BASED,682,0.038261570036411285,0.7272952029102383,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2013 and taxi_in > 47.00 and taxi_in < 530.00;,100
+ApproachType.MODEL_BASED,683,0.04146793484687805,10.979964587237948,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'DFW' and arr_delay >= 484.00 and arr_delay < 682.00;,100
+ApproachType.MODEL_BASED,684,0.036446116864681244,40.88609817389199,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1996 and dep_delay > 549.00 and dep_delay < 854.00;,100
+ApproachType.MODEL_BASED,685,0.1297706589102745,51.548180631272075,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2005 and air_time > 32.00 and air_time < 544.00 and taxi_out > 199.00 and taxi_out < 383.00;,100
+ApproachType.MODEL_BASED,686,0.15213730931282043,137.16991989050806,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2004 and origin = 'TRI' and dep_delay >= -7.00 and dep_delay <= 252.00;,100
+ApproachType.MODEL_BASED,687,0.013662248849868774,78.90792692109326,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'BRW';,100
+ApproachType.MODEL_BASED,688,0.02777300775051117,47.78604635883656,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out >= 99.0 and taxi_out < 108.0 and distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,689,0.02287442982196808,0.31732571457944914,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'ABQ';,100
+ApproachType.MODEL_BASED,690,0.03742101788520813,52.910820693740554,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 139.00 and taxi_in <= 1410.00 and arr_delay >= 593.00 and arr_delay < 764.00;,100
+ApproachType.MODEL_BASED,691,0.03875713795423508,7.109886547183129,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'ECP' and dep_delay >= 211.00 and dep_delay <= 559.00;,100
+ApproachType.MODEL_BASED,692,0.19088119268417358,14.67533598389307,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay >= -18.00 and dep_delay <= 147.00 and air_time >= 420.00 and air_time <= 589.00;,100
+ApproachType.MODEL_BASED,693,0.0634622648358345,357.4382022205415,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'SRQ' and year_date = 2010 and taxi_in >= 10.00 and taxi_in < 1171.00;,100
+ApproachType.MODEL_BASED,694,0.051137104630470276,96.31096275521197,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2009 and dest = 'ELP' and taxi_out > 104.00 and taxi_out < 168.00;,100
+ApproachType.MODEL_BASED,695,0.022200241684913635,6.61554751044012,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out >= 0.0 and taxi_out < 10.0;,100
+ApproachType.MODEL_BASED,696,0.051075488328933716,93.98883552949118,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay > 297.00 and dep_delay < 519.00 and taxi_in > 155.00 and taxi_in <= 229.00;,100
+ApproachType.MODEL_BASED,697,0.014641650021076202,34.11230654623223,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'UST';,100
+ApproachType.MODEL_BASED,698,0.01552070677280426,18.785666564800835,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'BUF';,100
+ApproachType.MODEL_BASED,699,0.039799220860004425,4.468738801479352,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2012 and taxi_in > 28.00 and taxi_in <= 52.00;,100
+ApproachType.MODEL_BASED,700,0.05829315632581711,66.65206179592063,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'SGU' and arr_delay > 101.00 and arr_delay < 802.00;,100
+ApproachType.MODEL_BASED,701,0.044810399413108826,66.80275256822121,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'HPN' and air_time > 160.00 and air_time <= 228.00;,100
+ApproachType.MODEL_BASED,702,0.039290204644203186,18.04592020834871,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'MGM' and arr_delay > 192.00 and arr_delay <= 960.00;,100
+ApproachType.MODEL_BASED,703,0.015004187822341919,16.24616544789897,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'LNK';,100
+ApproachType.MODEL_BASED,704,0.2847696989774704,15.582611459642958,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'BUF' and air_time >= -510.00 and air_time < 302.00 and arr_delay > -21.00 and arr_delay <= 440.00;,100
+ApproachType.MODEL_BASED,705,0.06667940318584442,9.119479894606947,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance > 1042.00 and distance <= 2500.00 and dep_delay >= 359.00 and dep_delay <= 814.00;,100
+ApproachType.MODEL_BASED,706,0.01970263570547104,1.494619841171698,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'JAN';,100
+ApproachType.MODEL_BASED,707,0.045213982462882996,2.0801003983264006,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'MSP';,100
+ApproachType.MODEL_BASED,708,0.013168975710868835,25.01358932724433,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance >= 3546.0 and distance < 3743.0;,100
+ApproachType.MODEL_BASED,709,0.11527591198682785,706.9767441860465,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'SMX' and air_time >= -690.00 and air_time < 275.00;,100
+ApproachType.MODEL_BASED,710,0.017623677849769592,1.3250148140389943,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'DAY';,100
+ApproachType.MODEL_BASED,711,0.031648680567741394,32.95601181429759,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'GFK' and year_date = 2014;,100
+ApproachType.MODEL_BASED,712,0.08036813139915466,1.726883847577237,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'WYS' and distance > 154.00 and distance < 1987.00;,100
+ApproachType.MODEL_BASED,713,0.031998105347156525,19.18592347461376,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2002 and dest = 'EYW';,100
+ApproachType.MODEL_BASED,714,0.04540096968412399,5.64008809359162,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance >= 1557.00 and distance < 2417.00 and taxi_out > 189.00 and taxi_out <= 383.00;,100
+ApproachType.MODEL_BASED,715,0.03301093727350235,74.01823747768815,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance >= 3472.0 and distance < 4023.0 and arr_delay >= 164.0 and arr_delay < 328.0;,100
+ApproachType.MODEL_BASED,716,0.2392682358622551,21.64377067847231,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= -26.00 and dep_delay <= 483.00 and arr_delay > 630.00 and arr_delay <= 824.00;,100
+ApproachType.MODEL_BASED,717,0.02674834430217743,20.399042543803773,100,1,SELECT AVG(distance) FROM flights WHERE taxi_in >= 49.00 and taxi_in < 548.00;,100
+ApproachType.MODEL_BASED,718,0.049827247858047485,1.8006250970149085,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 1995 and taxi_in > 21.00 and taxi_in < 604.00;,100
+ApproachType.MODEL_BASED,719,0.04497614502906799,6.075306349669309,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2002 and distance >= 1607.00 and distance < 2504.00;,100
+ApproachType.MODEL_BASED,720,0.03890877962112427,8.542056554383418,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'BOI' and dep_delay > 327.00 and dep_delay < 457.00;,100
+ApproachType.MODEL_BASED,721,0.039468489587306976,13.912102950269897,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time >= 521.00 and air_time < 559.00 and dep_delay > 132.00 and dep_delay < 741.00;,100
+ApproachType.MODEL_BASED,722,0.11681180447340012,11.04827590729675,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time >= 35.00 and air_time <= 413.00 and dep_delay > 247.00 and dep_delay < 740.00;,100
+ApproachType.MODEL_BASED,723,0.10997050255537033,4.015664121579976,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'JAX' and distance > 1428.00 and distance <= 2421.00 and air_time >= 151.00 and air_time <= 473.00;,100
+ApproachType.MODEL_BASED,724,0.017500214278697968,28.625889889948077,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'LBE';,100
+ApproachType.MODEL_BASED,725,0.03459669649600983,163.2396374848728,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2011 and dest = 'EKO';,100
+ApproachType.MODEL_BASED,726,0.035877928137779236,37.70235027669225,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'LAN' and arr_delay >= 380.00 and arr_delay < 586.00;,100
+ApproachType.MODEL_BASED,727,0.22411510348320007,3.974778518750366,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2005 and arr_delay >= -81.00 and arr_delay <= 1535.00;,100
+ApproachType.MODEL_BASED,728,0.01572287827730179,210.16415639482608,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'LWB';,100
+ApproachType.MODEL_BASED,729,0.03186847269535065,5.26254643495535,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2006 and dest = 'ERI';,100
+ApproachType.MODEL_BASED,730,0.1754746064543724,0.01914626611669489,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2002 and air_time >= 14.00 and air_time <= 376.00;,100
+ApproachType.MODEL_BASED,731,0.04389427602291107,8.201046209548897,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay > 504.00 and arr_delay < 736.00 and taxi_out > 147.00 and taxi_out < 283.00;,100
+ApproachType.MODEL_BASED,732,0.1863878294825554,1.0314605413367477,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay > -78.00 and arr_delay < 78.00 and distance >= 157.00 and distance < 502.00;,100
+ApproachType.MODEL_BASED,733,0.04890454560518265,16.522762689164985,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time >= 260.00 and air_time < 370.00 and dep_delay > 717.00 and dep_delay < 840.00;,100
+ApproachType.MODEL_BASED,734,0.031168781220912933,201.40485821554228,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'GGG' and year_date = 2011;,100
+ApproachType.MODEL_BASED,735,0.019378043711185455,4.365591807040037,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2009;,100
+ApproachType.MODEL_BASED,736,0.029732778668403625,8.73481646810702,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2003 and air_time > 393.00 and air_time < 469.00;,100
+ApproachType.MODEL_BASED,737,0.09148232638835907,10.985206783945925,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance > 647.00 and distance < 766.00 and air_time > -106.00 and air_time <= 155.00;,100
+ApproachType.MODEL_BASED,738,0.07946057617664337,52.018560556258834,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2002 and origin = 'TYR' and taxi_out >= 20.00 and taxi_out <= 360.00;,100
+ApproachType.MODEL_BASED,739,0.028963446617126465,6.453739191260464,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= 162.00 and dep_delay < 655.00;,100
+ApproachType.MODEL_BASED,740,0.04749114811420441,21.896508478625982,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 1995 and arr_delay > 43.00 and arr_delay < 61.00;,100
+ApproachType.MODEL_BASED,741,0.018010213971138,1.2256972101505754,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'FCA';,100
+ApproachType.MODEL_BASED,742,0.01758529245853424,53.70543682858644,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'SCE';,100
+ApproachType.MODEL_BASED,743,0.05735420435667038,25.59773924467006,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 28.00 and taxi_in < 83.00 and arr_delay > 600.00 and arr_delay < 757.00;,100
+ApproachType.MODEL_BASED,744,0.045462459325790405,38.72530921767593,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2016 and taxi_in >= 116.00 and taxi_in < 1423.00;,100
+ApproachType.MODEL_BASED,745,0.019200332462787628,22.772370021477435,100,1,SELECT AVG(air_time) FROM flights WHERE distance > 646.00 and distance <= 781.00;,100
+ApproachType.MODEL_BASED,746,0.12507514655590057,2.946200337588624,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2003 and dep_delay > 205.00 and dep_delay < 335.00 and air_time > -617.00 and air_time <= 223.00;,100
+ApproachType.MODEL_BASED,747,0.02546975016593933,26.311656492269048,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_out >= 185.00 and taxi_out <= 653.00;,100
+ApproachType.MODEL_BASED,748,0.02300412952899933,1.4199588508376249,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'SJU';,100
+ApproachType.MODEL_BASED,749,0.023097895085811615,27.431787864538787,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 193.00 and dep_delay < 205.00;,100
+ApproachType.MODEL_BASED,750,0.04088270664215088,24.652924695015887,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2010 and arr_delay >= 549.00 and arr_delay <= 893.00;,100
+ApproachType.MODEL_BASED,751,0.04872685670852661,44.23648056225465,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out >= 10.0 and taxi_out < 15.0 and dep_delay >= 525.0 and dep_delay < 700.0;,100
+ApproachType.MODEL_BASED,752,0.02899020165205002,410.40132200205306,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2009 and dest = 'CLD';,100
+ApproachType.MODEL_BASED,753,0.09104117006063461,51.40419988591226,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance >= 130.00 and distance <= 851.00 and air_time > 179.00 and air_time <= 261.00;,100
+ApproachType.MODEL_BASED,754,0.04638653248548508,29.126944532372036,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2012 and arr_delay > 175.00 and arr_delay <= 753.00;,100
+ApproachType.MODEL_BASED,755,0.06401587277650833,35.36294035052205,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2001 and arr_delay >= 111.00 and arr_delay <= 598.00 and distance > 2217.00 and distance < 4983.00;,100
+ApproachType.MODEL_BASED,756,0.030947938561439514,33.60980898278051,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance > 783.00 and distance < 898.00 and taxi_out > 101.00 and taxi_out < 117.00;,100
+ApproachType.MODEL_BASED,757,0.03505001962184906,31.861905644271303,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'TPA' and arr_delay > 319.00 and arr_delay < 486.00;,100
+ApproachType.MODEL_BASED,758,0.05139917880296707,7.881634061676497,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2001 and dest = 'GEG' and distance >= 1399.00 and distance <= 2295.00;,100
+ApproachType.MODEL_BASED,759,0.09713298827409744,3.0242197381998506,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'MOB' and dep_delay >= 11.00 and dep_delay < 445.00;,100
+ApproachType.MODEL_BASED,760,0.03747393190860748,208.3594950326455,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2003 and distance >= 2217.00 and distance <= 4502.00;,100
+ApproachType.MODEL_BASED,761,0.19084963202476501,0.17671517668465214,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay > 741.00 and dep_delay <= 983.00 and distance > 187.00 and distance <= 312.00 and air_time >= -709.00 and air_time < 362.00;,100
+ApproachType.MODEL_BASED,762,0.034834280610084534,0.9433732574365962,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 1998 and distance >= 1694.00 and distance <= 1882.00;,100
+ApproachType.MODEL_BASED,763,0.01795792579650879,2.048456007637058,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'MYR';,100
+ApproachType.MODEL_BASED,764,0.02498043328523636,77.83787903686311,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'AGS' and distance > 572.00 and distance < 732.00;,100
+ApproachType.MODEL_BASED,765,0.02823139727115631,87.42973119710946,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'MLU' and year_date = 1999;,100
+ApproachType.MODEL_BASED,766,0.01500895619392395,132.63952240424018,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'SBP';,100
+ApproachType.MODEL_BASED,767,0.07591240853071213,37.51686453247163,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay >= 0.0 and dep_delay < 212.0 and air_time >= 630.0 and air_time < 672.0;,100
+ApproachType.MODEL_BASED,768,0.16365714371204376,10.733641700490343,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay >= 362.00 and dep_delay < 934.00 and air_time >= -389.00 and air_time <= 260.00;,100
+ApproachType.MODEL_BASED,769,0.04707755148410797,16.220590501047564,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'DTW' and dest = 'PHL' and dep_delay > 743.00 and dep_delay <= 828.00;,100
+ApproachType.MODEL_BASED,770,0.028679490089416504,7.669122440794378,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'BOS' and dest = 'MSY';,100
+ApproachType.MODEL_BASED,771,0.04677636921405792,31.424353114070165,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'FLL' and dep_delay >= 125.00 and dep_delay <= 702.00;,100
+ApproachType.MODEL_BASED,772,0.017905190587043762,0.18733285593008248,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1999;,100
+ApproachType.MODEL_BASED,773,0.028298579156398773,20.889711778711444,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2007 and origin = 'TTN';,100
+ApproachType.MODEL_BASED,774,0.18084193021059036,42.169297979563794,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay >= -7.00 and dep_delay < 631.00 and taxi_out >= 192.00 and taxi_out < 204.00;,100
+ApproachType.MODEL_BASED,775,0.19738327711820602,18.485447311910814,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= 138.00 and air_time <= 643.00 and dep_delay > -11.00 and dep_delay < 1259.00;,100
+ApproachType.MODEL_BASED,776,0.032899752259254456,17.46036186336874,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2009 and origin = 'TWF';,100
+ApproachType.MODEL_BASED,777,0.07553672790527344,23.28216646117769,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out >= 160.00 and taxi_out <= 222.00 and air_time >= 176.00 and air_time <= 585.00;,100
+ApproachType.MODEL_BASED,778,0.022049210965633392,0.32304516493262425,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'ROC';,100
+ApproachType.MODEL_BASED,779,0.06176353245973587,9.640272406593393,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'AUS' and dep_delay >= 337.00 and dep_delay < 852.00 and arr_delay > 566.00 and arr_delay <= 692.00;,100
+ApproachType.MODEL_BASED,780,0.02887137234210968,21.137159052440474,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'CHO' and distance >= 474.00 and distance < 735.00;,100
+ApproachType.MODEL_BASED,781,0.06979360431432724,17.74566709387114,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out > 201.00 and taxi_out <= 870.00 and air_time > 182.00 and air_time <= 550.00;,100
+ApproachType.MODEL_BASED,782,0.045286692678928375,4.397469320177687,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 1999 and taxi_in >= 54.00 and taxi_in < 738.00 and air_time >= 193.00 and air_time < 205.00;,100
+ApproachType.MODEL_BASED,783,0.20500608533620834,1.6570641708797202,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2014 and dest = 'SLC' and dep_delay >= -66.00 and dep_delay <= 727.00;,100
+ApproachType.MODEL_BASED,784,0.04266739636659622,34.49537613875329,100,1,SELECT AVG(distance) FROM flights WHERE taxi_in >= 179.00 and taxi_in < 219.00 and dep_delay > 220.00 and dep_delay < 532.00;,100
+ApproachType.MODEL_BASED,785,0.48890940099954605,0.6882336793092408,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= -46.00 and dep_delay < 471.00 and distance > 198.00 and distance < 2354.00 and arr_delay > -63.00 and arr_delay < 150.00;,100
+ApproachType.MODEL_BASED,786,0.03583427518606186,122.42225982773442,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'LAN' and taxi_in >= 35.00 and taxi_in < 525.00;,100
+ApproachType.MODEL_BASED,787,0.10004980862140656,0.19804514070661003,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time >= -356.00 and air_time <= 295.00;,100
+ApproachType.MODEL_BASED,788,0.015014640986919403,3.361227772104073,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'GSP';,100
+ApproachType.MODEL_BASED,789,0.2170024886727333,9.488237495044471,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay > -41.00 and dep_delay < 597.00 and arr_delay >= 422.00 and arr_delay < 848.00;,100
+ApproachType.MODEL_BASED,790,0.0650121346116066,40.045615463030956,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= 165.00 and dep_delay < 195.00 and taxi_in > 3.00 and taxi_in < 881.00;,100
+ApproachType.MODEL_BASED,791,0.043692976236343384,24.395053065478482,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in > 37.00 and taxi_in <= 39.00 and air_time >= 266.00 and air_time <= 466.00;,100
+ApproachType.MODEL_BASED,792,0.047923602163791656,23.8673709883745,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out > 101.00 and taxi_out <= 121.00 and air_time >= 196.00 and air_time <= 266.00;,100
+ApproachType.MODEL_BASED,793,0.039694517850875854,91.86176491431294,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'GUC' and arr_delay > 134.00 and arr_delay <= 164.00;,100
+ApproachType.MODEL_BASED,794,0.04511421173810959,45.213967210914,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time > 243.00 and air_time <= 428.00 and distance >= 1525.00 and distance < 1634.00;,100
+ApproachType.MODEL_BASED,795,0.055678412318229675,3.129395232702682,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'FLL' and dep_delay > 117.00 and dep_delay <= 428.00;,100
+ApproachType.MODEL_BASED,796,0.034025683999061584,8.045027271232442,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time > 326.00 and air_time < 419.00 and taxi_out >= 81.00 and taxi_out < 89.00;,100
+ApproachType.MODEL_BASED,797,0.015007264912128448,124.40944881889764,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'CNY';,100
+ApproachType.MODEL_BASED,798,0.03864940255880356,45.76794032186295,100,1,SELECT AVG(air_time) FROM flights WHERE distance > 544.00 and distance < 700.00 and taxi_in > 137.00 and taxi_in < 1439.00;,100
+ApproachType.MODEL_BASED,799,0.04997945576906204,2.2897602080189103,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 1995 and taxi_out >= 27.00 and taxi_out < 43.00;,100
+ApproachType.MODEL_BASED,800,0.06308077275753021,98.85196068978281,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'GPT' and air_time >= 199.00 and air_time < 502.00;,100
+ApproachType.MODEL_BASED,801,0.04137377440929413,2.2863628526219726,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= 104.00 and dep_delay <= 834.00;,100
+ApproachType.MODEL_BASED,802,0.037170253694057465,7.575969392902818,100,1,SELECT AVG(taxi_in) FROM flights WHERE taxi_out > 141.00 and taxi_out < 435.00 and air_time > -389.00 and air_time < 42.00;,100
+ApproachType.MODEL_BASED,803,0.10391336679458618,74.69815510707832,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in > 4.00 and taxi_in < 879.00;,100
+ApproachType.MODEL_BASED,804,0.0548795685172081,10.302755065942579,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'MCI' and dep_delay > 129.00 and dep_delay < 396.00;,100
+ApproachType.MODEL_BASED,805,0.13796328753232956,4.662917917716764,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'DEN' and air_time >= 34.00 and air_time < 579.00;,100
+ApproachType.MODEL_BASED,806,0.016497574746608734,7.806830704027062,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'MSO';,100
+ApproachType.MODEL_BASED,807,0.03544431924819946,12.653361941627036,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay > 270.00 and dep_delay <= 387.00 and air_time >= 320.00 and air_time <= 554.00;,100
+ApproachType.MODEL_BASED,808,0.025187097489833832,4.83491033258162,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay >= 200.00 and arr_delay < 697.00;,100
+ApproachType.MODEL_BASED,809,0.013640768826007843,406.829389844409,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'PIH';,100
+ApproachType.MODEL_BASED,810,0.06050337851047516,9.024366880587385,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2002 and taxi_in >= 10.00 and taxi_in <= 117.00;,100
+ApproachType.MODEL_BASED,811,0.03368860483169556,3.3696518027269176,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'CID' and year_date = 2009;,100
+ApproachType.MODEL_BASED,812,0.05174344778060913,10.178448121990028,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'ECP' and dep_delay > 125.00 and dep_delay <= 440.00;,100
+ApproachType.MODEL_BASED,813,0.012089692056179047,25.506583797930986,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance >= 3120.0 and distance < 3328.0;,100
+ApproachType.MODEL_BASED,814,0.04190267622470856,0.33101902956408646,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'MIA' and air_time >= 351.00 and air_time <= 527.00;,100
+ApproachType.MODEL_BASED,815,0.02814384549856186,30.5712393007205,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'SPI' and air_time > 13.00 and air_time <= 50.00;,100
+ApproachType.MODEL_BASED,816,0.04461495578289032,11.396692400184866,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2011 and taxi_out >= 81.00 and taxi_out < 95.00;,100
+ApproachType.MODEL_BASED,817,0.04483611136674881,6.374428427480337,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out > 205.00 and taxi_out <= 263.00 and arr_delay > 299.00 and arr_delay < 883.00;,100
+ApproachType.MODEL_BASED,818,0.046493493020534515,55.49711602408847,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2010 and arr_delay >= 404.00 and arr_delay <= 478.00;,100
+ApproachType.MODEL_BASED,819,0.04543888568878174,9.603290730073402,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'DAB' and dep_delay > 212.00 and dep_delay < 655.00;,100
+ApproachType.MODEL_BASED,820,0.07892438024282455,64.61618171667844,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_out > 120.00 and taxi_out <= 335.00 and dep_delay > 215.00 and dep_delay < 387.00 and distance >= 341.00 and distance <= 968.00;,100
+ApproachType.MODEL_BASED,821,0.06705350428819656,30.120679844073617,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'DTW' and distance >= 1256.00 and distance < 2615.00;,100
+ApproachType.MODEL_BASED,822,0.019397668540477753,19.661900036391845,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 162.00 and taxi_in < 505.00;,100
+ApproachType.MODEL_BASED,823,0.04816453158855438,9.929617375830041,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= 379.00 and dep_delay < 793.00 and arr_delay >= 451.00 and arr_delay <= 827.00;,100
+ApproachType.MODEL_BASED,824,0.020769409835338593,25.867796230685048,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out > 147.00 and taxi_out < 179.00;,100
+ApproachType.MODEL_BASED,825,0.22603023052215576,68.25097867014938,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 1235.00 and arr_delay < 1271.00 and taxi_in >= 0.00 and taxi_in <= 839.00;,100
+ApproachType.MODEL_BASED,826,0.20460934937000275,48.48548156962102,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'PHF' and dep_delay > 118.00 and dep_delay <= 510.00 and air_time > 101.00 and air_time < 384.00;,100
+ApproachType.MODEL_BASED,827,0.10229546576738358,22.218675406362536,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2007 and air_time > 108.00 and air_time <= 474.00;,100
+ApproachType.MODEL_BASED,828,0.06638672202825546,58.585046322139846,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2001 and taxi_out > 227.00 and taxi_out < 278.00 and arr_delay > 273.00 and arr_delay < 694.00;,100
+ApproachType.MODEL_BASED,829,0.04580394923686981,22.454248558856225,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2009 and arr_delay > 327.00 and arr_delay < 342.00;,100
+ApproachType.MODEL_BASED,830,0.025525249540805817,10.606429351492572,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2016;,100
+ApproachType.MODEL_BASED,831,0.050892651081085205,4.088443166785735,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2007 and dep_delay > 301.00 and dep_delay <= 815.00;,100
+ApproachType.MODEL_BASED,832,0.2148018777370453,3.5426499285202575,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'SFO' and dep_delay > -17.00 and dep_delay < 97.00;,100
+ApproachType.MODEL_BASED,833,0.017941974103450775,3.895236223695142,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'EGE';,100
+ApproachType.MODEL_BASED,834,0.23640132695436478,29.81987849321499,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay > -37.00 and arr_delay < 766.00 and taxi_in >= 110.00 and taxi_in < 1275.00;,100
+ApproachType.MODEL_BASED,835,0.07425954937934875,14.70644521354942,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'MDT' and taxi_out >= 14.00 and taxi_out <= 59.00;,100
+ApproachType.MODEL_BASED,836,0.018720120191574097,179.52684061261337,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'ACK';,100
+ApproachType.MODEL_BASED,837,0.12957023084163666,3.0033797910678017,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2010 and arr_delay >= 226.00 and arr_delay < 373.00 and dep_delay > 18.00 and dep_delay <= 989.00;,100
+ApproachType.MODEL_BASED,838,0.04483918100595474,16.03572672810074,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1995 and taxi_out > 164.00 and taxi_out < 172.00;,100
+ApproachType.MODEL_BASED,839,0.038603998720645905,7.806606662682242,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= 313.00 and dep_delay <= 743.00;,100
+ApproachType.MODEL_BASED,840,0.04151591658592224,2.4384978572699954,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'BTV';,100
+ApproachType.MODEL_BASED,841,0.20382247865200043,43.07094063415091,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'LAR' and air_time >= 38.00 and air_time <= 540.00;,100
+ApproachType.MODEL_BASED,842,0.045408040285110474,20.415306511553226,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_in >= 44.00 and taxi_in <= 739.00;,100
+ApproachType.MODEL_BASED,843,0.11508548259735107,0.043318765514921934,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 0.0 and dep_delay < 130.0 and origin = 'GUM';,100
+ApproachType.MODEL_BASED,844,0.0416799932718277,43.79441231875787,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'MOB' and arr_delay >= 209.00 and arr_delay < 283.00;,100
+ApproachType.MODEL_BASED,845,0.014674670994281769,1002.5978206025577,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'LWS';,100
+ApproachType.MODEL_BASED,846,0.03189518302679062,17.193070989259134,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 1999 and origin = 'GFK';,100
+ApproachType.MODEL_BASED,847,0.2584513872861862,27.212419911271944,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 1998 and origin = 'PSP' and air_time >= -12.00 and air_time <= 356.00;,100
+ApproachType.MODEL_BASED,848,0.03505678474903107,36.811963933408876,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance > 602.00 and distance <= 719.00 and arr_delay >= 287.00 and arr_delay <= 510.00;,100
+ApproachType.MODEL_BASED,849,0.017662547528743744,62.136474559355484,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'PGD';,100
+ApproachType.MODEL_BASED,850,0.059711143374443054,32.913172798546455,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2005 and arr_delay > 671.00 and arr_delay < 838.00 and dep_delay > 628.00 and dep_delay < 712.00;,100
+ApproachType.MODEL_BASED,851,0.05764327943325043,35.28207905251091,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2015 and arr_delay > 382.00 and arr_delay <= 762.00 and dep_delay > 617.00 and dep_delay < 874.00;,100
+ApproachType.MODEL_BASED,852,0.0353098064661026,34.64802277371813,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'TEX' and year_date = 2010;,100
+ApproachType.MODEL_BASED,853,0.0240156427025795,9.46793333299379,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= 498.00 and dep_delay < 531.00;,100
+ApproachType.MODEL_BASED,854,0.020721204578876495,18.795316232966556,100,1,SELECT AVG(distance) FROM flights WHERE arr_delay >= 471.00 and arr_delay <= 608.00;,100
+ApproachType.MODEL_BASED,855,0.022497937083244324,2.1310332722147436,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2005;,100
+ApproachType.MODEL_BASED,856,0.21118929237127304,46.48610018087534,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= -45.00 and dep_delay < 61.00 and arr_delay > 156.00 and arr_delay < 498.00;,100
+ApproachType.MODEL_BASED,857,0.051711149513721466,91.53481012658227,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'ELP' and taxi_in > 11.00 and taxi_in <= 202.00;,100
+ApproachType.MODEL_BASED,858,0.03618134558200836,21.613987126176827,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 1995 and dest = 'GTF';,100
+ApproachType.MODEL_BASED,859,0.016344599425792694,2.8850105958290335,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'GTF';,100
+ApproachType.MODEL_BASED,860,0.2530110403895378,3.6856720042043287,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay >= 52.00 and dep_delay < 784.00 and arr_delay >= -63.00 and arr_delay <= 154.00;,100
+ApproachType.MODEL_BASED,861,0.016698025166988373,149.48794664823077,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'LAN';,100
+ApproachType.MODEL_BASED,862,0.022920608520507812,18.2771466432469,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_out >= 81.0 and taxi_out < 90.0;,100
+ApproachType.MODEL_BASED,863,0.12076077610254288,37.416131590578715,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_out >= 12.00 and taxi_out <= 143.00;,100
+ApproachType.MODEL_BASED,864,0.015527471899986267,2.4413516984124364,100,1,SELECT AVG(air_time) FROM flights WHERE distance >= 1474.00 and distance < 1590.00;,100
+ApproachType.MODEL_BASED,865,0.06020007282495499,193.18642517530168,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2011 and origin = 'ABE' and taxi_in >= 46.00 and taxi_in < 61.00;,100
+ApproachType.MODEL_BASED,866,0.05186215788125992,39.020176122541926,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_out > 135.00 and taxi_out < 212.00 and air_time >= 105.00 and air_time <= 168.00;,100
+ApproachType.MODEL_BASED,867,0.07058954238891602,17.87879445393122,100,1,SELECT AVG(dep_delay) FROM flights WHERE air_time > 264.00 and air_time < 403.00 and taxi_in > 37.00 and taxi_in <= 973.00;,100
+ApproachType.MODEL_BASED,868,0.01689893752336502,88.28893447844328,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'PFN';,100
+ApproachType.MODEL_BASED,869,0.02930578589439392,10.720777848235063,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_in >= 15.0 and taxi_in < 20.0 and distance >= 3152.0 and distance < 3349.0;,100
+ApproachType.MODEL_BASED,870,0.01562093198299408,13.814823887354219,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'SCE';,100
+ApproachType.MODEL_BASED,871,0.20513807237148285,10.336738138784247,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 1995 and dep_delay >= -41.00 and dep_delay <= 102.00;,100
+ApproachType.MODEL_BASED,872,0.1994221732020378,23.289805095887576,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'SJC' and distance > 1017.00 and distance <= 1567.00 and arr_delay >= -9.00 and arr_delay <= 736.00;,100
+ApproachType.MODEL_BASED,873,0.07544092833995819,20.790152865785394,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time > 190.00 and air_time < 546.00 and arr_delay >= 543.00 and arr_delay < 918.00;,100
+ApproachType.MODEL_BASED,874,0.03397209942340851,9.496464072443699,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay >= 397.00 and dep_delay <= 539.00;,100
+ApproachType.MODEL_BASED,875,0.018032275140285492,41.72751808136779,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'PBG';,100
+ApproachType.MODEL_BASED,876,0.04923183470964432,1.1300874920797872,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'SFO';,100
+ApproachType.MODEL_BASED,877,0.04393662512302399,17.746063578536546,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance > 2115.00 and distance < 2874.00 and taxi_in > 68.00 and taxi_in <= 968.00;,100
+ApproachType.MODEL_BASED,878,0.05994071811437607,87.18736687032731,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time > 224.00 and air_time < 603.00 and taxi_in >= 108.00 and taxi_in <= 146.00;,100
+ApproachType.MODEL_BASED,879,0.01760207861661911,46.75244534280705,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'DLG';,100
+ApproachType.MODEL_BASED,880,0.033808931708335876,2.582979262986087,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'FAT' and year_date = 2012;,100
+ApproachType.MODEL_BASED,881,0.1158849224448204,26.50702682300895,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'ACV' and year_date = 2011 and distance >= 125.00 and distance < 2115.00;,100
+ApproachType.MODEL_BASED,882,0.17962967604398727,32.42482468336139,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 86.00 and taxi_in <= 882.00 and taxi_out >= 22.00 and taxi_out <= 325.00 and arr_delay > 13.00 and arr_delay <= 884.00;,100
+ApproachType.MODEL_BASED,883,0.019110985100269318,3.5880289281768896,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'PIA';,100
+ApproachType.MODEL_BASED,884,0.04670652747154236,3.7486250568468598,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'BTR' and dep_delay > 189.00 and dep_delay < 741.00;,100
+ApproachType.MODEL_BASED,885,0.050752393901348114,11.077703491309,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2005 and origin = 'SPI' and distance > 35.00 and distance < 524.00;,100
+ApproachType.MODEL_BASED,886,0.19536937773227692,7.61717066221064,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2001 and air_time >= 305.00 and air_time < 426.00 and arr_delay >= -56.00 and arr_delay <= 98.00;,100
+ApproachType.MODEL_BASED,887,0.0342431515455246,25.299225055105207,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2009 and origin = 'TPA';,100
+ApproachType.MODEL_BASED,888,0.23466233909130096,110.38306451612902,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'IMT' and dep_delay > -87.00 and dep_delay < 664.00;,100
+ApproachType.MODEL_BASED,889,0.03991887718439102,15.679543885507963,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'ROA' and dep_delay >= 331.00 and dep_delay < 923.00;,100
+ApproachType.MODEL_BASED,890,0.06070119887590408,229.0495468560909,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'CDV' and dep_delay >= 249.00 and dep_delay <= 390.00 and arr_delay >= 174.00 and arr_delay <= 881.00;,100
+ApproachType.MODEL_BASED,891,0.14468839019536972,30.070016281109535,100,1,SELECT AVG(distance) FROM flights WHERE taxi_in > 77.00 and taxi_in <= 917.00 and dep_delay > -4.00 and dep_delay < 608.00;,100
+ApproachType.MODEL_BASED,892,0.023274444043636322,2.694642611708467,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance >= 1417.00 and distance <= 1640.00;,100
+ApproachType.MODEL_BASED,893,0.02158476412296295,2.3142304352298697,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'RIC';,100
+ApproachType.MODEL_BASED,894,0.057765983045101166,11.41676638079789,100,1,SELECT AVG(arr_delay) FROM flights WHERE air_time > 56.00 and air_time <= 93.00 and distance > 319.00 and distance <= 817.00;,100
+ApproachType.MODEL_BASED,895,0.020576946437358856,2.6755536341468718,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2015;,100
+ApproachType.MODEL_BASED,896,0.021625995635986328,17.149740726303424,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 101.00 and taxi_in <= 1387.00;,100
+ApproachType.MODEL_BASED,897,0.09621456265449524,89.32357379695229,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2007 and dep_delay >= 44.00 and dep_delay < 655.00 and distance > 1790.00 and distance <= 1926.00;,100
+ApproachType.MODEL_BASED,898,0.037026211619377136,0.5375621398115771,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance > 1535.00 and distance <= 2398.00;,100
+ApproachType.MODEL_BASED,899,0.10880162566900253,18.705491269857323,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'CRW' and dep_delay > 5.00 and dep_delay < 814.00;,100
+ApproachType.MODEL_BASED,900,0.13262086361646652,1.4545014863667307,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2011 and taxi_out > 1.00 and taxi_out < 357.00;,100
+ApproachType.MODEL_BASED,901,0.12198365479707718,91.60377691957115,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance > 1442.00 and distance <= 2570.00 and taxi_out >= 37.00 and taxi_out < 370.00 and taxi_in >= 44.00 and taxi_in < 59.00;,100
+ApproachType.MODEL_BASED,902,0.08491197973489761,1.5539772727709988,100,1,SELECT AVG(dep_delay) FROM flights WHERE taxi_out >= 148.00 and taxi_out <= 265.00 and distance > 1138.00 and distance < 3379.00;,100
+ApproachType.MODEL_BASED,903,0.04119229316711426,50.803580616795095,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time >= 403.00 and air_time <= 602.00 and distance >= 657.00 and distance <= 892.00;,100
+ApproachType.MODEL_BASED,904,0.045855388045310974,47.40157391989763,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 1998 and taxi_in >= 108.00 and taxi_in < 945.00;,100
+ApproachType.MODEL_BASED,905,0.05717672407627106,5.490902193786258,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance >= 1808.00 and distance < 2465.00 and arr_delay >= 104.00 and arr_delay < 716.00;,100
+ApproachType.MODEL_BASED,906,0.18010128289461136,7.565528966809492,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance > 1588.00 and distance <= 2475.00 and air_time >= -552.00 and air_time <= 531.00;,100
+ApproachType.MODEL_BASED,907,0.025287315249443054,6.804502306603193,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'LAX';,100
+ApproachType.MODEL_BASED,908,0.022194065153598785,396.8469582068122,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in > 162.00 and taxi_in <= 690.00;,100
+ApproachType.MODEL_BASED,909,0.03621489554643631,41.64721976330291,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'ABI' and year_date = 2007;,100
+ApproachType.MODEL_BASED,910,0.22204524278640747,0.4938785643887543,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'BMI' and arr_delay >= -49.00 and arr_delay <= 142.00;,100
+ApproachType.MODEL_BASED,911,0.21464107185602188,1.7847662835034535,100,1,SELECT AVG(arr_delay) FROM flights WHERE dep_delay > -19.00 and dep_delay <= 840.00 and distance > 1590.00 and distance < 1911.00;,100
+ApproachType.MODEL_BASED,912,0.03476659208536148,24.425367118210357,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2014 and origin = 'EAU';,100
+ApproachType.MODEL_BASED,913,0.13559121638536453,1.1190395936640671,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'OTH' and air_time > -127.00 and air_time <= 492.00;,100
+ApproachType.MODEL_BASED,914,0.06764324754476547,7.549171628605069,100,1,SELECT AVG(dep_delay) FROM flights WHERE distance > 150.00 and distance < 968.00 and taxi_out > 225.00 and taxi_out < 350.00;,100
+ApproachType.MODEL_BASED,915,0.017805084586143494,26.597102365253082,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'SWF';,100
+ApproachType.MODEL_BASED,916,0.0523194819688797,61.75987779351273,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'CAK' and air_time > 224.00 and air_time <= 521.00;,100
+ApproachType.MODEL_BASED,917,0.12318648397922516,17.509757204990635,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2014 and dep_delay >= 446.00 and dep_delay < 768.00 and distance > 109.00 and distance <= 1093.00;,100
+ApproachType.MODEL_BASED,918,0.041885457932949066,1.8693298495988626,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'PHX' and dep_delay > 420.00 and dep_delay <= 984.00;,100
+ApproachType.MODEL_BASED,919,0.02272188663482666,13.588459659225832,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay >= 431.00 and dep_delay < 771.00;,100
+ApproachType.MODEL_BASED,920,0.021792009472846985,0.466900229914063,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2002;,100
+ApproachType.MODEL_BASED,921,0.17964769899845123,18.469871152042934,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'EYW' and arr_delay > -88.00 and arr_delay <= 115.00;,100
+ApproachType.MODEL_BASED,922,0.03046928346157074,28.610884193080288,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2008 and origin = 'BGM';,100
+ApproachType.MODEL_BASED,923,0.04238259792327881,57.42481551547686,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'SJC' and taxi_out > 123.00 and taxi_out <= 135.00;,100
+ApproachType.MODEL_BASED,924,0.014615505933761597,1.3385536626798917,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'RFD';,100
+ApproachType.MODEL_BASED,925,0.02018342912197113,13.192962289081228,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 1996;,100
+ApproachType.MODEL_BASED,926,0.020596057176589966,13.030665488287568,100,1,SELECT AVG(distance) FROM flights WHERE air_time >= 241.00 and air_time < 267.00;,100
+ApproachType.MODEL_BASED,927,0.02039610594511032,1.6590710841307648,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 2011;,100
+ApproachType.MODEL_BASED,928,0.02079770714044571,10.827732340540507,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_in >= 116.00 and taxi_in < 1436.00;,100
+ApproachType.MODEL_BASED,929,0.2171689197421074,7.488639462201875,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'MEI' and arr_delay > -45.00 and arr_delay <= 562.00;,100
+ApproachType.MODEL_BASED,930,0.03588493913412094,3.3770941226352207,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay > 110.00 and arr_delay < 940.00;,100
+ApproachType.MODEL_BASED,931,0.11737634986639023,92.45832230748874,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'GEG' and arr_delay > 21.00 and arr_delay < 30.00 and air_time > -515.00 and air_time <= 260.00;,100
+ApproachType.MODEL_BASED,932,0.08147390931844711,43.22494092295111,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay >= 187.00 and dep_delay <= 612.00 and taxi_out >= 143.00 and taxi_out <= 178.00 and arr_delay >= 100.00 and arr_delay <= 798.00;,100
+ApproachType.MODEL_BASED,933,0.060622237622737885,13.483209736295446,100,1,SELECT AVG(distance) FROM flights WHERE dep_delay > 18.00 and dep_delay <= 834.00;,100
+ApproachType.MODEL_BASED,934,0.030557997524738312,32.36391826893056,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance > 300.00 and distance <= 380.00 and taxi_out > 190.00 and taxi_out < 245.00;,100
+ApproachType.MODEL_BASED,935,0.033814214169979095,53.26193553979621,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'ERI' and taxi_out > 124.00 and taxi_out < 299.00;,100
+ApproachType.MODEL_BASED,936,0.027309037744998932,5.875425394759362,100,1,SELECT AVG(air_time) FROM flights WHERE dep_delay > 181.00 and dep_delay <= 649.00;,100
+ApproachType.MODEL_BASED,937,0.050546906888484955,6.581402283781533,100,1,SELECT AVG(air_time) FROM flights WHERE year_date = 1999 and arr_delay > 135.00 and arr_delay < 626.00;,100
+ApproachType.MODEL_BASED,938,0.010218650102615356,107.67139212119127,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance >= 4392.0 and distance < 4575.0;,100
+ApproachType.MODEL_BASED,939,0.03174103796482086,15.807982939619764,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 1999 and origin = 'CMH';,100
+ApproachType.MODEL_BASED,940,0.2661256641149521,7.5105538123830735,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'RFD' and air_time > 0.00 and air_time <= 252.00 and dep_delay > -42.00 and dep_delay <= 351.00;,100
+ApproachType.MODEL_BASED,941,0.1590253785252571,0.09224342485702333,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance >= 1590.00 and distance < 1931.00 and air_time > -709.00 and air_time <= 444.00;,100
+ApproachType.MODEL_BASED,942,0.1948348507285118,0.1974344605000301,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'HSV' and year_date = 2000 and dep_delay >= -13.00 and dep_delay <= 955.00;,100
+ApproachType.MODEL_BASED,943,0.02346044033765793,2.4711424820054657,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'PHX';,100
+ApproachType.MODEL_BASED,944,0.055750906467437744,34.454931330590924,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 750.00 and dep_delay <= 876.00 and air_time >= 215.00 and air_time < 685.00;,100
+ApproachType.MODEL_BASED,945,0.08104448765516281,9.441558012964574,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2010 and dep_delay > 460.00 and dep_delay < 641.00 and air_time >= 196.00 and air_time <= 500.00;,100
+ApproachType.MODEL_BASED,946,0.016619890928268433,8.496365449218546,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'MCI';,100
+ApproachType.MODEL_BASED,947,0.01926996558904648,1.3137273968780854,100,1,SELECT AVG(distance) FROM flights WHERE year_date = 2006;,100
+ApproachType.MODEL_BASED,948,0.01931627094745636,1.548317888506501,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2000;,100
+ApproachType.MODEL_BASED,949,0.019107386469841003,18.572387989793565,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out >= 173.00 and taxi_out <= 233.00;,100
+ApproachType.MODEL_BASED,950,0.05763845890760422,3.8799389663991906,100,1,SELECT AVG(arr_delay) FROM flights WHERE distance > 287.00 and distance <= 897.00 and dep_delay >= 199.00 and dep_delay < 740.00;,100
+ApproachType.MODEL_BASED,951,0.14107182621955872,47.25000612320118,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= 0.0 and arr_delay < 98.0 and taxi_in >= 0.0 and taxi_in < 5.0 and taxi_out >= 9.0 and taxi_out < 18.0 and distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,952,0.061391681432724,14.37653738029352,100,1,SELECT AVG(taxi_out) FROM flights WHERE air_time >= 140.00 and air_time <= 564.00;,100
+ApproachType.MODEL_BASED,953,0.07039232552051544,26.207570456898722,100,1,SELECT AVG(taxi_in) FROM flights WHERE distance >= 275.00 and distance < 749.00 and taxi_out > 37.00 and taxi_out < 80.00;,100
+ApproachType.MODEL_BASED,954,0.01724827289581299,22.18654105840084,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'MGM';,100
+ApproachType.MODEL_BASED,955,0.07293527573347092,13.582818556954775,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2014 and origin = 'PHX' and distance >= 1129.00 and distance < 1947.00;,100
+ApproachType.MODEL_BASED,956,0.016900934278964996,2.980717303240923,100,1,SELECT AVG(taxi_out) FROM flights WHERE dest = 'ACY';,100
+ApproachType.MODEL_BASED,957,0.03553498536348343,21.437164525704937,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'MFE' and year_date = 2010;,100
+ApproachType.MODEL_BASED,958,0.0320623442530632,52.86259902540006,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2016 and dest = 'STX';,100
+ApproachType.MODEL_BASED,959,0.05007043480873108,23.941174250273484,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out >= 21.0 and taxi_out < 28.0 and dep_delay >= 600.0 and dep_delay < 800.0;,100
+ApproachType.MODEL_BASED,960,0.014435410499572754,169.42440087581164,100,1,SELECT AVG(air_time) FROM flights WHERE dest = 'DBQ';,100
+ApproachType.MODEL_BASED,961,0.01536770910024643,22.436851678492218,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'BFL';,100
+ApproachType.MODEL_BASED,962,0.1783733144402504,300.84237907702885,100,1,SELECT AVG(dep_delay) FROM flights WHERE arr_delay >= -11.00 and arr_delay < 433.00 and taxi_in >= 129.00 and taxi_in < 738.00 and air_time >= 306.00 and air_time <= 391.00;,100
+ApproachType.MODEL_BASED,963,0.02309972047805786,28.00169991192049,100,1,SELECT AVG(taxi_out) FROM flights WHERE taxi_in >= 108.00 and taxi_in < 1434.00;,100
+ApproachType.MODEL_BASED,964,0.022466570138931274,11.436688163202396,100,1,SELECT AVG(taxi_in) FROM flights WHERE arr_delay > 369.00 and arr_delay <= 671.00;,100
+ApproachType.MODEL_BASED,965,0.25931516289711,4.760468429489024,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay > 154.00 and dep_delay < 419.00 and arr_delay > -71.00 and arr_delay < 566.00;,100
+ApproachType.MODEL_BASED,966,0.016953840851783752,1.1749320772997551,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'BZN';,100
+ApproachType.MODEL_BASED,967,0.02791878581047058,2.3705612747551608,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay >= 213.00 and arr_delay <= 505.00;,100
+ApproachType.MODEL_BASED,968,0.10771791636943817,41.703360866230305,100,1,SELECT AVG(taxi_in) FROM flights WHERE year_date = 2003 and arr_delay > 354.00 and arr_delay <= 852.00;,100
+ApproachType.MODEL_BASED,969,0.12010177224874496,27.265343370871793,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'CLT' and air_time > 192.00 and air_time <= 526.00 and dep_delay > 10.00 and dep_delay < 36.00;,100
+ApproachType.MODEL_BASED,970,0.01667824387550354,4.599297085329204,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance > 148.00 and distance < 282.00;,100
+ApproachType.MODEL_BASED,971,0.025047630071640015,4.747764538200269,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2001;,100
+ApproachType.MODEL_BASED,972,0.04484017938375473,33.43385831663163,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'GTF' and distance > 1199.00 and distance < 1739.00;,100
+ApproachType.MODEL_BASED,973,0.012797906994819641,48.67758254477877,100,1,SELECT AVG(taxi_in) FROM flights WHERE air_time > 531.00 and air_time <= 598.00;,100
+ApproachType.MODEL_BASED,974,0.05724618583917618,11.179526254303779,100,1,SELECT AVG(taxi_in) FROM flights WHERE dep_delay >= 145.00 and dep_delay < 416.00 and air_time > 247.00 and air_time <= 397.00;,100
+ApproachType.MODEL_BASED,975,0.033041685819625854,73.60354027231072,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'LGB' and year_date = 1996;,100
+ApproachType.MODEL_BASED,976,0.03261695057153702,583.7393181425266,100,1,SELECT AVG(distance) FROM flights WHERE origin = 'MRY' and year_date = 1995;,100
+ApproachType.MODEL_BASED,977,0.09351856261491776,14.134359133302846,100,1,SELECT AVG(dep_delay) FROM flights WHERE year_date = 2014 and arr_delay > 24.00 and arr_delay <= 780.00;,100
+ApproachType.MODEL_BASED,978,0.0432153046131134,12.441853394398542,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay > 617.00 and arr_delay < 630.00 and dep_delay > 623.00 and dep_delay < 806.00;,100
+ApproachType.MODEL_BASED,979,0.015160292387008667,1.5952573744924177,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'BIL';,100
+ApproachType.MODEL_BASED,980,0.0414375439286232,88.69090288280145,100,1,SELECT AVG(distance) FROM flights WHERE dest = 'HNL' and dep_delay >= 1056.00 and dep_delay < 1174.00;,100
+ApproachType.MODEL_BASED,981,0.03983142226934433,0.08507846507463332,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'CDV' and dep_delay > 318.00 and dep_delay <= 882.00;,100
+ApproachType.MODEL_BASED,982,0.10753469169139862,10.825194636562513,100,1,SELECT AVG(distance) FROM flights WHERE taxi_out > 3.00 and taxi_out < 45.00 and arr_delay >= 187.00 and arr_delay <= 504.00;,100
+ApproachType.MODEL_BASED,983,0.20869246870279312,1.0354766154743587,100,1,SELECT AVG(taxi_out) FROM flights WHERE distance >= 188.00 and distance <= 807.00 and air_time >= -423.00 and air_time < 549.00;,100
+ApproachType.MODEL_BASED,984,0.24600837379693985,7.369981967639966,100,1,SELECT AVG(taxi_out) FROM flights WHERE dep_delay >= -65.00 and dep_delay <= 843.00 and arr_delay > 608.00 and arr_delay < 859.00;,100
+ApproachType.MODEL_BASED,985,0.03291812539100647,105.66002292662687,100,1,SELECT AVG(taxi_out) FROM flights WHERE origin = 'BRW' and year_date = 2000;,100
+ApproachType.MODEL_BASED,986,0.015812791883945465,98.88583901161748,100,1,SELECT AVG(dep_delay) FROM flights WHERE origin = 'DRT';,100
+ApproachType.MODEL_BASED,987,0.11955787986516953,20.27237519313015,100,1,SELECT AVG(arr_delay) FROM flights WHERE taxi_out >= 128.00 and taxi_out <= 192.00 and distance > 147.00 and distance <= 3379.00;,100
+ApproachType.MODEL_BASED,988,0.18830376118421555,0.09019244740148057,100,1,SELECT AVG(taxi_out) FROM flights WHERE arr_delay > -46.00 and arr_delay < 510.00;,100
+ApproachType.MODEL_BASED,989,0.036204345524311066,92.76672694394213,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 2016 and origin = 'VLD';,100
+ApproachType.MODEL_BASED,990,0.03592226654291153,5.296529232224592,100,1,SELECT AVG(taxi_in) FROM flights WHERE origin = 'IND' and year_date = 2006;,100
+ApproachType.MODEL_BASED,991,0.016774848103523254,27.93219912383979,100,1,SELECT AVG(air_time) FROM flights WHERE origin = 'BGM';,100
+ApproachType.MODEL_BASED,992,0.04325737804174423,1.211831027653083,100,1,SELECT AVG(arr_delay) FROM flights WHERE origin = 'MDT' and distance > 1207.00 and distance < 1607.00;,100
+ApproachType.MODEL_BASED,993,0.03429894149303436,10.907107054938482,100,1,SELECT AVG(taxi_out) FROM flights WHERE year_date = 2005 and origin = 'LAW';,100
+ApproachType.MODEL_BASED,994,0.019477806985378265,17.529450980527255,100,1,SELECT AVG(taxi_in) FROM flights WHERE dest = 'OMA';,100
+ApproachType.MODEL_BASED,995,0.0365181490778923,8.736716798437865,100,1,SELECT AVG(arr_delay) FROM flights WHERE year_date = 1997 and origin = 'BUF';,100
+ApproachType.MODEL_BASED,996,0.016754016280174255,1.8727958553489152,100,1,SELECT AVG(dep_delay) FROM flights WHERE dest = 'ROW';,100
+ApproachType.MODEL_BASED,997,0.07251753658056259,43.97144990731298,100,1,SELECT AVG(distance) FROM flights WHERE taxi_in > 3.00 and taxi_in <= 76.00 and dep_delay >= 151.00 and dep_delay < 555.00;,100
+ApproachType.MODEL_BASED,998,0.05816173553466797,23.096601143868114,100,1,SELECT AVG(air_time) FROM flights WHERE taxi_out >= 103.00 and taxi_out <= 244.00 and dep_delay >= 230.00 and dep_delay <= 468.00;,100
+ApproachType.MODEL_BASED,999,0.12438686937093735,20.872392547521983,100,1,SELECT AVG(arr_delay) FROM flights WHERE dest = 'CLD' and air_time >= -29.00 and air_time < 580.00;,100

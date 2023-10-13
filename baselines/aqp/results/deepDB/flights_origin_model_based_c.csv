@@ -1,0 +1,1001 @@
+approach,query_no,latency,average_relative_error,bin_completeness,total_bins,query,sample_percentage
+ApproachType.MODEL_BASED,0,0.14169897139072418,6.687461042448002e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'TYR' and arr_delay >= 41.00 and arr_delay < 712.00;,100
+ApproachType.MODEL_BASED,1,0.1328040435910225,0.1659306419359766,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 190.00 and air_time < 546.00 and arr_delay >= 543.00 and arr_delay < 918.00;,100
+ApproachType.MODEL_BASED,2,0.06495320051908493,1.3360632638224107e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'FLL' and dep_delay > 117.00 and dep_delay <= 428.00;,100
+ApproachType.MODEL_BASED,3,0.6248836666345596,0.8174928983638807,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 17.00 and air_time < 326.00 and taxi_in >= 155.00 and taxi_in < 937.00 and dep_delay >= 237.00 and dep_delay < 790.00;,100
+ApproachType.MODEL_BASED,4,0.20722150057554245,39.43673722900884,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MIA' and year_date = 2004 and air_time >= 135.00 and air_time <= 470.00;,100
+ApproachType.MODEL_BASED,5,0.2877051383256912,0.3064967476281538,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 165.00 and dep_delay < 195.00 and taxi_in > 3.00 and taxi_in < 881.00;,100
+ApproachType.MODEL_BASED,6,0.14108159393072128,1.0658141036401503e-13,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2005 and origin = 'ACT' and dep_delay >= 22.00 and dep_delay <= 888.00;,100
+ApproachType.MODEL_BASED,7,0.08555329591035843,0.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'APF' and arr_delay > 136.00 and arr_delay <= 710.00;,100
+ApproachType.MODEL_BASED,8,0.10058504343032837,1119.458364858938,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ILM' and distance > 406.00 and distance <= 631.00;,100
+ApproachType.MODEL_BASED,9,0.02358260005712509,9.160008762208521e-12,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 175.00 and taxi_in < 882.00;,100
+ApproachType.MODEL_BASED,10,0.08818323910236359,2.5658487680225837e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 192.00 and taxi_out < 299.00 and arr_delay > 141.00 and arr_delay < 604.00 and dep_delay > 185.00 and dep_delay <= 860.00;,100
+ApproachType.MODEL_BASED,11,0.050603605806827545,129.20848318760056,100,1,SELECT COUNT(*) FROM flights WHERE distance > 300.00 and distance <= 380.00 and taxi_out > 190.00 and taxi_out < 245.00;,100
+ApproachType.MODEL_BASED,12,0.0642862394452095,0.0,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and distance >= 1607.00 and distance < 2504.00;,100
+ApproachType.MODEL_BASED,13,0.2504848763346672,0.5506704980324202,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2007 and air_time > 108.00 and air_time <= 474.00;,100
+ApproachType.MODEL_BASED,14,0.14576485008001328,1.8370843445544922,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2014 and arr_delay > 24.00 and arr_delay <= 780.00;,100
+ApproachType.MODEL_BASED,15,1.4337379485368729,1.0344340493008977,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 22.00 and dep_delay <= 242.00 and distance >= 775.00 and distance < 979.00 and air_time > -197.00 and air_time < 535.00;,100
+ApproachType.MODEL_BASED,16,0.03597696125507355,0.682800703953221,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2008 and arr_delay > 418.00 and arr_delay < 441.00;,100
+ApproachType.MODEL_BASED,17,0.15492985397577286,0.0,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 427.00 and air_time < 568.00 and distance > 289.00 and distance < 831.00;,100
+ApproachType.MODEL_BASED,18,0.08224885910749435,0.008065523726544874,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PDX' and arr_delay >= 123.00 and arr_delay < 665.00 and air_time >= 269.00 and air_time <= 540.00;,100
+ApproachType.MODEL_BASED,19,0.9589285477995872,0.08374988062668333,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -45.00 and dep_delay < 61.00 and arr_delay > 156.00 and arr_delay < 498.00;,100
+ApproachType.MODEL_BASED,20,1.3166955038905144,0.0020370002849998342,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 362.00 and dep_delay < 934.00 and air_time >= -389.00 and air_time <= 260.00;,100
+ApproachType.MODEL_BASED,21,0.31825581192970276,0.017391546593881202,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= -11.00 and arr_delay < 433.00 and taxi_in >= 129.00 and taxi_in < 738.00 and air_time >= 306.00 and air_time <= 391.00;,100
+ApproachType.MODEL_BASED,22,0.04144561290740967,28.438796177903992,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1996 and arr_delay >= 361.00 and arr_delay < 362.00;,100
+ApproachType.MODEL_BASED,23,0.009956009685993195,0.0,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 2745.0 and distance < 2928.0;,100
+ApproachType.MODEL_BASED,24,0.024158291518688202,3.3999801935436573e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 158.00 and taxi_out < 310.00;,100
+ApproachType.MODEL_BASED,25,0.023630104959011078,4.696186067674329e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 173.00 and taxi_out <= 233.00;,100
+ApproachType.MODEL_BASED,26,0.011904686689376831,3.440860510591218e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LGA';,100
+ApproachType.MODEL_BASED,27,0.02255219966173172,3.9837700471875964e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 40.00 and taxi_in < 86.00;,100
+ApproachType.MODEL_BASED,28,0.010704077780246735,3.145951925883529e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BZN';,100
+ApproachType.MODEL_BASED,29,0.19081121683120728,1.5446581212176091e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 241.00 and taxi_out <= 304.00 and arr_delay >= 4.00 and arr_delay <= 950.00;,100
+ApproachType.MODEL_BASED,30,0.09848485887050629,0.3224152914334155,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 569.00 and dep_delay <= 824.00 and air_time > 185.00 and air_time <= 336.00;,100
+ApproachType.MODEL_BASED,31,0.02324807643890381,1.2441502554765402,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BOS' and year_date = 2003;,100
+ApproachType.MODEL_BASED,32,0.06713923811912537,0.019104182000696232,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 238.00 and dep_delay <= 852.00 and air_time >= 265.00 and air_time <= 670.00;,100
+ApproachType.MODEL_BASED,33,0.21463270485401154,17.116340426970407,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 102.00 and taxi_out <= 1327.00 and air_time > 112.00 and air_time < 308.00;,100
+ApproachType.MODEL_BASED,34,0.028804093599319458,0.0,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1641.00 and distance <= 4184.00;,100
+ApproachType.MODEL_BASED,35,0.060147903859615326,3.790811224189361,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'AUS' and dep_delay >= 337.00 and dep_delay < 852.00 and arr_delay > 566.00 and arr_delay <= 692.00;,100
+ApproachType.MODEL_BASED,36,0.3197300136089325,74.28840769458543,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SJC' and distance > 1017.00 and distance <= 1567.00 and arr_delay >= -9.00 and arr_delay <= 736.00;,100
+ApproachType.MODEL_BASED,37,0.04248847812414169,3.552713678800501e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'ABI' and arr_delay >= 153.00 and arr_delay < 448.00;,100
+ApproachType.MODEL_BASED,38,0.01981649547815323,8.994211845064559e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2007 and dest = 'ACT';,100
+ApproachType.MODEL_BASED,39,0.18634308129549026,11.232906375886188,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DCA' and year_date = 2008 and air_time >= 109.00 and air_time < 259.00;,100
+ApproachType.MODEL_BASED,40,0.4490937516093254,0.0014907456465682585,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'CLD' and air_time >= -29.00 and air_time < 580.00;,100
+ApproachType.MODEL_BASED,41,0.010901905596256256,1.995654739346506e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'PHX';,100
+ApproachType.MODEL_BASED,42,0.37615884095430374,1241.4767193708872,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LAR' and air_time >= 38.00 and air_time <= 540.00;,100
+ApproachType.MODEL_BASED,43,0.2408362776041031,1.1955741333568692,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 77.00 and taxi_in <= 917.00 and dep_delay > -4.00 and dep_delay < 608.00;,100
+ApproachType.MODEL_BASED,44,0.12058145552873611,0.04480984296998477,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2010 and dep_delay > 460.00 and dep_delay < 641.00 and air_time >= 196.00 and air_time <= 500.00;,100
+ApproachType.MODEL_BASED,45,0.05803944915533066,4.736951571734001e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 15.0 and taxi_out < 18.0 and distance >= 4160.0 and distance < 4368.0;,100
+ApproachType.MODEL_BASED,46,0.3968144655227661,4.777787361145501e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 0.0 and arr_delay < 98.0 and taxi_in >= 0.0 and taxi_in < 5.0 and taxi_out >= 9.0 and taxi_out < 18.0 and distance >= 4160.0 and distance < 4368.0;,100
+ApproachType.MODEL_BASED,47,1.297308161854744,0.040033815125475346,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'ATL' and arr_delay >= -37.00 and arr_delay <= 906.00;,100
+ApproachType.MODEL_BASED,48,0.15198316425085068,1.4112624508964073e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 646.00 and distance <= 781.00;,100
+ApproachType.MODEL_BASED,49,0.31263167411088943,1.627738975609288e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 427.00 and distance < 813.00;,100
+ApproachType.MODEL_BASED,50,0.41377126425504684,0.001934209473465676,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -57.00 and dep_delay <= 1091.00 and distance >= 346.00 and distance <= 453.00;,100
+ApproachType.MODEL_BASED,51,0.41534943878650665,1.9054846359124683e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= -356.00 and air_time <= 295.00;,100
+ApproachType.MODEL_BASED,52,0.14736755192279816,20.70942767758924,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PHX' and taxi_in >= 7.00 and taxi_in < 879.00 and arr_delay > 642.00 and arr_delay < 928.00;,100
+ApproachType.MODEL_BASED,53,0.4033115804195404,0.22009937036657606,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 0.0 and arr_delay < 80.0 and dep_delay >= 0.0 and dep_delay < 178.0 and air_time >= 504.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,54,0.01085805892944336,1.5036001118020185e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DLG';,100
+ApproachType.MODEL_BASED,55,0.010654188692569733,3.549016786314756e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'PFN';,100
+ApproachType.MODEL_BASED,56,0.011261828243732452,5.591728876562731e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SJU';,100
+ApproachType.MODEL_BASED,57,0.14845895767211914,1.7763568394002505e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'IAG' and arr_delay > 10.00 and arr_delay <= 392.00;,100
+ApproachType.MODEL_BASED,58,0.010650239884853363,3.954324790317079e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'GJT';,100
+ApproachType.MODEL_BASED,59,0.08390460908412933,0.034814613152311935,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 750.00 and dep_delay <= 876.00 and air_time >= 215.00 and air_time < 685.00;,100
+ApproachType.MODEL_BASED,60,0.047014035284519196,2.626156643203122,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and arr_delay > 43.00 and arr_delay < 61.00;,100
+ApproachType.MODEL_BASED,61,0.24113548547029495,0.2417829568718453,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 3.00 and taxi_in <= 76.00 and dep_delay >= 151.00 and dep_delay < 555.00;,100
+ApproachType.MODEL_BASED,62,0.5067407041788101,0.004884792549092837,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= -456.00 and air_time <= 365.00 and dep_delay > 115.00 and dep_delay <= 375.00;,100
+ApproachType.MODEL_BASED,63,0.38217900693416595,0.011149800693305659,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 232.00 and taxi_in <= 720.00 and arr_delay > -61.00 and arr_delay <= 327.00;,100
+ApproachType.MODEL_BASED,64,0.10312244296073914,5.968383813558409,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1042.00 and distance <= 2500.00 and dep_delay >= 359.00 and dep_delay <= 814.00;,100
+ApproachType.MODEL_BASED,65,0.04544144123792648,23.216836293703246,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'FAR' and taxi_out > 46.00 and taxi_out <= 65.00;,100
+ApproachType.MODEL_BASED,66,0.02668996900320053,0.26924897682654014,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2003 and air_time > 393.00 and air_time < 469.00;,100
+ApproachType.MODEL_BASED,67,0.04439038038253784,14.413476738181846,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and dep_delay >= 228.00 and dep_delay < 861.00;,100
+ApproachType.MODEL_BASED,68,0.07649775594472885,3.5616058648807485,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 53.00 and arr_delay < 881.00 and air_time > 599.00 and air_time < 625.00;,100
+ApproachType.MODEL_BASED,69,0.06245410442352295,0.005920215292998243,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 244.00 and air_time <= 417.00 and taxi_out >= 317.00 and taxi_out <= 472.00;,100
+ApproachType.MODEL_BASED,70,0.03545084595680237,9.58211157451831,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2003 and arr_delay > 354.00 and arr_delay <= 852.00;,100
+ApproachType.MODEL_BASED,71,0.06297557055950165,6.792645739750289,100,1,SELECT COUNT(*) FROM flights WHERE distance > 602.00 and distance <= 719.00 and arr_delay >= 287.00 and arr_delay <= 510.00;,100
+ApproachType.MODEL_BASED,72,0.36828960478305817,0.0,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= -566.00 and air_time <= 221.00;,100
+ApproachType.MODEL_BASED,73,0.009840793907642365,2.1526501817110727e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'OMA';,100
+ApproachType.MODEL_BASED,74,0.2647097259759903,16.54055936312173,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 101.00 and air_time < 641.00 and arr_delay >= 209.00 and arr_delay < 654.00 and taxi_in > 54.00 and taxi_in <= 60.00;,100
+ApproachType.MODEL_BASED,75,0.022895745933055878,7.939024980559778e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 119.00 and taxi_in < 171.00;,100
+ApproachType.MODEL_BASED,76,0.11621668934822083,4.5955064241553986e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 130.00 and distance < 515.00;,100
+ApproachType.MODEL_BASED,77,0.06392762064933777,0.83391089544401,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 80.0 and arr_delay < 160.0 and air_time >= 504.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,78,0.033128753304481506,5.010299968450232e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 30.0 and taxi_in < 36.0;,100
+ApproachType.MODEL_BASED,79,0.013918876647949219,6.33297729496338e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2007;,100
+ApproachType.MODEL_BASED,80,0.032202303409576416,100,-1,-1,SELECT COUNT(*) FROM flights WHERE origin = 'ERI' and taxi_out > 124.00 and taxi_out < 299.00;,100
+ApproachType.MODEL_BASED,81,0.4436747655272484,13.08187431187836,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2003 and dep_delay > 205.00 and dep_delay < 335.00 and air_time > -617.00 and air_time <= 223.00;,100
+ApproachType.MODEL_BASED,82,0.06817644089460373,0.4061163414002422,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 224.00 and air_time < 603.00 and taxi_in >= 108.00 and taxi_in <= 146.00;,100
+ApproachType.MODEL_BASED,83,0.05457814782857895,9.77128840408914,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ELP' and taxi_in > 11.00 and taxi_in <= 202.00;,100
+ApproachType.MODEL_BASED,84,0.3023652359843254,1.8634497868489184e-14,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -26.00 and dep_delay <= 422.00;,100
+ApproachType.MODEL_BASED,85,0.04860639572143555,1.0658141036401503e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BJI' and taxi_out >= 40.00 and taxi_out < 95.00;,100
+ApproachType.MODEL_BASED,86,0.01155092567205429,4.585421827436529e-13,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 531.00 and air_time <= 598.00;,100
+ApproachType.MODEL_BASED,87,0.3535957410931587,2.027745837518373e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'RSW' and dep_delay >= -62.00 and dep_delay <= 442.00;,100
+ApproachType.MODEL_BASED,88,0.2146240696310997,0.2958861163600075,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 19.00 and arr_delay <= 609.00 and taxi_out >= 15.00 and taxi_out <= 31.00;,100
+ApproachType.MODEL_BASED,89,0.01887846738100052,9.801648981944733e-12,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 116.00 and taxi_in < 1436.00;,100
+ApproachType.MODEL_BASED,90,0.07295477390289307,7.046562977184189,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 383.00 and arr_delay < 676.00 and distance > 1061.00 and distance <= 1838.00;,100
+ApproachType.MODEL_BASED,91,0.0416388213634491,2.2366750417920196,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 254.00 and arr_delay <= 605.00 and air_time >= 333.00 and air_time <= 420.00;,100
+ApproachType.MODEL_BASED,92,0.05689089000225067,0.0,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 186.00 and distance < 376.00;,100
+ApproachType.MODEL_BASED,93,0.045844994485378265,10.294635439923638,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 152.00 and taxi_in <= 917.00 and arr_delay > 137.00 and arr_delay < 951.00;,100
+ApproachType.MODEL_BASED,94,0.21721862256526947,5.681169179498892,100,1,SELECT COUNT(*) FROM flights WHERE distance > 150.00 and distance < 968.00 and taxi_out > 225.00 and taxi_out < 350.00;,100
+ApproachType.MODEL_BASED,95,0.05101267993450165,1.8739588635431215e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 103.00 and taxi_out <= 244.00 and dep_delay >= 230.00 and dep_delay <= 468.00;,100
+ApproachType.MODEL_BASED,96,0.37290407717227936,1.2753331154668465e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > -30.00 and dep_delay <= 1085.00 and taxi_out > 229.00 and taxi_out <= 250.00;,100
+ApproachType.MODEL_BASED,97,0.3183811753988266,4.2352855642419734e-05,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 118.00 and taxi_out < 335.00 and distance > 17.00 and distance <= 1736.00 and arr_delay >= 145.00 and arr_delay < 541.00;,100
+ApproachType.MODEL_BASED,98,0.043667279183864594,3.4416913763379853e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 179.00 and taxi_in < 219.00 and dep_delay > 220.00 and dep_delay < 532.00;,100
+ApproachType.MODEL_BASED,99,0.40352194756269455,1.679583936792111e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > -41.00 and dep_delay < 597.00 and arr_delay >= 422.00 and arr_delay < 848.00;,100
+ApproachType.MODEL_BASED,100,0.3996641933917999,3.121882800714796e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 647.00 and distance < 766.00 and air_time > -106.00 and air_time <= 155.00;,100
+ApproachType.MODEL_BASED,101,0.444872684776783,39.61498370587689,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'GUC' and dep_delay >= -1150.00 and dep_delay <= 923.00 and distance >= 667.00 and distance <= 954.00;,100
+ApproachType.MODEL_BASED,102,0.02184484153985977,1.251270226495774e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 663.00 and dep_delay <= 890.00;,100
+ApproachType.MODEL_BASED,103,0.04583853483200073,1.7542619813414335,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1999 and taxi_out > 61.00 and taxi_out < 92.00;,100
+ApproachType.MODEL_BASED,104,0.11354342848062515,19.01736712770604,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1442.00 and distance <= 2570.00 and taxi_out >= 37.00 and taxi_out < 370.00 and taxi_in >= 44.00 and taxi_in < 59.00;,100
+ApproachType.MODEL_BASED,105,0.046459317207336426,1.481300957601565e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'GCK';,100
+ApproachType.MODEL_BASED,106,0.08627524971961975,1.1546319456101628e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2012 and origin = 'EGE';,100
+ApproachType.MODEL_BASED,107,0.20382612943649292,1.7763568394002505e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 132.00 and taxi_out < 187.00 and arr_delay >= 596.00 and arr_delay < 798.00;,100
+ApproachType.MODEL_BASED,108,0.12114912271499634,1.6448626964417542e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1164.00 and distance <= 2239.00;,100
+ApproachType.MODEL_BASED,109,0.10121401399374008,1.670704180091226,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2012 and taxi_in > 28.00 and taxi_in <= 52.00;,100
+ApproachType.MODEL_BASED,110,0.7462628185749054,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'TRI' and taxi_out > 52.00 and taxi_out <= 55.00 and taxi_in > 1.00 and taxi_in < 879.00;,100
+ApproachType.MODEL_BASED,111,0.9353753998875618,11.667618504055959,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 59.00 and air_time < 639.00 and arr_delay > 434.00 and arr_delay < 479.00;,100
+ApproachType.MODEL_BASED,112,0.020124681293964386,5.5545371268565083e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2016;,100
+ApproachType.MODEL_BASED,113,0.5113599672913551,0.0,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 0.0 and arr_delay < 98.0 and taxi_in >= 0.0 and taxi_in < 5.0 and taxi_out >= 9.0 and taxi_out < 18.0 and distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,114,0.5546823292970657,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -50.00 and dep_delay < 1080.00;,100
+ApproachType.MODEL_BASED,115,0.013958878815174103,4.625333285842998e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'HPN';,100
+ApproachType.MODEL_BASED,116,0.09865627437829971,3.2018868245378246e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 163.00 and air_time <= 315.00;,100
+ApproachType.MODEL_BASED,117,0.017216287553310394,0.0,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2001;,100
+ApproachType.MODEL_BASED,118,0.033188238739967346,6.735282788348732e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 27.00 and taxi_in <= 725.00;,100
+ApproachType.MODEL_BASED,119,0.042195796966552734,107.05498282289926,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2016 and taxi_out >= 119.00 and taxi_out <= 239.00;,100
+ApproachType.MODEL_BASED,120,0.41261106729507446,0.19377463099501865,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SMF' and air_time >= 337.00 and air_time < 585.00 and distance > 134.00 and distance < 2611.00;,100
+ApproachType.MODEL_BASED,121,0.5104942843317986,8.828493491819245e-12,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 350.00 and taxi_out < 870.00 and dep_delay >= -62.00 and dep_delay < 204.00;,100
+ApproachType.MODEL_BASED,122,0.02692735195159912,4.715122301818177e-13,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 3720.0 and distance < 4023.0 and air_time >= 484.0 and air_time < 506.0;,100
+ApproachType.MODEL_BASED,123,0.07510386407375336,40.43836950896529,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and arr_delay >= 366.00 and arr_delay <= 527.00 and taxi_out >= 239.00 and taxi_out <= 375.00;,100
+ApproachType.MODEL_BASED,124,0.12467101961374283,1.2918958832001821e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2007 and dep_delay >= 44.00 and dep_delay < 655.00 and distance > 1790.00 and distance <= 1926.00;,100
+ApproachType.MODEL_BASED,125,0.03383414447307587,1.1289656178909239e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 432.00 and arr_delay <= 638.00;,100
+ApproachType.MODEL_BASED,126,0.07160833477973938,13.297613381450152,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 143.00 and dep_delay <= 943.00 and taxi_in > 107.00 and taxi_in < 186.00;,100
+ApproachType.MODEL_BASED,127,0.38697606325149536,2.2093468020178126,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 128.00 and taxi_out <= 192.00 and distance > 147.00 and distance <= 3379.00;,100
+ApproachType.MODEL_BASED,128,0.030207619071006775,3.806478941571965e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ABI' and year_date = 2007;,100
+ApproachType.MODEL_BASED,129,0.03282377868890762,1.886918468408565e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 193.00 and dep_delay < 205.00;,100
+ApproachType.MODEL_BASED,130,0.027885042130947113,1.6975435101641674,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SNA' and year_date = 2002;,100
+ApproachType.MODEL_BASED,131,0.04641980677843094,23.576032155270262,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2010 and arr_delay >= 404.00 and arr_delay <= 478.00;,100
+ApproachType.MODEL_BASED,132,0.06161080300807953,0.9384816753837791,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 135.00 and taxi_out < 259.00 and taxi_in >= 32.00 and taxi_in <= 92.00;,100
+ApproachType.MODEL_BASED,133,0.03647489845752716,0.08588740514143822,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'STT' and taxi_out >= 190.00 and taxi_out < 297.00;,100
+ApproachType.MODEL_BASED,134,0.19326411932706833,0.025161648783241206,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 237.00 and air_time < 407.00 and dep_delay >= 15.00 and dep_delay <= 437.00;,100
+ApproachType.MODEL_BASED,135,0.05641823261976242,0.010996772679105073,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 326.00 and air_time < 419.00 and taxi_out >= 81.00 and taxi_out < 89.00;,100
+ApproachType.MODEL_BASED,136,0.35020770877599716,1.9539925233402758e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 1235.00 and arr_delay < 1271.00 and taxi_in >= 0.00 and taxi_in <= 839.00;,100
+ApproachType.MODEL_BASED,137,0.07508744299411774,5.616938622609488e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1263.00 and distance <= 2390.00 and arr_delay >= 359.00 and arr_delay < 468.00;,100
+ApproachType.MODEL_BASED,138,0.07865062355995178,0.5972587787922491,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2014 and origin = 'PHX' and distance >= 1129.00 and distance < 1947.00;,100
+ApproachType.MODEL_BASED,139,0.11605269461870193,0.0,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 181.00 and air_time <= 504.00;,100
+ApproachType.MODEL_BASED,140,0.07638398557901382,1.7763568394002505e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 28.0 and taxi_out < 35.0 and dep_delay >= 600.0 and dep_delay < 800.0;,100
+ApproachType.MODEL_BASED,141,0.5968330353498459,1.880281436997418e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 21.00 and air_time < 514.00;,100
+ApproachType.MODEL_BASED,142,0.08870319277048111,15.684041636743052,100,1,SELECT COUNT(*) FROM flights WHERE distance > 544.00 and distance < 700.00 and taxi_in > 137.00 and taxi_in < 1439.00;,100
+ApproachType.MODEL_BASED,143,0.01321621984243393,2.1260333825892764e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'LWB';,100
+ApproachType.MODEL_BASED,144,0.45214133709669113,3.474669347747577e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 158.00 and taxi_out < 375.00 and dep_delay >= -10.00 and dep_delay <= 170.00;,100
+ApproachType.MODEL_BASED,145,0.04375224560499191,1.9937407831926963e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 164.0 and arr_delay < 328.0;,100
+ApproachType.MODEL_BASED,146,0.0148497074842453,2.282868227341687e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'FSD';,100
+ApproachType.MODEL_BASED,147,0.012317590415477753,5.397594669275538e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'FCA';,100
+ApproachType.MODEL_BASED,148,0.011993147432804108,1.4018816137969544e-12,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'GST';,100
+ApproachType.MODEL_BASED,149,0.14581004530191422,1.5192005040750472e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 115.00 and arr_delay <= 866.00 and taxi_out >= 127.00 and taxi_out < 177.00;,100
+ApproachType.MODEL_BASED,150,0.02056625485420227,9.856311358933886e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'KOA';,100
+ApproachType.MODEL_BASED,151,0.025278210639953613,1.4256520131247404e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'ONT';,100
+ApproachType.MODEL_BASED,152,1.1472949758172035,0.0006177551721033365,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BFL' and air_time >= -664.00 and air_time <= 480.00 and arr_delay > -972.00 and arr_delay < 287.00;,100
+ApproachType.MODEL_BASED,153,0.03323593735694885,1.8003854208635993e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 334.00 and arr_delay <= 506.00;,100
+ApproachType.MODEL_BASED,154,0.012952007353305817,1.3219399735071632e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'TTN';,100
+ApproachType.MODEL_BASED,155,0.03828713297843933,15.312828077850973,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2008 and taxi_out > 220.00 and taxi_out < 277.00;,100
+ApproachType.MODEL_BASED,156,0.012855254113674164,4.3767791230651026e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'TVC';,100
+ApproachType.MODEL_BASED,157,0.014968857169151306,4.56459072407994e-13,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 453.00 and air_time <= 551.00;,100
+ApproachType.MODEL_BASED,158,0.05028528720140457,2.7864421010200006e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1557.00 and distance < 2417.00 and taxi_out > 189.00 and taxi_out <= 383.00;,100
+ApproachType.MODEL_BASED,159,0.6002340391278267,0.4528140522865453,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > -38.00 and arr_delay < 96.00 and air_time >= 107.00 and air_time <= 195.00;,100
+ApproachType.MODEL_BASED,160,0.012290000915527344,2.3260734060688698e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'GTF';,100
+ApproachType.MODEL_BASED,161,0.013449512422084808,2.7336267406245847e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'PIT';,100
+ApproachType.MODEL_BASED,162,0.17738089710474014,2.0429797927268753e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 140.00 and air_time <= 564.00;,100
+ApproachType.MODEL_BASED,163,0.0923161655664444,3.4416913763379853e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CDV' and dep_delay >= 249.00 and dep_delay <= 390.00 and arr_delay >= 174.00 and arr_delay <= 881.00;,100
+ApproachType.MODEL_BASED,164,0.022950418293476105,1.4119436876829561e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1417.00 and distance <= 1640.00;,100
+ApproachType.MODEL_BASED,165,0.01384061574935913,6.744134441112816e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ADK';,100
+ApproachType.MODEL_BASED,166,0.12092655897140503,0.0005620844238718448,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 496.00 and dep_delay <= 658.00 and air_time > 273.00 and air_time < 553.00 and arr_delay >= 116.00 and arr_delay < 478.00;,100
+ApproachType.MODEL_BASED,167,0.04784096032381058,2.993151067387334,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2007 and dep_delay > 301.00 and dep_delay <= 815.00;,100
+ApproachType.MODEL_BASED,168,0.4025266170501709,5.59103287990834e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 2.00 and taxi_out < 227.00;,100
+ApproachType.MODEL_BASED,169,0.05528980493545532,1.329670616627088e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 431.00 and dep_delay < 771.00;,100
+ApproachType.MODEL_BASED,170,0.0595192015171051,1.5421154291956816e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 100.00 and dep_delay <= 990.00;,100
+ApproachType.MODEL_BASED,171,0.05486065149307251,2.3314683517128287e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 205.00 and taxi_out <= 263.00 and arr_delay > 299.00 and arr_delay < 883.00;,100
+ApproachType.MODEL_BASED,172,0.014056026935577393,1.2230966941540184e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LGB';,100
+ApproachType.MODEL_BASED,173,0.04033816605806351,1.4972150503516397e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LAN' and taxi_in >= 35.00 and taxi_in < 525.00;,100
+ApproachType.MODEL_BASED,174,0.12148400396108627,1.7534118021456107e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1808.00 and distance < 2465.00 and arr_delay >= 104.00 and arr_delay < 716.00;,100
+ApproachType.MODEL_BASED,175,0.030144236981868744,2.899297431580478,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MKE' and year_date = 2005;,100
+ApproachType.MODEL_BASED,176,0.03852061182260513,3.390342537576248e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 110.00 and air_time < 133.00;,100
+ApproachType.MODEL_BASED,177,0.06830152869224548,84.39565801249587,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 141.00 and taxi_out < 435.00 and air_time > -389.00 and air_time < 42.00;,100
+ApproachType.MODEL_BASED,178,0.48729460686445236,2.609746089167962e-05,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 391.00 and air_time < 472.00 and dep_delay > -32.00 and dep_delay < 850.00;,100
+ApproachType.MODEL_BASED,179,0.10473240166902542,0.0,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 24.00 and taxi_out < 80.00;,100
+ApproachType.MODEL_BASED,180,0.025296196341514587,1.495100339828544e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2014 and origin = 'EAU';,100
+ApproachType.MODEL_BASED,181,0.03454991430044174,1.255217451185035e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 397.00 and dep_delay <= 539.00;,100
+ApproachType.MODEL_BASED,182,0.12165261805057526,0.01433819646015489,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 350.00 and air_time <= 443.00 and taxi_out >= 21.00 and taxi_out <= 69.00;,100
+ApproachType.MODEL_BASED,183,0.04854594171047211,72.2088952588203,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 303.00 and air_time <= 438.00 and taxi_in > 111.00 and taxi_in < 1428.00;,100
+ApproachType.MODEL_BASED,184,0.07397489249706268,49.60026062936501,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 137.00 and taxi_in <= 1388.00 and dep_delay >= 321.00 and dep_delay <= 350.00;,100
+ApproachType.MODEL_BASED,185,0.06730954349040985,3.045183153257572e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BTV' and arr_delay > 166.00 and arr_delay <= 540.00;,100
+ApproachType.MODEL_BASED,186,0.19544339925050735,2.0819293054169274,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 16.00 and taxi_out <= 204.00 and taxi_in > 147.00 and taxi_in <= 188.00;,100
+ApproachType.MODEL_BASED,187,0.07377811521291733,0.7620369732516767,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 70.0 and arr_delay < 140.0 and air_time >= 504.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,188,0.033505551517009735,1.4856802656802095e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2007 and origin = 'BQK';,100
+ApproachType.MODEL_BASED,189,0.01729237288236618,8.56398024268294e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'GGG';,100
+ApproachType.MODEL_BASED,190,0.01744788885116577,7.322823685772369e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BIS';,100
+ApproachType.MODEL_BASED,191,0.09037208557128906,1.0271026058871544,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 101.00 and taxi_out <= 121.00 and air_time >= 196.00 and air_time <= 266.00;,100
+ApproachType.MODEL_BASED,192,0.02537178248167038,3.363515908923551e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2006 and dest = 'MRY';,100
+ApproachType.MODEL_BASED,193,0.031549401581287384,1.4186672886418338e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 402.00 and arr_delay <= 862.00;,100
+ApproachType.MODEL_BASED,194,0.02646102011203766,0.1360056120930809,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2003 and origin = 'PBI';,100
+ApproachType.MODEL_BASED,195,0.46228285878896713,1.5117639893158412,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 109.00 and taxi_in <= 224.00 and dep_delay > -37.00 and dep_delay < 154.00;,100
+ApproachType.MODEL_BASED,196,0.06504849344491959,0.0,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2001 and arr_delay >= 111.00 and arr_delay <= 598.00 and distance > 2217.00 and distance < 4983.00;,100
+ApproachType.MODEL_BASED,197,0.2847997471690178,0.0,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 0.0 and arr_delay < 98.0 and taxi_in >= 0.0 and taxi_in < 5.0 and taxi_out >= 99.0 and taxi_out < 108.0 and distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,198,0.15402349829673767,9.849107228357826e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1997 and origin = 'BOI' and arr_delay > 10.00 and arr_delay <= 915.00;,100
+ApproachType.MODEL_BASED,199,0.05896196514368057,7.667694193300807,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 29.00 and taxi_in <= 79.00 and arr_delay > 132.00 and arr_delay < 504.00;,100
+ApproachType.MODEL_BASED,200,0.01056741178035736,5.304335943853194e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'RIC';,100
+ApproachType.MODEL_BASED,201,0.03311078995466232,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SJC' and taxi_out >= 113.00 and taxi_out < 325.00;,100
+ApproachType.MODEL_BASED,202,0.47000981867313385,34.601325194133395,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 741.00 and dep_delay <= 983.00 and distance > 187.00 and distance <= 312.00 and air_time >= -709.00 and air_time < 362.00;,100
+ApproachType.MODEL_BASED,203,0.010234043002128601,1.0263395072090335e-12,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'UST';,100
+ApproachType.MODEL_BASED,204,0.11984707415103912,887.5380904759248,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and origin = 'TYR' and taxi_out >= 20.00 and taxi_out <= 360.00;,100
+ApproachType.MODEL_BASED,205,0.021480441093444824,4.440892098500626e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 973.00 and taxi_in <= 990.00;,100
+ApproachType.MODEL_BASED,206,0.041758567094802856,10.226660391789153,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DAB' and dep_delay > 212.00 and dep_delay < 655.00;,100
+ApproachType.MODEL_BASED,207,0.03932303935289383,1.7763568394002505e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 504.00 and arr_delay < 736.00 and taxi_out > 147.00 and taxi_out < 283.00;,100
+ApproachType.MODEL_BASED,208,0.2546156868338585,1.4639753750872084e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 13.00 and taxi_out <= 370.00 and dep_delay >= 118.00 and dep_delay < 243.00;,100
+ApproachType.MODEL_BASED,209,0.17448916286230087,32.53304678766929,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 59.00 and taxi_in < 879.00 and air_time >= 137.00 and air_time < 517.00 and arr_delay >= 357.00 and arr_delay <= 979.00;,100
+ApproachType.MODEL_BASED,210,0.03490465134382248,1.7763568394002505e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'GTF' and distance > 1199.00 and distance < 1739.00;,100
+ApproachType.MODEL_BASED,211,0.09717284888029099,55.18466359055899,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CHO' and distance >= 474.00 and distance < 735.00;,100
+ApproachType.MODEL_BASED,212,0.04436703771352768,1.55203874022684e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 270.00 and dep_delay < 488.00;,100
+ApproachType.MODEL_BASED,213,0.0379839763045311,7.159120763325947e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 51.0 and taxi_in < 54.0;,100
+ApproachType.MODEL_BASED,214,0.026318363845348358,2.1992989440193577e-13,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2016 and dest = 'STX';,100
+ApproachType.MODEL_BASED,215,0.4102126359939575,1.7535244892794245e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 5.00 and taxi_out < 93.00 and dep_delay >= 305.00 and dep_delay <= 669.00;,100
+ApproachType.MODEL_BASED,216,0.20537075400352478,45.940626289127614,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2005 and origin = 'SPI' and distance > 35.00 and distance < 524.00;,100
+ApproachType.MODEL_BASED,217,0.01415202021598816,2.4060706396109214e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ABE';,100
+ApproachType.MODEL_BASED,218,0.012078560888767242,3.747402973930483e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MSO';,100
+ApproachType.MODEL_BASED,219,0.024806424975395203,1.481989134585352e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1996 and origin = 'BET';,100
+ApproachType.MODEL_BASED,220,0.6235246583819389,0.00018236842275262764,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2005 and air_time > -678.00 and air_time < 706.00;,100
+ApproachType.MODEL_BASED,221,0.09442689269781113,1.386702296416666e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 104.00 and dep_delay <= 834.00;,100
+ApproachType.MODEL_BASED,222,0.38296787440776825,0.6791509790384641,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 3.00 and taxi_in <= 64.00 and taxi_out >= 22.00 and taxi_out <= 63.00;,100
+ApproachType.MODEL_BASED,223,0.2555302754044533,1.8994658386646661,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 84.00 and distance <= 865.00 and arr_delay > 798.00 and arr_delay < 820.00;,100
+ApproachType.MODEL_BASED,224,0.10103588551282883,5.784959689773237,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and dep_delay >= 41.00 and dep_delay <= 460.00;,100
+ApproachType.MODEL_BASED,225,0.8474971577525139,0.08392693085799935,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PSP' and air_time >= -2.00 and air_time <= 498.00 and arr_delay >= 3.00 and arr_delay < 325.00;,100
+ApproachType.MODEL_BASED,226,0.20110998302698135,1.6985085316974506e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 22.00 and dep_delay < 754.00 and taxi_out >= 176.00 and taxi_out <= 235.00;,100
+ApproachType.MODEL_BASED,227,0.016157053411006927,4.841037019367205e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2009;,100
+ApproachType.MODEL_BASED,228,0.5495834276080132,0.0001916644823984187,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -178.0 and dep_delay < 712.0 and air_time >= 588.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,229,0.021834172308444977,3.563850712276364e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LGA' and dest = 'PHL';,100
+ApproachType.MODEL_BASED,230,0.009910859167575836,4.554761126667309e-13,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 4650.0 and distance < 4836.0;,100
+ApproachType.MODEL_BASED,231,0.01648952066898346,8.022256694065646e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'CNY';,100
+ApproachType.MODEL_BASED,232,0.06338706612586975,100,-1,-1,SELECT COUNT(*) FROM flights WHERE year_date = 2009 and dest = 'ELP' and taxi_out > 104.00 and taxi_out < 168.00;,100
+ApproachType.MODEL_BASED,233,0.36074474453926086,0.005736565486397269,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 0.00 and taxi_in <= 134.00 and air_time >= 38.00 and air_time < 44.00;,100
+ApproachType.MODEL_BASED,234,0.02597491443157196,0.0,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1236.00 and distance < 1488.00;,100
+ApproachType.MODEL_BASED,235,0.027258098125457764,4.736951571734001e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'HNL' and distance >= 3320.0 and distance < 3528.0;,100
+ApproachType.MODEL_BASED,236,0.045871078968048096,1.2702439968895645e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 498.00 and dep_delay <= 706.00;,100
+ApproachType.MODEL_BASED,237,0.19025220721960068,1.9235362565492014,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011 and taxi_out > 17.00 and taxi_out < 92.00 and dep_delay >= 365.00 and dep_delay < 524.00;,100
+ApproachType.MODEL_BASED,238,0.043977104127407074,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 526.00 and dep_delay < 740.00 and arr_delay > 682.00 and arr_delay <= 896.00;,100
+ApproachType.MODEL_BASED,239,0.05021674185991287,0.0,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 243.00 and air_time <= 428.00 and distance >= 1525.00 and distance < 1634.00;,100
+ApproachType.MODEL_BASED,240,0.10204046964645386,0.0,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2009 and air_time > 176.00 and air_time <= 641.00 and distance >= 1841.00 and distance < 2496.00;,100
+ApproachType.MODEL_BASED,241,0.10456421226263046,7.128699878273551,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 46.00 and arr_delay <= 931.00 and taxi_in > 148.00 and taxi_in <= 154.00;,100
+ApproachType.MODEL_BASED,242,0.037854261696338654,8.96180027084811e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2015 and dest = 'AEX';,100
+ApproachType.MODEL_BASED,243,0.03664422780275345,20.945171825948698,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'COS' and year_date = 1996;,100
+ApproachType.MODEL_BASED,244,0.04137367755174637,26.55406288235127,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and taxi_out > 164.00 and taxi_out < 172.00;,100
+ApproachType.MODEL_BASED,245,0.1844586730003357,0.0,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 32.0 and arr_delay < 130.0 and taxi_in >= 5.0 and taxi_in < 10.0  and taxi_out >= 72.0 and taxi_out < 81.0 and distance >= 2596.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,246,0.10517698526382446,4.857778168975675,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1999 and distance > 293.00 and distance <= 521.00;,100
+ApproachType.MODEL_BASED,247,0.11873149126768112,2.4780144399191946e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 274.00 and distance < 650.00;,100
+ApproachType.MODEL_BASED,248,0.40886394679546356,6.48385421171809e-06,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 232.00 and air_time <= 502.00 and dep_delay >= -1150.00 and dep_delay < 479.00;,100
+ApproachType.MODEL_BASED,249,0.027291111648082733,1.920622335464169e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 200.00 and arr_delay < 697.00;,100
+ApproachType.MODEL_BASED,250,0.011412307620048523,4.813354016439388e-13,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 588.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,251,0.41000936925411224,0.0015640610062138344,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SMX' and air_time >= -690.00 and air_time < 275.00;,100
+ApproachType.MODEL_BASED,252,0.3649691715836525,0.2991631138291301,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2003 and arr_delay > -23.00 and arr_delay <= 748.00;,100
+ApproachType.MODEL_BASED,253,0.05625343322753906,25.546410339083724,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'GSO' and air_time > -7.00 and air_time <= 43.00;,100
+ApproachType.MODEL_BASED,254,0.1689799800515175,7.738185210773638e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MDT' and taxi_out >= 14.00 and taxi_out <= 59.00;,100
+ApproachType.MODEL_BASED,255,0.03397168219089508,9.531614088142301e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 19.00 and taxi_in <= 937.00;,100
+ApproachType.MODEL_BASED,256,0.45446132123470306,3.4302756183977306e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time > -545.00 and air_time < 642.00 and distance > 1184.00 and distance < 1749.00;,100
+ApproachType.MODEL_BASED,257,0.021442487835884094,0.11024306890463226,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'TYS' and year_date = 1998;,100
+ApproachType.MODEL_BASED,258,0.009986251592636108,6.432281607933539e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'DLG';,100
+ApproachType.MODEL_BASED,259,0.011775709688663483,0.0,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1474.00 and distance < 1590.00;,100
+ApproachType.MODEL_BASED,260,0.08497007936239243,50.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'ATW' and arr_delay >= 65.00 and arr_delay <= 927.00 and taxi_out >= 103.00 and taxi_out <= 415.00;,100
+ApproachType.MODEL_BASED,261,0.04026500880718231,3.552713678800501e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 339.00 and arr_delay < 361.00 and taxi_out > 114.00 and taxi_out <= 134.00;,100
+ApproachType.MODEL_BASED,262,0.4340430274605751,0.027724178393216708,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 286.00 and arr_delay <= 879.00 and air_time > -12.00 and air_time <= 419.00;,100
+ApproachType.MODEL_BASED,263,0.45602360367774963,0.00016301649676897186,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2007 and air_time >= -709.00 and air_time <= 635.00;,100
+ApproachType.MODEL_BASED,264,0.29722587764263153,1.9556173949274354,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 80.0 and arr_delay < 160.0 and dep_delay >= 0.0 and dep_delay < 178.0 and air_time >= 588.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,265,0.06259492039680481,7.521186039220784,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2005 and arr_delay > 671.00 and arr_delay < 838.00 and dep_delay > 628.00 and dep_delay < 712.00;,100
+ApproachType.MODEL_BASED,266,0.022087901830673218,2.887370701184927e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1997;,100
+ApproachType.MODEL_BASED,267,0.03432321548461914,0.3590798613242205,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2009 and dest = 'DAL';,100
+ApproachType.MODEL_BASED,268,0.16879581660032272,7.331536000521055e-05,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 907.00 and arr_delay <= 931.00 and taxi_out >= 20.00 and taxi_out < 47.00 and distance > 1155.00 and distance <= 1404.00;,100
+ApproachType.MODEL_BASED,269,0.04225694388151169,5.3318168165824495,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2009 and arr_delay > 327.00 and arr_delay < 342.00;,100
+ApproachType.MODEL_BASED,270,0.07219184190034866,0.7171137426292514,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 17.00 and taxi_in < 870.00 and taxi_out >= 110.00 and taxi_out < 304.00;,100
+ApproachType.MODEL_BASED,271,0.037103429436683655,1.4270808723598232,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1998 and taxi_in >= 108.00 and taxi_in < 945.00;,100
+ApproachType.MODEL_BASED,272,0.012541279196739197,1.578983857244667e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'YUM';,100
+ApproachType.MODEL_BASED,273,0.012281477451324463,7.300667565945087e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'EUG';,100
+ApproachType.MODEL_BASED,274,1.0189029052853584,0.0029388563163724344,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 21.00 and air_time < 438.00 and arr_delay > -31.00 and arr_delay <= 678.00;,100
+ApproachType.MODEL_BASED,275,0.43988852202892303,4.258732784903518,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MQT' and distance > 143.00 and distance <= 1900.00 and taxi_out >= 130.00 and taxi_out <= 299.00;,100
+ApproachType.MODEL_BASED,276,0.5594490990042686,1.7511867890487563e-08,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 52.00 and dep_delay < 784.00 and arr_delay >= -63.00 and arr_delay <= 154.00;,100
+ApproachType.MODEL_BASED,277,0.01541242003440857,4.244685913688215e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'FAR';,100
+ApproachType.MODEL_BASED,278,0.437656469643116,1.4330273662388575e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -7.00 and dep_delay < 631.00 and taxi_out >= 192.00 and taxi_out < 204.00;,100
+ApproachType.MODEL_BASED,279,0.05154132843017578,2.1023807758548343e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 162.00 and dep_delay < 655.00;,100
+ApproachType.MODEL_BASED,280,0.10791005194187164,0.01063072715151238,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 239.00 and taxi_out < 367.00 and air_time >= 236.00 and air_time < 396.00;,100
+ApproachType.MODEL_BASED,281,0.038085296750068665,3.219646771412954e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BOI' and dep_delay > 327.00 and dep_delay < 457.00;,100
+ApproachType.MODEL_BASED,282,0.13418009877204895,2.0087844681981286,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 160.00 and taxi_out <= 222.00 and air_time >= 176.00 and air_time <= 585.00;,100
+ApproachType.MODEL_BASED,283,0.01226179301738739,1.1443783602050056e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'KOA';,100
+ApproachType.MODEL_BASED,284,0.026754572987556458,8.359326303060002e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2015 and dest = 'MQT';,100
+ApproachType.MODEL_BASED,285,0.016200102865695953,2.5544913155859376e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2012;,100
+ApproachType.MODEL_BASED,286,0.015440642833709717,2.955783886164863e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002;,100
+ApproachType.MODEL_BASED,287,0.06596272438764572,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MBS' and taxi_in >= 14.00 and taxi_in <= 548.00;,100
+ApproachType.MODEL_BASED,288,0.013071879744529724,3.622492651008651e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DAL';,100
+ApproachType.MODEL_BASED,289,0.5007822439074516,0.5235241081274813,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 21.00 and taxi_out <= 57.00 and dep_delay > -6.00 and dep_delay < 486.00;,100
+ApproachType.MODEL_BASED,290,0.33519192039966583,3.5730172481592133,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 1053.00 and taxi_in <= 1381.00 and taxi_out >= 11.00 and taxi_out < 189.00;,100
+ApproachType.MODEL_BASED,291,0.03315235674381256,1.6307789092027254,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LAX' and year_date = 2000;,100
+ApproachType.MODEL_BASED,292,0.03318656235933304,5.536696642286495e-14,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 498.00 and dep_delay < 531.00;,100
+ApproachType.MODEL_BASED,293,0.08916626870632172,7.285214142536334,100,1,SELECT COUNT(*) FROM flights WHERE distance > 783.00 and distance < 898.00 and taxi_out > 101.00 and taxi_out < 117.00;,100
+ApproachType.MODEL_BASED,294,0.021545499563217163,4.261924563134622e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'LNK';,100
+ApproachType.MODEL_BASED,295,0.06941697746515274,36.85072564650193,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1998 and taxi_in >= 135.00 and taxi_in < 179.00;,100
+ApproachType.MODEL_BASED,296,0.06525957584381104,5.902173782856559,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 298.00 and dep_delay <= 713.00 and distance > 603.00 and distance < 628.00;,100
+ApproachType.MODEL_BASED,297,0.1288314089179039,0.33565623918348186,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 22.00 and dep_delay <= 345.00 and air_time >= 378.00 and air_time < 591.00;,100
+ApproachType.MODEL_BASED,298,0.040101177990436554,2.3684757858670007e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 99.0 and taxi_out < 108.0 and distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,299,0.14071929454803467,13.304512609446972,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'GSP' and distance >= 436.00 and distance < 861.00;,100
+ApproachType.MODEL_BASED,300,0.013924218714237213,1.6300831432790997e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 843.00 and distance <= 865.00;,100
+ApproachType.MODEL_BASED,301,0.0717247948050499,0.1889083535355212,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 135.00 and dep_delay < 202.00 and air_time > 262.00 and air_time < 329.00;,100
+ApproachType.MODEL_BASED,302,0.05321694165468216,5.390324202318001e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BTR' and dep_delay > 189.00 and dep_delay < 741.00;,100
+ApproachType.MODEL_BASED,303,0.14105498790740967,0.27883297588013295,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 165.00 and air_time < 263.00 and arr_delay > 708.00 and arr_delay < 924.00;,100
+ApproachType.MODEL_BASED,304,0.044742219150066376,24.982917521198257,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 425.00 and arr_delay <= 559.00 and air_time > 549.00 and air_time < 612.00;,100
+ApproachType.MODEL_BASED,305,0.01368742436170578,3.494360586967355e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'JAX';,100
+ApproachType.MODEL_BASED,306,0.026193462312221527,1.1945031544167695e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 44.00 and taxi_in <= 739.00;,100
+ApproachType.MODEL_BASED,307,0.2077898308634758,4.365203526210328e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 4.00 and taxi_in < 879.00;,100
+ApproachType.MODEL_BASED,308,0.02979522943496704,1.6999900967718287e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 185.00 and taxi_out <= 653.00;,100
+ApproachType.MODEL_BASED,309,0.013008669018745422,4.7901757466973043e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ROW';,100
+ApproachType.MODEL_BASED,310,1.2686560600996017,0.014824472698700684,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -46.00 and dep_delay < 471.00 and distance > 198.00 and distance < 2354.00 and arr_delay > -63.00 and arr_delay < 150.00;,100
+ApproachType.MODEL_BASED,311,0.013557419180870056,8.881784197001252e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'AZA';,100
+ApproachType.MODEL_BASED,312,0.464568056166172,0.0061362027286819614,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > -58.00 and dep_delay < 490.00 and distance > 1145.00 and distance < 1892.00 and taxi_in >= 142.00 and taxi_in < 229.00;,100
+ApproachType.MODEL_BASED,313,0.009903572499752045,5.937424610085705e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MDW';,100
+ApproachType.MODEL_BASED,314,0.1939581036567688,78.01588434292155,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 119.00 and air_time <= 312.00 and taxi_in > 1387.00 and taxi_in < 1423.00;,100
+ApproachType.MODEL_BASED,315,1.0172399878501892,0.917765043111972,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 166.00 and taxi_out < 208.00 and arr_delay >= -87.00 and arr_delay <= 144.00 and air_time > 21.00 and air_time <= 299.00;,100
+ApproachType.MODEL_BASED,316,0.014929316937923431,0.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MCI';,100
+ApproachType.MODEL_BASED,317,0.013858839869499207,4.480269466861715e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MFE';,100
+ApproachType.MODEL_BASED,318,0.031083956360816956,4.165119181710212,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2006 and dest = 'ERI';,100
+ApproachType.MODEL_BASED,319,0.01511220633983612,1.4866740317442098e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'TUP';,100
+ApproachType.MODEL_BASED,320,0.019068829715251923,4.297057979034353e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1999;,100
+ApproachType.MODEL_BASED,321,0.04932834208011627,2.220446049250313e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 15.0 and taxi_in < 20.0 and distance >= 2955.0 and distance < 3152.0;,100
+ApproachType.MODEL_BASED,322,0.02825082093477249,3.806478941571965e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LIH' and year_date = 2011;,100
+ApproachType.MODEL_BASED,323,0.1673126295208931,3.7162061097349923,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2014 and air_time > 136.00 and air_time < 246.00 and taxi_out > 115.00 and taxi_out <= 144.00;,100
+ApproachType.MODEL_BASED,324,0.06596851348876953,229.0361130351512,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LGB' and year_date = 1996;,100
+ApproachType.MODEL_BASED,325,0.4185997471213341,0.22325486004604647,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and dep_delay >= -41.00 and dep_delay <= 102.00;,100
+ApproachType.MODEL_BASED,326,0.08218822628259659,21.55802263626652,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and taxi_out >= 27.00 and taxi_out < 43.00;,100
+ApproachType.MODEL_BASED,327,0.5007752254605293,0.5129556106311377,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > -15.00 and arr_delay <= 836.00 and air_time > 159.00 and air_time < 630.00;,100
+ApproachType.MODEL_BASED,328,0.5122123956680298,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > -35.00 and dep_delay <= 1003.00 and distance > 2053.00 and distance <= 4502.00;,100
+ApproachType.MODEL_BASED,329,0.02586379647254944,1.5046787345508005e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MRY' and year_date = 1995;,100
+ApproachType.MODEL_BASED,330,0.07132382690906525,2.3684757858670003e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 35.0 and taxi_out < 42.0 and dep_delay >= 600.0 and dep_delay < 800.0;,100
+ApproachType.MODEL_BASED,331,0.04341588914394379,2.5165055224836885e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PVD' and taxi_out > 177.00 and taxi_out < 415.00;,100
+ApproachType.MODEL_BASED,332,0.09183112531900406,0.0,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 216.00 and air_time <= 382.00;,100
+ApproachType.MODEL_BASED,333,0.013303160667419434,6.59691514825625e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SIT';,100
+ApproachType.MODEL_BASED,334,0.0344136580824852,1.6749442021600889e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 341.00 and arr_delay < 694.00;,100
+ApproachType.MODEL_BASED,335,0.029462464153766632,8.70767137709747,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2004 and air_time > 541.00 and air_time < 576.00;,100
+ApproachType.MODEL_BASED,336,0.05492878705263138,2.7803846181916964e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'ECP' and dep_delay > 125.00 and dep_delay <= 440.00;,100
+ApproachType.MODEL_BASED,337,0.4973418563604355,100,-1,-1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 116.00 and taxi_in < 1315.00 and air_time >= 447.00 and air_time < 460.00 and dep_delay >= -60.00 and dep_delay <= 1115.00;,100
+ApproachType.MODEL_BASED,338,0.02590794861316681,1.8013759498143384e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 183.00 and taxi_out < 211.00;,100
+ApproachType.MODEL_BASED,339,0.08063364773988724,0.19308643941860737,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DFW' and year_date = 1997 and air_time >= 249.00 and air_time < 609.00;,100
+ApproachType.MODEL_BASED,340,0.08510046452283859,63.03123550623335,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 258.00 and air_time < 706.00 and taxi_in > 140.00 and taxi_in < 968.00;,100
+ApproachType.MODEL_BASED,341,0.01677805930376053,1.474258600739584e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'GSP';,100
+ApproachType.MODEL_BASED,342,0.013850949704647064,4.752182927270123e-13,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 3120.0 and distance < 3328.0;,100
+ApproachType.MODEL_BASED,343,0.05045417696237564,3.375077994860476e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'HSV' and arr_delay >= 337.00 and arr_delay < 720.00;,100
+ApproachType.MODEL_BASED,344,0.028248287737369537,1.7945830737429523e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1998 and distance >= 1694.00 and distance <= 1882.00;,100
+ApproachType.MODEL_BASED,345,0.48247989267110825,47.375139714102964,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'APN' and arr_delay >= 28.00 and arr_delay <= 457.00 and dep_delay >= -58.00 and dep_delay <= 1188.00;,100
+ApproachType.MODEL_BASED,346,0.4456840679049492,1.7047862753421559,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 35.00 and air_time <= 413.00 and dep_delay > 247.00 and dep_delay < 740.00;,100
+ApproachType.MODEL_BASED,347,0.028661563992500305,1.4718385240744934e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2003 and origin = 'LNK';,100
+ApproachType.MODEL_BASED,348,0.016592465341091156,2.911118486133025e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MEI';,100
+ApproachType.MODEL_BASED,349,0.8616217598319054,0.0014921583848018774,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2013 and arr_delay >= -47.00 and arr_delay < 638.00;,100
+ApproachType.MODEL_BASED,350,0.11548338830471039,1.4697382572376954e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1535.00 and distance <= 2398.00;,100
+ApproachType.MODEL_BASED,351,0.18875672668218613,0.000369074036561631,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1475.00 and distance < 2421.00 and taxi_in > 39.00 and taxi_in < 689.00;,100
+ApproachType.MODEL_BASED,352,0.017171993851661682,2.3044629267895143e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ESC';,100
+ApproachType.MODEL_BASED,353,0.04084184765815735,7.68154308929838e-14,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 680.00 and dep_delay < 984.00;,100
+ApproachType.MODEL_BASED,354,0.056015193462371826,77.2605784443522,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 310.00 and air_time < 600.00 and taxi_in > 113.00 and taxi_in < 1146.00;,100
+ApproachType.MODEL_BASED,355,0.03599125146865845,16.58933303880887,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2006 and taxi_out > 138.00 and taxi_out < 219.00;,100
+ApproachType.MODEL_BASED,356,0.014014214277267456,1.4883792125114076e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MHK';,100
+ApproachType.MODEL_BASED,357,0.8250120729207993,0.005692869928404162,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1998 and dep_delay >= -44.00 and dep_delay <= 697.00;,100
+ApproachType.MODEL_BASED,358,0.017402589321136475,3.464301809698813e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'ICT';,100
+ApproachType.MODEL_BASED,359,0.13116804510354996,30.88291491818811,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2015 and arr_delay > 382.00 and arr_delay <= 762.00 and dep_delay > 617.00 and dep_delay < 874.00;,100
+ApproachType.MODEL_BASED,360,0.020163707435131073,1.4802973661668755e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MVY';,100
+ApproachType.MODEL_BASED,361,0.5894065499305725,3.3788765391528086,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > -87.00 and arr_delay <= 584.00 and taxi_in >= 49.00 and taxi_in <= 54.00 and taxi_out >= 150.00 and taxi_out < 284.00;,100
+ApproachType.MODEL_BASED,362,0.03506068140268326,7.350697926136224,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CLT' and year_date = 2005;,100
+ApproachType.MODEL_BASED,363,0.013052582740783691,2.541908054144573e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'VPS';,100
+ApproachType.MODEL_BASED,364,0.08022384345531464,0.21606131878588042,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1999 and arr_delay > 135.00 and arr_delay < 626.00;,100
+ApproachType.MODEL_BASED,365,0.05441509187221527,57.71143172189432,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'TUL' and air_time >= 187.00 and air_time < 190.00;,100
+ApproachType.MODEL_BASED,366,0.03504009544849396,1.312859450045541e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BFL';,100
+ApproachType.MODEL_BASED,367,0.033563509583473206,0.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DBQ';,100
+ApproachType.MODEL_BASED,368,0.597420834004879,9.943212952410562,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 136.00 and air_time < 479.00 and arr_delay > 226.00 and arr_delay <= 530.00;,100
+ApproachType.MODEL_BASED,369,0.048854999244213104,6.271405842782074,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2016 and dest = 'BWI';,100
+ApproachType.MODEL_BASED,370,0.774305671453476,1.866016668146965e-14,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= -40.00 and arr_delay <= 1508.00;,100
+ApproachType.MODEL_BASED,371,0.33632686734199524,0.26101407016687417,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -32.00 and dep_delay < 42.00 and taxi_in > 23.00 and taxi_in < 82.00;,100
+ApproachType.MODEL_BASED,372,1.0038101598620415,2.152200714106317e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'GCC' and taxi_in > 1.00 and taxi_in < 868.00;,100
+ApproachType.MODEL_BASED,373,1.1775592043995857,0.29711024600009417,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 20.00 and air_time <= 637.00 and arr_delay >= 170.00 and arr_delay < 801.00;,100
+ApproachType.MODEL_BASED,374,0.04697924852371216,1.483413781674595e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'ISO';,100
+ApproachType.MODEL_BASED,375,0.028517812490463257,4.712407781206882e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PFN';,100
+ApproachType.MODEL_BASED,376,0.08552224189043045,9.947598300641404e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1174.00 and distance < 2704.00 and dep_delay > 1051.00 and dep_delay <= 1250.00;,100
+ApproachType.MODEL_BASED,377,0.3331250548362732,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > -16.00 and dep_delay <= 1259.00;,100
+ApproachType.MODEL_BASED,378,0.0557236447930336,0.13443334579181612,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 37.00 and taxi_in <= 39.00 and air_time >= 266.00 and air_time <= 466.00;,100
+ApproachType.MODEL_BASED,379,0.03585543483495712,4.507266568047601,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PHX' and dep_delay > 420.00 and dep_delay <= 984.00;,100
+ApproachType.MODEL_BASED,380,0.012100577354431152,4.664688765011073e-13,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 483.00 and air_time <= 559.00;,100
+ApproachType.MODEL_BASED,381,0.2024191990494728,0.31650711494310335,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 4.00 and taxi_in < 43.00 and dep_delay >= 113.00 and dep_delay <= 1170.00;,100
+ApproachType.MODEL_BASED,382,0.16538648307323456,1.8824110437277053,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 34.00 and air_time < 91.00 and taxi_in >= 165.00 and taxi_in < 171.00;,100
+ApproachType.MODEL_BASED,383,0.0676911249756813,0.08104570596369846,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 30.00 and taxi_out < 325.00 and air_time >= 343.00 and air_time <= 670.00;,100
+ApproachType.MODEL_BASED,384,0.010334290564060211,4.2028405812057684e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BQK';,100
+ApproachType.MODEL_BASED,385,0.47638772428035736,0.8499360778932846,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 107.00 and taxi_out < 295.00 and distance > 121.00 and distance <= 925.00;,100
+ApproachType.MODEL_BASED,386,0.01829441636800766,7.832754567434175e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'WYS';,100
+ApproachType.MODEL_BASED,387,0.019699126482009888,1.4272880416229564e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'EWR';,100
+ApproachType.MODEL_BASED,388,1.5509396642446518,0.36144422567228934,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2004 and air_time > 31.00 and air_time <= 328.00 and taxi_out >= 11.00 and taxi_out < 242.00;,100
+ApproachType.MODEL_BASED,389,0.4869086965918541,1.0985339651262371,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 26.00 and air_time <= 557.00 and taxi_out > 101.00 and taxi_out <= 1385.00;,100
+ApproachType.MODEL_BASED,390,0.022997893393039703,1.5293175442042657e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 273.00 and air_time < 306.00;,100
+ApproachType.MODEL_BASED,391,0.21958453953266144,0.561822853354507,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2008 and dep_delay > 108.00 and dep_delay < 334.00 and air_time >= 204.00 and air_time < 372.00;,100
+ApproachType.MODEL_BASED,392,0.9880372956395149,0.9736270497826294,100,1,SELECT COUNT(*) FROM flights WHERE distance > 139.00 and distance <= 1548.00 and arr_delay > 303.00 and arr_delay <= 642.00 and dep_delay >= 539.00 and dep_delay < 779.00;,100
+ApproachType.MODEL_BASED,393,0.10829639434814453,1.2943625197866273,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DAL' and taxi_in > 32.00 and taxi_in < 968.00;,100
+ApproachType.MODEL_BASED,394,0.2527116611599922,0.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MDT' and distance > 1207.00 and distance < 1607.00;,100
+ApproachType.MODEL_BASED,395,0.9077531024813652,0.0,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 112.00 and distance < 3043.00 and air_time >= 587.00 and air_time < 663.00;,100
+ApproachType.MODEL_BASED,396,0.24487946927547455,0.017996131794078624,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 204.00 and dep_delay < 292.00 and air_time >= 264.00 and air_time <= 598.00;,100
+ApproachType.MODEL_BASED,397,0.0187639519572258,2.0680909596337407e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BUF';,100
+ApproachType.MODEL_BASED,398,0.04145947843790054,2.030122102171715e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'CID' and year_date = 2009;,100
+ApproachType.MODEL_BASED,399,0.05855667591094971,12.982967288270068,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011 and taxi_out >= 81.00 and taxi_out < 95.00;,100
+ApproachType.MODEL_BASED,400,0.2302040308713913,1.7763568394002505e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 715.00 and dep_delay <= 904.00 and arr_delay >= 405.00 and arr_delay < 691.00;,100
+ApproachType.MODEL_BASED,401,0.49828392267227173,2.984482141338798e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 12.00 and taxi_out <= 143.00;,100
+ApproachType.MODEL_BASED,402,0.02578449249267578,3.144864114014275e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2015 and origin = 'BUR';,100
+ApproachType.MODEL_BASED,403,0.03299608826637268,0.8150871619896567,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'TPA' and arr_delay > 319.00 and arr_delay < 486.00;,100
+ApproachType.MODEL_BASED,404,0.023269720375537872,4.069327524711088e-13,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 384.00 and air_time < 510.00;,100
+ApproachType.MODEL_BASED,405,0.03918890655040741,0.0,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1535.00 and distance < 2253.00;,100
+ApproachType.MODEL_BASED,406,0.6024876981973648,2.937644385571474e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BTM' and arr_delay >= -55.00 and arr_delay <= 12.00;,100
+ApproachType.MODEL_BASED,407,0.34189998358488083,2.180443452905141,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 168.00 and dep_delay <= 298.00 and distance > 481.00 and distance < 605.00;,100
+ApproachType.MODEL_BASED,408,0.0542910099029541,7.61295788314393e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SPS';,100
+ApproachType.MODEL_BASED,409,0.14103621244430542,1.7919900862464105e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 173.00 and dep_delay < 449.00;,100
+ApproachType.MODEL_BASED,410,0.15735594183206558,0.0,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 233.00 and air_time <= 460.00 and distance > 1236.00 and distance <= 1338.00;,100
+ApproachType.MODEL_BASED,411,0.034354016184806824,136.6236633768143,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011 and taxi_in > 163.00 and taxi_in < 457.00;,100
+ApproachType.MODEL_BASED,412,0.12129335850477219,16.09847616925624,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2014 and arr_delay > 287.00 and arr_delay <= 690.00;,100
+ApproachType.MODEL_BASED,413,1.092411682009697,0.05072381076618959,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2006 and arr_delay >= -32.00 and arr_delay <= 494.00;,100
+ApproachType.MODEL_BASED,414,0.9069132432341576,1.5791680592481056e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1739.00 and distance < 3414.00 and air_time > -197.00 and air_time <= 510.00;,100
+ApproachType.MODEL_BASED,415,0.30237554758787155,0.42665621399784504,100,1,SELECT COUNT(*) FROM flights WHERE distance > 287.00 and distance <= 897.00 and dep_delay >= 199.00 and dep_delay < 740.00;,100
+ApproachType.MODEL_BASED,416,0.35030241310596466,2.0539355623176215e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 14.00 and air_time <= 79.00;,100
+ApproachType.MODEL_BASED,417,0.053863294422626495,1.3549395458399847e-13,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2014;,100
+ApproachType.MODEL_BASED,418,0.06767114996910095,8.238176646493915e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ACY';,100
+ApproachType.MODEL_BASED,419,0.7776541635394096,0.00010660480505996644,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2005 and arr_delay >= -81.00 and arr_delay <= 1535.00;,100
+ApproachType.MODEL_BASED,420,0.058563485741615295,8.732612252231013,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'DFW' and arr_delay >= 484.00 and arr_delay < 682.00;,100
+ApproachType.MODEL_BASED,421,0.8788159266114235,0.0003353362524486226,100,1,SELECT COUNT(*) FROM flights WHERE distance > 257.00 and distance <= 680.00 and arr_delay >= -92.00 and arr_delay < 1104.00;,100
+ApproachType.MODEL_BASED,422,0.03388582170009613,1.1996349938591478e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 104.00 and taxi_out <= 168.00;,100
+ApproachType.MODEL_BASED,423,0.01294638216495514,1.4661253389235727e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SWF';,100
+ApproachType.MODEL_BASED,424,0.026126116514205933,1.479088960153678e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1999 and origin = 'GFK';,100
+ApproachType.MODEL_BASED,425,0.03851722925901413,11.886659147424378,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2016 and taxi_in >= 116.00 and taxi_in < 1423.00;,100
+ApproachType.MODEL_BASED,426,0.03608807176351547,1.3422294890391503e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 398.00 and arr_delay < 736.00;,100
+ApproachType.MODEL_BASED,427,0.043627478182315826,84.1161506419431,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1996 and dep_delay > 549.00 and dep_delay < 854.00;,100
+ApproachType.MODEL_BASED,428,0.9412816911935806,0.00012817301910683664,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 10.00 and taxi_out < 100.00 and air_time >= -545.00 and air_time < 271.00;,100
+ApproachType.MODEL_BASED,429,0.04789382219314575,56.824584520996815,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2001 and arr_delay > 424.00 and arr_delay < 740.00;,100
+ApproachType.MODEL_BASED,430,0.5939859375357628,0.0389859246235071,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and air_time >= 15.00 and air_time <= 593.00;,100
+ApproachType.MODEL_BASED,431,0.4828898087143898,3.9872570755849187e-14,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > -20.00 and arr_delay < 934.00;,100
+ApproachType.MODEL_BASED,432,0.10986663401126862,11.39890252883922,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 152.00 and taxi_in <= 187.00 and air_time >= 236.00 and air_time < 544.00;,100
+ApproachType.MODEL_BASED,433,0.02896730601787567,1.9396714482687685,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SYR' and year_date = 2008;,100
+ApproachType.MODEL_BASED,434,0.04534824937582016,2.0821765150479125e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 54.00 and taxi_in <= 93.00 and distance > 1968.00 and distance <= 2874.00;,100
+ApproachType.MODEL_BASED,435,0.6383030861616135,5.245555289225699,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and air_time >= -3.00 and air_time <= 353.00 and distance >= 135.00 and distance <= 332.00;,100
+ApproachType.MODEL_BASED,436,0.3368045762181282,3.1776335155847413,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2005 and origin = 'LGA' and taxi_in > 1.00 and taxi_in < 634.00;,100
+ApproachType.MODEL_BASED,437,0.22961051762104034,4.513093976572521,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 275.00 and distance < 749.00 and taxi_out > 37.00 and taxi_out < 80.00;,100
+ApproachType.MODEL_BASED,438,0.01623161882162094,1.0150610510858573e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'RFD';,100
+ApproachType.MODEL_BASED,439,0.0877523273229599,1.8981508716199376,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SEA' and arr_delay >= 127.00 and arr_delay < 259.00 and taxi_out >= 113.00 and taxi_out < 145.00;,100
+ApproachType.MODEL_BASED,440,0.5873555019497871,1.4212520244918205e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1588.00 and distance <= 2475.00 and air_time >= -552.00 and air_time <= 531.00;,100
+ApproachType.MODEL_BASED,441,0.05779220163822174,0.02868883037216996,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 142.00 and taxi_in <= 153.00 and air_time > 279.00 and air_time < 378.00;,100
+ApproachType.MODEL_BASED,442,0.07918215543031693,100,-1,-1,SELECT COUNT(*) FROM flights WHERE taxi_out > 29.00 and taxi_out < 36.00 and taxi_in >= 54.00 and taxi_in < 996.00 and air_time > -702.00 and air_time <= 11.00;,100
+ApproachType.MODEL_BASED,443,0.16657856106758118,6.211484136454994,100,1,SELECT COUNT(*) FROM flights WHERE distance > 262.00 and distance < 634.00 and dep_delay >= 273.00 and dep_delay < 337.00;,100
+ApproachType.MODEL_BASED,444,0.11895962059497833,1.8474111129762605e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'JAN' and year_date = 2003 and arr_delay > 36.00 and arr_delay < 463.00;,100
+ApproachType.MODEL_BASED,445,0.029064573347568512,0.05628694168428072,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MIA' and air_time >= 351.00 and air_time <= 527.00;,100
+ApproachType.MODEL_BASED,446,0.012917794287204742,1.4963596618254436e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BGM';,100
+ApproachType.MODEL_BASED,447,0.06798047572374344,1.397788988380525e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 208.00 and arr_delay <= 884.00 and taxi_out >= 143.00 and taxi_out <= 223.00;,100
+ApproachType.MODEL_BASED,448,0.637119397521019,0.8200856181214436,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 183.00 and taxi_out < 306.00 and distance > 1101.00 and distance <= 1189.00 and air_time > -515.00 and air_time <= 479.00;,100
+ApproachType.MODEL_BASED,449,0.0488724485039711,3.296763758125703e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2004 and distance >= 1506.00 and distance <= 2404.00;,100
+ApproachType.MODEL_BASED,450,0.0490766242146492,6.592152479558933,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'GUC' and arr_delay > 134.00 and arr_delay <= 164.00;,100
+ApproachType.MODEL_BASED,451,0.013568319380283356,1.8031219305569552e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'ECP';,100
+ApproachType.MODEL_BASED,452,0.041078515350818634,4.294164404597061,100,1,SELECT COUNT(*) FROM flights WHERE distance > 828.00 and distance < 865.00 and arr_delay > 647.00 and arr_delay < 855.00;,100
+ApproachType.MODEL_BASED,453,0.6951324865221977,20.28461767824174,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'LFT' and distance > 116.00 and distance < 860.00 and air_time >= -439.00 and air_time < 541.00;,100
+ApproachType.MODEL_BASED,454,0.03540678322315216,17.572393572730917,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2010 and arr_delay >= 549.00 and arr_delay <= 893.00;,100
+ApproachType.MODEL_BASED,455,0.37811949849128723,0.0007252142695660965,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SFO' and dep_delay > -17.00 and dep_delay < 97.00;,100
+ApproachType.MODEL_BASED,456,0.0918070524930954,0.15602518131617507,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 264.00 and air_time < 403.00 and taxi_in > 37.00 and taxi_in <= 973.00;,100
+ApproachType.MODEL_BASED,457,0.0173318013548851,1.7534118021456107e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'AMA';,100
+ApproachType.MODEL_BASED,458,0.058839499950408936,1.0507101453014421e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 456.00 and arr_delay < 553.00;,100
+ApproachType.MODEL_BASED,459,0.03370796889066696,5.827603813154175e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PIA';,100
+ApproachType.MODEL_BASED,460,0.03630513697862625,6.660525095371133e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ROC';,100
+ApproachType.MODEL_BASED,461,1.01747477799654,2.9857256661449676,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'DEN' and air_time >= 34.00 and air_time < 579.00;,100
+ApproachType.MODEL_BASED,462,0.617666944861412,0.003170825708192266,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= -13.00 and air_time < 236.00 and taxi_out >= 143.00 and taxi_out < 230.00;,100
+ApproachType.MODEL_BASED,463,0.4961797520518303,0.0,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > -80.00 and arr_delay <= 942.00;,100
+ApproachType.MODEL_BASED,464,0.02265792340040207,1.7235275228727423e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 288.0 and air_time < 324.0;,100
+ApproachType.MODEL_BASED,465,1.0610589534044266,0.7235172679051248,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BUF' and air_time >= -510.00 and air_time < 302.00 and arr_delay > -21.00 and arr_delay <= 440.00;,100
+ApproachType.MODEL_BASED,466,0.024322636425495148,4.485836066726416e-12,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 162.00 and taxi_in <= 690.00;,100
+ApproachType.MODEL_BASED,467,0.026192106306552887,1.2434497875801753e-13,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2016 and origin = 'VLD';,100
+ApproachType.MODEL_BASED,468,0.5293464288115501,256.0494639024962,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'TWF' and air_time > 43.00 and air_time <= 642.00;,100
+ApproachType.MODEL_BASED,469,0.02476140856742859,2.91830052187184e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 198.00 and taxi_in < 217.00;,100
+ApproachType.MODEL_BASED,470,0.039226189255714417,0.18622208597903317,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1996 and origin = 'FCA';,100
+ApproachType.MODEL_BASED,471,0.017250701785087585,2.296051504996505e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SAT';,100
+ApproachType.MODEL_BASED,472,0.032022394239902496,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BQN' and year_date = 2001;,100
+ApproachType.MODEL_BASED,473,0.015483424067497253,1.4833641176824402e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MLU';,100
+ApproachType.MODEL_BASED,474,0.07287514954805374,0.002311326503014924,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'EWR' and arr_delay >= 103.00 and arr_delay < 921.00;,100
+ApproachType.MODEL_BASED,475,0.040954336524009705,4.618527782440651e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 30 and taxi_in < 72.0 and distance >= 4209.0 and distance < 4392.0;,100
+ApproachType.MODEL_BASED,476,0.04701948165893555,1.0658141036401503e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ECP' and dep_delay >= 211.00 and dep_delay <= 559.00;,100
+ApproachType.MODEL_BASED,477,0.6928035020828247,2.171115708433162,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 37.00 and air_time <= 394.00 and taxi_in >= 10.00 and taxi_in <= 171.00;,100
+ApproachType.MODEL_BASED,478,0.4670064002275467,5.777665795354284,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'WYS' and distance > 154.00 and distance < 1987.00;,100
+ApproachType.MODEL_BASED,479,0.08110158890485764,1.2032541656358507e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 62.00 and dep_delay <= 971.00;,100
+ApproachType.MODEL_BASED,480,1.1062499210238457,0.14312943181197557,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'RFD' and air_time > 0.00 and air_time <= 252.00 and dep_delay > -42.00 and dep_delay <= 351.00;,100
+ApproachType.MODEL_BASED,481,0.02799990028142929,1.6138510086664737e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 609.00 and arr_delay < 815.00;,100
+ApproachType.MODEL_BASED,482,0.03231595456600189,1.7895610660158185e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 112.00 and taxi_out < 206.00;,100
+ApproachType.MODEL_BASED,483,0.054728493094444275,2.5677088089949063,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2001 and taxi_out > 227.00 and taxi_out < 278.00 and arr_delay > 273.00 and arr_delay < 694.00;,100
+ApproachType.MODEL_BASED,484,0.010453619062900543,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MYR';,100
+ApproachType.MODEL_BASED,485,0.12415608763694763,1.6478545581377565e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 161.00 and air_time <= 651.00 and distance > 1745.00 and distance <= 4213.00;,100
+ApproachType.MODEL_BASED,486,0.010376617312431335,1.4631001724173194e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MGM';,100
+ApproachType.MODEL_BASED,487,0.11589968204498291,10.37075310935316,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 155.00 and air_time <= 272.00 and arr_delay >= 406.00 and arr_delay < 664.00 and taxi_in > 105.00 and taxi_in < 692.00;,100
+ApproachType.MODEL_BASED,488,0.09952040016651154,99.417212693905,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'OTZ' and air_time >= -7.00 and air_time <= 65.00;,100
+ApproachType.MODEL_BASED,489,0.007516063749790192,4.608925853579029e-13,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 3152.0 and distance < 3349.0;,100
+ApproachType.MODEL_BASED,490,0.040098875761032104,5.512831570552502e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MLI' and dep_delay >= 156.00 and dep_delay < 274.00;,100
+ApproachType.MODEL_BASED,491,0.03818938881158829,2.220446049250313e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011 and origin = 'ABE' and taxi_in >= 46.00 and taxi_in < 61.00;,100
+ApproachType.MODEL_BASED,492,0.41285867989063263,1.8734527233011366e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= -29.00 and air_time <= 340.00;,100
+ApproachType.MODEL_BASED,493,0.009961850941181183,1.4870884934201906e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'EYW';,100
+ApproachType.MODEL_BASED,494,0.25931521505117416,1.5117930548087238e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 207.00 and distance <= 2139.00 and air_time > 290.00 and air_time <= 298.00;,100
+ApproachType.MODEL_BASED,495,0.02158544957637787,2.6245533650452684,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and dest = 'GTF';,100
+ApproachType.MODEL_BASED,496,0.22855768352746964,0.016763877556505335,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 12.00 and taxi_out < 1437.00 and air_time >= 367.00 and air_time < 649.00;,100
+ApproachType.MODEL_BASED,497,0.010802164673805237,1.1189649382048821e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BTV';,100
+ApproachType.MODEL_BASED,498,0.09292001277208328,5.33934820949451e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 7.00 and taxi_in < 86.00;,100
+ApproachType.MODEL_BASED,499,0.020177341997623444,5.921189464667501e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2016 and dest = 'BPT';,100
+ApproachType.MODEL_BASED,500,0.026729941368103027,1.622648888087294e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 369.00 and arr_delay <= 671.00;,100
+ApproachType.MODEL_BASED,501,0.6348267421126366,31.480254585378,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2005 and air_time > 32.00 and air_time < 544.00 and taxi_out > 199.00 and taxi_out < 383.00;,100
+ApproachType.MODEL_BASED,502,0.06334184855222702,1.66574121203833e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 359.00 and dep_delay < 854.00;,100
+ApproachType.MODEL_BASED,503,0.6036469638347626,0.0019801149536752953,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'GEG' and arr_delay > 21.00 and arr_delay < 30.00 and air_time > -515.00 and air_time <= 260.00;,100
+ApproachType.MODEL_BASED,504,0.6491945087909698,5.786500850413849,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BTM' and air_time > 32.00 and air_time < 580.00;,100
+ApproachType.MODEL_BASED,505,0.06340961903333664,5.365322698596675e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DAY' and dep_delay >= 210.00 and dep_delay < 506.00;,100
+ApproachType.MODEL_BASED,506,0.03258371353149414,1.4210854715202004e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SCC' and year_date = 2016;,100
+ApproachType.MODEL_BASED,507,0.10044755041599274,1.111463497278369e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 186.00 and taxi_out < 203.00 and arr_delay >= 87.00 and arr_delay < 907.00;,100
+ApproachType.MODEL_BASED,508,0.0542607307434082,0.003550901763619644,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'COS' and arr_delay >= 148.00 and arr_delay < 920.00;,100
+ApproachType.MODEL_BASED,509,0.049873679876327515,4.788440175774589e-13,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 3472.0 and distance < 4023.0 and arr_delay >= 164.0 and arr_delay < 328.0;,100
+ApproachType.MODEL_BASED,510,0.6371159851551056,0.0035644115703894774,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= -83.00 and arr_delay < 438.00 and air_time > 128.00 and air_time < 322.00;,100
+ApproachType.MODEL_BASED,511,0.04225970059633255,13.319188335217923,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2015 and taxi_out > 74.00 and taxi_out < 86.00;,100
+ApproachType.MODEL_BASED,512,0.3095000833272934,0.14667887745915487,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 0.0 and arr_delay < 80.0 and air_time >= 588.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,513,0.28371264040470123,0.0,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 56.00 and air_time <= 93.00 and distance > 319.00 and distance <= 817.00;,100
+ApproachType.MODEL_BASED,514,0.5291516408324242,102.37510788858886,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CLT' and distance >= 104.00 and distance < 2151.00 and air_time >= 110.00 and air_time <= 171.00;,100
+ApproachType.MODEL_BASED,515,0.24460549652576447,15.951988540646317,100,1,SELECT COUNT(*) FROM flights WHERE distance > 260.00 and distance < 959.00 and dep_delay > 771.00 and dep_delay < 795.00;,100
+ApproachType.MODEL_BASED,516,0.041645802557468414,0.09669483685309338,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2003 and air_time > 304.00 and air_time <= 608.00;,100
+ApproachType.MODEL_BASED,517,0.027482539415359497,7.223851146894351e-13,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1998 and dest = 'STX';,100
+ApproachType.MODEL_BASED,518,0.027030542492866516,1.6560355094190245e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'IND' and year_date = 2006;,100
+ApproachType.MODEL_BASED,519,0.05198413133621216,1.2297855042001733e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 617.00 and arr_delay < 630.00 and dep_delay > 623.00 and dep_delay < 806.00;,100
+ApproachType.MODEL_BASED,520,0.06908120214939117,1.994505924940632e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 335.00 and arr_delay <= 592.00 and dep_delay >= 197.00 and dep_delay <= 427.00;,100
+ApproachType.MODEL_BASED,521,0.012562558054924011,7.808161931429672e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'LBE';,100
+ApproachType.MODEL_BASED,522,0.014736868441104889,3.182659572063394e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SLC';,100
+ApproachType.MODEL_BASED,523,0.5247386619448662,26.963614763075732,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2009 and dep_delay >= 598.00 and dep_delay <= 828.00 and air_time >= -685.00 and air_time <= 424.00;,100
+ApproachType.MODEL_BASED,524,0.03185108304023743,8.422807017715579e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 27.00 and taxi_in <= 548.00;,100
+ApproachType.MODEL_BASED,525,0.20298956334590912,100,-1,-1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 336.00 and dep_delay < 531.00 and distance > 11.00 and distance <= 602.00 and air_time >= 168.00 and air_time < 232.00;,100
+ApproachType.MODEL_BASED,526,0.43634937703609467,1.4175899494281046e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1590.00 and distance < 1931.00 and air_time > -709.00 and air_time <= 444.00;,100
+ApproachType.MODEL_BASED,527,0.01034177839756012,1.4027657693090744e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'WRG';,100
+ApproachType.MODEL_BASED,528,0.010535262525081635,1.359687100871473e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'XNA';,100
+ApproachType.MODEL_BASED,529,0.08127734065055847,1.7688192573377317e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 23.00 and dep_delay <= 61.00 and taxi_out > 121.00 and taxi_out <= 225.00;,100
+ApproachType.MODEL_BASED,530,0.022085823118686676,3.784551894788595,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BUF' and year_date = 2007;,100
+ApproachType.MODEL_BASED,531,0.013056032359600067,6.628869472508701e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2004;,100
+ApproachType.MODEL_BASED,532,0.05749890208244324,6.234097784134396,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 146.00 and taxi_in <= 219.00 and taxi_out >= 35.00 and taxi_out <= 81.00;,100
+ApproachType.MODEL_BASED,533,0.1431584134697914,0.07420488499123908,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CLT' and air_time > 192.00 and air_time <= 526.00 and dep_delay > 10.00 and dep_delay < 36.00;,100
+ApproachType.MODEL_BASED,534,0.07979508489370346,10.610589020944019,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and taxi_out >= 30.00 and taxi_out < 79.00 and distance >= 752.00 and distance < 801.00;,100
+ApproachType.MODEL_BASED,535,0.04902020841836929,2.220446049250313e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1997 and arr_delay > 449.00 and arr_delay < 506.00 and taxi_out > 213.00 and taxi_out < 254.00;,100
+ApproachType.MODEL_BASED,536,0.018576644361019135,3.675221047035001e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'DHN' and year_date = 2007;,100
+ApproachType.MODEL_BASED,537,0.01142255961894989,4.394374198412904e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2006;,100
+ApproachType.MODEL_BASED,538,0.0879613384604454,1.535471743611746e-14,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 18.00 and dep_delay <= 834.00;,100
+ApproachType.MODEL_BASED,539,0.009367071092128754,1.4177729179735333e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SCC';,100
+ApproachType.MODEL_BASED,540,0.09017729014158249,0.10753261216598681,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2006 and arr_delay > 269.00 and arr_delay < 510.00 and air_time >= 204.00 and air_time < 390.00;,100
+ApproachType.MODEL_BASED,541,0.08086661994457245,1.225988521422261,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 131.00 and taxi_in < 825.00 and distance > 1143.00 and distance < 2086.00 and dep_delay >= 202.00 and dep_delay < 250.00;,100
+ApproachType.MODEL_BASED,542,0.456035815179348,1.8752347250812625e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 20.00 and air_time <= 593.00 and distance >= 2300.00 and distance < 4433.00;,100
+ApproachType.MODEL_BASED,543,0.0462193638086319,1.296102180720869e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 110.00 and arr_delay < 940.00;,100
+ApproachType.MODEL_BASED,544,0.09691821038722992,1.530399738560216e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 10.0 and taxi_out < 15.0 and dep_delay >= 525.0 and dep_delay < 700.0;,100
+ApproachType.MODEL_BASED,545,0.010443642735481262,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'CRP';,100
+ApproachType.MODEL_BASED,546,0.014000974595546722,0.0,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 294.0 and air_time < 308.0;,100
+ApproachType.MODEL_BASED,547,0.2099706456065178,1.1941894718657146e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 130.00 and distance <= 851.00 and air_time > 179.00 and air_time <= 261.00;,100
+ApproachType.MODEL_BASED,548,0.033271245658397675,0.011287304125873199,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 187.00 and taxi_in <= 870.00 and arr_delay > 605.00 and arr_delay <= 685.00;,100
+ApproachType.MODEL_BASED,549,0.39325790852308273,4.884962511670202,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2013 and arr_delay > 117.00 and arr_delay <= 581.00 and dep_delay >= -14.00 and dep_delay <= 655.00;,100
+ApproachType.MODEL_BASED,550,0.44910283386707306,0.010262223563842467,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 18.00 and dep_delay < 99.00 and air_time > 1.00 and air_time <= 200.00;,100
+ApproachType.MODEL_BASED,551,0.13454265892505646,0.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'JAX' and distance > 1428.00 and distance <= 2421.00 and air_time >= 151.00 and air_time <= 473.00;,100
+ApproachType.MODEL_BASED,552,0.010037727653980255,1.5000346643824337e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'GRI';,100
+ApproachType.MODEL_BASED,553,0.04622514545917511,1.7903439011278113e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 58.00 and taxi_out <= 64.00 and dep_delay >= 174.00 and dep_delay < 971.00;,100
+ApproachType.MODEL_BASED,554,0.4990813061594963,1.4330273662388575e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 179.00 and taxi_out < 232.00 and dep_delay > -845.00 and dep_delay <= 587.00;,100
+ApproachType.MODEL_BASED,555,0.023440591990947723,1.3158198810372224e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'OKC' and origin = 'MSP';,100
+ApproachType.MODEL_BASED,556,0.05462612211704254,0.05417007795807116,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 139.00 and taxi_in <= 1410.00 and arr_delay >= 593.00 and arr_delay < 764.00;,100
+ApproachType.MODEL_BASED,557,0.04421112686395645,7.043355491499592,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'HNL' and dep_delay >= 1056.00 and dep_delay < 1174.00;,100
+ApproachType.MODEL_BASED,558,0.017376966774463654,4.964490730201573e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'LRD';,100
+ApproachType.MODEL_BASED,559,0.014986775815486908,2.6876320974377313e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'OXR';,100
+ApproachType.MODEL_BASED,560,0.018293529748916626,1.400940116813098e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2000;,100
+ApproachType.MODEL_BASED,561,0.6386336162686348,10.915384175069281,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and arr_delay > 340.00 and arr_delay < 620.00 and air_time > -483.00 and air_time < 542.00;,100
+ApproachType.MODEL_BASED,562,0.5464082136750221,0.004580826422473048,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 212.00 and air_time < 489.00 and arr_delay > -106.00 and arr_delay <= 251.00;,100
+ApproachType.MODEL_BASED,563,0.026871047914028168,4.29132413318777,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2009 and origin = 'TPA';,100
+ApproachType.MODEL_BASED,564,0.025725513696670532,9.267948727305654e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1998 and dest = 'HDN';,100
+ApproachType.MODEL_BASED,565,0.013883598148822784,1.0664806540489309e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'DBQ';,100
+ApproachType.MODEL_BASED,566,0.03942541033029556,35.69000203832049,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2003 and taxi_out > 166.00 and taxi_out < 198.00;,100
+ApproachType.MODEL_BASED,567,0.021282561123371124,1.1466146013274437e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'JAN';,100
+ApproachType.MODEL_BASED,568,0.07486367225646973,3.812711216544339,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2016 and origin = 'OKC';,100
+ApproachType.MODEL_BASED,569,0.036945633590221405,1.7853577273567733e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'STL';,100
+ApproachType.MODEL_BASED,570,0.039681531488895416,1.340778430132081e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 105.00 and taxi_out <= 284.00;,100
+ApproachType.MODEL_BASED,571,0.026786357164382935,0.07155910868794349,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'RST' and year_date = 1999;,100
+ApproachType.MODEL_BASED,572,0.2458813488483429,9.54444562320645,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 120.00 and taxi_out <= 335.00 and dep_delay > 215.00 and dep_delay < 387.00 and distance >= 341.00 and distance <= 968.00;,100
+ApproachType.MODEL_BASED,573,0.10807174444198608,0.11816064397016109,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 145.00 and dep_delay < 416.00 and air_time > 247.00 and air_time <= 397.00;,100
+ApproachType.MODEL_BASED,574,0.04918772727251053,3.1616685064830065e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1214.00 and distance < 2554.00;,100
+ApproachType.MODEL_BASED,575,0.04843556880950928,4.306319610667274e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MTJ' and distance >= 1318.00 and distance <= 2237.00;,100
+ApproachType.MODEL_BASED,576,0.014164656400680542,1.6962745421380562e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LAX';,100
+ApproachType.MODEL_BASED,577,0.2993561699986458,16.562525920546154,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 162.00 and taxi_out < 256.00 and air_time >= 120.00 and air_time <= 343.00;,100
+ApproachType.MODEL_BASED,578,0.46658168733119965,33.1766770295019,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 179.00 and distance <= 1960.00 and air_time > 138.00 and air_time <= 156.00 and taxi_out > 260.00 and taxi_out <= 574.00;,100
+ApproachType.MODEL_BASED,579,0.0388408899307251,1.0696342258754197e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 451.00 and arr_delay <= 604.00;,100
+ApproachType.MODEL_BASED,580,0.013638846576213837,2.2335331575955997e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'CLD';,100
+ApproachType.MODEL_BASED,581,0.4096701815724373,20.48846956805678,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2014 and dep_delay >= 446.00 and dep_delay < 768.00 and distance > 109.00 and distance <= 1093.00;,100
+ApproachType.MODEL_BASED,582,0.04791692644357681,9.973782427383995,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 464.00 and air_time < 615.00 and arr_delay > 401.00 and arr_delay <= 701.00;,100
+ApproachType.MODEL_BASED,583,0.9652056619524956,0.0009278643164806855,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= -55.00 and arr_delay < 1240.00 and air_time > -566.00 and air_time < 420.00 and dep_delay > 293.00 and dep_delay < 393.00;,100
+ApproachType.MODEL_BASED,584,0.021411992609500885,6.459479416000911e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 162.00 and taxi_in <= 196.00;,100
+ApproachType.MODEL_BASED,585,0.027626201510429382,1.585274629584287e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 425.00 and arr_delay < 444.00;,100
+ApproachType.MODEL_BASED,586,0.013855405151844025,6.145571855028719e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2013;,100
+ApproachType.MODEL_BASED,587,0.05581802874803543,1.3759375215929322e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1693.00 and distance < 2053.00 and taxi_out >= 41.00 and taxi_out < 82.00;,100
+ApproachType.MODEL_BASED,588,0.07019948214292526,0.9949950837731515,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 293.00 and arr_delay < 973.00 and air_time >= 248.00 and air_time <= 468.00;,100
+ApproachType.MODEL_BASED,589,0.019807547330856323,1.466199296012905e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 162.00 and taxi_in < 505.00;,100
+ApproachType.MODEL_BASED,590,0.039093516767024994,2.461746649574661,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1999 and arr_delay > 201.00 and arr_delay < 570.00;,100
+ApproachType.MODEL_BASED,591,0.8370502889156342,0.0008513335798178858,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -178.0 and dep_delay < 712.0 and air_time >= 630.0 and air_time < 672.0;,100
+ApproachType.MODEL_BASED,592,0.03547224402427673,9.947598300641404e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MRY' and year_date = 1995;,100
+ApproachType.MODEL_BASED,593,0.05688164383172989,1.834480572827511e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 313.00 and dep_delay <= 743.00;,100
+ApproachType.MODEL_BASED,594,0.07094931602478027,4.69465736127209e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 15.0 and taxi_in < 20.0 and distance >= 3546.0 and distance < 3743.0;,100
+ApproachType.MODEL_BASED,595,0.0526970773935318,70.16411850732395,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'CAK' and year_date = 2002;,100
+ApproachType.MODEL_BASED,596,0.2306433692574501,0.007463858587240269,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 288.0 and air_time < 306.0 and taxi_out >= 28.0 and taxi_out < 35.0 and dep_delay >= 0.0 and dep_delay < 40.0;,100
+ApproachType.MODEL_BASED,597,0.06823935359716415,4.8567295577759944e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 15.00 and taxi_in <= 98.00;,100
+ApproachType.MODEL_BASED,598,0.16365941613912582,19.983949053034088,100,1,SELECT COUNT(*) FROM flights WHERE distance > 256.00 and distance <= 404.00 and dep_delay >= 201.00 and dep_delay <= 288.00;,100
+ApproachType.MODEL_BASED,599,0.11281473189592361,0.6843807452336104,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2012 and arr_delay >= 118.00 and arr_delay < 344.00;,100
+ApproachType.MODEL_BASED,600,0.03382159024477005,1.5185855676232865e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 275.00 and dep_delay <= 518.00;,100
+ApproachType.MODEL_BASED,601,0.11172815412282944,0.011586322669189785,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 242.00 and air_time < 448.00 and taxi_out > 131.00 and taxi_out < 234.00;,100
+ApproachType.MODEL_BASED,602,0.0861312747001648,1.0605115459105972e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 625.0 and dep_delay < 800.0;,100
+ApproachType.MODEL_BASED,603,0.08978217095136642,6.268054457428864e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BDL' and taxi_out >= 28.00 and taxi_out <= 39.00;,100
+ApproachType.MODEL_BASED,604,0.6400061026215553,0.0003688622672588416,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BMI' and arr_delay >= -49.00 and arr_delay <= 142.00;,100
+ApproachType.MODEL_BASED,605,0.010904423892498016,0.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CMH';,100
+ApproachType.MODEL_BASED,606,0.04147154092788696,0.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DTW' and dest = 'PHL' and dep_delay > 743.00 and dep_delay <= 828.00;,100
+ApproachType.MODEL_BASED,607,0.021043285727500916,20.7786273194829,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and origin = 'HRL';,100
+ApproachType.MODEL_BASED,608,0.021179720759391785,1.4983183775810809e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LRD' and year_date = 2004;,100
+ApproachType.MODEL_BASED,609,0.022038616240024567,8.428769490482416,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1999 and origin = 'ORF';,100
+ApproachType.MODEL_BASED,610,0.28037381917238235,8.843587929415284,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 283.00 and arr_delay < 403.00 and distance > 432.00 and distance <= 974.00;,100
+ApproachType.MODEL_BASED,611,0.027941927313804626,4.836022873659668e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MDT';,100
+ApproachType.MODEL_BASED,612,0.9155562445521355,1.5002771224313296,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 31.00 and taxi_in <= 48.00 and air_time >= 32.00 and air_time <= 500.00;,100
+ApproachType.MODEL_BASED,613,0.6030052229762077,1.395708945243054e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 589.00 and arr_delay <= 861.00 and dep_delay >= -1197.00 and dep_delay < 468.00;,100
+ApproachType.MODEL_BASED,614,0.22432315349578857,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'GPT' and air_time >= 199.00 and air_time < 502.00;,100
+ApproachType.MODEL_BASED,615,0.01829148828983307,4.405982939544352e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2005;,100
+ApproachType.MODEL_BASED,616,0.8583806529641151,2.83747821013345e-05,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > -62.00 and arr_delay < 149.00 and taxi_out > 10.00 and taxi_out < 1362.00;,100
+ApproachType.MODEL_BASED,617,0.042909733951091766,5.407859166632148,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2004 and taxi_in >= 37.00 and taxi_in < 80.00;,100
+ApproachType.MODEL_BASED,618,0.28070005774497986,8.575515776415002e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1369.00 and distance < 1588.00 and dep_delay > 343.00 and dep_delay <= 490.00 and air_time > 131.00 and air_time <= 381.00;,100
+ApproachType.MODEL_BASED,619,0.4673352986574173,0.009504285094009897,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MEI' and arr_delay > -45.00 and arr_delay <= 562.00;,100
+ApproachType.MODEL_BASED,620,0.010770283639431,4.686558469907044e-13,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 4392.0 and distance < 4575.0;,100
+ApproachType.MODEL_BASED,621,0.06658186763525009,1.4876988529977098e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2008 and origin = 'BGM';,100
+ApproachType.MODEL_BASED,622,0.04757820814847946,44.35033842504792,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2014 and taxi_in >= 122.00 and taxi_in <= 973.00;,100
+ApproachType.MODEL_BASED,623,0.058839403092861176,26.792644977625702,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1999 and taxi_in >= 54.00 and taxi_in < 738.00 and air_time >= 193.00 and air_time < 205.00;,100
+ApproachType.MODEL_BASED,624,0.013378508388996124,1.1599957933459962e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SAT';,100
+ApproachType.MODEL_BASED,625,0.05438274145126343,1.7537257523339985e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 180.00 and arr_delay <= 401.00;,100
+ApproachType.MODEL_BASED,626,0.09491845965385437,7.486243981987445,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2014 and dep_delay > 157.00 and dep_delay < 886.00 and taxi_in >= 61.00 and taxi_in < 827.00;,100
+ApproachType.MODEL_BASED,627,0.12555920332670212,0.11477972628096027,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 293.00 and dep_delay < 994.00 and arr_delay >= 339.00 and arr_delay < 778.00 and distance > 1129.00 and distance <= 1640.00;,100
+ApproachType.MODEL_BASED,628,0.05215064436197281,2.220446049250313e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 28.0 and taxi_in < 32.0 and distance >= 2745.0 and distance < 2928.0;,100
+ApproachType.MODEL_BASED,629,0.047826915979385376,1.1571179411869316e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 525.0 and dep_delay < 700.0;,100
+ApproachType.MODEL_BASED,630,0.6028781980276108,0.0843588755936166,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1998 and origin = 'PSP' and air_time >= -12.00 and air_time <= 356.00;,100
+ApproachType.MODEL_BASED,631,0.08269011229276657,0.9090132408244411,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011 and dest = 'BNA' and arr_delay >= 110.00 and arr_delay < 770.00;,100
+ApproachType.MODEL_BASED,632,0.038403578102588654,1.6033401529712265e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 213.00 and arr_delay <= 505.00;,100
+ApproachType.MODEL_BASED,633,0.08513109385967255,0.0,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 403.00 and air_time <= 602.00 and distance >= 657.00 and distance <= 892.00;,100
+ApproachType.MODEL_BASED,634,0.06822088360786438,2.078451611425959e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 167.00 and distance <= 350.00;,100
+ApproachType.MODEL_BASED,635,0.013817071914672852,3.753331185526907e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'IND';,100
+ApproachType.MODEL_BASED,636,0.3570140600204468,0.07361204297487309,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2008 and taxi_in >= 2.00 and taxi_in < 818.00;,100
+ApproachType.MODEL_BASED,637,0.015066422522068024,3.8527707779631596e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MIA';,100
+ApproachType.MODEL_BASED,638,0.03240741789340973,6.568329574672086e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 81.0 and taxi_out < 90.0;,100
+ApproachType.MODEL_BASED,639,0.0422104150056839,21.685647269739334,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2010 and taxi_out >= 120.00 and taxi_out < 131.00;,100
+ApproachType.MODEL_BASED,640,0.060720741748809814,9.634477773018307e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1263.00 and distance <= 1929.00 and arr_delay > 444.00 and arr_delay < 867.00;,100
+ApproachType.MODEL_BASED,641,0.013972669839859009,1.496108346451259e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DRO';,100
+ApproachType.MODEL_BASED,642,0.2988644242286682,1.8130064821547457e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 245.00 and dep_delay <= 545.00 and arr_delay >= -2.00 and arr_delay <= 472.00;,100
+ApproachType.MODEL_BASED,643,0.029750794172286987,1.242479100782689e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 122.00 and taxi_in < 217.00;,100
+ApproachType.MODEL_BASED,644,0.0486832857131958,0.7262619528470182,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 55.00 and taxi_in < 827.00 and air_time >= 414.00 and air_time <= 549.00;,100
+ApproachType.MODEL_BASED,645,0.043056800961494446,1.1583811703803672e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 531.00 and arr_delay < 947.00;,100
+ApproachType.MODEL_BASED,646,0.04755427688360214,0.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CDV' and dep_delay > 318.00 and dep_delay <= 882.00;,100
+ApproachType.MODEL_BASED,647,0.07047035545110703,8.201274063696719,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 158.00 and arr_delay <= 535.00 and taxi_in > 73.00 and taxi_in <= 91.00;,100
+ApproachType.MODEL_BASED,648,0.6023615300655365,0.002317596949425238,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -66.00 and dep_delay <= 312.00 and air_time > 150.00 and air_time <= 627.00;,100
+ApproachType.MODEL_BASED,649,0.024775683879852295,1.4684549872375405e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1996 and origin = 'CRW';,100
+ApproachType.MODEL_BASED,650,0.08040815591812134,0.0012400988012650723,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2001 and air_time > 222.00 and air_time < 409.00;,100
+ApproachType.MODEL_BASED,651,0.036191053688526154,179.81391437200872,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2009 and taxi_in >= 121.00 and taxi_in <= 228.00;,100
+ApproachType.MODEL_BASED,652,0.025347575545310974,9.473903143468003e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011 and dest = 'EKO';,100
+ApproachType.MODEL_BASED,653,0.031667500734329224,1.419069747447122e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 120.00 and taxi_out <= 216.00;,100
+ApproachType.MODEL_BASED,654,0.022721603512763977,1.622911290113461e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 918.00 and distance <= 972.00;,100
+ApproachType.MODEL_BASED,655,0.02655898779630661,1.5616323862859346e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2009 and dest = 'CLD';,100
+ApproachType.MODEL_BASED,656,0.03297214210033417,1.2376971850021776e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 14.00 and taxi_in < 16.00;,100
+ApproachType.MODEL_BASED,657,0.42682018131017685,0.07118065768425552,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CDC' and year_date = 2013 and taxi_out > 0.00 and taxi_out <= 106.00;,100
+ApproachType.MODEL_BASED,658,0.20520635694265366,9.599547125987872,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 131.00 and air_time < 434.00 and arr_delay >= 310.00 and arr_delay < 341.00;,100
+ApproachType.MODEL_BASED,659,0.08632522821426392,19.49917926056677,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011 and dest = 'ANC' and taxi_out > 31.00 and taxi_out < 367.00;,100
+ApproachType.MODEL_BASED,660,0.5228241607546806,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > -19.00 and dep_delay <= 840.00 and distance > 1590.00 and distance < 1911.00;,100
+ApproachType.MODEL_BASED,661,0.03675473481416702,0.028266940387508023,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2015 and air_time > 314.00 and air_time <= 561.00;,100
+ApproachType.MODEL_BASED,662,0.44590774178504944,0.027543006820510245,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2001 and air_time >= 305.00 and air_time < 426.00 and arr_delay >= -56.00 and arr_delay <= 98.00;,100
+ApproachType.MODEL_BASED,663,0.02192508429288864,1.4407318144444427e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'HNL' and year_date = 1999;,100
+ApproachType.MODEL_BASED,664,0.37256035953760147,605.1055838933001,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PHF' and dep_delay > 118.00 and dep_delay <= 510.00 and air_time > 101.00 and air_time < 384.00;,100
+ApproachType.MODEL_BASED,665,0.026981286704540253,5.04256135055555e-13,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1996 and origin = 'STT';,100
+ApproachType.MODEL_BASED,666,0.05792800337076187,41.89690026261285,100,1,SELECT COUNT(*) FROM flights WHERE distance > 707.00 and distance <= 818.00 and taxi_in >= 112.00 and taxi_in < 1434.00;,100
+ApproachType.MODEL_BASED,667,0.015271365642547607,1.4972150503516397e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MTH';,100
+ApproachType.MODEL_BASED,668,0.02341398596763611,4.003057666254086e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BOS' and dest = 'MSY';,100
+ApproachType.MODEL_BASED,669,0.031093768775463104,1.5073456834852757e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 308.00 and arr_delay < 636.00;,100
+ApproachType.MODEL_BASED,670,0.01342713087797165,3.43464766530562e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'AMA';,100
+ApproachType.MODEL_BASED,671,0.027110286056995392,0.8422085273971348,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1999 and origin = 'CMH';,100
+ApproachType.MODEL_BASED,672,0.012831836938858032,1.4991670908344972e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'FSM';,100
+ApproachType.MODEL_BASED,673,0.6360099241137505,9.508295840651943e-05,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 13.00 and taxi_out <= 324.00 and dep_delay > -46.00 and dep_delay < 150.00;,100
+ApproachType.MODEL_BASED,674,0.13546516746282578,41.726189631514515,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2012 and taxi_in > 122.00 and taxi_in <= 721.00 and arr_delay > 42.00 and arr_delay < 680.00;,100
+ApproachType.MODEL_BASED,675,0.1094328910112381,8.908389571253169,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and taxi_in >= 10.00 and taxi_in <= 117.00;,100
+ApproachType.MODEL_BASED,676,0.017911098897457123,3.617839500538714e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2003;,100
+ApproachType.MODEL_BASED,677,0.026673927903175354,1.924386576016938e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'STX' and year_date = 2007;,100
+ApproachType.MODEL_BASED,678,0.031189464032649994,1.2631870857957336e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2001 and origin = 'FAI';,100
+ApproachType.MODEL_BASED,679,0.015395864844322205,2.5502383814456197e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SFO';,100
+ApproachType.MODEL_BASED,680,0.1292741298675537,1.006850278770758,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 173.00 and air_time < 369.00 and taxi_in > 154.00 and taxi_in <= 200.00;,100
+ApproachType.MODEL_BASED,681,0.02598854899406433,3.67278551287527e-12,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 101.00 and taxi_in <= 1387.00;,100
+ApproachType.MODEL_BASED,682,0.16566961258649826,12.986675246347396,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2013 and dep_delay >= 200.00 and dep_delay <= 495.00 and arr_delay > 141.00 and arr_delay < 429.00;,100
+ApproachType.MODEL_BASED,683,0.19892926514148712,165.54798832428443,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LBB' and year_date = 2007 and distance >= 338.00 and distance < 903.00;,100
+ApproachType.MODEL_BASED,684,0.014756277203559875,2.1217653138292974e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SYR';,100
+ApproachType.MODEL_BASED,685,0.48313137143850327,4.026586104491102,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ACV' and year_date = 2011 and distance >= 125.00 and distance < 2115.00;,100
+ApproachType.MODEL_BASED,686,0.48330023884773254,1.578983857244667e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 202.00 and taxi_out < 244.00 and dep_delay > -48.00 and dep_delay <= 543.00;,100
+ApproachType.MODEL_BASED,687,0.027350008487701416,23.981355399577815,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1997 and origin = 'BUF';,100
+ApproachType.MODEL_BASED,688,0.060036659240722656,0.008478122040722624,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BGR' and arr_delay >= 143.00 and arr_delay < 348.00;,100
+ApproachType.MODEL_BASED,689,0.014681145548820496,9.131472909366748e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BKG';,100
+ApproachType.MODEL_BASED,690,0.8000610172748566,1.3346988236647425e-06,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 1.00 and taxi_in < 160.00 and arr_delay >= -43.00 and arr_delay < 1093.00;,100
+ApproachType.MODEL_BASED,691,0.17706430703401566,108.9309497729235,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CLL' and taxi_out >= 17.00 and taxi_out < 252.00;,100
+ApproachType.MODEL_BASED,692,0.10417050868272781,0.0,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 177.00 and air_time <= 583.00;,100
+ApproachType.MODEL_BASED,693,0.04384925216436386,12.636555719011236,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2006 and taxi_out > 112.00 and taxi_out < 274.00;,100
+ApproachType.MODEL_BASED,694,0.055264562368392944,3.8668992422318376e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MFE' and year_date = 2010;,100
+ApproachType.MODEL_BASED,695,0.08589757233858109,0.14383184234394442,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SJC' and taxi_out > 123.00 and taxi_out <= 135.00;,100
+ApproachType.MODEL_BASED,696,0.2508271858096123,0.9133403619380481,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 0.0 and dep_delay < 178.0 and air_time >= 588.0 and air_time < 630.0;,100
+ApproachType.MODEL_BASED,697,0.012756451964378357,1.466565804188252e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LNK';,100
+ApproachType.MODEL_BASED,698,0.08414950966835022,14.491025222438768,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'CAK' and air_time > 224.00 and air_time <= 521.00;,100
+ApproachType.MODEL_BASED,699,0.032843805849552155,5.551115123125783e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CAE' and taxi_out > 127.00 and taxi_out < 140.00;,100
+ApproachType.MODEL_BASED,700,0.03750652074813843,1.8152193326242524e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 185.00 and dep_delay < 903.00;,100
+ApproachType.MODEL_BASED,701,0.39751946181058884,2.078840756187401,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2004 and origin = 'TRI' and dep_delay >= -7.00 and dep_delay <= 252.00;,100
+ApproachType.MODEL_BASED,702,0.800972118973732,0.03703857731604474,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > -37.00 and arr_delay < 766.00 and taxi_in >= 110.00 and taxi_in < 1275.00;,100
+ApproachType.MODEL_BASED,703,0.6856861039996147,51.45724756426362,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 572.00 and distance <= 670.00 and dep_delay >= -12.00 and dep_delay < 646.00 and taxi_in > 1030.00 and taxi_in <= 1366.00;,100
+ApproachType.MODEL_BASED,704,0.031102314591407776,2.5376526277146433e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1997 and dest = 'ADQ';,100
+ApproachType.MODEL_BASED,705,0.03172975033521652,353.695606337682,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1999 and origin = 'CAK';,100
+ApproachType.MODEL_BASED,706,0.02639155089855194,4.278614617367876e-13,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 385.00 and air_time <= 606.00;,100
+ApproachType.MODEL_BASED,707,0.053271614015102386,7.377272151733905e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'PSP';,100
+ApproachType.MODEL_BASED,708,0.07567202299833298,12.937203951517077,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BWI' and year_date = 1997;,100
+ApproachType.MODEL_BASED,709,1.0138859301805496,1.5220673573502625e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 305.00 and distance <= 606.00 and air_time > -702.00 and air_time <= 591.00;,100
+ApproachType.MODEL_BASED,710,0.08058303594589233,7.684974514323676,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2007 and taxi_out >= 27.00 and taxi_out < 53.00;,100
+ApproachType.MODEL_BASED,711,0.047317735850811005,1.3327882499603287e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'FLL' and dep_delay >= 125.00 and dep_delay <= 702.00;,100
+ApproachType.MODEL_BASED,712,0.38169296085834503,1.5937407157235891e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PSE' and dep_delay > -1197.00 and dep_delay < 496.00;,100
+ApproachType.MODEL_BASED,713,0.01291663944721222,1.48940688842021e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LAR';,100
+ApproachType.MODEL_BASED,714,0.013079546391963959,6.151469068467556e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BTR';,100
+ApproachType.MODEL_BASED,715,0.36773285269737244,0.007485660848946187,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011 and taxi_out > 1.00 and taxi_out < 357.00;,100
+ApproachType.MODEL_BASED,716,0.16370809078216553,0.8267529697375239,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2013 and distance > 189.00 and distance <= 737.00;,100
+ApproachType.MODEL_BASED,717,0.08495867252349854,78.63433143126035,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'TEX' and taxi_out > 23.00 and taxi_out <= 59.00;,100
+ApproachType.MODEL_BASED,718,0.01119394600391388,1.4051182190312093e-12,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PSG';,100
+ApproachType.MODEL_BASED,719,0.11934074759483337,1.6541735647325082e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MOB' and dep_delay >= 11.00 and dep_delay < 445.00;,100
+ApproachType.MODEL_BASED,720,0.059724703431129456,1.0362081563168128e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 450.0 and dep_delay < 460.0 and taxi_out >= 8.0 and taxi_out < 10.0;,100
+ApproachType.MODEL_BASED,721,0.19886106252670288,84.99484402944692,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 13.00 and air_time <= 25.00 and taxi_out > 29.00 and taxi_out < 653.00 and distance > 375.00 and distance < 875.00;,100
+ApproachType.MODEL_BASED,722,0.07584220916032791,1.6370699998162732e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 102.00 and dep_delay <= 297.00 and arr_delay > 175.00 and arr_delay <= 568.00;,100
+ApproachType.MODEL_BASED,723,0.01050538569688797,1.4755100214933143e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LMT';,100
+ApproachType.MODEL_BASED,724,0.013347744941711426,6.711364108551528e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2015;,100
+ApproachType.MODEL_BASED,725,0.03548450022935867,106.55920936525933,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LAN' and arr_delay >= 380.00 and arr_delay < 586.00;,100
+ApproachType.MODEL_BASED,726,0.021645933389663696,8.238176646493915e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and dest = 'EYW';,100
+ApproachType.MODEL_BASED,727,0.04417194426059723,3.0666509794695207,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'CEC' and year_date = 2008 and arr_delay > 286.00 and arr_delay < 904.00;,100
+ApproachType.MODEL_BASED,728,0.021885313093662262,0.38659123982417515,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2015 and air_time >= 496.00 and air_time <= 583.00;,100
+ApproachType.MODEL_BASED,729,0.010524928569793701,1.4411007598514707e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'ISN';,100
+ApproachType.MODEL_BASED,730,0.05302588641643524,0.11475905572247809,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 194.00 and dep_delay < 747.00 and air_time > 295.00 and air_time <= 527.00;,100
+ApproachType.MODEL_BASED,731,0.6841844096779823,0.04559465091670296,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 28.00 and air_time <= 297.00 and dep_delay >= 466.00 and dep_delay <= 852.00;,100
+ApproachType.MODEL_BASED,732,0.042944133281707764,53.46219620405191,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2001 and arr_delay > 346.00 and arr_delay < 833.00;,100
+ApproachType.MODEL_BASED,733,0.04360451549291611,0.05612094829075432,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'CMH' and dep_delay > 263.00 and dep_delay < 949.00;,100
+ApproachType.MODEL_BASED,734,0.0150076225399971,0.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MSP';,100
+ApproachType.MODEL_BASED,735,0.03294413536787033,1.2493059090287477e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 614.00 and arr_delay < 793.00;,100
+ApproachType.MODEL_BASED,736,0.48932865262031555,0.02742314020890105,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2008 and arr_delay >= -34.00 and arr_delay <= 996.00;,100
+ApproachType.MODEL_BASED,737,0.032512083649635315,1.5099033134902129e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'TEX' and year_date = 2010;,100
+ApproachType.MODEL_BASED,738,0.021980755031108856,2.933454666626387e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1998;,100
+ApproachType.MODEL_BASED,739,0.0590180829167366,4.69465736127209e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 15.0 and taxi_in < 20.0 and distance >= 3152.0 and distance < 3349.0;,100
+ApproachType.MODEL_BASED,740,0.05600970238447189,0.015269145573046927,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 197.00 and taxi_out <= 492.00 and air_time >= 273.00 and air_time < 298.00;,100
+ApproachType.MODEL_BASED,741,0.014870084822177887,2.6645352591003757e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'PBG';,100
+ApproachType.MODEL_BASED,742,0.08629360049962997,1.583451058581812e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 20.0 and taxi_out < 30.0;,100
+ApproachType.MODEL_BASED,743,0.4901394918560982,1.441100759851471e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -65.00 and dep_delay <= 843.00 and arr_delay > 608.00 and arr_delay < 859.00;,100
+ApproachType.MODEL_BASED,744,0.034116871654987335,1.8706884292262922e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 345.00 and dep_delay <= 395.00;,100
+ApproachType.MODEL_BASED,745,0.5024224370718002,5.6338714583630944e-05,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -43.00 and dep_delay <= 337.00 and taxi_out >= 28.00 and taxi_out < 40.00;,100
+ApproachType.MODEL_BASED,746,0.056679897010326385,1.4210854715202004e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1805.00 and distance < 2576.00 and arr_delay >= 391.00 and arr_delay < 404.00;,100
+ApproachType.MODEL_BASED,747,0.5251160934567451,10.611052772116029,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 57.00 and air_time < 655.00 and taxi_out >= 119.00 and taxi_out <= 129.00;,100
+ApproachType.MODEL_BASED,748,0.03688724339008331,8.881784197001252e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'GGG' and year_date = 2011;,100
+ApproachType.MODEL_BASED,749,0.43843890726566315,1.2198158553821463e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2004 and dest = 'GEG' and dep_delay >= -3.00 and dep_delay < 918.00;,100
+ApproachType.MODEL_BASED,750,0.03473217040300369,1.2186950444889927e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 498.00 and dep_delay <= 780.00;,100
+ApproachType.MODEL_BASED,751,0.009865283966064453,2.2737367544323207e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 2955.0 and distance < 3152.0;,100
+ApproachType.MODEL_BASED,752,0.40950965881347656,0.045641128142017616,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'IAD' and taxi_out >= 5.00 and taxi_out < 574.00;,100
+ApproachType.MODEL_BASED,753,0.3829381614923477,100,-1,-1,SELECT COUNT(*) FROM flights WHERE taxi_out > 116.00 and taxi_out <= 1394.00 and distance > 378.00 and distance <= 799.00 and air_time >= 187.00 and air_time < 309.00;,100
+ApproachType.MODEL_BASED,754,0.10692489147186279,2.5962138422003657e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 187.00 and dep_delay <= 612.00 and taxi_out >= 143.00 and taxi_out <= 178.00 and arr_delay >= 100.00 and arr_delay <= 798.00;,100
+ApproachType.MODEL_BASED,755,0.010985389351844788,1.8506352666047984e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SJU';,100
+ApproachType.MODEL_BASED,756,0.037323594093322754,3.3306690738754696e-13,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1143.00 and distance <= 1261.00 and air_time > 314.00 and air_time < 439.00;,100
+ApproachType.MODEL_BASED,757,0.02384646236896515,1.4210854715202004e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BRW' and year_date = 2000;,100
+ApproachType.MODEL_BASED,758,0.03390154242515564,2.3641661080658388e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2003 and distance >= 2217.00 and distance <= 4502.00;,100
+ApproachType.MODEL_BASED,759,0.04224009066820145,0.0,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 36.0 and taxi_out < 45.0 and distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,760,0.011660926043987274,4.661160346586258e-13,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 583.00 and air_time <= 603.00;,100
+ApproachType.MODEL_BASED,761,0.045580923557281494,11.849586480904799,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2010 and taxi_in >= 21.00 and taxi_in < 280.00;,100
+ApproachType.MODEL_BASED,762,0.07326746731996536,1.1251977470681031e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 571.00 and distance <= 868.00;,100
+ApproachType.MODEL_BASED,763,0.05374007672071457,9.362906498051153,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 110.00 and taxi_in < 185.00 and arr_delay > 110.00 and arr_delay < 972.00;,100
+ApproachType.MODEL_BASED,764,0.07424761354923248,0.0,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 14.00 and taxi_in < 153.00 and distance > 1265.00 and distance <= 1795.00;,100
+ApproachType.MODEL_BASED,765,0.4530382454395294,0.030781133354292497,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and air_time >= 14.00 and air_time <= 376.00;,100
+ApproachType.MODEL_BASED,766,0.20059990137815475,1.9785787860524272e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 494.00 and distance <= 829.00;,100
+ApproachType.MODEL_BASED,767,0.6651054993271828,0.006096366634666171,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CID' and dep_delay >= -29.00 and dep_delay <= 796.00 and arr_delay >= 171.00 and arr_delay < 396.00;,100
+ApproachType.MODEL_BASED,768,0.02809474617242813,3.555491406461799e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 49.00 and taxi_in < 548.00;,100
+ApproachType.MODEL_BASED,769,0.04182746261358261,5.869462909582968,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'HNL' and dep_delay > 850.00 and dep_delay <= 886.00;,100
+ApproachType.MODEL_BASED,770,0.8860734105110168,0.49136935703122475,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2001 and dep_delay > -11.00 and dep_delay <= 966.00;,100
+ApproachType.MODEL_BASED,771,0.06915078312158585,2.6645352591003757e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 121.00 and taxi_out <= 188.00 and dep_delay > 213.00 and dep_delay < 248.00;,100
+ApproachType.MODEL_BASED,772,0.014703884720802307,1.427950618725612e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BRW';,100
+ApproachType.MODEL_BASED,773,0.013708516955375671,4.2424740249115407e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'KTN';,100
+ApproachType.MODEL_BASED,774,0.0410134419798851,9.689219124001365e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2015 and dest = 'GGG';,100
+ApproachType.MODEL_BASED,775,0.10598918795585632,7.105427357601002e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 14.0 and taxi_out < 21.0 and dep_delay >= 600.0 and dep_delay < 800.0;,100
+ApproachType.MODEL_BASED,776,0.06173255294561386,2.1862853408003083e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'PIT' and taxi_out >= 106.00 and taxi_out <= 188.00 and arr_delay > 159.00 and arr_delay <= 720.00;,100
+ApproachType.MODEL_BASED,777,0.06701242178678513,100,-1,-1,SELECT COUNT(*) FROM flights WHERE distance >= 816.00 and distance <= 896.00 and taxi_in > 525.00 and taxi_in <= 580.00;,100
+ApproachType.MODEL_BASED,778,0.12130565196275711,2.240191785756407,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1514.00 and distance < 1781.00 and taxi_in >= 32.00 and taxi_in <= 95.00;,100
+ApproachType.MODEL_BASED,779,0.8308372125029564,0.4713769195382081,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > -12.00 and dep_delay < 711.00 and taxi_in > 142.00 and taxi_in < 171.00;,100
+ApproachType.MODEL_BASED,780,0.06688076257705688,4.7653753475136655,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2012 and arr_delay > 175.00 and arr_delay <= 753.00;,100
+ApproachType.MODEL_BASED,781,0.07383249700069427,2.220446049250313e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MBS' and arr_delay > 293.00 and arr_delay <= 876.00;,100
+ApproachType.MODEL_BASED,782,0.8363457471132278,4.318075735420431e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DSM' and dep_delay >= -51.00 and dep_delay <= 112.00;,100
+ApproachType.MODEL_BASED,783,0.07083079218864441,0.0435977971193631,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'STL' and air_time > 211.00 and air_time <= 533.00;,100
+ApproachType.MODEL_BASED,784,0.62359768897295,0.0017868316286470663,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'GUC' and air_time >= -35.00 and air_time < 420.00;,100
+ApproachType.MODEL_BASED,785,0.10108227282762527,6.178632484870436e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2016 and origin = 'MFE';,100
+ApproachType.MODEL_BASED,786,0.2137235701084137,6.124129746680795,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 110.00 and arr_delay < 836.00 and air_time >= 381.00 and air_time < 384.00;,100
+ApproachType.MODEL_BASED,787,0.05014356970787048,8.728356063079925e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'AZO';,100
+ApproachType.MODEL_BASED,788,0.04871714860200882,9.128140255020265e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'ORH';,100
+ApproachType.MODEL_BASED,789,0.1328105702996254,8.12048840868686e-14,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 596.00 and dep_delay <= 958.00;,100
+ApproachType.MODEL_BASED,790,0.032359905540943146,2.667091004264374e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,791,0.0169198140501976,7.201881122636309e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'STT';,100
+ApproachType.MODEL_BASED,792,0.0733213722705841,0.015947869484086507,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2009 and air_time > 220.00 and air_time < 276.00;,100
+ApproachType.MODEL_BASED,793,0.07043469697237015,3.6051717442193174e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'DTW' and distance >= 1256.00 and distance < 2615.00;,100
+ApproachType.MODEL_BASED,794,0.4308018535375595,0.0,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 134.00 and air_time <= 245.00;,100
+ApproachType.MODEL_BASED,795,0.02808132767677307,1.1190079610872443e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2008;,100
+ApproachType.MODEL_BASED,796,0.10724683851003647,4.770202153343173,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2008 and arr_delay >= 304.00 and arr_delay < 381.00 and dep_delay > 372.00 and dep_delay <= 409.00;,100
+ApproachType.MODEL_BASED,797,0.059768401086330414,3.492628778111456,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2013 and taxi_in > 47.00 and taxi_in < 530.00;,100
+ApproachType.MODEL_BASED,798,0.13009293377399445,8.894310263919543,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2004 and dep_delay >= 171.00 and dep_delay < 518.00;,100
+ApproachType.MODEL_BASED,799,0.08353313058614731,0.0,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2001 and dest = 'GEG' and distance >= 1399.00 and distance <= 2295.00;,100
+ApproachType.MODEL_BASED,800,0.38804207742214203,0.25738458842188905,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BTV' and taxi_out > 2.00 and taxi_out < 217.00;,100
+ApproachType.MODEL_BASED,801,0.010247990489006042,1.5050739745651294e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SCE';,100
+ApproachType.MODEL_BASED,802,0.05675467103719711,4.5240989973781876e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1494.00 and distance <= 1995.00 and arr_delay > 111.00 and arr_delay <= 704.00;,100
+ApproachType.MODEL_BASED,803,0.009846992790699005,1.5099033134902129e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'PGD';,100
+ApproachType.MODEL_BASED,804,0.020765073597431183,4.173429857854437e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 35.0 and taxi_in < 42.0;,100
+ApproachType.MODEL_BASED,805,0.6954028159379959,1.1059030906771987e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'OTH' and dep_delay >= -56.00 and dep_delay <= 140.00;,100
+ApproachType.MODEL_BASED,806,0.10878109931945801,1.7091749152415847e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 241.00 and air_time < 267.00;,100
+ApproachType.MODEL_BASED,807,0.13256624341011047,1.0507101453014421e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 448.00 and arr_delay < 801.00;,100
+ApproachType.MODEL_BASED,808,0.04201886057853699,3.741236946824057e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'LAN';,100
+ApproachType.MODEL_BASED,809,0.03995577245950699,1.4972150503516397e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2007 and origin = 'TTN';,100
+ApproachType.MODEL_BASED,810,0.043803393840789795,1.2020499595286282e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'EGE';,100
+ApproachType.MODEL_BASED,811,0.06297270208597183,5.2677711680750665,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and distance > 434.00 and distance <= 454.00;,100
+ApproachType.MODEL_BASED,812,0.05185277760028839,0.2353634190804311,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'EWR' and arr_delay >= 281.00 and arr_delay < 622.00;,100
+ApproachType.MODEL_BASED,813,0.9498837366700172,8.797882841420314e-07,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 269.00 and arr_delay <= 681.00 and taxi_out > 0.00 and taxi_out < 66.00;,100
+ApproachType.MODEL_BASED,814,0.010955922305583954,1.4887562082592577e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MKG';,100
+ApproachType.MODEL_BASED,815,0.021962299942970276,2.0898315757650004e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BGM' and year_date = 2003;,100
+ApproachType.MODEL_BASED,816,0.05981108546257019,1.1477314399967613,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2006 and arr_delay >= 376.00 and arr_delay <= 924.00 and dep_delay > 367.00 and dep_delay <= 834.00;,100
+ApproachType.MODEL_BASED,817,0.09317860752344131,2.960594732333751e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 21.0 and taxi_out < 28.0 and dep_delay >= 600.0 and dep_delay < 800.0;,100
+ApproachType.MODEL_BASED,818,0.3825743943452835,0.039197744298111015,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 21.00 and dep_delay <= 260.00 and air_time >= 265.00 and air_time <= 277.00;,100
+ApproachType.MODEL_BASED,819,0.34298723191022873,35.256437577348045,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 169.00 and taxi_out < 244.00 and distance > 548.00 and distance < 868.00;,100
+ApproachType.MODEL_BASED,820,0.03574160486459732,1.4422957024384123e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'INL';,100
+ApproachType.MODEL_BASED,821,1.0749996900558472,0.6387865723569444,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'EYW' and arr_delay > -88.00 and arr_delay <= 115.00;,100
+ApproachType.MODEL_BASED,822,0.25701917707920074,26.802262609752002,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2008 and origin = 'SCE' and distance >= 553.00 and distance < 824.00;,100
+ApproachType.MODEL_BASED,823,1.389206923544407,0.0013063327049645983,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011 and dep_delay >= -35.00 and dep_delay <= 567.00;,100
+ApproachType.MODEL_BASED,824,0.5894679129123688,3.1226914972531796,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= -16.00 and arr_delay <= 940.00 and taxi_in >= 170.00 and taxi_in < 973.00;,100
+ApproachType.MODEL_BASED,825,0.058268263936042786,0.023577357134761747,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 420.00 and dep_delay < 586.00 and air_time >= 311.00 and air_time <= 446.00;,100
+ApproachType.MODEL_BASED,826,0.013117715716362,8.238176646493915e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'GTR';,100
+ApproachType.MODEL_BASED,827,0.02631072700023651,2.7864421010200006e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'KTN' and year_date = 2015;,100
+ApproachType.MODEL_BASED,828,0.049392327666282654,8.881784197001252e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ECP' and dep_delay >= 184.00 and dep_delay < 676.00;,100
+ApproachType.MODEL_BASED,829,0.012865439057350159,1.4562400156479516e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LIT';,100
+ApproachType.MODEL_BASED,830,0.026713110506534576,1.4388490399142029e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MLU' and year_date = 1999;,100
+ApproachType.MODEL_BASED,831,0.03934590518474579,0.0,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 296.00 and distance <= 341.00;,100
+ApproachType.MODEL_BASED,832,0.5710371509194374,1.7763568394002505e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -26.00 and dep_delay <= 483.00 and arr_delay > 630.00 and arr_delay <= 824.00;,100
+ApproachType.MODEL_BASED,833,0.08929064869880676,1.5641696776854432,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1998 and distance > 697.00 and distance < 997.00;,100
+ApproachType.MODEL_BASED,834,0.19180475175380707,2.6495595299655195,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2005 and distance >= 397.00 and distance < 995.00;,100
+ApproachType.MODEL_BASED,835,0.1474483162164688,4.412167052585357e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'PIA' and taxi_in > 6.00 and taxi_in < 89.00;,100
+ApproachType.MODEL_BASED,836,0.0455801859498024,0.004125398891966588,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 166.00 and taxi_out <= 267.00 and air_time >= 330.00 and air_time <= 362.00;,100
+ApproachType.MODEL_BASED,837,0.056757740676403046,1.0658141036401503e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 694.00 and dep_delay <= 862.00 and arr_delay > 607.00 and arr_delay < 918.00;,100
+ApproachType.MODEL_BASED,838,0.015354111790657043,4.800964430811488e-13,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 594.00 and air_time <= 607.00;,100
+ApproachType.MODEL_BASED,839,0.014510765671730042,1.8364355411871342e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DAY';,100
+ApproachType.MODEL_BASED,840,0.07195517420768738,149.82553595589974,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SGU' and arr_delay > 101.00 and arr_delay < 802.00;,100
+ApproachType.MODEL_BASED,841,0.09087478369474411,1.5987211554602254e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 104.00 and taxi_out < 151.00 and arr_delay >= 434.00 and arr_delay <= 530.00 and dep_delay > 365.00 and dep_delay <= 631.00;,100
+ApproachType.MODEL_BASED,842,0.021688826382160187,4.618527782440651e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'LIH' and distance >= 3320.0 and distance < 3528.0;,100
+ApproachType.MODEL_BASED,843,0.0677461251616478,578.3638632888927,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'AGS' and distance > 572.00 and distance < 732.00;,100
+ApproachType.MODEL_BASED,844,0.012716501951217651,1.4931561261226552e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'PIH';,100
+ApproachType.MODEL_BASED,845,0.04719216376543045,4.669280834994944e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 27.0 and taxi_out < 30.0 and distance >= 3950.0 and distance < 4650.0;,100
+ApproachType.MODEL_BASED,846,0.26271749287843704,4.867027030206081,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 16.0 and taxi_out < 23.0 and air_time >= 630.0 and air_time < 672.0 and dep_delay >= 0.0 and dep_delay < 40.0;,100
+ApproachType.MODEL_BASED,847,0.046376898884773254,0.0,100,1,SELECT COUNT(*) FROM flights WHERE distance > 148.00 and distance < 282.00;,100
+ApproachType.MODEL_BASED,848,0.5608072802424431,3.989811616806919e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 35.00 and air_time < 600.00;,100
+ApproachType.MODEL_BASED,849,0.013306878507137299,7.315461104145813e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1986.00 and distance <= 2089.00;,100
+ApproachType.MODEL_BASED,850,0.23006337136030197,6.120421950019706e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'CRW' and dep_delay > 5.00 and dep_delay < 814.00;,100
+ApproachType.MODEL_BASED,851,0.07962525635957718,1.676153616062102e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance > 189.00 and distance <= 413.00;,100
+ApproachType.MODEL_BASED,852,0.0926731526851654,1.1364699468344087e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 501.00 and distance <= 766.00;,100
+ApproachType.MODEL_BASED,853,0.5249159783124924,0.010737353481563905,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'IMT' and dep_delay > -87.00 and dep_delay < 664.00;,100
+ApproachType.MODEL_BASED,854,0.013893283903598785,1.794937244469959e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'HNL';,100
+ApproachType.MODEL_BASED,855,0.9720121920108795,0.00014307963361948368,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > -118.00 and dep_delay <= 536.00 and air_time >= 36.00 and air_time < 546.00;,100
+ApproachType.MODEL_BASED,856,0.056323401629924774,0.0,100,1,SELECT COUNT(*) FROM flights WHERE distance > 2115.00 and distance < 2874.00 and taxi_in > 68.00 and taxi_in <= 968.00;,100
+ApproachType.MODEL_BASED,857,0.07864009588956833,0.0,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 15.0 and taxi_out < 18.0 and distance >= 2496.0 and distance < 2704.0;,100
+ApproachType.MODEL_BASED,858,0.013959124684333801,1.5025665626957996e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BIL';,100
+ApproachType.MODEL_BASED,859,0.011794574558734894,6.533726305840001e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SCE';,100
+ApproachType.MODEL_BASED,860,0.22808074206113815,1.3721806734744193,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2006 and arr_delay >= -39.00 and arr_delay <= 7.00;,100
+ApproachType.MODEL_BASED,861,0.013493455946445465,3.648193749590566e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MBS';,100
+ApproachType.MODEL_BASED,862,0.49961113184690475,0.00556204892189216,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 39.00 and taxi_in <= 40.00 and arr_delay >= -57.00 and arr_delay < 456.00;,100
+ApproachType.MODEL_BASED,863,0.05914369225502014,1.5588792635677027e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 282.00 and dep_delay < 362.00 and arr_delay > 224.00 and arr_delay < 898.00;,100
+ApproachType.MODEL_BASED,864,0.013368576765060425,1.20387134157044e-13,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'HNL';,100
+ApproachType.MODEL_BASED,865,0.2605103328824043,4.736951571734001e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 0.0 and dep_delay < 130.0 and origin = 'GUM';,100
+ApproachType.MODEL_BASED,866,0.031426362693309784,8.694835079541807,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and air_time >= 532.00 and air_time <= 653.00;,100
+ApproachType.MODEL_BASED,867,0.013352073729038239,0.0,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MGM';,100
+ApproachType.MODEL_BASED,868,0.030506350100040436,2.5493044230154153e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 135.00 and taxi_out <= 195.00;,100
+ApproachType.MODEL_BASED,869,0.040991269052028656,1.856179281288822e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 181.00 and dep_delay <= 649.00;,100
+ApproachType.MODEL_BASED,870,0.8330806121230125,0.001092423511101427,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LGB' and air_time > -394.00 and air_time <= 415.00;,100
+ApproachType.MODEL_BASED,871,0.046157464385032654,8.881784197001252e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ILG' and dep_delay > 440.00 and dep_delay <= 872.00;,100
+ApproachType.MODEL_BASED,872,0.02618495374917984,1.4930391662807168e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2005 and origin = 'LAW';,100
+ApproachType.MODEL_BASED,873,0.6170812994241714,3.726268816653167e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 4.00 and air_time < 523.00;,100
+ApproachType.MODEL_BASED,874,0.029097288846969604,2.2982605471985758,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and origin = 'SEA';,100
+ApproachType.MODEL_BASED,875,0.07620920240879059,12.951827287585838,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'HPN' and air_time > 160.00 and air_time <= 228.00;,100
+ApproachType.MODEL_BASED,876,0.08517517894506454,5.355241935613743,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > 126.00 and arr_delay < 768.00 and taxi_in > 17.00 and taxi_in <= 85.00;,100
+ApproachType.MODEL_BASED,877,0.624802865087986,0.0009042227677165659,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'PIH' and air_time >= -522.00 and air_time < 572.00;,100
+ApproachType.MODEL_BASED,878,0.017481617629528046,1.483413781674595e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'HHH';,100
+ApproachType.MODEL_BASED,879,0.053823456168174744,13.193036122866811,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MGM' and arr_delay > 192.00 and arr_delay <= 960.00;,100
+ApproachType.MODEL_BASED,880,0.5146783888339996,0.0022173390090945736,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PVD' and air_time >= -197.00 and air_time <= 276.00;,100
+ApproachType.MODEL_BASED,881,0.01719485968351364,1.7987534274866317e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MEM';,100
+ApproachType.MODEL_BASED,882,0.016347378492355347,1.6882159736843337e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SEA';,100
+ApproachType.MODEL_BASED,883,0.016893908381462097,2.586087653877173e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ABQ';,100
+ApproachType.MODEL_BASED,884,0.10345835238695145,1.1219095827791055e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 5.0 and taxi_out < 10.0 and taxi_out < 30.0 and dep_delay >= 525.0 and dep_delay < 750.0;,100
+ApproachType.MODEL_BASED,885,0.016802586615085602,1.4768195450742985e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1996;,100
+ApproachType.MODEL_BASED,886,0.08295329660177231,1.5363086178596762e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 268.00 and air_time < 619.00 and distance >= 1120.00 and distance < 1721.00;,100
+ApproachType.MODEL_BASED,887,0.026599496603012085,1.4773660842536737e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'AEX' and year_date = 2004;,100
+ApproachType.MODEL_BASED,888,0.05718860775232315,0.4446376612733131,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 521.00 and air_time < 559.00 and dep_delay > 132.00 and dep_delay < 741.00;,100
+ApproachType.MODEL_BASED,889,0.5927362740039825,0.033866309043379346,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 159.00 and taxi_out < 219.00 and air_time >= 19.00 and air_time <= 644.00;,100
+ApproachType.MODEL_BASED,890,0.04887617379426956,5.329070518200751e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MOB' and arr_delay >= 209.00 and arr_delay < 283.00;,100
+ApproachType.MODEL_BASED,891,0.09230327606201172,2.257037829748147,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2007 and distance > 103.00 and distance < 332.00;,100
+ApproachType.MODEL_BASED,892,0.2458612322807312,1.4913069232519138,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 28.0 and taxi_out < 35.0 and dep_delay >= 0.0 and dep_delay < 40.0;,100
+ApproachType.MODEL_BASED,893,0.02648688107728958,2.6624552159629048e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'FAT' and year_date = 2012;,100
+ApproachType.MODEL_BASED,894,0.46866119652986526,1.8644256757512996e-14,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > -46.00 and arr_delay < 510.00;,100
+ApproachType.MODEL_BASED,895,0.7286437228322029,0.0023790595204649235,100,1,SELECT COUNT(*) FROM flights WHERE distance > 233.00 and distance < 957.00 and arr_delay > -62.00 and arr_delay < 355.00;,100
+ApproachType.MODEL_BASED,896,0.04422154277563095,0.8612271310073583,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ROA' and dep_delay >= 331.00 and dep_delay < 923.00;,100
+ApproachType.MODEL_BASED,897,0.04870215058326721,3.2297397080004557e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ABE' and dep_delay > 188.00 and dep_delay <= 696.00;,100
+ApproachType.MODEL_BASED,898,0.15036208927631378,1.9784257636371065,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2008 and dep_delay >= 21.00 and dep_delay < 973.00;,100
+ApproachType.MODEL_BASED,899,0.5102205872535706,0.0002170109569391052,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'AEX' and arr_delay >= -87.00 and arr_delay < 678.00;,100
+ApproachType.MODEL_BASED,900,0.01240336149930954,4.487638331116422e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'DHN';,100
+ApproachType.MODEL_BASED,901,0.05890125036239624,6.215372905377947,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 28.00 and taxi_in < 83.00 and arr_delay > 600.00 and arr_delay < 757.00;,100
+ApproachType.MODEL_BASED,902,0.693967342376709,21.21211490907641,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SAV' and air_time >= -552.00 and air_time < 68.00 and arr_delay > -60.00 and arr_delay < 254.00;,100
+ApproachType.MODEL_BASED,903,0.3423129469156265,4.917931419516887,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 86.00 and taxi_in <= 882.00 and taxi_out >= 22.00 and taxi_out <= 325.00 and arr_delay > 13.00 and arr_delay <= 884.00;,100
+ApproachType.MODEL_BASED,904,0.04398580640554428,0.028734813278689132,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2010 and air_time > 231.00 and air_time <= 247.00;,100
+ApproachType.MODEL_BASED,905,0.05702441185712814,36.56153015687624,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and taxi_in > 21.00 and taxi_in < 604.00;,100
+ApproachType.MODEL_BASED,906,0.025438077747821808,2.9605947323337504e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ADQ' and year_date = 2015;,100
+ApproachType.MODEL_BASED,907,0.02884940803050995,4.542930578286355e-13,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 416.00 and air_time < 454.00;,100
+ApproachType.MODEL_BASED,908,0.024117745459079742,2.669390473707094e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'TPA';,100
+ApproachType.MODEL_BASED,909,0.08672711253166199,7.380893130553673,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011 and arr_delay >= 220.00 and arr_delay < 338.00;,100
+ApproachType.MODEL_BASED,910,0.01625751703977585,2.5762213715673673e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011;,100
+ApproachType.MODEL_BASED,911,0.013021014630794525,9.689219124001365e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'ACK';,100
+ApproachType.MODEL_BASED,912,0.012699387967586517,1.3813710537255896e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BGR';,100
+ApproachType.MODEL_BASED,913,0.11283968389034271,28.373190458401226,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 24.00 and air_time < 59.00 and arr_delay > 222.00 and arr_delay <= 414.00;,100
+ApproachType.MODEL_BASED,914,0.048724643886089325,1.2054220474871172e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 251.00 and air_time <= 434.00;,100
+ApproachType.MODEL_BASED,915,0.013869136571884155,0.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MCO';,100
+ApproachType.MODEL_BASED,916,0.025325007736682892,1.4737182667616892e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2009 and origin = 'TWF';,100
+ApproachType.MODEL_BASED,917,0.06245744973421097,1.3601615679555259e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 379.00 and dep_delay < 793.00 and arr_delay >= 451.00 and arr_delay <= 827.00;,100
+ApproachType.MODEL_BASED,918,0.01361440122127533,1.5170430113977702e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LWS';,100
+ApproachType.MODEL_BASED,919,0.1566973254084587,29.14244826960711,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 135.00 and taxi_out < 212.00 and air_time >= 105.00 and air_time <= 168.00;,100
+ApproachType.MODEL_BASED,920,0.11830957233905792,1219.8646656224382,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BPT' and distance > 424.00 and distance < 764.00;,100
+ApproachType.MODEL_BASED,921,0.4923216924071312,1.7491964646079973e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 154.00 and dep_delay < 419.00 and arr_delay > -71.00 and arr_delay < 566.00;,100
+ApproachType.MODEL_BASED,922,0.03967273235321045,0.0,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 72.0 and taxi_out < 81.0 and distance >= 4160.0 and distance < 4368.0;,100
+ApproachType.MODEL_BASED,923,0.02691526710987091,2.991758887410948e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2005 and dest = 'ABI';,100
+ApproachType.MODEL_BASED,924,0.013033807277679443,1.5135821590155981e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'LRD';,100
+ApproachType.MODEL_BASED,925,0.08771328628063202,0.0011825827119829352,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 148.00 and taxi_out <= 265.00 and distance > 1138.00 and distance < 3379.00;,100
+ApproachType.MODEL_BASED,926,0.012853771448135376,6.658087128645156e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 360.0 and air_time < 405.0;,100
+ApproachType.MODEL_BASED,927,0.509526789188385,0.18601761154211027,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay > -78.00 and arr_delay < 78.00 and distance >= 157.00 and distance < 502.00;,100
+ApproachType.MODEL_BASED,928,0.6979064494371414,2.277543538788669,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 1076.00 and distance < 1910.00 and dep_delay >= 108.00 and dep_delay <= 788.00 and air_time > -664.00 and air_time < 322.00;,100
+ApproachType.MODEL_BASED,929,0.7284502238035202,2.0363347413391004,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 30.00 and air_time < 609.00 and arr_delay > 678.00 and arr_delay < 721.00;,100
+ApproachType.MODEL_BASED,930,0.017029084265232086,4.871300843868358e-14,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2010;,100
+ApproachType.MODEL_BASED,931,0.12052220851182938,2.985182427022052,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PIA' and taxi_out >= 19.00 and taxi_out <= 41.00;,100
+ApproachType.MODEL_BASED,932,0.057189859449863434,0.027994248165543113,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 270.00 and dep_delay <= 387.00 and air_time >= 320.00 and air_time <= 554.00;,100
+ApproachType.MODEL_BASED,933,0.05068942904472351,0.0,100,1,SELECT COUNT(*) FROM flights WHERE distance > 1788.00 and distance < 3972.00 and taxi_in >= 128.00 and taxi_in < 198.00;,100
+ApproachType.MODEL_BASED,934,0.013794265687465668,1.2859820099654335e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MIA';,100
+ApproachType.MODEL_BASED,935,0.4020624905824661,9.753327438196155e-06,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 3.00 and taxi_out < 45.00 and arr_delay >= 187.00 and arr_delay <= 504.00;,100
+ApproachType.MODEL_BASED,936,0.47326723486185074,1.578983857244667e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -45.00 and dep_delay < 477.00 and taxi_out >= 213.00 and taxi_out < 297.00;,100
+ApproachType.MODEL_BASED,937,0.08040415495634079,0.0077338305041999645,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 260.00 and air_time < 370.00 and dep_delay > 717.00 and dep_delay < 840.00;,100
+ApproachType.MODEL_BASED,938,0.10286956280469894,0.5870082232870777,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 297.00 and dep_delay < 519.00 and taxi_in > 155.00 and taxi_in <= 229.00;,100
+ApproachType.MODEL_BASED,939,0.10472317039966583,2.246375919256952,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and arr_delay >= 53.00 and arr_delay < 906.00;,100
+ApproachType.MODEL_BASED,940,0.026990875601768494,0.5372623328657271,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SJC' and year_date = 2011;,100
+ApproachType.MODEL_BASED,941,0.09084747731685638,1.4972150503516397e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SLE' and taxi_in >= 11.00 and taxi_in < 88.00;,100
+ApproachType.MODEL_BASED,942,0.03814949095249176,7.635794426533832e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SFO';,100
+ApproachType.MODEL_BASED,943,0.11691626161336899,30.458001868641876,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BUF' and distance >= 404.00 and distance < 580.00;,100
+ApproachType.MODEL_BASED,944,0.012739978730678558,1.5099033134902129e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'DRT';,100
+ApproachType.MODEL_BASED,945,0.09761402010917664,8.198570028001156e-14,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 525.0 and dep_delay < 700.0 and taxi_out >= 5.0 and taxi_out < 10.0;,100
+ApproachType.MODEL_BASED,946,0.2640060484409332,0.5839047845477073,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2011 and distance > 173.00 and distance <= 968.00;,100
+ApproachType.MODEL_BASED,947,0.20543918758630753,1.5369292633867512e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 370.00 and distance < 720.00;,100
+ApproachType.MODEL_BASED,948,0.016909539699554443,1.4834004494157386e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BIS';,100
+ApproachType.MODEL_BASED,949,0.01657717674970627,6.004586499381128e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BJI';,100
+ApproachType.MODEL_BASED,950,0.09498415887355804,3.1086244689504383e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 194.0 and dep_delay < 291.0 and arr_delay >= 70.0 and arr_delay < 140.0;,100
+ApproachType.MODEL_BASED,951,0.5241588428616524,0.01100827281782636,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'HSV' and year_date = 2000 and dep_delay >= -13.00 and dep_delay <= 955.00;,100
+ApproachType.MODEL_BASED,952,0.6603723466396332,0.04019456500986532,100,1,SELECT COUNT(*) FROM flights WHERE air_time >= 138.00 and air_time <= 643.00 and dep_delay > -11.00 and dep_delay < 1259.00;,100
+ApproachType.MODEL_BASED,953,0.44954415410757065,0.016316148874399004,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -18.00 and dep_delay <= 147.00 and air_time >= 420.00 and air_time <= 589.00;,100
+ApproachType.MODEL_BASED,954,0.02613098919391632,1.4802973661668755e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'GFK' and year_date = 2014;,100
+ApproachType.MODEL_BASED,955,0.3459375128149986,6.079260746565797,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 0.0 and dep_delay < 212.0 and air_time >= 630.0 and air_time < 672.0;,100
+ApproachType.MODEL_BASED,956,0.03636690229177475,52.040012435825474,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2013 and taxi_in >= 146.00 and taxi_in < 526.00;,100
+ApproachType.MODEL_BASED,957,0.5909263789653778,54.736176954699026,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2008 and arr_delay >= 613.00 and arr_delay <= 905.00 and dep_delay > -1150.00 and dep_delay <= 633.00;,100
+ApproachType.MODEL_BASED,958,0.05959853529930115,18.05972360339603,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 123.00 and taxi_in < 217.00 and arr_delay >= 305.00 and arr_delay < 952.00;,100
+ApproachType.MODEL_BASED,959,0.013816103339195251,0.0,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SJC';,100
+ApproachType.MODEL_BASED,960,0.029925964772701263,1.335746135110371e-13,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay > 513.00 and dep_delay < 958.00;,100
+ApproachType.MODEL_BASED,961,0.17206358164548874,2.9631318755440472,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2010 and arr_delay >= 226.00 and arr_delay < 373.00 and dep_delay > 18.00 and dep_delay <= 989.00;,100
+ApproachType.MODEL_BASED,962,0.13672129064798355,1.1183165369008514,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 201.00 and taxi_out <= 870.00 and air_time > 182.00 and air_time <= 550.00;,100
+ApproachType.MODEL_BASED,963,0.17928888648748398,17.657210193975136,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MCI' and distance > 277.00 and distance < 805.00;,100
+ApproachType.MODEL_BASED,964,0.8582025319337845,1.6156122239803544e-14,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 188.00 and distance <= 807.00 and air_time >= -423.00 and air_time < 549.00;,100
+ApproachType.MODEL_BASED,965,0.06055605411529541,8.651097123359964,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'FAT' and arr_delay >= 329.00 and arr_delay < 882.00;,100
+ApproachType.MODEL_BASED,966,0.5342642292380333,2.423917951310308,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2014 and dest = 'SLC' and dep_delay >= -66.00 and dep_delay <= 727.00;,100
+ApproachType.MODEL_BASED,967,0.09555638581514359,4.777787361145501e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 32.0 and arr_delay < 130.0 and distance >= 4784.0 and distance < 4992.0;,100
+ApproachType.MODEL_BASED,968,0.17970917373895645,2.5781037783916716,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 182.00 and taxi_out < 212.00 and taxi_in >= 12.00 and taxi_in <= 1357.00;,100
+ApproachType.MODEL_BASED,969,0.0745709165930748,8.699266325935556e-14,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 0.0 and taxi_out < 10.0;,100
+ApproachType.MODEL_BASED,970,0.5812956914305687,0.0015151840999048812,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'OTH' and air_time > -127.00 and air_time <= 492.00;,100
+ApproachType.MODEL_BASED,971,0.10098124295473099,67.28290964860977,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SPI' and air_time > 13.00 and air_time <= 50.00;,100
+ApproachType.MODEL_BASED,972,0.0447457879781723,4.150072615943948e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out > 147.00 and taxi_out < 179.00;,100
+ApproachType.MODEL_BASED,973,0.4645381420850754,22.227259965566777,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 1995 and taxi_out >= 128.00 and taxi_out < 176.00 and arr_delay > -14.00 and arr_delay <= 986.00;,100
+ApproachType.MODEL_BASED,974,0.05075714737176895,2.264203266992353e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'MCI' and dep_delay > 129.00 and dep_delay < 396.00;,100
+ApproachType.MODEL_BASED,975,0.013602927327156067,7.990038795695905e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'OTH';,100
+ApproachType.MODEL_BASED,976,0.4788453280925751,0.10253033789421576,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2013 and dep_delay >= -36.00 and dep_delay < 161.00;,100
+ApproachType.MODEL_BASED,977,0.026512213051319122,1.4210854715202004e-12,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2002 and dest = 'BRW';,100
+ApproachType.MODEL_BASED,978,0.8105085417628288,1.4986838027248433,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 175.00 and distance <= 1807.00 and dep_delay >= -25.00 and dep_delay < 1080.00 and taxi_in > 49.00 and taxi_in < 63.00;,100
+ApproachType.MODEL_BASED,979,0.01355590671300888,1.5188622274097e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'ABI';,100
+ApproachType.MODEL_BASED,980,0.02604888379573822,6.1331057191924435e-12,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in >= 108.00 and taxi_in < 1434.00;,100
+ApproachType.MODEL_BASED,981,0.015223734080791473,4.61516255974084e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BTR';,100
+ApproachType.MODEL_BASED,982,0.10745628923177719,22.003317618299278,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'SRQ' and year_date = 2010 and taxi_in >= 10.00 and taxi_in < 1171.00;,100
+ApproachType.MODEL_BASED,983,0.014879733324050903,2.393997734369804e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'MDW';,100
+ApproachType.MODEL_BASED,984,0.046669021248817444,0.6470968880518975,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'BNA' and arr_delay > 386.00 and arr_delay <= 555.00;,100
+ApproachType.MODEL_BASED,985,0.012696214020252228,1.4775812242106057e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'CDC';,100
+ApproachType.MODEL_BASED,986,0.05118142068386078,15.828057767007333,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2013 and dep_delay >= 311.00 and dep_delay < 788.00;,100
+ApproachType.MODEL_BASED,987,0.01328730583190918,3.1503107092931356e-14,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'SBP';,100
+ApproachType.MODEL_BASED,988,0.04827496409416199,0.018662990069028405,100,1,SELECT COUNT(*) FROM flights WHERE year_date = 2001 and air_time >= 213.00 and air_time < 253.00;,100
+ApproachType.MODEL_BASED,989,0.013840705156326294,5.5797220967664315e-14,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'AVP';,100
+ApproachType.MODEL_BASED,990,0.2735907733440399,8.109400134738845,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= 0.0 and dep_delay < 40.0 and air_time >= 630.0 and air_time < 672.0;,100
+ApproachType.MODEL_BASED,991,0.5594916120171547,0.001441065857474611,100,1,SELECT COUNT(*) FROM flights WHERE dep_delay >= -845.00 and dep_delay < 120.00 and air_time > 272.00 and air_time <= 422.00;,100
+ApproachType.MODEL_BASED,992,0.016457967460155487,4.815248291927952e-13,100,1,SELECT COUNT(*) FROM flights WHERE distance >= 3546.0 and distance < 3743.0;,100
+ApproachType.MODEL_BASED,993,0.08884064853191376,1.7763568394002505e-13,100,1,SELECT COUNT(*) FROM flights WHERE taxi_out >= 65.00 and taxi_out <= 78.00 and dep_delay > 665.00 and dep_delay < 978.00;,100
+ApproachType.MODEL_BASED,994,0.0823420062661171,3.330261257196929,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'BQK' and arr_delay >= 137.00 and arr_delay <= 792.00;,100
+ApproachType.MODEL_BASED,995,0.08416689187288284,0.00793229622575442,100,1,SELECT COUNT(*) FROM flights WHERE taxi_in > 187.00 and taxi_in <= 879.00 and arr_delay > 591.00 and arr_delay < 796.00;,100
+ApproachType.MODEL_BASED,996,0.2639216184616089,1.2171370183851828e-14,100,1,SELECT COUNT(*) FROM flights WHERE air_time > 105.00 and air_time <= 376.00;,100
+ApproachType.MODEL_BASED,997,0.03313802182674408,1.3720825242264003e-13,100,1,SELECT COUNT(*) FROM flights WHERE arr_delay >= 471.00 and arr_delay <= 608.00;,100
+ApproachType.MODEL_BASED,998,0.07608594745397568,5.442454997311406e-13,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'OTH' and arr_delay >= 74.00 and arr_delay <= 854.00;,100
+ApproachType.MODEL_BASED,999,0.013102114200592041,1.4856802656802095e-12,100,1,SELECT COUNT(*) FROM flights WHERE origin = 'OAJ';,100
