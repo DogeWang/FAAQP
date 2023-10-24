@@ -31,7 +31,6 @@ def find_leaf(node):
         leaf_list[node] = []
         for n in node.children:
             if isinstance(n, IdentityNumericLeaf) or isinstance(n, Categorical):
-            # if isinstance(n, IdentityNumericLeaf):
                 leaf_list[node].append(n)
 
 
@@ -45,7 +44,7 @@ def find_leaf_2(node):
                 leaf_list_2[node].append(n)
 
 
-def histogram_control(ensemble_location, ensemble_path, threshold = 10):
+def histogram_control(ensemble_location, ensemble_path, threshold=10):
     spn_ensemble = read_ensemble(ensemble_location, build_reverse_dict=True)
     start_t = perf_counter()
     for spn in spn_ensemble.spns:
@@ -95,16 +94,6 @@ def histogram_control(ensemble_location, ensemble_path, threshold = 10):
                 print(numeric_node, len(numeric_node.unique_vals_ids))
                 if not max_error_dict:
                     continue
-                    # temp = RoaringBitmap()
-                    # temp_k = []
-                    # temp_key_porb = []
-                    # for key, value in numeric_node.unique_vals_ids.items():
-                    #     temp |= value
-                    #     temp_k.append(key)
-                    #     temp_key_porb.append(len(numeric_node.unique_vals_ids[key]) / numeric_node.cardinality)
-                    #     c_b = copy.deepcopy(temp)
-                    #     c_p = copy.deepcopy(temp_key_porb)
-                    #     numeric_node.pre_ids_bitmap[tuple(temp_k)] = (c_b, c_p)
                 key_merge, temp_keys = [], []
                 sum_error = 0
                 temp = RoaringBitmap()
@@ -151,13 +140,12 @@ def histogram_control(ensemble_location, ensemble_path, threshold = 10):
                         c_p = copy.deepcopy(temp_key_porb)
                         # numeric_node.pre_ids_bitmap[tuple(temp_k)] = (c_b, c_p)
                         # print(numeric_node.scope, tuple(keys))
-                # exit(1)
     end_t = perf_counter()
     print(end_t - start_t)
     spn_ensemble.save(ensemble_path)
 
 
-def ec_pre(ensemble_location_1, ensemble_location_2, ensemble_path):
+def ec_pre(ensemble_location_1, ensemble_location_2):
     spn_ensemble_pre = read_ensemble(ensemble_location_1, build_reverse_dict=True)
     spn_ensemble_ec = read_ensemble(ensemble_location_2, build_reverse_dict=True)
     for spn in spn_ensemble_ec.spns:
@@ -167,10 +155,8 @@ def ec_pre(ensemble_location_1, ensemble_location_2, ensemble_path):
 
 
 
-ensemble_location = '/home/qym/zhb/sdata/spn_ensembles/ensemble_single_c10s10_1000000_RoaringBitmap.pkl'
-ensemble_path = '/home/qym/zhb/sdata/spn_ensembles/EC/ensemble_single_c10s10_1000000_RoaringBitmap_HashIdentityNumericLeaf_EC_100.pkl'
-# ensemble_location = '/home/qym/zhb/airbnb/spn_ensembles/ECwP/ensemble_relationships_airbnb_200000000.pkl'
-# ensemble_path = '/home/qym/zhb/airbnb/spn_ensembles/ECwP/ensemble_relationships_airbnb_200000000_RoaringBitmap_HashIdentityNumericLeaf_ECwP_1000_new.pkl'
+ensemble_location = 'input the path of SPN++'
+ensemble_path = 'input the path of SPN++BMS'
 
-histogram_control(ensemble_location, ensemble_path, threshold = 100)
+histogram_control(ensemble_location, ensemble_path, threshold=100)
 
