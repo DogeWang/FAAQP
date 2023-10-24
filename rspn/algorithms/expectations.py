@@ -58,19 +58,14 @@ def expectation(spn, feature_scope, inverted_features, ranges, node_expectation=
                 gen_code_stats.calls += 1
                 gen_code_stats.total_time += (time_end - time_start)
 
-            # logger.debug(f"\t\tGenerated Code Latency: {(time_end - time_start) * 1000:.3f}ms")
             return result
 
-        # lightweight non-batch version
         else:
-            # leaf_calculation(relevant_scope, evidence, node_likelihoods)
-            # print(feature_scope, inverted_features, relevant_scope, evidence)
             temp = np.array(
                 [[expectation_recursive(spn, feature_scope, inverted_features, relevant_scope, evidence,
                                         node_expectation, node_likelihoods)[0]]])
             return temp
-    # full batch version
-    # print(feature_scope)
+
     return expectation_recursive_batch(spn, feature_scope, inverted_features, relevant_scope, evidence,
                                        node_expectation, node_likelihoods)
 
@@ -78,7 +73,6 @@ def expectation(spn, feature_scope, inverted_features, ranges, node_expectation=
 def expectation_recursive_batch(node, feature_scope, inverted_features, relevant_scope, evidence, node_expectation,
                                 node_likelihoods):
     if isinstance(node, Product):
-        # llchildren的长度等于前面计算出的GROUP属性的唯一值数量
         llchildren = np.concatenate(
             [expectation_recursive_batch(child, feature_scope, inverted_features, relevant_scope, evidence,
                                          node_expectation, node_likelihoods)
@@ -107,7 +101,6 @@ def expectation_recursive_batch(node, feature_scope, inverted_features, relevant
         if node.scope[0] in feature_scope:
             t_node = type(node)
             if t_node in node_expectation:
-                # evidence.shape[0]表明要统计的GROUP信息
                 exps = np.zeros((evidence.shape[0], 1))
 
                 feature_idx = feature_scope.index(node.scope[0])
@@ -143,252 +136,9 @@ def idsproduct(c_ids, ids_list):
         if not isinstance(ids_list, RoaringBitmap):
             return c_ids
         else:
-            # return list(set(c_ids).intersection(ids_list))
             return ids_list & c_ids
 
-# # SPN++版
-# def expectation_recursive(node, feature_scope, inverted_features, relevant_scope, evidence, node_expectation,
-#                           node_likelihoods, c_ids=[None]):
-#     if isinstance(node, Product):
-#         product = np.nan
-#         product_c = 1
-#         c_ids = [None]
-#         is_leaf, is_exp = False, False
-#         exp_child_list, o_child_list = [], []
-#         for child in node.children:
-#             if len(relevant_scope.intersection(child.scope)) > 0 and child.scope[0] in feature_scope \
-#                     and type(child) in node_expectation and not isinstance(child, Product) and not isinstance(child, Sum):
-#                 exp_child_list.append(child)
-#             elif len(relevant_scope.intersection(child.scope)) > 0:
-#                 o_child_list.append(child)
-#         for child in o_child_list:
-#             factor, ids_list, _ = expectation_recursive(child, feature_scope, inverted_features, relevant_scope,
-#                                                                evidence,
-#                                                                node_expectation, node_likelihoods)
-#             if ids_list == [None]:
-#                 product = nanproduct(product, factor)
-#             elif c_ids == [None]:
-#                 is_leaf = True
-#                 c_ids = ids_list
-#             elif len(c_ids) != node.cardinality and len(ids_list) == node.cardinality:
-#                 c_ids = c_ids
-#             elif len(c_ids) == node.cardinality and len(ids_list) != node.cardinality:
-#                 c_ids = ids_list
-#             else:
-#                 is_leaf = True
-#                 c_ids = idsproduct(c_ids, ids_list)
-#
-#         if c_ids != [None] and c_ids:
-#             product_c = len(c_ids) / node.cardinality
-#         for child in exp_child_list:
-#             factor, ids_list, _ = expectation_recursive(child, feature_scope, inverted_features, relevant_scope,
-#                                                                evidence,
-#                                                                node_expectation, node_likelihoods, c_ids=c_ids)
-#             is_leaf = True
-#             c_ids = idsproduct(c_ids, ids_list)
-#             if len(ids_list) == 0:
-#                 product = 0
-#             elif np.isnan(product):
-#                 product = factor / len(ids_list)
-#             else:
-#                 product *= factor / len(ids_list)
-#             is_exp = True
-#
-#             if product_c < 1:
-#                 product_c = len(ids_list) / node.cardinality
-#         # for child in node.children:
-#         #     if len(relevant_scope.intersection(child.scope)) > 0:
-#         #         factor, ids_list, temp_exp = expectation_recursive(child, feature_scope, inverted_features, relevant_scope, evidence,
-#         #                                        node_expectation, node_likelihoods)
-#         #         # product_c = nanproduct(product_c, factor)
-#         #         if ids_list == [None]:
-#         #             product = nanproduct(product, factor)
-#         #         else:
-#         #             is_leaf = True
-#         #             c_ids = idsproduct(c_ids, ids_list)
-#         #             if temp_exp:
-#         #                 if len(ids_list) == 0:
-#         #                     product = 0
-#         #                 elif np.isnan(product):
-#         #                     product = factor / len(ids_list)
-#         #                 else:
-#         #                     product *= factor / len(ids_list)
-#         #                 is_exp = True
-#         if c_ids != [None] and not np.isnan(product) and is_exp:
-#             product *= len(c_ids)
-#             product *= product_c
-#         elif c_ids != [None] and is_leaf:
-#             if np.isnan(product):
-#                 product = len(c_ids) / node.cardinality
-#             else:
-#                 product *= len(c_ids) / node.cardinality
-#         return product, [None], False
-#
-#     elif isinstance(node, Sum):
-#         if len(relevant_scope.intersection(node.scope)) == 0:
-#             return np.nan, [None], False
-#
-#         llchildren = [expectation_recursive(child, feature_scope, inverted_features, relevant_scope, evidence,
-#                                             node_expectation, node_likelihoods)[0]
-#                       for child in node.children]
-#
-#         relevant_children_idx = np.where(np.isnan(llchildren) == False)[0]
-#
-#         if len(relevant_children_idx) == 0:
-#             return np.nan, [None], False
-#
-#         weights_normalizer = sum(node.weights[j] for j in relevant_children_idx)
-#         weighted_sum = sum(node.weights[j] * llchildren[j] for j in relevant_children_idx)
-#         return weighted_sum / weights_normalizer, [None], False
-#
-#     else:
-#         # feature_scope是Agg中的属性
-#         if node.scope[0] in feature_scope:
-#             t_node = type(node)
-#             if t_node in node_expectation:
-#                 feature_idx = feature_scope.index(node.scope[0])
-#                 inverted = inverted_features[feature_idx]
-#                 # temp = node_expectation[t_node](node, evidence, inverted=inverted)
-#                 temp = identity_expectation_ids(node, evidence, inverted=inverted, c_ids=c_ids)
-#                 return temp[0].item(), temp[1], True
-#             else:
-#                 raise Exception('Node type unknown: ' + str(t_node))
-#
-#         temp = node_likelihoods[type(node)](node, evidence)
-#         return temp[0].item(), temp[1], False
-
-
-# Deepdb版
-# def expectation_recursive(node, feature_scope, inverted_features, relevant_scope, evidence, node_expectation,
-#                           node_likelihoods):
-#     if isinstance(node, Product):
-#
-#         product = np.nan
-#         for child in node.children:
-#             if len(relevant_scope.intersection(child.scope)) > 0:
-#                 factor = expectation_recursive(child, feature_scope, inverted_features, relevant_scope, evidence,
-#                                                node_expectation, node_likelihoods)
-#                 product = nanproduct(product, factor)
-#         return product
-#
-#     elif isinstance(node, Sum):
-#         if len(relevant_scope.intersection(node.scope)) == 0:
-#             return np.nan
-#
-#         llchildren = [expectation_recursive(child, feature_scope, inverted_features, relevant_scope, evidence,
-#                                             node_expectation, node_likelihoods)
-#                       for child in node.children]
-#
-#         relevant_children_idx = np.where(np.isnan(llchildren) == False)[0]
-#
-#         if len(relevant_children_idx) == 0:
-#             return np.nan
-#
-#         weights_normalizer = sum(node.weights[j] for j in relevant_children_idx)
-#         weighted_sum = sum(node.weights[j] * llchildren[j] for j in relevant_children_idx)
-#
-#         return weighted_sum / weights_normalizer
-#
-#     else:
-#         if node.scope[0] in feature_scope:
-#             t_node = type(node)
-#             if t_node in node_expectation:
-#
-#                 feature_idx = feature_scope.index(node.scope[0])
-#                 inverted = inverted_features[feature_idx]
-#
-#                 return node_expectation[t_node](node, evidence, inverted=inverted).item()
-#             else:
-#                 raise Exception('Node type unknown: ' + str(t_node))
-#
-#         return node_likelihoods[type(node)](node, evidence).item()
-
-
-# index版
-# def expectation_recursive(node, feature_scope, inverted_features, relevant_scope, evidence, node_expectation,
-#                           node_likelihoods):
-#     if isinstance(node, Product):
-#         product = np.nan
-#         product_c = np.nan
-#         c_ids = [None]
-#         is_exp = False
-#         # print('************************************************', node)
-#         for child in node.children:
-#             if len(relevant_scope.intersection(child.scope)) > 0:
-#                 factor, ids_list, temp_exp = expectation_recursive(child, feature_scope, inverted_features, relevant_scope, evidence,
-#                                                node_expectation, node_likelihoods)
-#                 is_exp |= temp_exp
-#                 # product = nanproduct(product, factor)
-#                 c_ids = idsproduct(c_ids, ids_list)
-#                 if temp_exp:
-#                     if len(ids_list) == 0:
-#                         product = 0
-#                     else:
-#                         product = factor / len(ids_list)
-#                 # if temp_exp:
-#                 #     if len(ids_list) == 0:
-#                 #         product = 0
-#                 #     else:
-#                 #         product = (factor / len(ids_list)) * len(c_ids)
-#                 #     temp_tf = True
-#                 # else:
-#                 #     if not np.isnan(product) and temp_tf:
-#                 #         product *= len(c_ids)/node.cardinality
-#                 #     else:
-#                 #         product = len(c_ids)/node.cardinality
-#                 # print(product, product_c, factor, len(ids_list), len(c_ids), temp_exp, is_exp)
-#         if c_ids != [None] and not np.isnan(product):
-#             product *= len(c_ids)
-#         elif c_ids != [None] and np.isnan(product):
-#             product = len(c_ids) / node.cardinality
-#         # if not np.isnan(product) and not np.isnan(product_c) and abs(product - product_c) > 0.01:
-#         #     print(product, product_c, node.scope, node)
-#         return product, c_ids, is_exp
-#
-#     elif isinstance(node, Sum):
-#         if len(relevant_scope.intersection(node.scope)) == 0:
-#             return np.nan
-#
-#         llchildren, llchildren_ids = [], []
-#         is_exp = False
-#         for child in node.children:
-#             temp = expectation_recursive(child, feature_scope, inverted_features, relevant_scope, evidence, node_expectation, node_likelihoods)
-#             # print(temp[0], child)
-#             llchildren.append(temp[0])
-#             if temp[1] != [None]:
-#                 llchildren_ids += temp[1]
-#             is_exp |= temp[2]
-#         # llchildren = [expectation_recursive(child, feature_scope, inverted_features, relevant_scope, evidence,
-#         #                                     node_expectation, node_likelihoods)
-#         #               for child in node.children]
-#
-#         relevant_children_idx = np.where(np.isnan(llchildren) == False)[0]
-#
-#         if len(relevant_children_idx) == 0:
-#             return np.nan, [None], is_exp
-#
-#         weights_normalizer = sum(node.weights[j] for j in relevant_children_idx)
-#         weighted_sum = sum(node.weights[j] * llchildren[j] for j in relevant_children_idx)
-#         # print('SUM:', weights_normalizer, weighted_sum)
-#         return weighted_sum / weights_normalizer, llchildren_ids, is_exp
-#
-#     else:
-#         # feature_scope是Agg中的属性
-#         if node.scope[0] in feature_scope:
-#             t_node = type(node)
-#             if t_node in node_expectation:
-#                 feature_idx = feature_scope.index(node.scope[0])
-#                 inverted = inverted_features[feature_idx]
-#                 temp = node_expectation[t_node](node, evidence, inverted=inverted)
-#                 return temp[0].item(), temp[1], True
-#             else:
-#                 raise Exception('Node type unknown: ' + str(t_node))
-#
-#         temp = node_likelihoods[type(node)](node, evidence)
-#         return temp[0].item(), temp[1], False
-#
-
-# SPN++版
+# estimate results by using bitmaps
 def expectation_recursive(node, feature_scope, inverted_features, relevant_scope, evidence, node_expectation,
                           node_likelihoods, c_ids=None, spn=False):
     if isinstance(node, Product):
@@ -397,9 +147,6 @@ def expectation_recursive(node, feature_scope, inverted_features, relevant_scope
             temp_range.remove(None)
         if len(temp_range) <= 1 and not feature_scope:
             spn = True
-        # elif len(temp_range) == 1 and feature_scope:
-        #     if len(feature_scope) > 1 or feature_scope[0] not in temp_range:
-        #         spn = False
         product = np.nan
         in_product, out_product = np.nan, np.nan
         product_c = 1
@@ -417,8 +164,6 @@ def expectation_recursive(node, feature_scope, inverted_features, relevant_scope
             factor, ids_list, temp_intersection_p = expectation_recursive(child, feature_scope, inverted_features, relevant_scope,
                                                                evidence,
                                                                node_expectation, node_likelihoods, spn=spn)
-            # if isinstance(temp_intersection_p, float) and temp_intersection_p > 1:
-            #     intersection_p *= temp_intersection_p
             if is_large:
                 product = nanproduct(product, factor)
                 continue
@@ -450,13 +195,9 @@ def expectation_recursive(node, feature_scope, inverted_features, relevant_scope
                     out_product = temp_intersection_p
                 else:
                     is_out = True
-                    # print(node.scope, factor, in_product, len(c_ids), temp_intersection_p, len(ids_list))
                     out_product = nanproduct(in_product, temp_intersection_p) + nanproduct(len(ids_list) / node.cardinality + temp_intersection_p, out_product)
-        # print('1', len(c_ids) / node.cardinality, in_product, out_product, product)
-        # print('1', len(c_ids), product)
         if isinstance(c_ids, RoaringBitmap) and c_ids:
             product_c = len(c_ids) / node.cardinality
-        # print('2', product_c)
         i_num = 0
         for child in exp_child_list:
             if isinstance(c_ids, RoaringBitmap) and c_ids:
@@ -473,11 +214,9 @@ def expectation_recursive(node, feature_scope, inverted_features, relevant_scope
                     continue
                 elif np.isnan(product):
                     i_num += 1
-                    # product = factor / len(ids_list)
                     product = factor
                 else:
                     i_num += 1
-                    # product *= factor / len(ids_list)
                     product *= factor
 
                 if product_c < 1:
@@ -494,7 +233,6 @@ def expectation_recursive(node, feature_scope, inverted_features, relevant_scope
                                                                          node_expectation, node_likelihoods)
                     product = nanproduct(product, factor)
             else:
-                # print(333)
                 factor, _, _ = expectation_recursive(child, feature_scope, inverted_features,
                                                                      relevant_scope,
                                                                      evidence,
@@ -503,20 +241,14 @@ def expectation_recursive(node, feature_scope, inverted_features, relevant_scope
 
         if isinstance(c_ids, RoaringBitmap) and not np.isnan(product) and is_exp:
             product *= len(c_ids) / node.cardinality
-            # product *= product_c
         elif isinstance(c_ids, RoaringBitmap) and is_leaf and not is_large:
-            # print(1111)
             temp_product = len(c_ids) / node.cardinality
             if not np.isnan(out_product) and is_out and temp_product:
-                # print('2', temp_product, in_product, out_product)
                 temp_product += out_product
             if np.isnan(product):
                 product = temp_product
             else:
                 product *= temp_product
-        # if isinstance(intersection_p, float) and intersection_p > 1:
-        #     product *= intersection_p
-        # print(product)
         return product, [None], False
 
     elif isinstance(node, Sum):
@@ -537,10 +269,6 @@ def expectation_recursive(node, feature_scope, inverted_features, relevant_scope
         return weighted_sum / weights_normalizer, [None], False
 
     else:
-        # feature_scope是Agg中的属性
-        # start_t = perf_counter()
-        # end_t = perf_counter()
-        # print(end_t - start_t)
         if spn:
             if node.scope[0] in feature_scope:
                 t_node = type(node)
@@ -558,21 +286,16 @@ def expectation_recursive(node, feature_scope, inverted_features, relevant_scope
                 if t_node in node_expectation:
                     feature_idx = feature_scope.index(node.scope[0])
                     inverted = inverted_features[feature_idx]
-                    # return node_expectation[t_node](node, evidence, inverted=inverted).item(), [None], False
                     temp = identity_expectation_ids(node, evidence, inverted=inverted, c_ids=c_ids)
                     return temp[0].item(), temp[1], temp[2].item()
-                    # return node_expectation[t_node](node, evidence, inverted=inverted).item(), [None], False
                 else:
                     raise Exception('Node type unknown: ' + str(t_node))
             if isinstance(node, IdentityNumericLeaf):
-                # if node.pre_ids_bitmap:
-                #     temp = pre_ec_identity_likelihood_range_ids(node, evidence)
-                # else:
-                #     temp = identity_likelihood_range_ids(node, evidence)
-                temp = identity_likelihood_range_ids(node, evidence)
+                if node.pre_ids_bitmap:
+                    temp = pre_ec_identity_likelihood_range_ids(node, evidence)
+                else:
+                    temp = identity_likelihood_range_ids(node, evidence)
             elif isinstance(node, Categorical):
                 temp = categorical_likelihood_range_ids(node, evidence)
             return temp[0].item(), temp[1], temp[2]
-        # else:
-        #     temp = node_likelihoods[type(node)](node, evidence)
-        #     return temp.item(), [None], False
+
