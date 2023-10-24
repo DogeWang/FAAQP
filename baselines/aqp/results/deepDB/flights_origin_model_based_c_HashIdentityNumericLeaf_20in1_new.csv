@@ -1,2 +1,0 @@
-approach,query_no,latency,average_relative_error,bin_completeness,total_bins,query,sample_percentage
-ApproachType.MODEL_BASED,0,0.037255771458148956,560.9752366853113,100,1,SELECT COUNT(*) FROM flights WHERE dest = 'PHF' and dep_delay > 118.00 and dep_delay <= 510.00 and air_time > 101.00 and air_time < 384.00;,100

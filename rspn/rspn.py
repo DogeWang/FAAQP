@@ -252,7 +252,7 @@ class RSPN:
         For inverted features 1/val is used. Normalization is not possible here.
         """
         # range_conditions = self._augment_not_null_conditions(feature_scope, range_conditions)
-        print('rspn.py 255 change the range_conditions to reduce the relevant_scope in expectation.py 66, reduce the time cost of AVG')
+        # print('rspn.py 255 change the range_conditions to reduce the relevant_scope in expectation.py 66, reduce the time cost of AVG')
         p = self._probability(range_conditions)
 
         if isinstance(p, float) and p <= 0.5 * (1 / self.full_sample_size):

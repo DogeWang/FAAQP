@@ -229,9 +229,9 @@ def evaluate_aqp_queries(ensemble_location, query_filename, target_path, schema,
                     logger.info(f"\t\t{'true:':<32}{true_result}")
                     # logger.info(f"\t\t{'confidence_interval:':<32}{confidence_intervals}")
                     relative_error = compute_relative_error(true_result, predicted_value)
-                    q_error = max(predicted_value / true_result, true_result / predicted_value)
-                    if predicted_value == 0 and true_result == 0:
-                        q_error = 1.0
+                    # q_error = max(predicted_value / true_result, true_result / predicted_value)
+                    # if predicted_value == 0 and true_result == 0:
+                    #     q_error = 1.0
 
                     logger.info(f"\t\t{'relative_error:':<32}{relative_error * 100:.2f}%")
                     if show_confidence_intervals:
@@ -248,7 +248,7 @@ def evaluate_aqp_queries(ensemble_location, query_filename, target_path, schema,
                 csv_rows.append({'approach': ApproachType.MODEL_BASED,
                                  'query_no': query_no,
                                  'latency': latency,
-                                 'average_relative_error': q_error,
+                                 'average_relative_error': relative_error,
                                  # 'average_relative_error': average_relative_error * 100,
                                  'bin_completeness': bin_completeness * 100,
                                  'total_bins': total_bins,
@@ -262,7 +262,7 @@ def evaluate_aqp_queries(ensemble_location, query_filename, target_path, schema,
             csv_rows.append({'approach': ApproachType.MODEL_BASED,
                              'query_no': query_no,
                              'latency': 0,
-                             'average_relative_error': q_error,
+                             'average_relative_error': relative_error,
                              # 'average_relative_error': 100,
                              'bin_completeness': 100,
                              'total_bins': 0,
