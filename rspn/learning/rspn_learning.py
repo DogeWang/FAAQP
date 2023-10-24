@@ -72,10 +72,6 @@ def get_RDC_value(local_data, ds_context, scope, max_sampling_threshold_cols=100
     exit(1)
     meta_types = ds_context.get_meta_types_by_scope(scope)
     domains = ds_context.get_domains_by_scope(scope)
-    # print('local_data_sample:', type(local_data), local_data)
-    # print('meta_types:', type(meta_types), meta_types)
-    # print('domains:', type(domains), domains)
-    # exit(1)
     rdc_adjacency_matrix_dict = {}
     if local_data.shape[0] > max_sampling_threshold_cols:
         local_data_sample = local_data[np.random.randint(local_data.shape[0], size=max_sampling_threshold_cols), :]
@@ -119,12 +115,10 @@ def rdc_calculate(local_data, meta_types, domains, k=None, s=1.0 / 6.0, non_line
 def create_custom_leaf(data, ds_context, scope, data_id=None, rdc_adjacency_matrix_dict=None):
     """
     Adapted leafs for cardinality SPN. Either categorical or identityNumeric leafs.
+    unique_vals_ids: the structure used to store bitmaps
     """
-    # print("rspn_learning.py 110 ==============================================create leaf==============================================")
-    # print(type(rdc_adjacency_matrix), len(rdc_adjacency_matrix), scope)
     idx = scope[0]
     meta_type = ds_context.meta_types[idx]
-    # print('data: ', data, data.shape[0])
     unique_vals_ids = {}
     if meta_type == MetaType.REAL:
         assert len(scope) == 1, "scope for more than one variable?"
@@ -162,7 +156,6 @@ def create_custom_leaf(data, ds_context, scope, data_id=None, rdc_adjacency_matr
             probs = np.array(counts, np.float64) / len(data[:, 0])
             lidx = len(probs) - 1
 
-        # print(len(unique_vals_ids))
         null_value = ds_context.null_values[idx]
         leaf = IdentityNumericLeaf(unique_vals, probs, null_value, scope, cardinality=data.shape[0], unique_vals_ids=unique_vals_ids, rdc_adjacency_matrix_dict=rdc_adjacency_matrix_dict)
 
@@ -180,7 +173,7 @@ def create_custom_leaf(data, ds_context, scope, data_id=None, rdc_adjacency_matr
         for x in unique:
             temp_id = np.argwhere(data[:, 0] == x)[:, 0]
             unique_vals_ids[x] = RoaringBitmap(np.array([data_id[i] for i in temp_id]))
-        # print(len(unique_vals_ids))
+                
         node = Categorical(p, null_value, scope, cardinality=data.shape[0], unique_vals_ids=unique_vals_ids)
 
         return node
@@ -239,7 +232,6 @@ def get_split_rows_KMeans(max_sampling_threshold_rows, n_clusters=2, pre_proc=No
 
         cluster_centers = kmeans.cluster_centers_
 
-        # print(len(clusters), len(local_data_id), clusters, cluster_centers.tolist())
         unique_clusters, result_ids = np.unique(clusters), []
         for u_c in unique_clusters:
             temp_id = [local_data_id[i] for i, x in enumerate(clusters) if x == u_c]
