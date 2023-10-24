@@ -7,8 +7,8 @@ approximate query processing (AQP). The structure of SPN++ is an extension of ex
 # Setup
 Tested with python3.7 and python3.8
 ```
-git clone https://github.com/DataManagementLab/deepdb-public.git
-cd deepdb-public
+git clone git@github.com:DogeWang/SPNPP.git
+cd SPNPP
 sudo apt install -y libpq-dev gcc python3-dev
 python3 -m venv venv
 source venv/bin/activate
