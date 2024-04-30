@@ -1,7 +1,6 @@
-# SPN++
+# FAAQP
 
-SPN++ is a data-driven learned database component achieving state-of-the-art-performance in cardinality estimation and 
-approximate query processing (AQP). The structure of SPN++ is an extension of existing SPN-based methods. This is a version of SPN++ based on RSPN (https://github.com/DataManagementLab/deepdb-public/tree/master).
+FAAQP is a data-driven AQP method that achieves state-of-the-art performance in approximate query processing (AQP). The structure of BSPN is an extension of existing SPN-based methods. This is a version of BSPN based on RSPN (https://github.com/DataManagementLab/deepdb-public/tree/master).
 
 
 # Setup
@@ -57,7 +56,7 @@ Evaluate the AQP queries.
 ```  
 python3 maqp.py --evaluate_aqp_queries
     --dataset flights_origin
-    --target_path ./baselines/aqp/results/deepDB/aqp_test_queries_SPN++.csv
+    --target_path ./baselines/aqp/results/deepDB/aqp_test_queries_BSPN.csv
     --ensemble_location ../flights-benchmark/spn_ensembles/ensemble_single_flights_origin_5000000_RoaringBitmap.pkl
     --query_file_location ./benchmarks/flights/sql/aqp_test_queries.sql
     --ground_truth_file_location ./benchmarks/flights/aqp_test_queries_ground_truth.pkl
