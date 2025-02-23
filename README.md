@@ -2,6 +2,7 @@
 
 FAAQP is a data-driven AQP method that achieves state-of-the-art performance in approximate query processing (AQP). The structure of BSPN is an extension of existing SPN-based methods. This is a version of BSPN based on RSPN (https://github.com/DataManagementLab/deepdb-public/tree/master).
 
+Hanbing Zhang, Yinan Jing, Zhenying He, Kai Zhang, and X. Sean Wang: "FAAQP: Fast and Accurate Approximate Query Processing based on Bitmap-augmented Sum-Product Network", SIGMOD 2025.
 
 # Setup
 Tested with python3.7 and python3.8
