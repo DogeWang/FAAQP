@@ -6,7 +6,6 @@ import time
 
 import numpy as np
 import utils.toolkit
-import utils.error_statistic
 
 from rspn.code_generation.generate_code import generate_ensemble_code
 from data_preparation.join_data_preparation import prepare_sample_hdf
@@ -293,3 +292,4 @@ if __name__ == '__main__':
                                       exploit_overlapping=args.exploit_overlapping, min_sample_ratio=0,
                                       true_result_upsampling_factor=args.confidence_upsampling_factor,
                                       sample_size=args.confidence_sample_size)
+
