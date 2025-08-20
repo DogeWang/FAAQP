@@ -22,7 +22,7 @@ pip3 install spflow --no-deps
 ```
 # AQP
 ## Flights pipeline
-Download data (5 million tuples) from https://www.transtats.bts.gov/Homepage.asp
+The data is stored in the flights-benchmark/flights_origin.csv. You can also download data (5 million tuples) from https://www.transtats.bts.gov/Homepage.asp
 
 Generate hdf files from csvs.
 ```
@@ -79,6 +79,7 @@ python3 maqp.py --evaluate_aqp_queries
     --query_file_location ./benchmarks/flights/sql/aqp_test_queries.sql
     --ground_truth_file_location ./benchmarks/flights/aqp_test_queries_ground_truth.pkl
 ```
+
 
 
 
