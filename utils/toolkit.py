@@ -113,8 +113,8 @@ class BitMap:
     def __init__(self):
         self.n = 5
         self.bitsize = 1 << self.n
-        self.typecode = 'I'  # 32位unsighed整型
-        self.lowerbound = 0  # 若数组中有负数，则所有数都减去最小的那个负数
+        self.typecode = 'I' 
+        self.lowerbound = 0  
 
     @staticmethod
     def greater_power2n(x):
@@ -128,21 +128,15 @@ class BitMap:
         return x + 1
 
     def load(self, inp):
-        '''
-        一般情形，数据应该是流式读取，这里简化起见不失一般性，将数据直接全部读完
-        '''
         maxi = max(inp)
-        num_arr = max(self.greater_power2n(maxi) >> self.n, 1)  # 至少应该使用一个数组
+        num_arr = max(self.greater_power2n(maxi) >> self.n, 1)  
         self.arr = array(self.typecode, [0] * num_arr)
         for x in inp:
             self._set(x)
 
     def _set(self, x, set_val=True):
-        '''
-        将x在数组中对应元置为1
-        '''
-        arr_idx = x >> self.n  # 元素在第几个数组中，等价于x // 2**self.n
-        bit_idx = x & (self.bitsize - 1)  # 元素在相应数组中的第几个bit位，等价于x % 2**self.n
+        arr_idx = x >> self.n  
+        bit_idx = x & (self.bitsize - 1)  
         if set_val:
             self.arr[arr_idx] |= 1 << bit_idx
         else:
