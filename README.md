@@ -13,6 +13,7 @@ sudo apt install -y libpq-dev gcc python3-dev
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
+install roaringbitmap from https://github.com/andreasvc/roaringbitmap
 ```
 
 For python3.8: Sometimes spflow fails, in this case remove spflow from requirements.txt, install them and run
@@ -78,5 +79,6 @@ python3 maqp.py --evaluate_aqp_queries
     --query_file_location ./benchmarks/flights/sql/aqp_test_queries.sql
     --ground_truth_file_location ./benchmarks/flights/aqp_test_queries_ground_truth.pkl
 ```
+
 
 
