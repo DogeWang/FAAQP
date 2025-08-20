@@ -32,7 +32,7 @@ python3 maqp.py --generate_hdf
     --hdf_path ../flights-benchmark/gen_hdf
 ```
 
-Learn the ensemble.
+Learn the naive BSPN model.
 ```
 python3 maqp.py --generate_ensemble 
     --dataset flights_origin
@@ -42,6 +42,20 @@ python3 maqp.py --generate_ensemble
     --ensemble_path ../flights-benchmark/spn_ensembles
     --rdc_threshold 0.3
     --post_sampling_factor 10
+```
+
+Learn the BSPN with given storage budget.
+```
+input the path of the naive BSPN model and the output path of the BSPN model with given storage budget in the utils/storage_control.py
+the default storage budget is set at 10% of the underlying data
+python3 utils/storage_control.py
+```
+
+Learn the BSPN with BMS.
+```
+input the path of the BSPN model and the output path of the BSPN model with BMS in the utils/histogram_control.py
+the default threshold is set at 100
+python3 utils/histogram_control.py
 ```
 
 Compute ground truth by using PostgreSQL
@@ -62,3 +76,4 @@ python3 maqp.py --evaluate_aqp_queries
     --query_file_location ./benchmarks/flights/sql/aqp_test_queries.sql
     --ground_truth_file_location ./benchmarks/flights/aqp_test_queries_ground_truth.pkl
 ```
+
