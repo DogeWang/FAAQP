@@ -58,7 +58,9 @@ the default threshold is set at 100
 python3 utils/histogram_control.py
 ```
 
-Compute ground truth by using PostgreSQL
+Compute ground truth by using PostgreSQL.
+To get the ground truth, you should store the flights_origin.csv in PostgreSQL. 
+Then
 ```
 python3 maqp.py --aqp_ground_truth
     --dataset flights_origin
@@ -67,7 +69,7 @@ python3 maqp.py --aqp_ground_truth
     --database_name flights_origin   
 ```
 
-Evaluate the AQP queries.
+Evaluate the AQP queries using the naive BSPN model. If you want to test the different version of BSPN (such as BSPN with storage budget), please change the ../flights-benchmark/spn_ensembles/ensemble_single_flights_origin_5000000_RoaringBitmap.pkl.
 ```  
 python3 maqp.py --evaluate_aqp_queries
     --dataset flights_origin
@@ -76,4 +78,5 @@ python3 maqp.py --evaluate_aqp_queries
     --query_file_location ./benchmarks/flights/sql/aqp_test_queries.sql
     --ground_truth_file_location ./benchmarks/flights/aqp_test_queries_ground_truth.pkl
 ```
+
 
