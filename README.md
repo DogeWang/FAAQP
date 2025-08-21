@@ -5,6 +5,7 @@ FAAQP is a data-driven AQP method that achieves state-of-the-art performance in 
 Hanbing Zhang, Yinan Jing, Zhenying He, Kai Zhang, and X. Sean Wang: "FAAQP: Fast and Accurate Approximate Query Processing based on Bitmap-augmented Sum-Product Network", SIGMOD 2025.
 
 # Setup
+All experiments are conducted on a Linux machine with Intel Xeon Gold 5215 CPU, Nvidia RTX3080 GPU, 160GB RAM, and 3.3TB HDD disk.
 Tested with python3.7 and python3.8
 ```
 git clone git@github.com:DogeWang/SPNPP.git
@@ -79,6 +80,7 @@ python3 maqp.py --evaluate_aqp_queries
     --query_file_location ./benchmarks/flights/sql/aqp_test_queries.sql
     --ground_truth_file_location ./benchmarks/flights/aqp_test_queries_ground_truth.pkl
 ```
+
 
 
 
