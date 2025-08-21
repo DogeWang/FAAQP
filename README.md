@@ -61,7 +61,7 @@ python3 utils/histogram_control.py
 ```
 
 Compute ground truth by using PostgreSQL.
-To get the ground truth, you should store the flights_origin.csv in PostgreSQL. 
+To get the ground truth, you should store the flights_origin.csv in PostgreSQL. You can use "\COPY flights(YEAR_DATE, UNIQUE_CARRIER, ORIGIN, ORIGIN_STATE_ABR, DEST, DEST_STATE_ABR, DEP_DELAY, TAXI_OUT, TAXI_IN, ARR_DELAY, AIR_TIME, DISTANCE) from '/tmp/dataset.csv' WITH CSV HEADER;" to do this.
 Then
 ```
 python3 maqp.py --aqp_ground_truth
@@ -80,6 +80,7 @@ python3 maqp.py --evaluate_aqp_queries
     --query_file_location ./benchmarks/flights/sql/aqp_test_queries.sql
     --ground_truth_file_location ./benchmarks/flights/aqp_test_queries_ground_truth.pkl
 ```
+
 
 
 
